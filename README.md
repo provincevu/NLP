@@ -14,10 +14,6 @@
   <img src="https://img.shields.io/badge/PhoBERT-VinAI-red.svg" alt="PhoBERT">
 </p>
 
-<p align="center">
-  <a href="README.md">🇻🇳 Tiếng Việt</a> · <a href="README_EN.md">🇬🇧 English</a>
-</p>
-
 ---
 
 ## 📋 Mục lục
@@ -192,6 +188,7 @@ python generate_data/build_prompts.py \
 ```
 
 **Đặc điểm của bộ câu hỏi được sinh:**
+
 - Đa dạng cách diễn đạt (câu hỏi điều kiện, hậu quả, thời hạn, trách nhiệm...)
 - Phong cách tự nhiên, kiểu sinh viên hỏi nhanh
 - Sử dụng từ đồng nghĩa và viết tắt tự nhiên
@@ -225,6 +222,7 @@ python train_dpr_inbatch.py
 | `warmup_ratio` | 0.1 | Tỷ lệ warmup cho learning rate scheduler |
 
 **Cơ chế In-Batch Negatives:**
+
 - Trong mỗi batch kích thước B, mỗi câu hỏi có 1 passage dương (positive) và (B-1) passage âm (negative) lấy từ các cặp khác trong cùng batch
 - Loss function: Cross-Entropy trên ma trận similarity `(B × B)`
 - Checkpoint tốt nhất (val_loss thấp nhất) được tự động lưu lại
@@ -243,6 +241,7 @@ python build_faiss.py
 ```
 
 **Output:**
+
 - `data/passage_embeddings.npy` — Ma trận embeddings `(N × d)`
 - `data/passage_id_map.json` — Ánh xạ từ chỉ số FAISS → passage_id
 - `data/faiss_index_last.ivf` — Chỉ mục FAISS đã xây dựng
@@ -275,6 +274,7 @@ python evaluate_retrieval.py
 ```
 
 Các chỉ số đánh giá:
+
 - **Recall@K** (K = 1, 5, 10, 20) — Tỷ lệ câu hỏi tìm đúng passage trong top K
 - **MRR** (Mean Reciprocal Rank) — Trung bình nghịch đảo thứ hạng
 

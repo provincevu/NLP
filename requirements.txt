@@ -1,0 +1,7 @@
+python-docx
+numpy
+torch
+tqdm
+transformers
+faiss-cpu
+openai
