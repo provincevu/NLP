@@ -1,0 +1,1850 @@
+[
+{
+  "qid": "q_1000",
+  "question": "Các thao tác cần làm để một sinh viên mới có thể đăng ký tạm thời môn học là gì?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "Hướng dẫn sinh viên khóa mới đăng ký dự kiến môn học trên daotao.humg.edu.vn",
+  "intent": "howto"
+},
+{
+  "qid": "q_1001",
+  "question": "Tôi phải truy cập vào địa chỉ web nào để thực hiện việc đăng ký học phần dự kiến?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "Hướng dẫn sinh viên khóa mới đăng ký dự kiến môn học trên daotao.humg.edu.vn",
+  "intent": "where"
+},
+{
+  "qid": "q_1002",
+  "question": "Thông tin gì cần được nhập vào khung đăng ký tạm thời?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "nhập mã môn vào ô đăng ký dự kiến",
+  "intent": "what"
+},
+{
+  "qid": "q_1003",
+  "question": "Sau khi điền mã môn, việc tiếp theo theo hướng dẫn là làm gì?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "lưu lại, kiểm tra danh mục đã đăng ký",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1004",
+  "question": "Làm cách nào để xác nhận rằng các môn đã được ghi danh tạm thời chính xác?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "thoát và đăng nhập lại để kiểm tra lần nữa",
+  "intent": "check"
+},
+{
+  "qid": "q_1005",
+  "question": "Những ai được áp dụng theo hướng dẫn này?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "Hướng dẫn sinh viên khóa mới đăng ký dự kiến môn học",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1006",
+  "question": "Có cần phải chụp lại màn hình sau khi hoàn tất đăng ký không?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "sau đó chụp màn hình làm minh chứng",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1007",
+  "question": "Thuật ngữ 'minh chứng' trong bước cuối cùng chỉ điều gì?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "sau đó chụp màn hình làm minh chứng",
+  "intent": "definition"
+},
+{
+  "qid": "q_1008",
+  "question": "Em vừa nhập mã môn xong, bước kế tiếp em cần thực hiện ra sao?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "lưu lại, kiểm tra danh mục đã đăng ký",
+  "intent": "howto"
+},
+{
+  "qid": "q_1009",
+  "question": "Vị trí chính xác của ô nhập liệu dành cho mã môn nằm ở chỗ nào trên trang?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "ô đăng ký dự kiến ở cuối bên trái",
+  "intent": "where"
+},
+{
+  "qid": "q_1010",
+  "question": "Sau khi lưu thông tin, tôi nên làm gì để đảm bảo không bị thiếu môn?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "kiểm tra danh mục đã đăng ký, thoát và đăng nhập lại",
+  "intent": "check"
+},
+{
+  "qid": "q_1011",
+  "question": "Theo chỉ dẫn, những hành động nào cần làm trước khi chụp màn hình?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "lưu lại, kiểm tra danh mục đã đăng ký, thoát và đăng nhập lại",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1012",
+  "question": "Mục đích của việc thoát ra và đăng nhập lại là gì?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "thoát và đăng nhập lại để kiểm tra lần nữa",
+  "intent": "what"
+},
+{
+  "qid": "q_1013",
+  "question": "Làm thế nào để lưu bằng chứng cho việc đăng ký tạm thời môn học?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "sau đó chụp màn hình làm minh chứng",
+  "intent": "howto"
+},
+{
+  "qid": "q_1014",
+  "question": "Theo hướng dẫn, có bắt buộc phải lưu lại thông tin sau khi nhập mã không?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "lưu lại, kiểm tra danh mục đã đăng ký",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1015",
+  "question": "Làm sao để biết hệ thống đã ghi nhận các môn đã đăng ký dự kiến hay chưa?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "đăng nhập lại để kiểm tra lần nữa",
+  "intent": "check"
+},
+{
+  "qid": "q_1016",
+  "question": "Cần thực hiện tuần tự các bước nào bắt đầu từ đăng nhập?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "đăng nhập tài khoản, nhập mã môn vào ô đăng ký dự kiến ở cuối bên trái",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1017",
+  "question": "Nếu muốn chắc chắn rằng không có sai sót, tôi phải làm gì sau khi thoát?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "đăng nhập lại để kiểm tra lần nữa",
+  "intent": "howto"
+},
+{
+  "qid": "q_1018",
+  "question": "Học phần loại tự chọn muốn được ưu tiên mở cần có yếu tố gì?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1019",
+  "question": "Ai thực hiện tư vấn đối với môn tự chọn?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "what"
+},
+{
+  "qid": "q_1020",
+  "question": "Sinh viên sẽ được hưởng lợi ích gì từ việc đăng ký mang tính dự kiến?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "what"
+},
+{
+  "qid": "q_1021",
+  "question": "Làm thế nào để biết một học phần dạng tự chọn có nằm trong diện ưu tiên mở không?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "check"
+},
+{
+  "qid": "q_1022",
+  "question": "Cần phải làm gì để môn tự chọn của mình được tự động xếp thời khóa biểu?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "howto"
+},
+{
+  "qid": "q_1023",
+  "question": "Ai đóng vai trò tư vấn để môn tự chọn được ưu tiên?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "what"
+},
+{
+  "qid": "q_1024",
+  "question": "Điều kiện để sinh viên không cần tự xếp lịch cho môn tự chọn là gì?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1025",
+  "question": "Trong quy trình đăng ký mang tính dự kiến, môn tự chọn được xử lý ra sao sau khi có tư vấn?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "được ưu tiên mở và sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1026",
+  "question": "Dựa vào tiêu chí nào để xác định môn tự chọn được ưu tiên mở?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "check"
+},
+{
+  "qid": "q_1027",
+  "question": "Việc tự động sắp xếp thời khóa biểu được hiểu như thế nào?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "definition"
+},
+{
+  "qid": "q_1028",
+  "question": "Yêu cầu bắt buộc để một môn tự chọn được đưa vào danh sách ưu tiên mở là gì?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1029",
+  "question": "Ai là người chịu trách nhiệm tư vấn môn tự chọn cho sinh viên?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "what"
+},
+{
+  "qid": "q_1030",
+  "question": "Sinh viên có phải tự xếp thời khóa biểu cho môn tự chọn không?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "check"
+},
+{
+  "qid": "q_1031",
+  "question": "Theo lưu ý, việc ưu tiên mở chỉ áp dụng cho loại môn học nào?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "what"
+},
+{
+  "qid": "q_1032",
+  "question": "Nếu một môn tự chọn không được giáo viên chủ nhiệm tư vấn, nó sẽ không được ưu tiên mở đúng không?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn mới được ưu tiên mở",
+  "intent": "check"
+},
+{
+  "qid": "q_1033",
+  "question": "Việc ưu tiên mở có áp dụng cho tất cả các môn tự chọn hay chỉ những môn đã được tư vấn?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn mới được ưu tiên mở",
+  "intent": "check"
+},
+{
+  "qid": "q_1034",
+  "question": "Nếu tôi muốn một môn tự chọn của mình được ưu tiên mở, tôi cần phải làm gì?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn mới được ưu tiên mở",
+  "intent": "howto"
+},
+{
+  "qid": "q_1035",
+  "question": "Có phải tất cả các môn tự chọn đều sẽ được xếp thời khóa biểu tự động nếu có tư vấn không?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "sinh viên sẽ được tự động xếp thời khóa biểu nếu đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "check"
+},
+{
+  "qid": "q_1017",
+  "question": "Nếu muốn chắc chắn rằng không có sai sót, tôi phải làm gì sau khi thoát?",
+  "positive_passage_id": "dki_dukien__001",
+  "evidence": "đăng nhập lại để kiểm tra lần nữa",
+  "intent": "howto"
+},
+{
+  "qid": "q_1018",
+  "question": "Học phần loại tự chọn muốn được ưu tiên mở cần có yếu tố gì?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1019",
+  "question": "Ai thực hiện tư vấn đối với môn tự chọn?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "what"
+},
+{
+  "qid": "q_1020",
+  "question": "Sinh viên sẽ được hưởng lợi ích gì từ việc đăng ký mang tính dự kiến?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "what"
+},
+{
+  "qid": "q_1021",
+  "question": "Làm thế nào để biết một học phần dạng tự chọn có nằm trong diện ưu tiên mở không?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "check"
+},
+{
+  "qid": "q_1022",
+  "question": "Cần phải làm gì để môn tự chọn của mình được tự động xếp thời khóa biểu?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "howto"
+},
+{
+  "qid": "q_1023",
+  "question": "Ai đóng vai trò tư vấn để môn tự chọn được ưu tiên?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "what"
+},
+{
+  "qid": "q_1024",
+  "question": "Điều kiện để sinh viên không cần tự xếp lịch cho môn tự chọn là gì?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1025",
+  "question": "Trong quy trình đăng ký mang tính dự kiến, môn tự chọn được xử lý ra sao sau khi có tư vấn?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "được ưu tiên mở và sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1026",
+  "question": "Dựa vào tiêu chí nào để xác định môn tự chọn được ưu tiên mở?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "check"
+},
+{
+  "qid": "q_1027",
+  "question": "Việc tự động sắp xếp thời khóa biểu được hiểu như thế nào?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "definition"
+},
+{
+  "qid": "q_1028",
+  "question": "Yêu cầu bắt buộc để một môn tự chọn được đưa vào danh sách ưu tiên mở là gì?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1029",
+  "question": "Ai là người chịu trách nhiệm tư vấn môn tự chọn cho sinh viên?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "what"
+},
+{
+  "qid": "q_1030",
+  "question": "Sinh viên có phải tự xếp thời khóa biểu cho môn tự chọn không?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "check"
+},
+{
+  "qid": "q_1031",
+  "question": "Theo lưu ý, việc ưu tiên mở chỉ áp dụng cho loại môn học nào?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "chỉ các học phần tự chọn đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1032",
+  "question": "Mục đích của việc tư vấn môn tự chọn là gì?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "được ưu tiên mở và sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "what"
+},
+{
+  "qid": "q_1033",
+  "question": "Làm thế nào để sinh viên có lịch học tự động cho những môn tự chọn?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "đã được giáo viên chủ nhiệm tư vấn",
+  "intent": "howto"
+},
+{
+  "qid": "q_1034",
+  "question": "Điều gì xảy ra với môn tự chọn sau khi giáo viên chủ nhiệm tư vấn?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "được ưu tiên mở và sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1035",
+  "question": "Video này có nội dung gì?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "what"
+},
+{
+  "qid": "q_1036",
+  "question": "Làm sao để đăng ký môn học?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "howto"
+},
+{
+  "qid": "q_1037",
+  "question": "Xem video hướng dẫn đăng ký môn học ở đâu?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "where"
+},
+{
+  "qid": "q_1038",
+  "question": "Có video hướng dẫn đăng ký môn học không?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "check"
+},
+{
+  "qid": "q_1039",
+  "question": "Quy trình đăng ký môn học được mô tả như thế nào?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1040",
+  "question": "Thế nào được gọi là video hướng dẫn đăng ký môn học?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "definition"
+},
+{
+  "qid": "q_1041",
+  "question": "Video bắt đầu phát từ giây thứ mấy?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "time"
+},
+{
+  "qid": "q_1042",
+  "question": "Mã nhận dạng của video trên YouTube là gì?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "what"
+},
+{
+  "qid": "q_1034",
+  "question": "Điều gì xảy ra với môn tự chọn sau khi giáo viên chủ nhiệm tư vấn?",
+  "positive_passage_id": "dki_dukien__002",
+  "evidence": "được ưu tiên mở và sinh viên sẽ được tự động xếp thời khóa biểu",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1035",
+  "question": "Video này có nội dung gì?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "what"
+},
+{
+  "qid": "q_1036",
+  "question": "Làm sao để đăng ký môn học?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "howto"
+},
+{
+  "qid": "q_1037",
+  "question": "Xem video hướng dẫn đăng ký môn học ở đâu?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "where"
+},
+{
+  "qid": "q_1038",
+  "question": "Có video hướng dẫn đăng ký môn học không?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "check"
+},
+{
+  "qid": "q_1039",
+  "question": "Quy trình đăng ký môn học được mô tả như thế nào?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1040",
+  "question": "Thế nào được gọi là video hướng dẫn đăng ký môn học?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "definition"
+},
+{
+  "qid": "q_1041",
+  "question": "Video bắt đầu phát từ giây thứ mấy?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "time"
+},
+{
+  "qid": "q_1042",
+  "question": "Mã nhận dạng của video trên YouTube là gì?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "what"
+},
+{
+  "qid": "q_1043",
+  "question": "Video được lưu trữ trên nền tảng nào?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "what"
+},
+{
+  "qid": "q_1044",
+  "question": "Giao thức nào được dùng để truy cập video?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "what"
+},
+{
+  "qid": "q_1045",
+  "question": "Tham số 'v' trong link có giá trị cụ thể là bao nhiêu?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "what"
+},
+{
+  "qid": "q_1046",
+  "question": "Tham số 't' trong URL cho biết điều gì?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "time"
+},
+{
+  "qid": "q_1047",
+  "question": "Làm thế nào để truy cập vào video hướng dẫn?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "howto"
+},
+{
+  "qid": "q_1048",
+  "question": "Mục đích chính của video này là gì?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "definition"
+},
+{
+  "qid": "q_1049",
+  "question": "Video có cung cấp hướng dẫn chi tiết không?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học",
+  "intent": "check"
+},
+{
+  "qid": "q_1050",
+  "question": "Video có được cài đặt thời gian bắt đầu cụ thể không?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "check"
+},
+{
+  "qid": "q_1051",
+  "question": "Tên miền của trang web chứa video?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "what"
+},
+{
+  "qid": "q_1052",
+  "question": "Đường dẫn đầy đủ đến video là gì?",
+  "positive_passage_id": "dki_mon__001",
+  "evidence": "video hướng dẫn cách đăng ký môn học: https://www.youtube.com/watch?v=bAY7yY-ph2k&t=162s",
+  "intent": "where"
+},
+{
+  "qid": "q_1053",
+  "question": "Từ năm học nào điểm rèn luyện được tính như học phần trên bảng điểm?",
+  "positive_passage_id": "drl__001",
+  "evidence": "Từ năm học 2017-2018, điểm rèn luyện của sinh viên",
+  "intent": "time"
+},
+{
+  "qid": "q_1054",
+  "question": "Điểm rèn luyện của sinh viên Đại học Mỏ-Địa chất được tính như thế nào?",
+  "positive_passage_id": "drl__001",
+  "evidence": "được tính như một học phần trên bảng điểm",
+  "intent": "definition"
+},
+{
+  "qid": "q_1055",
+  "question": "Trên bảng điểm, điểm rèn luyện được thể hiện dưới hình thức gì?",
+  "positive_passage_id": "drl__001",
+  "evidence": "được tính như một học phần trên bảng điểm",
+  "intent": "where"
+},
+{
+  "qid": "q_1056",
+  "question": "Đợt đánh giá điểm rèn luyện đầu kỳ do ai chủ trì?",
+  "positive_passage_id": "drl__001",
+  "evidence": "đợt sinh hoạt lớp đầu kỳ do giáo viên chủ nhiệm chủ trì",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1057",
+  "question": "Yêu cầu về số lượng sinh viên tham gia để tổ chức đánh giá điểm rèn luyện đầu kỳ là gì?",
+  "positive_passage_id": "drl__001",
+  "evidence": "chủ trì (cần ít nhất 50% lớp tham gia)",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1058",
+  "question": "Sinh viên nào được tham gia đợt đánh giá bổ sung cuối kỳ?",
+  "positive_passage_id": "drl__001",
+  "evidence": "đợt bổ sung cuối kỳ cho sinh viên thiếu điểm",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1059",
+  "question": "Điểm rèn luyện có được coi là một học phần không?",
+  "positive_passage_id": "drl__001",
+  "evidence": "được tính như một học phần trên bảng điểm",
+  "intent": "what"
+},
+{
+  "qid": "q_1060",
+  "question": "Có phải điểm rèn luyện của sinh viên Mỏ-Địa chất được tính trên bảng điểm từ năm 2017-2018?",
+  "positive_passage_id": "drl__001",
+  "evidence": "Từ năm học 2017-2018, điểm rèn luyện của sinh viên Đại học Mỏ-Địa chất được tính",
+  "intent": "check"
+},
+{
+  "qid": "q_1059",
+  "question": "Điểm rèn luyện có được coi là một học phần không?",
+  "positive_passage_id": "drl__001",
+  "evidence": "được tính như một học phần trên bảng điểm",
+  "intent": "what"
+},
+{
+  "qid": "q_1060",
+  "question": "Có phải điểm rèn luyện của sinh viên Mỏ-Địa chất được tính trên bảng điểm từ năm 2017-2018?",
+  "positive_passage_id": "drl__001",
+  "evidence": "Từ năm học 2017-2018, điểm rèn luyện của sinh viên Đại học Mỏ-Địa chất được tính",
+  "intent": "check"
+},
+{
+  "qid": "q_1061",
+  "question": "Làm sao để sinh viên thiếu điểm rèn luyện được đánh giá?",
+  "positive_passage_id": "drl__001",
+  "evidence": "đợt bổ sung cuối kỳ cho sinh viên thiếu điểm",
+  "intent": "howto"
+},
+{
+  "qid": "q_1062",
+  "question": "Đợt đánh giá điểm rèn luyện đầu kỳ cần điều kiện gì về tỷ lệ tham gia?",
+  "positive_passage_id": "drl__001",
+  "evidence": "chủ trì (cần ít nhất 50% lớp tham gia)",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1063",
+  "question": "Điểm rèn luyện được xem như là gì trong hệ thống đào tạo?",
+  "positive_passage_id": "drl__001",
+  "evidence": "được tính như một học phần trên bảng điểm",
+  "intent": "definition"
+},
+{
+  "qid": "q_1064",
+  "question": "Ai được đánh giá trong đợt bổ sung cuối kỳ?",
+  "positive_passage_id": "drl__001",
+  "evidence": "đợt bổ sung cuối kỳ cho sinh viên thiếu điểm",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1065",
+  "question": "Tỷ lệ tham gia tối thiểu để tiến hành đánh giá điểm rèn luyện đầu kỳ là bao nhiêu?",
+  "positive_passage_id": "drl__001",
+  "evidence": "chủ trì (cần ít nhất 50% lớp tham gia)",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1066",
+  "question": "Cách thức đánh giá điểm rèn luyện cho sinh viên thiếu điểm là gì?",
+  "positive_passage_id": "drl__001",
+  "evidence": "đợt bổ sung cuối kỳ cho sinh viên thiếu điểm",
+  "intent": "howto"
+},
+{
+  "qid": "q_1067",
+  "question": "Có đúng là việc đánh giá điểm rèn luyện do giáo viên chủ nhiệm chủ trì không?",
+  "positive_passage_id": "drl__001",
+  "evidence": "đợt sinh hoạt lớp đầu kỳ do giáo viên chủ nhiệm chủ trì",
+  "intent": "check"
+},
+{
+  "qid": "q_1068",
+  "question": "Điểm rèn luyện có nằm trong bảng điểm không?",
+  "positive_passage_id": "drl__001",
+  "evidence": "được tính như một học phần trên bảng điểm",
+  "intent": "what"
+},
+{
+  "qid": "q_1069",
+  "question": "Ai có thể làm đơn điều chỉnh sai sót về điểm rèn luyện?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Sinh viên có thể làm đơn theo mẫu",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1070",
+  "question": "Quy trình điều chỉnh điểm rèn luyện bắt đầu áp dụng từ năm học nào?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Quy trình này áp dụng từ năm học 2018-2019",
+  "intent": "time"
+},
+{
+  "qid": "q_1071",
+  "question": "Sinh viên cần chuẩn bị những gì để điều chỉnh điểm rèn luyện?",
+  "positive_passage_id": "drl__002",
+  "evidence": "có thể làm đơn theo mẫu kèm minh chứng",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1072",
+  "question": "Trình tự để sửa sai điểm rèn luyện là gì?",
+  "positive_passage_id": "drl__002",
+  "evidence": "làm đơn theo mẫu kèm minh chứng để điều chỉnh",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1073",
+  "question": "Sinh viên có thể làm gì khi điểm rèn luyện bị sai sót?",
+  "positive_passage_id": "drl__002",
+  "evidence": "có thể làm đơn theo mẫu kèm minh chứng",
+  "intent": "what"
+},
+{
+  "qid": "q_1074",
+  "question": "Quy trình điều chỉnh điểm rèn luyện có hiệu lực từ năm 2018-2019 đúng không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Quy trình này áp dụng từ năm học 2018-2019",
+  "intent": "check"
+},
+{
+  "qid": "q_1075",
+  "question": "Có cần phải có minh chứng kèm theo đơn điều chỉnh điểm rèn luyện không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "đơn theo mẫu kèm minh chứng để điều chỉnh sai sót",
+  "intent": "check"
+},
+{
+  "qid": "q_1076",
+  "question": "Theo quy trình, sinh viên phải sử dụng loại đơn nào?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Sinh viên có thể làm đơn theo mẫu",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1077",
+  "question": "Làm cách nào để điều chỉnh sai sót điểm rèn luyện?",
+  "positive_passage_id": "drl__002",
+  "evidence": "làm đơn theo mẫu kèm minh chứng để điều chỉnh",
+  "intent": "howto"
+},
+{
+  "qid": "q_1078",
+  "question": "Kể từ năm học nào thì sinh viên được áp dụng quy trình này?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Quy trình này áp dụng từ năm học 2018-2019",
+  "intent": "time"
+},
+{
+  "qid": "q_1079",
+  "question": "Đối tượng nào được quyền điều chỉnh điểm rèn luyện?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Sinh viên có thể làm đơn theo mẫu",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1080",
+  "question": "Đơn điều chỉnh điểm rèn luyện có yêu cầu theo mẫu hay không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Sinh viên có thể làm đơn theo mẫu",
+  "intent": "check"
+},
+{
+  "qid": "q_1081",
+  "question": "Mục đích của việc làm đơn kèm minh chứng là gì?",
+  "positive_passage_id": "drl__002",
+  "evidence": "điều chỉnh sai sót về điểm rèn luyện",
+  "intent": "what"
+},
+{
+  "qid": "q_1066",
+  "question": "Cách thức đánh giá điểm rèn luyện cho sinh viên thiếu điểm là gì?",
+  "positive_passage_id": "drl__001",
+  "evidence": "đợt bổ sung cuối kỳ cho sinh viên thiếu điểm",
+  "intent": "howto"
+},
+{
+  "qid": "q_1067",
+  "question": "Có đúng là việc đánh giá điểm rèn luyện do giáo viên chủ nhiệm chủ trì không?",
+  "positive_passage_id": "drl__001",
+  "evidence": "đợt sinh hoạt lớp đầu kỳ do giáo viên chủ nhiệm chủ trì",
+  "intent": "check"
+},
+{
+  "qid": "q_1068",
+  "question": "Điểm rèn luyện có nằm trong bảng điểm không?",
+  "positive_passage_id": "drl__001",
+  "evidence": "được tính như một học phần trên bảng điểm",
+  "intent": "what"
+},
+{
+  "qid": "q_1069",
+  "question": "Ai có thể làm đơn điều chỉnh sai sót về điểm rèn luyện?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Sinh viên có thể làm đơn theo mẫu",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1070",
+  "question": "Quy trình điều chỉnh điểm rèn luyện bắt đầu áp dụng từ năm học nào?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Quy trình này áp dụng từ năm học 2018-2019",
+  "intent": "time"
+},
+{
+  "qid": "q_1071",
+  "question": "Sinh viên cần chuẩn bị những gì để điều chỉnh điểm rèn luyện?",
+  "positive_passage_id": "drl__002",
+  "evidence": "có thể làm đơn theo mẫu kèm minh chứng",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1072",
+  "question": "Trình tự để sửa sai điểm rèn luyện là gì?",
+  "positive_passage_id": "drl__002",
+  "evidence": "làm đơn theo mẫu kèm minh chứng để điều chỉnh",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1073",
+  "question": "Sinh viên có thể làm gì khi điểm rèn luyện bị sai sót?",
+  "positive_passage_id": "drl__002",
+  "evidence": "có thể làm đơn theo mẫu kèm minh chứng",
+  "intent": "what"
+},
+{
+  "qid": "q_1074",
+  "question": "Quy trình điều chỉnh điểm rèn luyện có hiệu lực từ năm 2018-2019 đúng không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Quy trình này áp dụng từ năm học 2018-2019",
+  "intent": "check"
+},
+{
+  "qid": "q_1075",
+  "question": "Có cần phải có minh chứng kèm theo đơn điều chỉnh điểm rèn luyện không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "đơn theo mẫu kèm minh chứng để điều chỉnh sai sót",
+  "intent": "check"
+},
+{
+  "qid": "q_1076",
+  "question": "Theo quy trình, sinh viên phải sử dụng loại đơn nào?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Sinh viên có thể làm đơn theo mẫu",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1077",
+  "question": "Làm cách nào để điều chỉnh sai sót điểm rèn luyện?",
+  "positive_passage_id": "drl__002",
+  "evidence": "làm đơn theo mẫu kèm minh chứng để điều chỉnh",
+  "intent": "howto"
+},
+{
+  "qid": "q_1078",
+  "question": "Kể từ năm học nào thì sinh viên được áp dụng quy trình này?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Quy trình này áp dụng từ năm học 2018-2019",
+  "intent": "time"
+},
+{
+  "qid": "q_1079",
+  "question": "Đối tượng nào được quyền điều chỉnh điểm rèn luyện?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Sinh viên có thể làm đơn theo mẫu",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1080",
+  "question": "Đơn điều chỉnh điểm rèn luyện có yêu cầu theo mẫu hay không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Sinh viên có thể làm đơn theo mẫu",
+  "intent": "check"
+},
+{
+  "qid": "q_1081",
+  "question": "Mục đích của việc làm đơn kèm minh chứng là gì?",
+  "positive_passage_id": "drl__002",
+  "evidence": "điều chỉnh sai sót về điểm rèn luyện",
+  "intent": "what"
+},
+{
+  "qid": "q_1082",
+  "question": "Bước đầu tiên trong quy trình điều chỉnh điểm rèn luyện là gì?",
+  "positive_passage_id": "drl__002",
+  "evidence": "làm đơn theo mẫu kèm minh chứng để điều chỉnh",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1083",
+  "question": "Hồ sơ điều chỉnh điểm rèn luyện bao gồm những thành phần nào?",
+  "positive_passage_id": "drl__002",
+  "evidence": "có thể làm đơn theo mẫu kèm minh chứng",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1084",
+  "question": "Có bắt buộc phải kèm minh chứng không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "đơn theo mẫu kèm minh chứng để điều chỉnh sai sót",
+  "intent": "check"
+},
+{
+  "qid": "q_1085",
+  "question": "Năm học 2017-2018 có nằm trong thời gian áp dụng quy trình này không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Quy trình này áp dụng từ năm học 2018-2019",
+  "intent": "check"
+},
+{
+  "qid": "q_1086",
+  "question": "Phương thức để sửa điểm rèn luyện bị sai là gì?",
+  "positive_passage_id": "drl__002",
+  "evidence": "làm đơn theo mẫu kèm minh chứng để điều chỉnh",
+  "intent": "howto"
+},
+{
+  "qid": "q_1082",
+  "question": "Bước đầu tiên trong quy trình điều chỉnh điểm rèn luyện là gì?",
+  "positive_passage_id": "drl__002",
+  "evidence": "làm đơn theo mẫu kèm minh chứng để điều chỉnh",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1083",
+  "question": "Hồ sơ điều chỉnh điểm rèn luyện bao gồm những thành phần nào?",
+  "positive_passage_id": "drl__002",
+  "evidence": "có thể làm đơn theo mẫu kèm minh chứng",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1084",
+  "question": "Có bắt buộc phải kèm minh chứng không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "đơn theo mẫu kèm minh chứng để điều chỉnh sai sót",
+  "intent": "check"
+},
+{
+  "qid": "q_1085",
+  "question": "Năm học 2017-2018 có nằm trong thời gian áp dụng quy trình này không?",
+  "positive_passage_id": "drl__002",
+  "evidence": "Quy trình này áp dụng từ năm học 2018-2019",
+  "intent": "check"
+},
+{
+  "qid": "q_1086",
+  "question": "Phương thức để sửa điểm rèn luyện bị sai là gì?",
+  "positive_passage_id": "drl__002",
+  "evidence": "làm đơn theo mẫu kèm minh chứng để điều chỉnh",
+  "intent": "howto"
+},
+{
+  "qid": "q_1087",
+  "question": "What does the notice from Hanoi University of Mining and Geology ask new students to do?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "Trường ĐH Mỏ-Địa chất thông báo tân sinh viên cần kích hoạt email và sử dụng MS Teams",
+  "intent": "what"
+},
+{
+  "qid": "q_1088",
+  "question": "Which actions are mandatory for freshmen at HUMG according to the announcement?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "tân sinh viên cần kích hoạt email và sử dụng MS Teams",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1089",
+  "question": "Who is required to activate their email and make use of MS Teams?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "Trường ĐH Mỏ-Địa chất thông báo tân sinh viên cần",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1090",
+  "question": "What is the format of a student's Teams account?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "học trực tuyến. Tài khoản Teams có dạng \"mssv\"@student.humg.edu.vn",
+  "intent": "definition"
+},
+{
+  "qid": "q_1091",
+  "question": "How can new students take part in online courses?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "sử dụng MS Teams để học trực tuyến",
+  "intent": "howto"
+},
+{
+  "qid": "q_1092",
+  "question": "Which online learning platform is specified in the university's message?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "sử dụng MS Teams để học trực tuyến",
+  "intent": "what"
+},
+{
+  "qid": "q_1093",
+  "question": "Do freshmen need to activate their university email?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "ĐH Mỏ-Địa chất thông báo tân sinh viên cần kích hoạt email",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1094",
+  "question": "What action regarding email is expected from new students?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "cần kích hoạt email và sử dụng MS Teams",
+  "intent": "what"
+},
+{
+  "qid": "q_1095",
+  "question": "What does a student's Teams account look like?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "học trực tuyến. Tài khoản Teams có dạng \"mssv\"@student.humg.edu.vn",
+  "intent": "definition"
+},
+{
+  "qid": "q_1096",
+  "question": "Who is the target audience of this university message?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "Trường ĐH Mỏ-Địa chất thông báo tân sinh viên cần",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1097",
+  "question": "Which university issued the notice about email and Teams?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "Trường ĐH Mỏ-Địa chất thông báo tân sinh viên cần",
+  "intent": "what"
+},
+{
+  "qid": "q_1098",
+  "question": "Is using MS Teams a requirement for new students?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "tân sinh viên cần kích hoạt email và sử dụng MS Teams",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1099",
+  "question": "What is the domain name for student Teams accounts?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "học trực tuyến. Tài khoản Teams có dạng \"mssv\"@student.humg.edu.vn",
+  "intent": "definition"
+},
+{
+  "qid": "q_1100",
+  "question": "How should new students prepare for online learning?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "cần kích hoạt email và sử dụng MS Teams để học trực tuyến",
+  "intent": "howto"
+},
+{
+  "qid": "q_1101",
+  "question": "What tool must be used for remote learning at HUMG?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "sử dụng MS Teams để học trực tuyến",
+  "intent": "what"
+},
+{
+  "qid": "q_1102",
+  "question": "Which group of students does this announcement apply to?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "Trường ĐH Mỏ-Địa chất thông báo tân sinh viên cần",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1103",
+  "question": "What does the announcement say freshmen need to do?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "tân sinh viên cần kích hoạt email và sử dụng MS Teams",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1104",
+  "question": "What are the two things new students are instructed to do?",
+  "positive_passage_id": "email_msteam__001",
+  "evidence": "kích hoạt email và sử dụng MS Teams",
+  "intent": "what"
+},
+{
+  "qid": "q_1105",
+  "question": "Công thức tính học phí theo tín chỉ là gì?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "học phí = số tín chỉ × đơn giá",
+  "intent": "what"
+},
+{
+  "qid": "q_1106",
+  "question": "Muốn tính học phí phải làm thế nào?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "Học phí được tính theo số tín chỉ nhân đơn giá",
+  "intent": "howto"
+},
+{
+  "qid": "q_1107",
+  "question": "Có đúng là học phí bằng tích số tín chỉ và đơn giá không?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "Công thức: học phí = số tín chỉ × đơn giá",
+  "intent": "check"
+},
+{
+  "qid": "q_1108",
+  "question": "Trình tự tính học phí gồm những bước nào?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "học phí = số tín chỉ × đơn giá",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1109",
+  "question": "Thuật ngữ 'đơn giá' trong đoạn văn này chỉ điều gì?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "đơn giá (năm 2025–2026: kỹ thuật 500k/tín, kinh tế 454k/tín)",
+  "intent": "definition"
+},
+{
+  "qid": "q_1110",
+  "question": "Nếu một sinh viên học 12 tín chỉ ngành kỹ thuật, làm sao để tính học phí?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "học phí = số tín chỉ × đơn giá",
+  "intent": "howto"
+},
+{
+  "qid": "q_1111",
+  "question": "Phải chăng học phí được xác định hoàn toàn dựa trên số tín chỉ và ngành học?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "Học phí được tính theo số tín chỉ nhân đơn giá",
+  "intent": "check"
+},
+{
+  "qid": "q_1112",
+  "question": "Cách thức để chuyển từ số tín chỉ và đơn giá thành học phí như thế nào?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "học phí = số tín chỉ × đơn giá",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1109",
+  "question": "Thuật ngữ 'đơn giá' trong đoạn văn này chỉ điều gì?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "đơn giá (năm 2025–2026: kỹ thuật 500k/tín, kinh tế 454k/tín)",
+  "intent": "definition"
+},
+{
+  "qid": "q_1110",
+  "question": "Nếu một sinh viên học 12 tín chỉ ngành kỹ thuật, làm sao để tính học phí?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "học phí = số tín chỉ × đơn giá",
+  "intent": "howto"
+},
+{
+  "qid": "q_1111",
+  "question": "Phải chăng học phí được xác định hoàn toàn dựa trên số tín chỉ và ngành học?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "Học phí được tính theo số tín chỉ nhân đơn giá",
+  "intent": "check"
+},
+{
+  "qid": "q_1112",
+  "question": "Cách thức để chuyển từ số tín chỉ và đơn giá thành học phí như thế nào?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "học phí = số tín chỉ × đơn giá",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1113",
+  "question": "Định nghĩa của 'học phí' trong văn bản này là gì?",
+  "positive_passage_id": "hoc_phi__001",
+  "evidence": "học phí = số tín chỉ × đơn giá",
+  "intent": "definition"
+},
+{
+  "qid": "q_1114",
+  "question": "Khi nhìn vào số dư nợ, dấu trừ trước con số cho biết điều gì?",
+  "positive_passage_id": "hoc_phi__002",
+  "evidence": "Số tồn nợ có dấu trừ là thừa tiền",
+  "intent": "definition"
+},
+{
+  "qid": "q_1115",
+  "question": "Làm sao để biết mình đã đóng thừa tiền học dựa vào số tồn nợ?",
+  "positive_passage_id": "hoc_phi__002",
+  "evidence": "Số tồn nợ có dấu trừ là thừa tiền",
+  "intent": "howto"
+},
+{
+  "qid": "q_1116",
+  "question": "Cách xác định một sinh viên khóa mới còn thiếu bao nhiêu học phí?",
+  "positive_passage_id": "hoc_phi__002",
+  "evidence": "học phí thiếu = (số tín học kỳ 1 × đơn giá) – tiền tạm đóng",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1117",
+  "question": "Nếu thấy số tồn nợ ghi là -200.000đ, điều đó thể hiện điều gì?",
+  "positive_passage_id": "hoc_phi__002",
+  "evidence": "Số tồn nợ có dấu trừ là thừa tiền",
+  "intent": "definition"
+},
+{
+  "qid": "q_1118",
+  "question": "Làm thế nào để kiểm tra xem mình đang thiếu học phí hay đã đóng dư?",
+  "positive_passage_id": "hoc_phi__002",
+  "evidence": "Số tồn nợ có dấu trừ là thừa tiền, không dấu trừ là còn thiếu",
+  "intent": "check"
+},
+{
+  "qid": "q_1119",
+  "question": "Khi tính học phí thiếu cho sinh viên mới, người ta lấy tích số tín chỉ và đơn giá rồi trừ đi khoản nào?",
+  "positive_passage_id": "hoc_phi__002",
+  "evidence": "(số tín học kỳ 1 × đơn giá) – tiền tạm đóng",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1120",
+  "question": "Sự khác nhau giữa số tồn nợ có dấu trừ và không có dấu trừ là gì?",
+  "positive_passage_id": "hoc_phi__002",
+  "evidence": "có dấu trừ là thừa tiền, không dấu trừ là còn thiếu",
+  "intent": "definition"
+},
+{
+  "qid": "q_1121",
+  "question": "Hãy cho biết công thức xác định lượng học phí còn thiếu của một sinh viên mới nhập học.",
+  "positive_passage_id": "hoc_phi__002",
+  "evidence": "học phí thiếu = (số tín học kỳ 1 × đơn giá) – tiền tạm đóng",
+  "intent": "definition"
+},
+{
+  "qid": "q_1122",
+  "question": "Làm thế nào để nộp học phí?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "có thể đóng học phí qua BIDV Smartbanking, ATM, website daotao.humg.edu.vn (khi có chữ BIDV) hoặc chuyển khoản",
+  "intent": "howto"
+},
+{
+  "qid": "q_1123",
+  "question": "Sinh viên có thể nộp học phí qua đâu?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "qua BIDV Smartbanking, ATM, website daotao.humg.edu.vn (khi có chữ BIDV) hoặc chuyển khoản",
+  "intent": "where"
+},
+{
+  "qid": "q_1124",
+  "question": "Các phương thức thanh toán học phí gồm những gì?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "qua BIDV Smartbanking, ATM, website daotao.humg.edu.vn (khi có chữ BIDV) hoặc chuyển khoản",
+  "intent": "what"
+},
+{
+  "qid": "q_1125",
+  "question": "Có được dùng BIDV Smartbanking để đóng học phí không?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "có thể đóng học phí qua BIDV Smartbanking",
+  "intent": "check"
+},
+{
+  "qid": "q_1126",
+  "question": "Sinh viên có thể sử dụng ATM để thanh toán học phí không?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "có thể đóng học phí qua BIDV Smartbanking, ATM",
+  "intent": "check"
+},
+{
+  "qid": "q_1122",
+  "question": "Làm thế nào để nộp học phí?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "có thể đóng học phí qua BIDV Smartbanking, ATM, website daotao.humg.edu.vn (khi có chữ BIDV) hoặc chuyển khoản",
+  "intent": "howto"
+},
+{
+  "qid": "q_1123",
+  "question": "Sinh viên có thể nộp học phí qua đâu?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "qua BIDV Smartbanking, ATM, website daotao.humg.edu.vn (khi có chữ BIDV) hoặc chuyển khoản",
+  "intent": "where"
+},
+{
+  "qid": "q_1124",
+  "question": "Các phương thức thanh toán học phí gồm những gì?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "qua BIDV Smartbanking, ATM, website daotao.humg.edu.vn (khi có chữ BIDV) hoặc chuyển khoản",
+  "intent": "what"
+},
+{
+  "qid": "q_1125",
+  "question": "Có được dùng BIDV Smartbanking để đóng học phí không?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "có thể đóng học phí qua BIDV Smartbanking",
+  "intent": "check"
+},
+{
+  "qid": "q_1126",
+  "question": "Sinh viên có thể sử dụng ATM để thanh toán học phí không?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "có thể đóng học phí qua BIDV Smartbanking, ATM",
+  "intent": "check"
+},
+{
+  "qid": "q_1127",
+  "question": "Khi chuyển khoản học phí, sinh viên cần ghi rõ những thông tin gì?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "ghi rõ mã sinh viên, họ tên, học kỳ",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1128",
+  "question": "Có bắt buộc phải ghi mã sinh viên khi chuyển khoản đóng học phí không?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "ghi rõ mã sinh viên, họ tên, học kỳ",
+  "intent": "check"
+},
+{
+  "qid": "q_1129",
+  "question": "Sinh viên có cần ghi họ tên khi chuyển khoản đóng học phí không?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "ghi rõ mã sinh viên, họ tên, học kỳ",
+  "intent": "check"
+},
+{
+  "qid": "q_1130",
+  "question": "Học kỳ có phải là thông tin bắt buộc khi chuyển khoản không?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "ghi rõ mã sinh viên, họ tên, học kỳ",
+  "intent": "check"
+},
+{
+  "qid": "q_1131",
+  "question": "Ai được phép đóng học phí theo các hình thức trên?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "Sinh viên có thể đóng học phí qua",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1132",
+  "question": "Quy trình chuyển khoản đóng học phí gồm những bước nào?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "chuyển khoản tới tài khoản trường, ghi rõ mã sinh viên, họ tên, học kỳ",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1133",
+  "question": "Tài khoản nhận chuyển khoản đóng học phí là của ai?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "chuyển khoản tới tài khoản trường, ghi rõ",
+  "intent": "what"
+},
+{
+  "qid": "q_1134",
+  "question": "Có bao nhiêu cách đóng học phí được đề cập?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "BIDV Smartbanking, ATM, website daotao.humg.edu.vn (khi có chữ BIDV) hoặc chuyển khoản",
+  "intent": "what"
+},
+{
+  "qid": "q_1135",
+  "question": "Ngân hàng nào được sử dụng cho Smartbanking đóng học phí?",
+  "positive_passage_id": "hoc_phi__003",
+  "evidence": "có thể đóng học phí qua BIDV Smartbanking",
+  "intent": "what"
+},
+{
+  "qid": "q_1136",
+  "question": "Khi đóng học phí, sinh viên cần lưu giữ loại bằng chứng nào?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "Khi nộp học phí, cần giữ minh chứng nộp tiền",
+  "intent": "what"
+},
+{
+  "qid": "q_1137",
+  "question": "Làm cách nào để tránh bị cấm thi vì vi phạm quy định học phí?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "dữ liệu đồng bộ ít nhất 2 ngày/lần; vi phạm có thể bị cấm thi",
+  "intent": "howto"
+},
+{
+  "qid": "q_1138",
+  "question": "Yêu cầu về tần suất đồng bộ dữ liệu là bao nhiêu lần mỗi ngày?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "dữ liệu đồng bộ ít nhất 2 ngày/lần",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1139",
+  "question": "Những khoản phí nào sinh viên năm cuối bắt buộc phải thanh toán đúng hạn?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "Sinh viên cuối khóa phải đóng đúng hạn cho thực tập, đồ án",
+  "intent": "what"
+},
+{
+  "qid": "q_1140",
+  "question": "Thời hạn cuối cho sinh viên năm cuối thanh toán thực tập và đồ án là trước thời điểm nào?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "đồ án trước khi giáo viên nhập điểm",
+  "intent": "time"
+},
+{
+  "qid": "q_1141",
+  "question": "Có hình thức kỷ luật nào nếu không giữ minh chứng nộp tiền không?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "2 ngày/lần; vi phạm có thể bị cấm thi",
+  "intent": "check"
+},
+{
+  "qid": "q_1142",
+  "question": "Đối tượng nào phải đóng tiền đúng hạn cho thực tập và đồ án?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "Sinh viên cuối khóa phải đóng đúng hạn cho thực tập, đồ án",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1143",
+  "question": "Số điện thoại hỗ trợ về vấn đề học phí là gì?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "nhập điểm. Hotline hỗ trợ: 02438386440 / 0984952798",
+  "intent": "what"
+},
+{
+  "qid": "q_1144",
+  "question": "Có thể gọi đến số nào để được giúp đỡ khi gặp khó khăn trong nộp học phí?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "nhập điểm. Hotline hỗ trợ: 02438386440 / 0984952798",
+  "intent": "howto"
+},
+{
+  "qid": "q_1145",
+  "question": "Quy định bắt buộc về việc lưu giữ chứng từ nộp tiền là gì?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "Khi nộp học phí, cần giữ minh chứng nộp tiền",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1146",
+  "question": "Có yêu cầu nào về đồng bộ dữ liệu đối với sinh viên không?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "dữ liệu đồng bộ ít nhất 2 ngày/lần",
+  "intent": "check"
+},
+{
+  "qid": "q_1147",
+  "question": "Hậu quả của việc vi phạm quy tắc nộp học phí là gì?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "dữ liệu đồng bộ ít nhất 2 ngày/lần; vi phạm có thể bị cấm thi",
+  "intent": "what"
+},
+{
+  "qid": "q_1148",
+  "question": "Sinh viên năm cuối cần hoàn thành nghĩa vụ tài chính trước mốc thời gian nào?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "đồ án trước khi giáo viên nhập điểm",
+  "intent": "time"
+},
+{
+  "qid": "q_1149",
+  "question": "Bên cạnh số 02438386440, còn đầu số hotline nào khác?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "nhập điểm. Hotline hỗ trợ: 02438386440 / 0984952798",
+  "intent": "what"
+},
+{
+  "qid": "q_1150",
+  "question": "Những bước cần làm khi thanh toán học phí là gì?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "cần giữ minh chứng nộp tiền, dữ liệu đồng bộ ít nhất 2 ngày/lần",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1151",
+  "question": "Có bắt buộc phải đồng bộ dữ liệu hai lần mỗi ngày không?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "dữ liệu đồng bộ ít nhất 2 ngày/lần",
+  "intent": "check"
+},
+{
+  "qid": "q_1152",
+  "question": "Ai là người phải thanh toán học phí đúng hạn để giáo viên kịp nhập điểm?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "Sinh viên cuối khóa phải đóng đúng hạn cho thực tập, đồ án trước khi giáo viên nhập điểm",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1153",
+  "question": "Từ ngày nào mẫu phiếu 23 được điều chỉnh?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Từ 14/10/2024, Phòng CTCTSV điều chỉnh mẫu phiếu 23",
+  "intent": "time"
+},
+{
+  "qid": "q_1154",
+  "question": "Mẫu phiếu 23 dành cho đối tượng nào?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "cho sinh viên chính quy xin tạm hoãn nghĩa vụ quân sự",
+  "intent": "what"
+},
+{
+  "qid": "q_1155",
+  "question": "Những điều kiện cần có để xin tạm hoãn nghĩa vụ quân sự là gì?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Sinh viên cần có thời khóa biểu, đóng đủ học phí, đăng ký ít nhất 10 tín chỉ mỗi kỳ",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1156",
+  "question": "Sinh viên có bắt buộc phải có thời khóa biểu không?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Sinh viên cần có thời khóa biểu, đóng đủ học phí",
+  "intent": "check"
+},
+{
+  "qid": "q_1157",
+  "question": "Có yêu cầu đóng đủ học phí khi xin tạm hoãn NVQS không?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Sinh viên cần có thời khóa biểu, đóng đủ học phí",
+  "intent": "check"
+},
+{
+  "qid": "q_1158",
+  "question": "Mỗi kỳ sinh viên phải đăng ký tối thiểu bao nhiêu tín chỉ?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "đăng ký ít nhất 10 tín chỉ mỗi kỳ",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1159",
+  "question": "Ai được sử dụng mẫu phiếu 23 để xin hoãn NVQS?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "mẫu phiếu 23 cho sinh viên chính quy",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1160",
+  "question": "Cơ quan nào đã điều chỉnh mẫu phiếu 23?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Phòng CTCTSV điều chỉnh mẫu phiếu 23 cho",
+  "intent": "what"
+},
+{
+  "qid": "q_1161",
+  "question": "Khi nào bắt đầu áp dụng mẫu phiếu 23 mới?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Từ 14/10/2024, Phòng CTCTSV điều chỉnh mẫu phiếu 23",
+  "intent": "time"
+},
+{
+  "qid": "q_1162",
+  "question": "Sinh viên có cần đăng ký ít nhất 10 tín chỉ không?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "đăng ký ít nhất 10 tín chỉ mỗi kỳ",
+  "intent": "check"
+},
+{
+  "qid": "q_1148",
+  "question": "Sinh viên năm cuối cần hoàn thành nghĩa vụ tài chính trước mốc thời gian nào?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "đồ án trước khi giáo viên nhập điểm",
+  "intent": "time"
+},
+{
+  "qid": "q_1149",
+  "question": "Bên cạnh số 02438386440, còn đầu số hotline nào khác?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "nhập điểm. Hotline hỗ trợ: 02438386440 / 0984952798",
+  "intent": "what"
+},
+{
+  "qid": "q_1150",
+  "question": "Những bước cần làm khi thanh toán học phí là gì?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "cần giữ minh chứng nộp tiền, dữ liệu đồng bộ ít nhất 2 ngày/lần",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1151",
+  "question": "Có bắt buộc phải đồng bộ dữ liệu hai lần mỗi ngày không?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "dữ liệu đồng bộ ít nhất 2 ngày/lần",
+  "intent": "check"
+},
+{
+  "qid": "q_1152",
+  "question": "Ai là người phải thanh toán học phí đúng hạn để giáo viên kịp nhập điểm?",
+  "positive_passage_id": "hoc_phi__004",
+  "evidence": "Sinh viên cuối khóa phải đóng đúng hạn cho thực tập, đồ án trước khi giáo viên nhập điểm",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1153",
+  "question": "Từ ngày nào mẫu phiếu 23 được điều chỉnh?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Từ 14/10/2024, Phòng CTCTSV điều chỉnh mẫu phiếu 23",
+  "intent": "time"
+},
+{
+  "qid": "q_1154",
+  "question": "Mẫu phiếu 23 dành cho đối tượng nào?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "cho sinh viên chính quy xin tạm hoãn nghĩa vụ quân sự",
+  "intent": "what"
+},
+{
+  "qid": "q_1155",
+  "question": "Những điều kiện cần có để xin tạm hoãn nghĩa vụ quân sự là gì?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Sinh viên cần có thời khóa biểu, đóng đủ học phí, đăng ký ít nhất 10 tín chỉ mỗi kỳ",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1156",
+  "question": "Sinh viên có bắt buộc phải có thời khóa biểu không?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Sinh viên cần có thời khóa biểu, đóng đủ học phí",
+  "intent": "check"
+},
+{
+  "qid": "q_1157",
+  "question": "Có yêu cầu đóng đủ học phí khi xin tạm hoãn NVQS không?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Sinh viên cần có thời khóa biểu, đóng đủ học phí",
+  "intent": "check"
+},
+{
+  "qid": "q_1158",
+  "question": "Mỗi kỳ sinh viên phải đăng ký tối thiểu bao nhiêu tín chỉ?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "đăng ký ít nhất 10 tín chỉ mỗi kỳ",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1159",
+  "question": "Ai được sử dụng mẫu phiếu 23 để xin hoãn NVQS?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "mẫu phiếu 23 cho sinh viên chính quy",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1160",
+  "question": "Cơ quan nào đã điều chỉnh mẫu phiếu 23?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Phòng CTCTSV điều chỉnh mẫu phiếu 23 cho",
+  "intent": "what"
+},
+{
+  "qid": "q_1161",
+  "question": "Khi nào bắt đầu áp dụng mẫu phiếu 23 mới?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Từ 14/10/2024, Phòng CTCTSV điều chỉnh mẫu phiếu 23",
+  "intent": "time"
+},
+{
+  "qid": "q_1162",
+  "question": "Sinh viên có cần đăng ký ít nhất 10 tín chỉ không?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "đăng ký ít nhất 10 tín chỉ mỗi kỳ",
+  "intent": "check"
+},
+{
+  "qid": "q_1163",
+  "question": "Điều kiện về học phí đối với sinh viên xin tạm hoãn NVQS là gì?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Sinh viên cần có thời khóa biểu, đóng đủ học phí",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1164",
+  "question": "Số hiệu của phiếu dùng để xin tạm hoãn NVQS là gì?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "điều chỉnh mẫu phiếu 23 cho sinh viên",
+  "intent": "what"
+},
+{
+  "qid": "q_1165",
+  "question": "Có yêu cầu về thời khóa biểu trong hồ sơ xin hoãn NVQS không?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Sinh viên cần có thời khóa biểu, đóng đủ học phí",
+  "intent": "check"
+},
+{
+  "qid": "q_1166",
+  "question": "Sinh viên hệ chính quy có được xin tạm hoãn bằng mẫu 23 không?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "mẫu phiếu 23 cho sinh viên chính quy",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1167",
+  "question": "Ngoài thời khóa biểu, sinh viên còn cần điều kiện gì về tín chỉ?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "đăng ký ít nhất 10 tín chỉ mỗi kỳ",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1168",
+  "question": "Ngày 14 tháng 10 năm 2024 đánh dấu sự kiện gì về mẫu phiếu 23?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "Từ 14/10/2024, Phòng CTCTSV điều chỉnh mẫu phiếu 23",
+  "intent": "time"
+},
+{
+  "qid": "q_1169",
+  "question": "Mục đích của việc điều chỉnh mẫu phiếu 23 là gì?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "cho sinh viên chính quy xin tạm hoãn nghĩa vụ quân sự",
+  "intent": "what"
+},
+{
+  "qid": "q_1170",
+  "question": "Yêu cầu đăng ký 10 tín chỉ được áp dụng theo chu kỳ nào?",
+  "positive_passage_id": "mau_so_23__001",
+  "evidence": "đăng ký ít nhất 10 tín chỉ mỗi kỳ",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1171",
+  "question": "Ai được phép xin tạm hoãn?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Những sinh viên muốn xin tạm hoãn nghĩa vụ quân sự",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1172",
+  "question": "Sinh viên muốn xin cái gì?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "muốn xin tạm hoãn nghĩa vụ quân sự",
+  "intent": "what"
+},
+{
+  "qid": "q_1173",
+  "question": "Trong hoàn cảnh nào phòng sẽ xác minh?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1174",
+  "question": "Phòng xác minh điều gì?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "phòng sẽ xác minh thời điểm bảo vệ",
+  "intent": "what"
+},
+{
+  "qid": "q_1175",
+  "question": "Cơ quan nào có trách nhiệm xác minh?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh",
+  "intent": "what"
+},
+{
+  "qid": "q_1176",
+  "question": "Có đúng là chỉ sinh viên đang thực tập mới được xác minh không?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+  "intent": "check"
+},
+{
+  "qid": "q_1177",
+  "question": "Yêu cầu về mực viết cho phiếu xác nhận là gì?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Phiếu xác nhận phải điền bằng mực xanh",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1178",
+  "question": "Phiếu xác nhận có bắt buộc dùng mực xanh không?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Phiếu xác nhận phải điền bằng mực xanh",
+  "intent": "check"
+},
+{
+  "qid": "q_1179",
+  "question": "Phiếu xác nhận cần đáp ứng yêu cầu gì về thông tin?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Phiếu xác nhận phải điền bằng mực xanh, đầy đủ thông tin",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1180",
+  "question": "Sinh viên vi phạm nội quy trong trường hợp đặc biệt phải làm thế nào?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa",
+  "intent": "procedure"
+},
+{
+  "qid": "q_1181",
+  "question": "Bản tường trình của sinh viên cần có nội dung gì thêm?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "cần tường trình có ý kiến của khoa",
+  "intent": "what"
+},
+{
+  "qid": "q_1182",
+  "question": "Đối tượng nào bắt buộc phải có sự xác nhận của khoa trong tường trình?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Trường hợp đặc biệt vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_1183",
+  "question": "Để được trường xem xét, sinh viên cần nộp loại giấy tờ gì?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "tường trình có ý kiến của khoa để nhà trường xem xét",
+  "intent": "requirement"
+},
+{
+  "qid": "q_1184",
+  "question": "Sinh viên đang làm đồ án có được xin tạm hoãn không?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Những sinh viên muốn xin tạm hoãn nghĩa vụ quân sự",
+  "intent": "check"
+},
+{
+  "qid": "q_1185",
+  "question": "Hình thức xác nhận nào cần dùng mực xanh?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "Phiếu xác nhận phải điền bằng mực xanh",
+  "intent": "what"
+},
+{
+  "qid": "q_1186",
+  "question": "Sinh viên vi phạm cần xin ý kiến của ai?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa",
+  "intent": "what"
+},
+{
+  "qid": "q_1187",
+  "question": "Có bắt buộc phải có ý kiến khoa trong tường trình không?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "cần tường trình có ý kiến của khoa",
+  "intent": "check"
+},
+{
+  "qid": "q_1188",
+  "question": "Phòng xác minh thời điểm gì cho những đối tượng nào?",
+  "positive_passage_id": "mau_so_23__002",
+  "evidence": "phòng sẽ xác minh thời điểm bảo vệ",
+  "intent": "what"
+}
+]

@@ -163,7 +163,7 @@ def main():
     )
     parser.add_argument(
         "--api-key",
-        default=os.getenv("OPENAI_API_KEY", ""),
+        default= "sk-6af49da8d0b54065a2f7929ac7a43512",
         help="API key for the server",
     )
     parser.add_argument(

@@ -1,0 +1,2718 @@
+[
+  {
+    "q": "Ai được phép xin tạm hoãn?",
+    "evidence": "Những sinh viên muốn xin tạm hoãn nghĩa vụ quân sự",
+    "intent": "eligibility",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên muốn xin cái gì?",
+    "evidence": "muốn xin tạm hoãn nghĩa vụ quân sự",
+    "intent": "what",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên muốn xin tạm hoãn nghĩa vụ quân sự cần phải làm gì?",
+    "evidence": "Những sinh viên muốn xin tạm hoãn nghĩa vụ quân sự",
+    "intent": "procedure",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Có đúng là chỉ những sinh viên muốn xin tạm hoãn nghĩa vụ quân sự mới được xác minh không?",
+    "evidence": "Những sinh viên muốn xin tạm hoãn nghĩa vụ quân sự",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Trong hoàn cảnh nào phòng sẽ xác minh?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "eligibility",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Phòng sẽ xác minh điều gì cho sinh viên đang thực tập hoặc làm đồ án tốt nghiệp?",
+    "evidence": "phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "what",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Có đúng là phòng chỉ xác minh thời điểm bảo vệ không?",
+    "evidence": "phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Phòng xác minh điều gì?",
+    "evidence": "phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "what",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Ai cần điền phiếu xác nhận bằng mực xanh?",
+    "evidence": "Phiếu xác nhận phải điền bằng mực xanh",
+    "intent": "eligibility",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Yêu cầu về màu mực cho phiếu xác nhận là gì?",
+    "evidence": "Phiếu xác nhận phải điền bằng mực xanh",
+    "intent": "requirement",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Có đúng là phiếu xác nhận phải được điền bằng mực xanh không?",
+    "evidence": "Phiếu xác nhận phải điền bằng mực xanh",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Phiếu xác nhận cần có những thông tin gì?",
+    "evidence": "Phiếu xác nhận phải điền bằng mực xanh, đầy đủ thông tin",
+    "intent": "requirement",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên vi phạm quy chế cần tường trình có ý kiến của ai?",
+    "evidence": "vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa",
+    "intent": "what",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Có bắt buộc phải có ý kiến của khoa trong bản tường trình không?",
+    "evidence": "cần tường trình có ý kiến của khoa",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên vi phạm quy chế cần làm gì để nhà trường xem xét?",
+    "evidence": "vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa để nhà trường xem xét",
+    "intent": "procedure",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Để được nhà trường xem xét, sinh viên cần nộp loại giấy tờ gì?",
+    "evidence": "tường trình có ý kiến của khoa để nhà trường xem xét",
+    "intent": "requirement",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên đang thực tập có được xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên đang làm đồ án tốt nghiệp có được xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên nào cần được xác minh thời điểm bảo vệ?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "eligibility",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Phòng sẽ xác minh thời điểm gì cho sinh viên đang thực tập hoặc làm đồ án tốt nghiệp?",
+    "evidence": "phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "what",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Cơ quan nào có trách nhiệm xác minh?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh",
+    "intent": "what",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Có đúng là chỉ sinh viên đang thực tập mới được xác minh không?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Yêu cầu về mực viết cho phiếu xác nhận là gì?",
+    "evidence": "Phiếu xác nhận phải điền bằng mực xanh",
+    "intent": "requirement",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên vi phạm quy chế cần tường trình có ý kiến của khoa để làm gì?",
+    "evidence": "vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa để nhà trường xem xét",
+    "intent": "what",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên nào cần tường trình có ý kiến của khoa?",
+    "evidence": "Trường hợp đặc biệt vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa",
+    "intent": "eligibility",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên vi phạm quy chế cần tường trình có ý kiến của khoa để nhà trường xem xét có đúng không?",
+    "evidence": "vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa để nhà trường xem xét",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên đang làm đồ án tốt nghiệp có được xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Sinh viên đang thực tập có được xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "check",
+    "positive_passage_id": "mau_so_23__002"
+  },
+  {
+    "q": "Phiếu xác nhận có bắt buộc dùng mực xanh không?",
+    "evidence": "Phiếu xác nhận phải điền bằng mực xanh",
+    "intent": "check"
+  },
+  {
+    "q": "Phiếu xác nhận cần đáp ứng yêu cầu gì về thông tin?",
+    "evidence": "Phiếu xác nhận phải điền bằng mực xanh, đầy đủ thông tin",
+    "intent": "requirement"
+  },
+  {
+    "q": "Sinh viên vi phạm nội quy trong trường hợp đặc biệt phải làm thế nào?",
+    "evidence": "vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa",
+    "intent": "procedure"
+  },
+  {
+    "q": "Bản tường trình của sinh viên cần có nội dung gì thêm?",
+    "evidence": "cần tường trình có ý kiến của khoa",
+    "intent": "what"
+  },
+  {
+    "q": "Sinh viên vi phạm quy chế cần tường trình có ý kiến của khoa để nhà trường xem xét có đúng không?",
+    "evidence": "vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa để nhà trường xem xét",
+    "intent": "check"
+  },
+  {
+    "q": "Sinh viên đang thực tập hoặc làm đồ án tốt nghiệp có được xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "check"
+  },
+  {
+    "q": "Đối tượng nào bắt buộc phải có sự xác nhận của khoa trong tường trình?",
+    "evidence": "Trường hợp đặc biệt vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Để được trường xem xét, sinh viên cần nộp loại giấy tờ gì?",
+    "evidence": "tường trình có ý kiến của khoa để nhà trường xem xét",
+    "intent": "requirement"
+  },
+  {
+    "q": "Sinh viên đang làm đồ án có được xin tạm hoãn không?",
+    "evidence": "Những sinh viên muốn xin tạm hoãn nghĩa vụ quân sự",
+    "intent": "check"
+  },
+  {
+    "q": "Hình thức xác nhận nào cần dùng mực xanh?",
+    "evidence": "Phiếu xác nhận phải điền bằng mực xanh",
+    "intent": "what"
+  },
+  {
+    "q": "Sinh viên vi phạm cần xin ý kiến của ai?",
+    "evidence": "vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa",
+    "intent": "what"
+  },
+  {
+    "q": "Có bắt buộc phải có ý kiến khoa trong tường trình không?",
+    "evidence": "cần tường trình có ý kiến của khoa",
+    "intent": "check"
+  },
+  {
+    "q": "Phòng xác minh thời điểm gì cho những đối tượng nào?",
+    "evidence": "phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "what"
+  },
+  {
+    "q": "Sinh viên nào cần tường trình có ý kiến của khoa?",
+    "evidence": "Trường hợp đặc biệt vi phạm quy chế, sinh viên cần tường trình có ý kiến của khoa",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Sinh viên đang thực tập có được xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "check"
+  },
+  {
+    "q": "Sinh viên đang làm đồ án tốt nghiệp có được xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "Nếu đang thực tập hoặc làm đồ án tốt nghiệp, phòng sẽ xác minh thời điểm bảo vệ",
+    "intent": "check"
+  },
+  {
+    "q": "Mức trợ cấp hàng tháng cho sinh viên dân tộc thiểu số vùng cao là bao nhiêu?",
+    "evidence": "dân tộc thiểu số vùng cao/đặc biệt khó khăn trợ cấp 140.000đ/tháng",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên mồ côi được nhận hỗ trợ trong bao nhiêu tháng?",
+    "evidence": "sinh viên mồ côi, tàn tật, hoàn cảnh khó khăn trợ cấp 100.000đ/tháng (6 tháng)",
+    "intent": "time",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Đối tượng nào được nhận 1.404.000 đồng mỗi tháng?",
+    "evidence": "dân tộc thiểu số thuộc hộ nghèo/cận nghèo hỗ trợ 1.404.000đ/tháng",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Có hỗ trợ tài chính cho sinh viên tàn tật không?",
+    "evidence": "sinh viên mồ côi, tàn tật, hoàn cảnh khó khăn",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Thời gian hỗ trợ cho sinh viên vùng đặc biệt khó khăn kéo dài mấy tháng?",
+    "evidence": "trợ cấp 140.000đ/tháng (6 tháng)",
+    "intent": "time",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên dân tộc thiểu số thuộc hộ nghèo có được hỗ trợ 5 tháng không?",
+    "evidence": "dân tộc thiểu số thuộc hộ nghèo/cận nghèo hỗ trợ 1.404.000đ/tháng (5 tháng)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Học kỳ nào được đề cập trong thông báo?",
+    "evidence": "học kỳ I năm 2025-2026",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Ai được hưởng mức trợ cấp 100.000 đồng mỗi tháng?",
+    "evidence": "sinh viên mồ côi, tàn tật, hoàn cảnh khó khăn trợ cấp 100.000đ/tháng",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên dân tộc thiểu số ở vùng cao nhận hỗ trợ trong bao lâu?",
+    "evidence": "dân tộc thiểu số vùng cao/đặc biệt khó khăn trợ cấp 140.000đ/tháng (6 tháng)",
+    "intent": "time",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Mức hỗ trợ hàng tháng cho dân tộc thiểu số thuộc hộ nghèo là bao nhiêu?",
+    "evidence": "dân tộc thiểu số thuộc hộ nghèo/cận nghèo hỗ trợ 1.404.000đ/tháng",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Thông báo này có áp dụng cho năm học 2025-2026 không?",
+    "evidence": "năm 2025-2026",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Điều kiện để nhận 140.000 đồng mỗi tháng là gì?",
+    "evidence": "dân tộc thiểu số vùng cao/đặc biệt khó khăn",
+    "intent": "requirement",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên có hoàn cảnh khó khăn được hỗ trợ trong mấy tháng?",
+    "evidence": "trợ cấp 100.000đ/tháng (6 tháng)",
+    "intent": "time",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên dân tộc thiểu số từ hộ cận nghèo có được nhận trợ cấp không?",
+    "evidence": "dân tộc thiểu số thuộc hộ nghèo/cận nghèo",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Một sinh viên mồ côi nhận được bao nhiêu tiền mỗi tháng?",
+    "evidence": "100.000đ/tháng",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Nhóm sinh viên nào chỉ nhận hỗ trợ trong 5 tháng?",
+    "evidence": "dân tộc thiểu số thuộc hộ nghèo/cận nghèo hỗ trợ 1.404.000đ/tháng (5 tháng)",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên dân tộc thiểu số vùng cao có mức trợ cấp 140.000 đồng một tháng đúng không?",
+    "evidence": "dân tộc thiểu số vùng cao/đặc biệt khó khăn trợ cấp 140.000đ/tháng",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Thông báo này dành cho đối tượng sinh viên nào?",
+    "evidence": "Thông báo hỗ trợ sinh viên chính quy",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên dân tộc thiểu số thuộc hộ nghèo được hỗ trợ trong bao lâu?",
+    "evidence": "dân tộc thiểu số thuộc hộ nghèo/cận nghèo hỗ trợ 1.404.000đ/tháng (5 tháng)",
+    "intent": "time",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Mức trợ cấp 1.404.000 đồng mỗi tháng áp dụng cho sinh viên nào?",
+    "evidence": "dân tộc thiểu số thuộc hộ nghèo/cận nghèo",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên có hoàn cảnh khó khăn nhận được bao nhiêu tiền mỗi tháng?",
+    "evidence": "sinh viên mồ côi, tàn tật, hoàn cảnh khó khăn trợ cấp 100.000đ/tháng",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên dân tộc thiểu số vùng cao nhận được bao nhiêu tiền mỗi tháng?",
+    "evidence": "dân tộc thiểu số vùng cao/đặc biệt khó khăn trợ cấp 140.000đ/tháng",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Có đúng là sinh viên dân tộc thiểu số thuộc hộ nghèo chỉ được hỗ trợ trong 5 tháng không?",
+    "evidence": "dân tộc thiểu số thuộc hộ nghèo/cận nghèo hỗ trợ 1.404.000đ/tháng (5 tháng)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Sinh viên mồ côi có được nhận hỗ trợ 100.000 đồng mỗi tháng không?",
+    "evidence": "sinh viên mồ côi, tàn tật, hoàn cảnh khó khăn trợ cấp 100.000đ/tháng",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "q": "Số tiền trợ cấp hàng tháng cho sinh viên các dân tộc rất ít người là bao nhiêu?",
+    "evidence": "2.340.000đ/tháng",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Chế độ trợ cấp này kéo dài trong bao nhiêu tháng?",
+    "evidence": "trong 6 tháng",
+    "intent": "time",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Những ai được hưởng mức trợ cấp 2.340.000 đồng mỗi tháng?",
+    "evidence": "Sinh viên thuộc 16",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Sinh viên dân tộc Pu Péo có được nhận trợ cấp 2.340.000đ/tháng không?",
+    "evidence": "Cống, Mảng, Pu Péo…",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Sinh viên cần thuộc nhóm dân tộc nào để được nhận trợ cấp 2.340.000đ/tháng?",
+    "evidence": "thuộc 16 dân tộc",
+    "intent": "requirement",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Có bao nhiêu dân tộc rất ít người được hưởng chính sách trợ cấp này?",
+    "evidence": "16 dân tộc",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Trợ cấp này được áp dụng vào năm nào?",
+    "evidence": "năm 2025",
+    "intent": "time"
+  },
+  {
+    "q": "Mức trợ cấp 2.340.000 đồng có phải được chi trả hàng tháng không?",
+    "evidence": "2.340.000đ/tháng",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Sinh viên người Kinh có nằm trong diện được trợ cấp 2.340.000đ/tháng không?",
+    "evidence": "dân tộc rất ít người",
+    "intent": "check"
+  },
+  {
+    "q": "Kể tên ba dân tộc được liệt kê làm ví dụ trong đoạn văn.",
+    "evidence": "Cống, Mảng, Pu Péo…",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Sinh viên dân tộc Mảng có được trợ cấp 2.340.000 đồng mỗi tháng không?",
+    "evidence": "Cống, Mảng, Pu Péo…",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Đợt trợ cấp kết thúc vào thời điểm nào trong năm 2025?",
+    "evidence": "cuối năm 2025",
+    "intent": "time",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Mức trợ cấp 2.340.000đ/tháng được tính cho mỗi sinh viên đúng không?",
+    "evidence": "Sinh viên thuộc",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Trợ cấp được áp dụng trong giai đoạn nào của năm 2025?",
+    "evidence": "6 tháng cuối năm",
+    "intent": "time",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Sinh viên dân tộc Cống có được nhận trợ cấp không?",
+    "evidence": "Cống, Mảng, Pu Péo…",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Con số 2.340.000đ trong đoạn văn thể hiện điều gì?",
+    "evidence": "2.340.000đ/tháng",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "q": "Sinh viên người Ê Đê có được hưởng trợ cấp 2.340.000đ/tháng không?",
+    "evidence": "dân tộc rất ít người",
+    "intent": "check"
+  },
+  {
+    "q": "Sinh viên dân tộc rất ít người ở vùng khó khăn có được nhận trợ cấp 2.340.000đ/tháng không?",
+    "evidence": "dân tộc rất ít người ở vùng khó khăn",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Sinh viên dân tộc Thái có thuộc đối tượng được trợ cấp 2.340.000đ/tháng không?",
+    "evidence": "dân tộc rất ít người",
+    "intent": "check"
+  },
+  {
+    "q": "Sinh viên dân tộc Mông có được nhận trợ cấp 2.340.000đ/tháng không?",
+    "evidence": "dân tộc rất ít người",
+    "intent": "check"
+  },
+  {
+    "q": "Người có công có được giảm học phí không?",
+    "evidence": "miễn giảm học phí cho người có công",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Trẻ em bị bỏ rơi có được giảm học phí không?",
+    "evidence": "cho người có công, trẻ bị bỏ rơi/mồ côi",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trẻ mồ côi có được giảm học phí không?",
+    "evidence": "trẻ bị bỏ rơi/mồ côi, người khuyết tật",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người khuyết tật có được giảm học phí không?",
+    "evidence": "người khuyết tật, dân tộc thiểu số hộ nghèo",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc thiểu số thuộc hộ nghèo có được giảm học phí không?",
+    "evidence": "dân tộc thiểu số hộ nghèo/cận nghèo",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc thiểu số thuộc hộ cận nghèo có được giảm học phí không?",
+    "evidence": "dân tộc thiểu số hộ nghèo/cận nghèo",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc rất ít người ở vùng khó khăn có được giảm học phí không?",
+    "evidence": "dân tộc rất ít người ở vùng khó khăn",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có những mức giảm học phí nào?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có bao nhiêu mức giảm học phí?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Làm thế nào để được giảm học phí?",
+    "evidence": "Có hướng dẫn thủ tục",
+    "intent": "howto",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có hướng dẫn thủ tục để được giảm học phí không?",
+    "evidence": "Có hướng dẫn thủ tục",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Việc giảm học phí có yêu cầu nộp hồ sơ không?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "requirement",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Đi kèm với hướng dẫn thủ tục giảm học phí là gì?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc rất ít người ở vùng nào được giảm học phí?",
+    "evidence": "ở vùng khó khăn",
+    "intent": "where",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Những đối tượng nào được giảm học phí?",
+    "evidence": "cho người có công, trẻ bị bỏ rơi/mồ côi, người khuyết tật, dân tộc thiểu số hộ nghèo/cận nghèo và dân tộc rất ít người ở vùng khó khăn",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Chính sách giảm học phí áp dụng cho ai ở vùng khó khăn?",
+    "evidence": "dân tộc rất ít người ở vùng khó khăn",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trẻ bị bỏ rơi và trẻ mồ côi có được giảm học phí không?",
+    "evidence": "trẻ bị bỏ rơi/mồ côi",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có phải cả ba mức 100%, 70%, 50% đều được áp dụng cho giảm học phí?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người có công có được hưởng mức giảm học phí 100% không?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc thiểu số thuộc hộ nghèo có được giảm học phí 70% không?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc rất ít người ở vùng khó khăn có được giảm học phí 50% không?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có văn bản hướng dẫn nào về thủ tục giảm học phí không?",
+    "evidence": "Có hướng dẫn thủ tục",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Khi làm thủ tục giảm học phí, có cần nộp hồ sơ không?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Để được giảm học phí, có bắt buộc phải nộp hồ sơ không?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người có công có được giảm học phí 70% không?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trẻ bị bỏ rơi có được giảm học phí 50% không?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người khuyết tật có được giảm học phí 100% không?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc thiểu số thuộc hộ cận nghèo có được giảm học phí 70% không?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc rất ít người ở vùng khó khăn có được giảm học phí 100% không?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có phải mức giảm học phí 50% chỉ áp dụng cho dân tộc rất ít người ở vùng khó khăn không?",
+    "evidence": "miễn giảm học phí (100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Chính sách miễn giảm học phí có những mức giảm nào?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có mức giảm 100% học phí hay không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Mức giảm 70% học phí có được áp dụng không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trong chính sách này có mức giảm 50% học phí không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có văn bản nào hướng dẫn quy trình miễn giảm học phí không?",
+    "evidence": "Có hướng dẫn thủ tục",
+    "intent": "procedure",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Khi nộp đơn xin miễn giảm học phí, có cần chuẩn bị hồ sơ không?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "requirement",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người có công có được miễn giảm học phí không?",
+    "evidence": "người có công",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trẻ em bị bỏ rơi có nằm trong đối tượng được miễn giảm học phí không?",
+    "evidence": "trẻ bị bỏ rơi/mồ côi",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trẻ mồ côi có được hưởng miễn giảm học phí hay không?",
+    "evidence": "trẻ bị bỏ rơi/mồ côi",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người khuyết tật có được miễn giảm học phí không?",
+    "evidence": "người khuyết tật",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Điều kiện gì để các hộ dân tộc thiểu số được miễn giảm học phí?",
+    "evidence": "hộ nghèo/cận nghèo",
+    "intent": "requirement"
+  },
+  {
+    "q": "Hộ dân tộc thiểu số thuộc diện nghèo có được giảm học phí không?",
+    "evidence": "hộ nghèo/cận nghèo",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Hộ dân tộc thiểu số cận nghèo có được miễn giảm học phí không?",
+    "evidence": "hộ nghèo/cận nghèo",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Dân tộc có số dân rất ít muốn được miễn giảm học phí thì cần sống ở đâu?",
+    "evidence": "vùng khó khăn",
+    "intent": "requirement",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Những dân tộc có số dân rất ít có được nhắc đến trong chính sách này không?",
+    "evidence": "dân tộc rất ít người",
+    "intent": "check"
+  },
+  {
+    "q": "Làm thế nào để xin miễn giảm học phí cho con em mình?",
+    "evidence": "Có hướng dẫn thủ tục",
+    "intent": "howto",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có bắt buộc phải có hồ sơ khi làm thủ tục miễn giảm học phí không?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "requirement",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Tổng cộng có mấy mức miễn giảm học phí?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có phải mức miễn giảm học phí 100% chỉ áp dụng cho người có công không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Mức miễn giảm học phí 70% có áp dụng cho trẻ bị bỏ rơi không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Mức miễn giảm học phí 50% có áp dụng cho người khuyết tật không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có phải mức miễn giảm học phí 50% chỉ áp dụng cho dân tộc rất ít người ở vùng khó khăn không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có văn bản hướng dẫn nào về thủ tục miễn giảm học phí không?",
+    "evidence": "Có hướng dẫn thủ tục",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Khi nộp đơn xin miễn giảm học phí, có cần chuẩn bị hồ sơ không?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người có công có được miễn giảm học phí 70% không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trẻ bị bỏ rơi có được miễn giảm học phí 50% không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người khuyết tật có được miễn giảm học phí 100% không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc thiểu số thuộc hộ cận nghèo có được giảm học phí 70% không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc rất ít người ở vùng khó khăn có được giảm học phí 100% không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có phải mức giảm học phí 50% chỉ áp dụng cho dân tộc rất ít người ở vùng khó khăn không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Chính sách miễn giảm học phí có những mức giảm nào?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có mức giảm 100% học phí hay không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Mức giảm 70% học phí có được áp dụng không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trong chính sách này có mức giảm 50% học phí không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có văn bản nào hướng dẫn quy trình miễn giảm học phí không?",
+    "evidence": "Có hướng dẫn thủ tục",
+    "intent": "procedure",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Khi nộp đơn xin miễn giảm học phí, có cần chuẩn bị hồ sơ không?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "requirement",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người có công có được miễn giảm học phí không?",
+    "evidence": "người có công",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trẻ em bị bỏ rơi có nằm trong đối tượng được miễn giảm học phí không?",
+    "evidence": "trẻ bị bỏ rơi/mồ côi",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trẻ mồ côi có được hưởng miễn giảm học phí hay không?",
+    "evidence": "trẻ bị bỏ rơi/mồ côi",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người khuyết tật có được miễn giảm học phí không?",
+    "evidence": "người khuyết tật",
+    "intent": "eligibility",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Điều kiện gì để các hộ dân tộc thiểu số được miễn giảm học phí?",
+    "evidence": "hộ nghèo/cận nghèo",
+    "intent": "requirement"
+  },
+  {
+    "q": "Hộ dân tộc thiểu số thuộc diện nghèo có được giảm học phí không?",
+    "evidence": "hộ nghèo/cận nghèo",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Hộ dân tộc thiểu số cận nghèo có được miễn giảm học phí không?",
+    "evidence": "hộ nghèo/cận nghèo",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Dân tộc có số dân rất ít muốn được miễn giảm học phí thì cần sống ở đâu?",
+    "evidence": "vùng khó khăn",
+    "intent": "requirement",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Những dân tộc có số dân rất ít có được nhắc đến trong chính sách này không?",
+    "evidence": "dân tộc rất ít người",
+    "intent": "check"
+  },
+  {
+    "q": "Làm thế nào để xin miễn giảm học phí cho con em mình?",
+    "evidence": "Có hướng dẫn thủ tục",
+    "intent": "howto",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có bắt buộc phải có hồ sơ khi làm thủ tục miễn giảm học phí không?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "requirement",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Tổng cộng có mấy mức miễn giảm học phí?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "what",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có phải mức miễn giảm học phí 100% chỉ áp dụng cho người có công không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Mức miễn giảm học phí 70% có áp dụng cho trẻ bị bỏ rơi không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Mức miễn giảm học phí 50% có áp dụng cho người khuyết tật không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có phải mức miễn giảm học phí 50% chỉ áp dụng cho dân tộc rất ít người ở vùng khó khăn không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Có văn bản hướng dẫn nào về thủ tục miễn giảm học phí không?",
+    "evidence": "Có hướng dẫn thủ tục",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Khi nộp đơn xin miễn giảm học phí, có cần chuẩn bị hồ sơ không?",
+    "evidence": "kèm hồ sơ cần thiết",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người có công có được miễn giảm học phí 70% không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Trẻ bị bỏ rơi có được miễn giảm học phí 50% không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Người khuyết tật có được miễn giảm học phí 100% không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Dân tộc thiểu số thuộc hộ cận nghèo có được giảm học phí 70% không?",
+    "evidence": "(100%, 70%, 50%)",
+    "intent": "check",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "q": "Sinh viên khóa nào trở đi được trường ĐH Mỏ-Địa chất hướng dẫn tạm hoãn NVQS?",
+    "evidence": "sinh viên chính quy (từ K64, thời gian đào tạo 4,5 năm)",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Muốn được xác nhận tạm hoãn NVQS, sinh viên cần đáp ứng những điều kiện gì?",
+    "evidence": "đang học các học phần (không phải đồ án/thực tập), có thời khóa biểu và đóng học phí đầy đủ",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Sinh viên đủ điều kiện sẽ được trường xử lý thế nào?",
+    "evidence": "sẽ được xác nhận bình thường",
+    "intent": "procedure",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Trường ĐH Mỏ-Địa chất đưa ra hướng dẫn gì liên quan đến nghĩa vụ quân sự?",
+    "evidence": "Trường ĐH Mỏ-Địa chất hướng dẫn tạm hoãn NVQS cho sinh viên chính quy",
+    "intent": "what",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Làm sao để kiểm tra xem mình có được tạm hoãn NVQS theo quy định này không?",
+    "evidence": "Sinh viên đang học các học phần (không phải đồ án/thực tập), có thời khóa biểu và đóng học phí đầy đủ",
+    "intent": "check",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Thời gian đào tạo của sinh viên chính quy từ K64 là bao lâu?",
+    "evidence": "từ K64, thời gian đào tạo 4,5 năm",
+    "intent": "time",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Cụm từ 'xác nhận bình thường' trong hướng dẫn này có nghĩa là gì?",
+    "evidence": "sẽ được xác nhận bình thường",
+    "intent": "definition",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Sinh viên đang làm đồ án tốt nghiệp có thuộc diện được tạm hoãn NVQS không?",
+    "evidence": "không phải đồ án/thực tập",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Yêu cầu cụ thể về loại học phần để được xác nhận tạm hoãn là gì?",
+    "evidence": "đang học các học phần (không phải đồ án/thực tập)",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Nếu đang học học phần, cần làm gì để trường xác nhận tạm hoãn NVQS?",
+    "evidence": "có thời khóa biểu và đóng học phí đầy đủ",
+    "intent": "howto",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Trường đại học nào áp dụng hướng dẫn tạm hoãn NVQS cho sinh viên từ khóa 64?",
+    "evidence": "Trường ĐH Mỏ-Địa chất hướng dẫn tạm hoãn NVQS",
+    "intent": "where",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Sinh viên có thời khóa biểu nhưng chưa đóng học phí thì có được xác nhận không?",
+    "evidence": "đóng học phí đầy đủ sẽ được xác nhận",
+    "intent": "check",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Từ khóa nào trở lên mới được áp dụng hướng dẫn tạm hoãn NVQS này?",
+    "evidence": "từ K64",
+    "intent": "time",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Kết quả đầu ra dành cho sinh viên đáp ứng đủ điều kiện là gì?",
+    "evidence": "sẽ được xác nhận bình thường",
+    "intent": "procedure",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Thuật ngữ 'học phần' trong văn bản này bao gồm những gì?",
+    "evidence": "học phần (không phải đồ án/thực tập)",
+    "intent": "definition",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Sinh viên khóa 64 theo hệ chính quy có thời gian đào tạo mấy năm rưỡi?",
+    "evidence": "thời gian đào tạo 4,5 năm",
+    "intent": "time",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Có bắt buộc phải có thời khóa biểu mới được xác nhận tạm hoãn NVQS không?",
+    "evidence": "có thời khóa biểu và đóng học phí đầy đủ",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Ngoài việc đang học học phần, sinh viên cần đáp ứng điều kiện gì về tài chính?",
+    "evidence": "đóng học phí đầy đủ",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Sinh viên đang thực tập hoặc làm đồ án có được tạm hoãn NVQS không?",
+    "evidence": "không phải đồ án/thực tập",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Nếu sinh viên không đáp ứng đủ điều kiện, sẽ xảy ra điều gì?",
+    "evidence": "sẽ không được xác nhận",
+    "intent": "consequence"
+  },
+  {
+    "q": "Hướng dẫn tạm hoãn NVQS này áp dụng cho sinh viên nào?",
+    "evidence": "sinh viên chính quy (từ K64, thời gian đào tạo 4,5 năm)",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Có phải tất cả sinh viên chính quy đều được tạm hoãn NVQS không?",
+    "evidence": "sinh viên chính quy (từ K64, thời gian đào tạo 4,5 năm)",
+    "intent": "check",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Sinh viên đang học các học phần nào sẽ được xác nhận tạm hoãn NVQS?",
+    "evidence": "đang học các học phần (không phải đồ án/thực tập)",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Có phải sinh viên đang làm đồ án tốt nghiệp cũng được tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "không phải đồ án/thực tập",
+    "intent": "check",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Điều kiện về thời khóa biểu để được xác nhận tạm hoãn nghĩa vụ quân sự là gì?",
+    "evidence": "có thời khóa biểu",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Điều kiện về học phí để được xác nhận tạm hoãn nghĩa vụ quân sự là gì?",
+    "evidence": "đóng học phí đầy đủ",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Nếu sinh viên đáp ứng đủ điều kiện nhưng không có thời khóa biểu thì có được xác nhận không?",
+    "evidence": "có thời khóa biểu và đóng học phí đầy đủ",
+    "intent": "check",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Nếu sinh viên đáp ứng đủ điều kiện nhưng chưa đóng học phí thì có được xác nhận không?",
+    "evidence": "có thời khóa biểu và đóng học phí đầy đủ",
+    "intent": "check",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Trường ĐH Mỏ-Địa chất có hướng dẫn tạm hoãn NVQS cho sinh viên khóa nào trở đi?",
+    "evidence": "sinh viên chính quy (từ K64, thời gian đào tạo 4,5 năm)",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Sinh viên đang học học phần nào sẽ được xác nhận tạm hoãn NVQS?",
+    "evidence": "đang học các học phần (không phải đồ án/thực tập)",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Có phải sinh viên đang thực tập hoặc làm đồ án tốt nghiệp cũng được tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "không phải đồ án/thực tập",
+    "intent": "check",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Điều kiện về thời khóa biểu để được xác nhận tạm hoãn nghĩa vụ quân sự là gì?",
+    "evidence": "có thời khóa biểu",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Điều kiện về học phí để được xác nhận tạm hoãn nghĩa vụ quân sự là gì?",
+    "evidence": "đóng học phí đầy đủ",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Nếu sinh viên đáp ứng đủ điều kiện nhưng không có thời khóa biểu thì có được xác nhận không?",
+    "evidence": "có thời khóa biểu và đóng học phí đầy đủ",
+    "intent": "check",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Nếu sinh viên đáp ứng đủ điều kiện nhưng chưa đóng học phí thì có được xác nhận không?",
+    "evidence": "có thời khóa biểu và đóng học phí đầy đủ",
+    "intent": "check",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "q": "Những sinh viên nào được xin tạm hoãn nghĩa vụ quân sự?",
+    "evidence": "sinh viên học kỳ cuối đang thực tập hoặc làm đồ án",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Để xin hoãn nghĩa vụ quân sự, sinh viên học kỳ cuối cần có gì?",
+    "evidence": "muốn xin tạm hoãn nghĩa vụ quân sự , cần có quyết định",
+    "intent": "requirement"
+  },
+  {
+    "q": "Nếu sinh viên hoàn thành thực tập trước 31/12 thì sẽ ra sao?",
+    "evidence": "nếu hoàn thành trước 31/12 thì chỉ được xác nhận dự kiến",
+    "intent": "time",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Sinh viên làm đồ án xong trước 31/12 nhận được loại giấy tờ gì?",
+    "evidence": "chỉ được xác nhận dự kiến",
+    "intent": "what",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Có phải sinh viên đang thực tập ở học kỳ cuối được tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "sinh viên học kỳ cuối đang thực tập hoặc làm đồ án muốn xin tạm hoãn nghĩa vụ quân sự",
+    "intent": "check",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Điều kiện bắt buộc để sinh viên làm đồ án xin tạm hoãn NVQS là gì?",
+    "evidence": "cần có quyết định ; nếu hoàn thành trước 31/12",
+    "intent": "requirement"
+  },
+  {
+    "q": "Ai có thể nộp đơn xin tạm hoãn nghĩa vụ quân sự theo quy định này?",
+    "evidence": "sinh viên học kỳ cuối đang thực tập hoặc làm đồ án",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Hoàn thành trước thời điểm nào thì sinh viên chỉ nhận xác nhận dự kiến?",
+    "evidence": "trước 31/12",
+    "intent": "time",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Sinh viên học kỳ cuối hoàn thành đồ án trước 31/12 được cấp loại xác nhận gì?",
+    "evidence": "nếu hoàn thành trước 31/12 thì chỉ được xác nhận dự kiến",
+    "intent": "what",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Có bắt buộc phải có quyết định khi sinh viên thực tập muốn tạm hoãn NVQS không?",
+    "evidence": "muốn xin tạm hoãn nghĩa vụ quân sự , cần có quyết định",
+    "intent": "check"
+  },
+  {
+    "q": "Làm thế nào để sinh viên năm cuối đang thực tập xin tạm hoãn nghĩa vụ quân sự?",
+    "evidence": "muốn xin tạm hoãn nghĩa vụ quân sự , cần có quyết định",
+    "intent": "howto"
+  },
+  {
+    "q": "Theo quy định, sinh viên làm đồ án ở học kỳ cuối cần xuất trình gì khi xin tạm hoãn?",
+    "evidence": "cần có quyết định",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Sinh viên đang làm đồ án ở kỳ cuối có thuộc diện được xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "sinh viên học kỳ cuối đang thực tập hoặc làm đồ án",
+    "intent": "check",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Trong trường hợp nào sinh viên chỉ được xác nhận dự kiến cho việc tạm hoãn?",
+    "evidence": "nếu hoàn thành trước 31/12 thì chỉ được xác nhận dự kiến",
+    "intent": "condition",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Liệu sinh viên hoàn thành trước 31/12 có được cấp xác nhận chính thức không?",
+    "evidence": "chỉ được xác nhận dự kiến",
+    "intent": "check",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Khi xin tạm hoãn, sinh viên học kỳ cuối cần phải có loại giấy tờ gì?",
+    "evidence": "cần có quyết định",
+    "intent": "what",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Có phải chỉ sinh viên thực tập mới được tạm hoãn, còn sinh viên làm đồ án thì không?",
+    "evidence": "sinh viên học kỳ cuối đang thực tập hoặc làm đồ án",
+    "intent": "check",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Thời hạn nào để được xác nhận dự kiến thay vì xác nhận bình thường?",
+    "evidence": "trước 31/12",
+    "intent": "time",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Sinh viên làm đồ án ở học kỳ cuối có cần phải có quyết định để xin tạm hoãn NVQS không?",
+    "evidence": "cần có quyết định",
+    "intent": "check",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Sinh viên năm cuối đang thực tập có được tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "sinh viên học kỳ cuối đang thực tập hoặc làm đồ án muốn xin tạm hoãn nghĩa vụ quân sự",
+    "intent": "check",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Điều kiện nào bắt buộc để sinh viên năm cuối làm đồ án được xin tạm hoãn NVQS?",
+    "evidence": "cần có quyết định ; nếu hoàn thành trước 31/12",
+    "intent": "requirement"
+  },
+  {
+    "q": "Ai có thể nộp đơn xin tạm hoãn nghĩa vụ quân sự theo quy định này?",
+    "evidence": "sinh viên học kỳ cuối đang thực tập hoặc làm đồ án",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Hoàn thành trước thời điểm nào thì sinh viên chỉ nhận xác nhận dự kiến?",
+    "evidence": "trước 31/12",
+    "intent": "time",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Sinh viên học kỳ cuối hoàn thành đồ án trước 31/12 được cấp loại xác nhận gì?",
+    "evidence": "nếu hoàn thành trước 31/12 thì chỉ được xác nhận dự kiến",
+    "intent": "what",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Có bắt buộc phải có quyết định khi sinh viên thực tập muốn tạm hoãn NVQS không?",
+    "evidence": "muốn xin tạm hoãn nghĩa vụ quân sự , cần có quyết định",
+    "intent": "check"
+  },
+  {
+    "q": "Làm thế nào để sinh viên năm cuối đang thực tập xin tạm hoãn nghĩa vụ quân sự?",
+    "evidence": "muốn xin tạm hoãn nghĩa vụ quân sự , cần có quyết định",
+    "intent": "howto"
+  },
+  {
+    "q": "Theo quy định, sinh viên làm đồ án ở học kỳ cuối cần xuất trình gì khi xin tạm hoãn?",
+    "evidence": "cần có quyết định",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Sinh viên đang làm đồ án ở kỳ cuối có thuộc diện được xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "sinh viên học kỳ cuối đang thực tập hoặc làm đồ án",
+    "intent": "check",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Trong trường hợp nào sinh viên chỉ được xác nhận dự kiến cho việc tạm hoãn?",
+    "evidence": "nếu hoàn thành trước 31/12 thì chỉ được xác nhận dự kiến",
+    "intent": "condition",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "q": "Sinh viên có quyết định thực tập từ 14/7 trở về trước sẽ không được tạm hoãn nghĩa vụ quân sự đúng không?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "check"
+  },
+  {
+    "q": "Sinh viên nào bị từ chối xác nhận vì không đăng ký học phần?",
+    "evidence": "Sinh viên tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "eligibility",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Nếu tôi có quyết định đồ án ngày 25/9, tôi có đủ căn cứ xin tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "check",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Hành vi tự ý bỏ qua đăng ký học phần dẫn đến hậu quả gì?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "what",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Thời điểm nào sinh viên có nguy cơ bị gọi nhập ngũ nếu không được tạm hoãn?",
+    "evidence": "có thể bị gọi nhập ngũ tháng 2 năm sau",
+    "intent": "time",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Điều kiện nào khiến sinh viên không thể xin tạm hoãn nghĩa vụ quân sự?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước hoặc quyết định đồ án từ 30/9 trở về trước",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Sinh viên có quyết định thực tập sau ngày 14/7 có được xét tạm hoãn không?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Làm sao để biết mình có bị từ chối xác nhận hay không?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "howto",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Nếu quyết định đồ án của tôi là 30/9, liệu tôi có thể bị gọi nhập ngũ tháng 2 không?",
+    "evidence": "quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn nghĩa vụ quân sự, có thể bị gọi nhập ngũ",
+    "intent": "check",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Sinh viên tự ý không đăng ký học phần sẽ bị xử lý thế nào?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "what",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Mốc thời gian nào cho quyết định thực tập làm mất cơ hội xin tạm hoãn?",
+    "evidence": "quyết định thực tập từ 14/7 trở về trước",
+    "intent": "time",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Ai là đối tượng có thể bị gọi nhập ngũ tháng 2 năm sau?",
+    "evidence": "sinh viên có quyết định thực tập từ 14/7 trở về trước hoặc quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn, có thể bị gọi nhập ngũ",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Nếu tôi không đăng ký học phần mà không có lý do chính đáng, hậu quả là gì?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "what",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Sinh viên có quyết định đồ án trước 30/9 có được tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "check",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Căn cứ để xin tạm hoãn nghĩa vụ quân sự bị coi là không đủ khi nào?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước hoặc quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Sinh viên có quyết định thực tập ngày 14/7 có bị ảnh hưởng đến việc tạm hoãn không?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "check"
+  },
+  {
+    "q": "Việc không đăng ký học phần dẫn đến bị từ chối xác nhận đúng không?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "check",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Tháng mấy năm sau sinh viên có thể phải nhập ngũ nếu rơi vào trường hợp không được tạm hoãn?",
+    "evidence": "có thể bị gọi nhập ngũ tháng 2 năm sau",
+    "intent": "time",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Điều kiện nào khiến sinh viên không thể xin tạm hoãn nghĩa vụ quân sự?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước hoặc quyết định đồ án từ 30/9 trở về trước",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Sinh viên có quyết định thực tập sau ngày 14/7 có được xét tạm hoãn không?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Làm sao để biết mình có bị từ chối xác nhận hay không?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "howto",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Nếu quyết định đồ án của tôi là 30/9, liệu tôi có thể bị gọi nhập ngũ tháng 2 không?",
+    "evidence": "quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn nghĩa vụ quân sự, có thể bị gọi nhập ngũ",
+    "intent": "check",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Sinh viên tự ý không đăng ký học phần sẽ bị xử lý thế nào?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "what",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Mốc thời gian nào cho quyết định thực tập làm mất cơ hội xin tạm hoãn?",
+    "evidence": "quyết định thực tập từ 14/7 trở về trước",
+    "intent": "time",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Ai là đối tượng có thể bị gọi nhập ngũ tháng 2 năm sau?",
+    "evidence": "sinh viên có quyết định thực tập từ 14/7 trở về trước hoặc quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn, có thể bị gọi nhập ngũ",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Nếu tôi không đăng ký học phần mà không có lý do chính đáng, hậu quả là gì?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "what",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Sinh viên có quyết định đồ án trước 30/9 có được tạm hoãn nghĩa vụ quân sự không?",
+    "evidence": "quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "check",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Căn cứ để xin tạm hoãn nghĩa vụ quân sự bị coi là không đủ khi nào?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước hoặc quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Sinh viên có quyết định thực tập ngày 14/7 có bị ảnh hưởng đến việc tạm hoãn không?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "check"
+  },
+  {
+    "q": "Việc không đăng ký học phần dẫn đến bị từ chối xác nhận đúng không?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "check",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Tháng mấy năm sau sinh viên có thể phải nhập ngũ nếu rơi vào trường hợp không được tạm hoãn?",
+    "evidence": "có thể bị gọi nhập ngũ tháng 2 năm sau",
+    "intent": "time",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Điều kiện nào khiến sinh viên không thể xin tạm hoãn nghĩa vụ quân sự?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước hoặc quyết định đồ án từ 30/9 trở về trước",
+    "intent": "requirement",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Sinh viên có quyết định thực tập sau ngày 14/7 có được xét tạm hoãn không?",
+    "evidence": "có quyết định thực tập từ 14/7 trở về trước sẽ không đủ căn cứ xin tạm hoãn",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Làm sao để biết mình có bị từ chối xác nhận hay không?",
+    "evidence": "tự ý không đăng ký học phần sẽ bị từ chối xác nhận",
+    "intent": "howto",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "q": "Nghị định 84/2020/NĐ-CP quy định về vấn đề gì?",
+    "evidence": "Nghị định 84/2020/NĐ-CP quy định học bổng khuyến khích học tập",
+    "intent": "definition",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Có những nhóm đối tượng nào được nhận học bổng khuyến khích học tập?",
+    "evidence": "ba nhóm: học sinh THPT chuyên, học sinh năng khiếu nghệ thuật/thể thao,",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Học sinh THPT chuyên có được xét học bổng theo nghị định này không?",
+    "evidence": "học sinh THPT chuyên, học sinh năng khiếu",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Sinh viên đại học có nằm trong đối tượng được hưởng học bổng không?",
+    "evidence": "sinh viên đại học/cơ sở giáo dục nghề nghiệp,",
+    "intent": "eligibility",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Những điều kiện nào cần có để được nhận học bổng khuyến khích học tập?",
+    "evidence": "điều kiện về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "requirement",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Có yêu cầu về giải thưởng đối với người nhận học bổng không?",
+    "evidence": "về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Học sinh năng khiếu thể thao có thuộc diện được học bổng không?",
+    "evidence": "học sinh THPT chuyên, học sinh năng khiếu nghệ thuật/thể thao,",
+    "intent": "eligibility",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Cơ sở giáo dục nghề nghiệp có được đề cập trong nghị định không?",
+    "evidence": "sinh viên đại học/cơ sở giáo dục nghề nghiệp,",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Học lực có là một trong những điều kiện xét học bổng không?",
+    "evidence": "về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Làm thế nào để học sinh THPT chuyên nhận được học bổng này?",
+    "evidence": "điều kiện về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "howto",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Số hiệu của nghị định quy định học bổng khuyến khích học tập là gì?",
+    "evidence": "Nghị định 84/2020/NĐ-CP quy định học bổng khuyến",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Điều kiện về hạnh kiểm có được quy định trong nghị định không?",
+    "evidence": "về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Theo nghị định, học bổng khuyến khích học tập dành cho bao nhiêu nhóm?",
+    "evidence": "ba nhóm: học sinh THPT chuyên, học sinh",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Sinh viên trường nghề có được nhận học bổng này không?",
+    "evidence": "sinh viên đại học/cơ sở giáo dục nghề nghiệp,",
+    "intent": "eligibility",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Học sinh THPT chuyên có cần đáp ứng điều kiện gì để được học bổng?",
+    "evidence": "điều kiện về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "requirement",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Nghị định 84/2020/NĐ-CP có áp dụng cho sinh viên đại học không?",
+    "evidence": "sinh viên đại học/cơ sở giáo dục nghề nghiệp,",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Học sinh năng khiếu nghệ thuật có cần có giải thưởng không?",
+    "evidence": "điều kiện về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Đối tượng nào được hưởng học bổng khuyến khích học tập?",
+    "evidence": "ba nhóm: học sinh THPT chuyên, học sinh năng khiếu nghệ thuật/thể thao,",
+    "intent": "eligibility",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Có phải học sinh năng khiếu nghệ thuật cũng được nhận học bổng này không?",
+    "evidence": "học sinh THPT chuyên, học sinh năng khiếu nghệ thuật/thể thao,",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Giải thưởng có phải là một trong những điều kiện để nhận học bổng không?",
+    "evidence": "về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Làm thế nào để sinh viên đại học nhận được học bổng khuyến khích học tập?",
+    "evidence": "điều kiện về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "howto",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Số hiệu của nghị định quy định học bổng khuyến khích học tập là gì?",
+    "evidence": "Nghị định 84/2020/NĐ-CP quy định học bổng khuyến khích học tập",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Điều kiện về hạnh kiểm có được quy định trong nghị định không?",
+    "evidence": "về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Theo nghị định, học bổng khuyến khích học tập dành cho bao nhiêu nhóm?",
+    "evidence": "ba nhóm: học sinh THPT chuyên, học sinh năng khiếu nghệ thuật/thể thao,",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Sinh viên trường nghề có được nhận học bổng này không?",
+    "evidence": "sinh viên đại học/cơ sở giáo dục nghề nghiệp,",
+    "intent": "eligibility",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Học sinh THPT chuyên có cần đáp ứng điều kiện gì để được học bổng?",
+    "evidence": "điều kiện về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "requirement",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Nghị định 84/2020/NĐ-CP có áp dụng cho sinh viên đại học không?",
+    "evidence": "sinh viên đại học/cơ sở giáo dục nghề nghiệp,",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Học sinh năng khiếu nghệ thuật có cần có giải thưởng không?",
+    "evidence": "điều kiện về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Đối tượng nào được hưởng học bổng khuyến khích học tập?",
+    "evidence": "ba nhóm: học sinh THPT chuyên, học sinh năng khiếu nghệ thuật/thể thao,",
+    "intent": "eligibility",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Có phải học sinh năng khiếu nghệ thuật cũng được nhận học bổng này không?",
+    "evidence": "học sinh THPT chuyên, học sinh năng khiếu nghệ thuật/thể thao,",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Giải thưởng có phải là một trong những điều kiện để nhận học bổng không?",
+    "evidence": "về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Làm thế nào để sinh viên đại học nhận được học bổng khuyến khích học tập?",
+    "evidence": "điều kiện về hạnh kiểm, học lực và giải thưởng.",
+    "intent": "howto",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "q": "Mức học bổng tối thiểu bằng bao nhiêu lần học phí?",
+    "evidence": "Mức học bổng tối thiểu bằng 3 lần học phí",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Có đúng là học bổng tối thiểu gấp ba lần học phí không?",
+    "evidence": "Mức học bổng tối thiểu bằng 3 lần học phí",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Thế nào được gọi là mức học bổng tối thiểu?",
+    "evidence": "Mức học bổng tối thiểu bằng 3 lần học phí",
+    "intent": "definition",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Khi nào hiệu trưởng xét cấp học bổng?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "time",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Mỗi năm học bổng được cấp trong bao nhiêu tháng?",
+    "evidence": "thời gian cấp từ 9 đến 10 tháng/năm",
+    "intent": "time",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Sinh viên được phân loại thành những mức nào để xét học bổng?",
+    "evidence": "sinh viên chia ba mức khá, giỏi, xuất sắc",
+    "intent": "eligibility",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Kể tên ba mức xếp loại sinh viên được đề cập.",
+    "evidence": "sinh viên chia ba mức khá, giỏi, xuất sắc",
+    "intent": "definition",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Quy trình xét cấp học bổng diễn ra thế nào?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "procedure",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Điều kiện gì để được ưu tiên xét học bổng?",
+    "evidence": "ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "requirement",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Hiệu trưởng có phải là người xét cấp học bổng không?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Làm thế nào để được ưu tiên khi xét học bổng?",
+    "evidence": "ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "howto",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Học bổng có được cấp đủ 12 tháng trong năm không?",
+    "evidence": "thời gian cấp từ 9 đến 10 tháng/năm",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Hiệu trưởng có vai trò gì trong việc cấp học bổng?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Sinh viên có được chia làm ba mức khá, giỏi, xuất sắc không?",
+    "evidence": "sinh viên chia ba mức khá, giỏi, xuất sắc",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Yếu tố nào được ưu tiên khi xét học bổng?",
+    "evidence": "ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Học bổng được xét cấp theo chu kỳ nào?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "time",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Sinh viên được chia thành mấy mức để xét học bổng?",
+    "evidence": "sinh viên chia ba mức khá, giỏi, xuất sắc",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Điểm số có được dùng làm tiêu chí ưu tiên không?",
+    "evidence": "ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Mức học bổng tối thiểu bằng bao nhiêu lần học phí?",
+    "evidence": "Mức học bổng tối thiểu bằng 3 lần học phí",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Có đúng là học bổng tối thiểu gấp ba lần học phí không?",
+    "evidence": "Mức học bổng tối thiểu bằng 3 lần học phí",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Thế nào được gọi là mức học bổng tối thiểu?",
+    "evidence": "Mức học bổng tối thiểu bằng 3 lần học phí",
+    "intent": "definition",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Khi nào hiệu trưởng xét cấp học bổng?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "time",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Mỗi năm học bổng được cấp trong bao nhiêu tháng?",
+    "evidence": "thời gian cấp từ 9 đến 10 tháng/năm",
+    "intent": "time",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Sinh viên được phân loại thành những mức nào để xét học bổng?",
+    "evidence": "sinh viên chia ba mức khá, giỏi, xuất sắc",
+    "intent": "eligibility",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Kể tên ba mức xếp loại sinh viên được đề cập.",
+    "evidence": "sinh viên chia ba mức khá, giỏi, xuất sắc",
+    "intent": "definition",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Quy trình xét cấp học bổng diễn ra thế nào?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "procedure",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Điều kiện gì để được ưu tiên xét học bổng?",
+    "evidence": "ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "requirement",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Hiệu trưởng có phải là người xét cấp học bổng không?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Làm thế nào để được ưu tiên khi xét học bổng?",
+    "evidence": "ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "howto",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Học bổng có được cấp đủ 12 tháng trong năm không?",
+    "evidence": "thời gian cấp từ 9 đến 10 tháng/năm",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Hiệu trưởng có vai trò gì trong việc cấp học bổng?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Sinh viên có được chia làm ba mức khá, giỏi, xuất sắc không?",
+    "evidence": "sinh viên chia ba mức khá, giỏi, xuất sắc",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Yếu tố nào được ưu tiên khi xét học bổng?",
+    "evidence": "ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Học bổng được xét cấp theo chu kỳ nào?",
+    "evidence": "Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "time",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Sinh viên được chia thành mấy mức để xét học bổng?",
+    "evidence": "sinh viên chia ba mức khá, giỏi, xuất sắc",
+    "intent": "what",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Điểm số có được dùng làm tiêu chí ưu tiên không?",
+    "evidence": "ưu tiên theo giải thưởng hoặc điểm số",
+    "intent": "check",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "q": "Sinh viên cần có những kỹ năng văn phòng nào?",
+    "evidence": "của một sinh viên: quản lý Gmail, Google Drive, lịch làm việc, đặt tên file, tìm kiếm Internet",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Kỹ năng nào bắt buộc phải có đối với sinh viên?",
+    "evidence": "các kỹ năng văn phòng cần phải có của một sinh viên",
+    "intent": "requirement",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Ai là đối tượng cần có các kỹ năng văn phòng này?",
+    "evidence": "các kỹ năng văn phòng cần phải có của một sinh viên",
+    "intent": "eligibility",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Thế nào là kỹ năng văn phòng cho sinh viên theo đoạn văn?",
+    "evidence": "của một sinh viên: quản lý Gmail, Google Drive, lịch làm việc, đặt tên file, tìm kiếm Internet",
+    "intent": "definition",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Sinh viên có cần biết quản lý Gmail không?",
+    "evidence": "quản lý Gmail, Google Drive, lịch làm việc",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Có phải sinh viên cần kỹ năng sử dụng Google Drive?",
+    "evidence": "Google Drive, lịch làm việc, đặt tên file",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Liệu sinh viên có cần quản lý lịch làm việc hay không?",
+    "evidence": "lịch làm việc, đặt tên file, tìm kiếm Internet",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Đặt tên file có phải là kỹ năng văn phòng sinh viên cần có?",
+    "evidence": "quản lý Gmail, Google Drive, lịch làm việc, đặt tên file",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Kỹ năng tìm kiếm Internet có nằm trong yêu cầu đối với sinh viên không?",
+    "evidence": "lịch làm việc, đặt tên file, tìm kiếm Internet",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Kỹ năng văn phòng nào giúp sinh viên lưu trữ tệp trên đám mây?",
+    "evidence": "quản lý Gmail, Google Drive, lịch làm việc",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Sinh viên cần kỹ năng gì để quản lý thời gian làm việc?",
+    "evidence": "quản lý Gmail, Google Drive, lịch làm việc",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Theo đoạn văn, những yêu cầu tối thiểu về kỹ năng văn phòng cho sinh viên là gì?",
+    "evidence": "các kỹ năng văn phòng cần phải có của một sinh viên",
+    "intent": "requirement",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Sinh viên có cần đồng thời biết quản lý Gmail và Google Drive không?",
+    "evidence": "quản lý Gmail, Google Drive, lịch làm việc",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Định nghĩa về kỹ năng văn phòng dành cho sinh viên trong tài liệu này là gì?",
+    "evidence": "của một sinh viên: quản lý Gmail, Google Drive, lịch làm việc, đặt tên file, tìm kiếm Internet",
+    "intent": "definition",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Có bao nhiêu kỹ năng văn phòng được đề cập cho sinh viên?",
+    "evidence": "quản lý Gmail, Google Drive, lịch làm việc, đặt tên file, tìm kiếm Internet",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Kỹ năng nào trong số đó liên quan đến việc đặt tên tài liệu?",
+    "evidence": "lịch làm việc, đặt tên file, tìm kiếm Internet",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Yêu cầu về kỹ năng tìm kiếm Internet đối với sinh viên là gì?",
+    "evidence": "lịch làm việc, đặt tên file, tìm kiếm Internet",
+    "intent": "requirement",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Những ai bắt buộc phải có kỹ năng quản lý Gmail?",
+    "evidence": "của một sinh viên: quản lý Gmail",
+    "intent": "eligibility",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Kỹ năng nào giúp sinh viên tổ chức công việc hàng ngày?",
+    "evidence": "quản lý Gmail, Google Drive, lịch làm việc",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Có phải kỹ năng đặt tên file là bắt buộc đối với sinh viên không?",
+    "evidence": "quản lý Gmail, Google Drive, lịch làm việc, đặt tên file",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Kỹ năng tìm kiếm Internet có phải là một trong những yêu cầu tối thiểu cho sinh viên không?",
+    "evidence": "lịch làm việc, đặt tên file, tìm kiếm Internet",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "q": "Sinh viên cần có kỹ năng soạn thảo văn bản nào đầu tiên?",
+    "evidence": "gõ tiếng Việt",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Kỹ năng thứ hai được liệt kê là gì?",
+    "evidence": "sửa lỗi font",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Tính năng Word nào xuất hiện ngay sau style?",
+    "evidence": "header/footer",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Tính năng Word cuối cùng trong danh sách là gì?",
+    "evidence": "trộn thư",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Theo đoạn văn, sinh viên có cần biết gõ tiếng Việt không?",
+    "evidence": "gõ tiếng Việt",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Có yêu cầu về kỹ năng sửa lỗi font đối với sinh viên không?",
+    "evidence": "sửa lỗi font",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Sinh viên có phải học tính năng style trong Word hay không?",
+    "evidence": "Word như style",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Liệu header/footer có nằm trong các kỹ năng cần có?",
+    "evidence": "header/footer",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Trộn thư có được nhắc đến như một kỹ năng soạn thảo không?",
+    "evidence": "trộn thư",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Ai là đối tượng cần trang bị các kỹ năng này?",
+    "evidence": "của sinh viên",
+    "intent": "eligibility",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Đoạn văn nói rằng những ai cần có kỹ năng soạn thảo văn bản?",
+    "evidence": "sinh viên",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Ngoài gõ tiếng Việt và sửa lỗi font, đoạn văn còn đề cập đến nhóm kỹ năng nào?",
+    "evidence": "các tính năng Word",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Có phải cả style và header/footer đều là các tính năng Word được liệt kê?",
+    "evidence": "style, header/footer",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Hai tính năng Word đầu tiên trong danh sách là gì?",
+    "evidence": "style, header",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Kỹ năng soạn thảo văn bản chỉ bao gồm gõ tiếng Việt và sửa lỗi font, đúng không?",
+    "evidence": "và các tính năng",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Theo đoạn trích, đối tượng nào phải có kỹ năng soạn thảo văn bản?",
+    "evidence": "sinh viên",
+    "intent": "eligibility"
+  },
+  {
+    "q": "Tính năng Word nào được liệt kê sau header/footer?",
+    "evidence": "trộn thư",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Đoạn văn có yêu cầu sinh viên biết sử dụng các tính năng Word như style không?",
+    "evidence": "Word như style",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Có phải trộn thư là một trong những kỹ năng soạn thảo văn bản cần thiết cho sinh viên không?",
+    "evidence": "trộn thư",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "q": "Kỹ năng soạn thảo văn bản nào được đề cập trong đoạn văn?",
+    "evidence": "gõ tiếng Việt, sửa lỗi font và các tính năng Word như style, header/footer, trộn thư",
+    "intent": "what"
+  },
+  {
+    "q": "Excel có bao gồm hàm thống kê không?",
+    "evidence": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Excel có hỗ trợ hàm logic không?",
+    "evidence": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Trong Excel, có hàm xử lý chuỗi không?",
+    "evidence": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Excel có cung cấp hàm ngày tháng không?",
+    "evidence": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Liệu Excel có hàm VLOOKUP không?",
+    "evidence": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Excel có tính năng PivotTable không?",
+    "evidence": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Macro có phải là kỹ năng của Excel không?",
+    "evidence": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Kỹ năng PowerPoint có bao gồm thiết kế slide không?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Slide master có nằm trong PowerPoint không?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "PowerPoint có hỗ trợ hiệu ứng không?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Tính năng chia sẻ có trong PowerPoint không?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "PowerPoint có cho phép điều chỉnh trình chiếu không?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Xuất video có phải là kỹ năng của PowerPoint không?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "check",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Excel có những loại hàm nào?",
+    "evidence": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Kỹ năng Excel bao gồm các công cụ gì ngoài hàm?",
+    "evidence": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Kỹ năng PowerPoint nào cho phép xuất video?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "PowerPoint gồm những kỹ năng gì về thiết kế và trình chiếu?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Những tính năng nào liên quan đến trình chiếu trong PowerPoint?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Kỹ năng PowerPoint nào giúp người dùng chia sẻ bài thuyết trình?",
+    "evidence": "kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video",
+    "intent": "what",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "q": "Sinh viên cần hủy loại môn gì trước bảo vệ đồ án?",
+    "evidence": "lưu ý cho sinh viên trước bảo vệ đồ án: hủy môn tự chọn thừa",
+    "intent": "what",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Làm thế nào để xử lý môn tự chọn học dư trước khi bảo vệ?",
+    "evidence": "hủy môn tự chọn thừa, nộp kê khai thông tin",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Có bắt buộc phải hủy môn tự chọn thừa không?",
+    "evidence": "lưu ý cho sinh viên trước bảo vệ đồ án: hủy môn tự chọn thừa",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Sinh viên phải nộp những gì cùng với lệ phí?",
+    "evidence": "nộp kê khai thông tin và lệ phí",
+    "intent": "what",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Việc kê khai thông tin có đi kèm với lệ phí không?",
+    "evidence": "nộp kê khai thông tin và lệ phí",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Trước bảo vệ, sinh viên cần kiểm tra điều gì liên quan đến học phần?",
+    "evidence": "lệ phí, kiểm tra đăng ký học phần TTTN/DATN",
+    "intent": "what",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Làm sao để biết mình đã đăng ký đúng học phần TTTN/DATN?",
+    "evidence": "lệ phí, kiểm tra đăng ký học phần TTTN/DATN",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Có cần kiểm tra đăng ký TTTN/DATN trước khi bảo vệ không?",
+    "evidence": "lệ phí, kiểm tra đăng ký học phần TTTN/DATN",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Giấy tờ nào cần được hoàn thiện để thanh toán ra trường?",
+    "evidence": "học phần TTTN/DATN, hoàn thiện giấy thanh toán ra trường",
+    "intent": "what",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Hoàn thiện giấy thanh toán ra trường có phải là một bước không?",
+    "evidence": "học phần TTTN/DATN, hoàn thiện giấy thanh toán ra trường",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Sinh viên tốt nghiệp sớm cần xin quyết định gì?",
+    "evidence": "sinh viên tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án",
+    "intent": "what",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Ai phải xin quyết định thực hiện đồ án tại phòng đào tạo?",
+    "evidence": "sinh viên tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án tại phòng đào tạo",
+    "intent": "eligibility",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Phòng nào xử lý quyết định thực hiện đồ án cho sinh viên tốt nghiệp sớm/muộn?",
+    "evidence": "thực hiện đồ án tại phòng đào tạo",
+    "intent": "where",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Thời điểm nào sinh viên phải nộp kê khai thông tin và lệ phí?",
+    "evidence": "lưu ý cho sinh viên trước bảo vệ đồ án: nộp kê khai thông tin và lệ phí",
+    "intent": "time"
+  },
+  {
+    "q": "Khi nào cần hủy môn tự chọn thừa?",
+    "evidence": "lưu ý cho sinh viên trước bảo vệ đồ án: hủy môn tự chọn thừa",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Điều kiện để được thực hiện đồ án đối với sinh viên học chậm là gì?",
+    "evidence": "sinh viên tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án",
+    "intent": "requirement",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Các bước chuẩn bị trước bảo vệ đồ án bao gồm những gì?",
+    "evidence": "hủy môn tự chọn thừa, nộp kê khai thông tin và lệ phí, kiểm tra đăng ký học phần TTTN/DATN",
+    "intent": "procedure",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Sinh viên tốt nghiệp muộn phải làm thủ tục gì tại phòng đào tạo?",
+    "evidence": "xin quyết định thực hiện đồ án tại phòng đào tạo",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Có phải sinh viên tốt nghiệp sớm cũng phải xin quyết định thực hiện đồ án không?",
+    "evidence": "sinh viên tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Sinh viên cần làm gì nếu có môn tự chọn thừa trước bảo vệ?",
+    "evidence": "hủy môn tự chọn thừa",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Khi nào sinh viên phải nộp lệ phí liên quan đến bảo vệ đồ án?",
+    "evidence": "nộp kê khai thông tin và lệ phí",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Có cần thiết phải kiểm tra đăng ký học phần TTTN/DATN trước khi bảo vệ không?",
+    "evidence": "kiểm tra đăng ký học phần TTTN/DATN",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Sinh viên tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án ở đâu?",
+    "evidence": "phòng đào tạo",
+    "intent": "where",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Điều kiện để sinh viên tốt nghiệp sớm/muộn được thực hiện đồ án là gì?",
+    "evidence": "phải xin quyết định thực hiện đồ án",
+    "intent": "requirement",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Các bước cần thực hiện trước bảo vệ đồ án là gì?",
+    "evidence": "hủy môn tự chọn thừa, nộp kê khai thông tin và lệ phí, kiểm tra đăng ký học phần TTTN/DATN",
+    "intent": "procedure",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Sinh viên có cần phải hủy môn tự chọn thừa trước bảo vệ không?",
+    "evidence": "hủy môn tự chọn thừa",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Sinh viên tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án ở đâu?",
+    "evidence": "phòng đào tạo",
+    "intent": "where",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Có phải sinh viên tốt nghiệp sớm cũng phải xin quyết định thực hiện đồ án không?",
+    "evidence": "sinh viên tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "q": "Sau khi bảo vệ, bao lâu thì sinh viên có thể kiểm tra điểm?",
+    "evidence": "kiểm tra điểm sau 7–10 ngày",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Khi nào sinh viên được lấy bảng điểm và giấy chứng nhận?",
+    "evidence": "lấy bảng điểm và giấy chứng nhận sau 2 tuần",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên cần kiểm tra thông tin gì khi nhận bảng điểm?",
+    "evidence": "(kiểm tra thông tin cá nhân)",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Trường hợp nào sinh viên phải nộp đơn hoãn xét tốt nghiệp?",
+    "evidence": "nếu học cải thiện điểm/xếp loại bằng thì nộp đơn hoãn xét tốt nghiệp",
+    "intent": "eligibility",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Làm thế nào để xử lý khi vẫn còn học môn tự chọn?",
+    "evidence": "nếu còn học tự chọn thì hủy môn thừa",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Thời hạn hoàn thành chuẩn đầu ra môn GDQP và GDTC là bao nhiêu năm?",
+    "evidence": "GDQP/GDTC 5 năm",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên cần hoàn thành chuẩn đầu ra ngoại ngữ và tin học trong vòng mấy năm?",
+    "evidence": "ngoại ngữ và tin học 3 năm",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Những sinh viên nào bắt buộc phải nộp đơn hoãn xét tốt nghiệp?",
+    "evidence": "nếu học cải thiện điểm/xếp loại bằng thì nộp đơn hoãn xét tốt nghiệp",
+    "intent": "eligibility",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên có cần kiểm tra điểm sau bảo vệ không?",
+    "evidence": "kiểm tra điểm sau 7–10 ngày",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Các bước sinh viên cần thực hiện sau khi bảo vệ là gì?",
+    "evidence": "kiểm tra điểm sau 7–10 ngày, lấy bảng điểm và giấy chứng nhận sau 2 tuần",
+    "intent": "procedure",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Nếu sinh viên học cải thiện xếp loại bằng, điều cần làm tiếp theo là gì?",
+    "evidence": "nếu học cải thiện điểm/xếp loại bằng thì nộp đơn hoãn xét tốt nghiệp",
+    "intent": "procedure",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên phải hủy môn thừa khi nào?",
+    "evidence": "nếu còn học tự chọn thì hủy môn thừa",
+    "intent": "requirement",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sau bảo vệ, sinh viên có thể kiểm tra điểm sớm nhất sau bao nhiêu ngày?",
+    "evidence": "kiểm tra điểm sau 7–10 ngày",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Việc kiểm tra thông tin cá nhân được thực hiện trong lúc nào?",
+    "evidence": "(kiểm tra thông tin cá nhân)",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Điều kiện để được hoãn xét tốt nghiệp là gì?",
+    "evidence": "nếu học cải thiện điểm/xếp loại bằng thì nộp đơn hoãn xét tốt nghiệp",
+    "intent": "requirement",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên cần làm gì với các môn tự chọn đã đăng ký thừa?",
+    "evidence": "nếu còn học tự chọn thì hủy môn thừa",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Thời gian quy định để hoàn thành chuẩn đầu ra môn GDQP/GDTC là bao lâu?",
+    "evidence": "GDQP/GDTC 5 năm",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sau khi bảo vệ, bao lâu thì sinh viên có thể lấy giấy chứng nhận?",
+    "evidence": "lấy bảng điểm và giấy chứng nhận sau 2 tuần",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên có cần nộp đơn hoãn xét tốt nghiệp nếu chỉ học cải thiện điểm không?",
+    "evidence": "nếu học cải thiện điểm/xếp loại bằng thì nộp đơn hoãn xét tốt nghiệp",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Nếu sinh viên còn đăng ký môn tự chọn thừa, họ cần làm gì?",
+    "evidence": "nếu còn học tự chọn thì hủy môn thừa",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên có bao nhiêu năm để hoàn thành chuẩn đầu ra ngoại ngữ và tin học?",
+    "evidence": "ngoại ngữ và tin học 3 năm",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Việc kiểm tra điểm sau bảo vệ thường diễn ra trong khoảng thời gian nào?",
+    "evidence": "kiểm tra điểm sau 7–10 ngày",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên cần làm gì nếu muốn hoãn xét tốt nghiệp do xếp loại bằng?",
+    "evidence": "nếu học cải thiện điểm/xếp loại bằng thì nộp đơn hoãn xét tốt nghiệp",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Thời hạn để hoàn thành chuẩn đầu ra môn GDQP/GDTC là bao nhiêu năm?",
+    "evidence": "GDQP/GDTC 5 năm",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên có thể lấy bảng điểm sau bảo vệ sau bao lâu?",
+    "evidence": "lấy bảng điểm và giấy chứng nhận sau 2 tuần",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Có phải sinh viên chỉ cần nộp đơn hoãn xét tốt nghiệp nếu xếp loại bằng không?",
+    "evidence": "nếu học cải thiện điểm/xếp loại bằng thì nộp đơn hoãn xét tốt nghiệp",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Nếu sinh viên còn đăng ký môn tự chọn thừa, họ cần làm gì trước khi bảo vệ?",
+    "evidence": "nếu còn học tự chọn thì hủy môn thừa",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên có bao nhiêu năm để hoàn thành chuẩn đầu ra môn GDQP/GDTC?",
+    "evidence": "GDQP/GDTC 5 năm",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sau khi bảo vệ, sinh viên có thể lấy giấy chứng nhận sau bao lâu?",
+    "evidence": "lấy bảng điểm và giấy chứng nhận sau 2 tuần",
+    "intent": "time",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Sinh viên có cần nộp đơn hoãn xét tốt nghiệp nếu chỉ học cải thiện điểm không?",
+    "evidence": "nếu học cải thiện điểm/xếp loại bằng thì nộp đơn hoãn xét tốt nghiệp",
+    "intent": "check",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "q": "Nếu sinh viên còn đăng ký môn tự chọn thừa, họ cần làm gì trước khi bảo vệ?",
+    "evidence": "nếu còn học tự chọn thì hủy môn thừa",
+    "intent": "howto",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  }
+]

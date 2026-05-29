@@ -48,6 +48,46 @@ def dedupe_list(items: list, key: str, prefer: str = "first") -> list:
     return [seen[k] for k in order]
 
 
+def _extract_qid_number(qid: str) -> int:
+    if not isinstance(qid, str):
+        return -1
+    if not qid.startswith("q_"):
+        return -1
+    tail = qid[2:]
+    if not tail.isdigit():
+        return -1
+    return int(tail)
+
+
+def ensure_unique_qid(items: list, key: str = "qid", prefix: str = "q_") -> list:
+    seen = set()
+    max_id = -1
+    for item in items:
+        if isinstance(item, dict) and key in item:
+            qid = item[key]
+            seen.add(qid)
+            n = _extract_qid_number(qid)
+            if n > max_id:
+                max_id = n
+
+    next_id = max_id + 1
+    for item in items:
+        if not isinstance(item, dict) or key not in item:
+            continue
+        qid = item[key]
+        if qid in seen:
+            seen.remove(qid)
+            continue
+        while True:
+            new_qid = f"{prefix}{next_id:04d}"
+            next_id += 1
+            if new_qid not in seen:
+                item[key] = new_qid
+                seen.add(new_qid)
+                break
+    return items
+
+
 def merge_objects(a: dict, b: dict, prefer: str = "second") -> dict:
     result = dict(a)
     if prefer == "second":
@@ -68,6 +108,7 @@ def main():
     p.add_argument("--dedupe-by", default="", help="If concat arrays, dedupe by this dict key (e.g., qid)")
     p.add_argument("--prefer", choices=["first", "second"], default="second", help="When merging objects or deduping, which side to prefer")
     p.add_argument("--force-array", action="store_true", help="If types mismatch, coerce values into arrays and concat")
+    p.add_argument("--unique-qid", action="store_true", help="If concat arrays, rewrite duplicate qid values to unique new ids")
 
     args = p.parse_args()
 
@@ -82,6 +123,8 @@ def main():
         merged = a + b
         if args.dedupe_by:
             merged = dedupe_list(merged, args.dedupe_by, prefer=args.prefer)
+        if args.unique_qid:
+            merged = ensure_unique_qid(merged, key="qid")
     elif isinstance(a, dict) and isinstance(b, dict):
         merged = merge_objects(a, b, prefer=args.prefer)
     else:
@@ -91,6 +134,8 @@ def main():
             merged = A + B
             if args.dedupe_by:
                 merged = dedupe_list(merged, args.dedupe_by, prefer=args.prefer)
+            if args.unique_qid:
+                merged = ensure_unique_qid(merged, key="qid")
         else:
             raise SystemExit("Input JSON types do not match (list vs dict). Use --force-array to coerce.")
 

@@ -99,7 +99,7 @@ def make_collate(tokenizer, max_q_len, max_p_len):
 
 @torch.no_grad()
 def eval_retrieval(model, tokenizer, dl) -> float:
-    """Trả về loss trung bình (proxy)"""
+    """Trả về loss trung bình trên tập validation"""
     model.eval()
     total_loss, n_batches = 0.0, 0
 

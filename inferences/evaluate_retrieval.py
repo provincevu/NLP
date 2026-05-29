@@ -4,10 +4,10 @@ from transformers import AutoTokenizer, AutoModel
 import torch, torch.nn.functional as F
 import faiss
 
-MODEL = "dpr_ckpt_1"
+MODEL = "inferences/dpr_ckpt_1"
 PASSAGES = "data/passages.json"
 IDMAP = "data/passage_id_map.json"
-FAISS_IDX = "data/faiss_index.ivf"
+FAISS_IDX = "data/faiss_index_last.ivf"
 TEST_Q = "data/splits/test.json"
 BATCH_Q = 32
 TOPK = [1,5,10,20]
