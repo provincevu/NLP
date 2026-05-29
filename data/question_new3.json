@@ -1,0 +1,1317 @@
+[
+{
+  "qid": "q_5000",
+  "question": "Sinh viên bị buộc thôi học có được học lại học phần đó không?",
+  "positive_passage_id": "p_0047",
+  "evidence": "không thuộc diện xử lý buộc thôi học thì có thể đăng ký học lại",
+  "intent": "check"
+},
+{
+  "qid": "q_5001",
+  "question": "Điều kiện về điểm số để được học lại là gì?",
+  "positive_passage_id": "p_0047",
+  "evidence": "đã có điểm học phần đạt điểm C, D+, D",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5002",
+  "question": "Khi nào sinh viên có thể đăng ký học lại?",
+  "positive_passage_id": "p_0047",
+  "evidence": "ở một trong các học kỳ tiếp theo",
+  "intent": "time"
+},
+{
+  "qid": "q_5003",
+  "question": "Sinh viên đạt điểm C có được đăng ký học lại không?",
+  "positive_passage_id": "p_0047",
+  "evidence": "đã có điểm học phần đạt điểm C, D+, D",
+  "intent": "check"
+},
+{
+  "qid": "q_5004",
+  "question": "Sinh viên đạt điểm A có được phép học lại không?",
+  "positive_passage_id": "p_0047",
+  "evidence": "đã có điểm học phần đạt điểm C, D+, D",
+  "intent": "check"
+},
+{
+  "qid": "q_5005",
+  "question": "Sinh viên có điểm C nhưng đang bị buộc thôi học có được học lại không?",
+  "positive_passage_id": "p_0047",
+  "evidence": "không thuộc diện xử lý buộc thôi học thì có thể đăng ký",
+  "intent": "check"
+},
+{
+  "qid": "q_5006",
+  "question": "Những sinh viên nào bắt buộc phải học lại học phần bắt buộc khi bị điểm F?",
+  "positive_passage_id": "p_0048",
+  "evidence": "Sinh viên có điểm học phần bắt buộc bị điểm F và không thuộc diện xử lý buộc thôi học",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5007",
+  "question": "Điều bắt buộc phải làm sau khi sinh viên bị F môn bắt buộc nhưng không bị thôi học là gì?",
+  "positive_passage_id": "p_0048",
+  "evidence": "thì phải đăng ký học lại học phần đó ở một trong các học kỳ tiếp theo",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5008",
+  "question": "Vào thời điểm nào trong năm học, sinh viên cần đăng ký học lại môn bắt buộc bị điểm F?",
+  "positive_passage_id": "p_0048",
+  "evidence": "ở một trong các học kỳ tiếp theo",
+  "intent": "time"
+},
+{
+  "qid": "q_5009",
+  "question": "Sinh viên phải học lại môn bắt buộc bị F cho đến lúc nào?",
+  "positive_passage_id": "p_0048",
+  "evidence": "các học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "time"
+},
+{
+  "qid": "q_5010",
+  "question": "Quy trình xử lý khi sinh viên có điểm F ở học phần bắt buộc diễn ra như thế nào?",
+  "positive_passage_id": "p_0048",
+  "evidence": "đăng ký học lại học phần đó ở một trong các học kỳ tiếp theo",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5011",
+  "question": "Làm sao để biết mình có nằm trong nhóm phải học lại môn bắt buộc hay không?",
+  "positive_passage_id": "p_0048",
+  "evidence": "có điểm học phần bắt buộc bị điểm F và không thuộc diện xử lý buộc thôi học",
+  "intent": "check"
+},
+{
+  "qid": "q_5012",
+  "question": "Làm cách nào để khắc phục điểm F trong môn học bắt buộc?",
+  "positive_passage_id": "p_0048",
+  "evidence": "học lại học phần đó ở một trong các học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "howto"
+},
+{
+  "qid": "q_5013",
+  "question": "Nếu sinh viên không thuộc diện buộc thôi học nhưng bị F môn bắt buộc thì hậu quả là gì?",
+  "positive_passage_id": "p_0048",
+  "evidence": "thì phải đăng ký học lại học phần đó",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5014",
+  "question": "Sinh viên được phép học lại môn bắt buộc trong bao nhiêu học kỳ?",
+  "positive_passage_id": "p_0048",
+  "evidence": "học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "time"
+},
+{
+  "qid": "q_5015",
+  "question": "Có giới hạn số lần học lại đối với môn bắt buộc bị F không?",
+  "positive_passage_id": "p_0048",
+  "evidence": "các học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "what"
+},
+{
+  "qid": "q_5016",
+  "question": "Hành động bắt buộc sinh viên phải thực hiện khi bị F môn bắt buộc là gì?",
+  "positive_passage_id": "p_0048",
+  "evidence": "phải đăng ký học lại học phần đó",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5017",
+  "question": "Loại học phần nào bị ảnh hưởng bởi quy định học lại này?",
+  "positive_passage_id": "p_0048",
+  "evidence": "điểm học phần bắt buộc bị điểm F",
+  "intent": "what"
+},
+{
+  "qid": "q_5018",
+  "question": "Sinh viên có thể đăng ký học lại môn bắt buộc bị F vào học kỳ nào trong tương lai?",
+  "positive_passage_id": "p_0048",
+  "evidence": "ở một trong các học kỳ tiếp theo",
+  "intent": "time"
+},
+{
+  "qid": "q_5019",
+  "question": "Sinh viên cần làm gì ngay sau khi nhận được điểm F của học phần bắt buộc?",
+  "positive_passage_id": "p_0048",
+  "evidence": "đăng ký học lại học phần đó ở một trong các học kỳ tiếp theo",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5020",
+  "question": "Mục đích cuối cùng của việc học lại môn bắt buộc là gì?",
+  "positive_passage_id": "p_0048",
+  "evidence": "học phần đó ở một trong các học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "what"
+},
+{
+  "qid": "q_5021",
+  "question": "Sinh viên nào được phép học lại môn tự chọn bị điểm F?",
+  "positive_passage_id": "p_0049",
+  "evidence": "Sinh viên có học phần tự chọn bị điểm F",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5022",
+  "question": "Những lựa chọn nào dành cho sinh viên bị điểm F ở môn tự chọn?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó hoặc học đổi sang học phần tự chọn tương đương khác",
+  "intent": "what"
+},
+{
+  "qid": "q_5023",
+  "question": "Có thể học lại học phần tự chọn đã bị điểm F không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó",
+  "intent": "check"
+},
+{
+  "qid": "q_5024",
+  "question": "Có được phép đổi sang một môn tự chọn khác tương đương nếu bị F không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học đổi sang học phần tự chọn tương đương khác cùng danh mục",
+  "intent": "check"
+},
+{
+  "qid": "q_5025",
+  "question": "Làm thế nào để xử lý khi bị điểm F ở môn tự chọn?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó hoặc học đổi sang học phần tự chọn tương đương khác",
+  "intent": "howto"
+},
+{
+  "qid": "q_5026",
+  "question": "Thế nào là học phần tự chọn tương đương trong quy định này?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học phần tự chọn tương đương khác cùng danh mục",
+  "intent": "definition"
+},
+{
+  "qid": "q_5027",
+  "question": "Điều kiện để được học lại hoặc học đổi môn tự chọn là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "Sinh viên có học phần tự chọn bị điểm F",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5028",
+  "question": "Sinh viên bị điểm F môn tự chọn có bắt buộc phải học lại không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó",
+  "intent": "check"
+},
+{
+  "qid": "q_5029",
+  "question": "Có được chọn một môn tự chọn khác cùng danh mục thay vì học lại môn bị F không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học đổi sang học phần tự chọn tương đương khác cùng danh mục",
+  "intent": "check"
+},
+{
+  "qid": "q_5030",
+  "question": "Ai có quyền đăng ký học đổi môn tự chọn sau khi bị F?",
+  "positive_passage_id": "p_0049",
+  "evidence": "Sinh viên có học phần tự chọn bị điểm F",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5031",
+  "question": "Hai phương án giải quyết cho sinh viên bị F môn tự chọn là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "đăng ký học lại học phần đó hoặc học đổi sang học phần tự chọn tương đương khác",
+  "intent": "what"
+},
+{
+  "qid": "q_5032",
+  "question": "Cụm từ 'cùng danh mục' trong quy định có nghĩa là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học phần tự chọn tương đương khác cùng danh mục",
+  "intent": "definition"
+},
+{
+  "qid": "q_5033",
+  "question": "Làm cách nào để học đổi sang môn tự chọn tương đương khi bị F?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học đổi sang học phần tự chọn tương đương khác cùng danh mục",
+  "intent": "howto"
+},
+{
+  "qid": "q_5034",
+  "question": "Sự khác biệt giữa học lại và học đổi môn tự chọn bị F là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "đăng ký học lại học phần đó hoặc học đổi sang học phần tự chọn tương đương khác",
+  "intent": "definition"
+},
+{
+  "qid": "q_5035",
+  "question": "Sinh viên bị F môn tự chọn có bắt buộc phải học đổi sang môn khác không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó",
+  "intent": "check"
+},
+{
+  "qid": "q_5036",
+  "question": "Trong quy định này, 'học lại' có nghĩa là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó",
+  "intent": "definition"
+},
+{
+  "qid": "q_5037",
+  "question": "Sinh viên năm cuối bị F môn tự chọn có được áp dụng quy định này không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "Sinh viên có học phần tự chọn bị điểm F",
+  "intent": "check"
+},
+{
+  "qid": "q_5038",
+  "question": "Môn tự chọn tương đương khi học đổi có nhất thiết phải khác môn đã bị F không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học đổi sang học phần tự chọn tương đương khác",
+  "intent": "check"
+},
+{
+  "qid": "q_5039",
+  "question": "Điểm thi chính thức được xác định dựa trên cơ sở nào?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Điểm thi chính thức được lấy theo điểm cao nhất trong các lần học",
+  "intent": "what"
+},
+{
+  "qid": "q_5040",
+  "question": "Làm thế nào để tính điểm thi chính thức khi sinh viên học nhiều lần?",
+  "positive_passage_id": "p_0050",
+  "evidence": "được lấy theo điểm cao nhất trong các lần học",
+  "intent": "howto"
+},
+{
+  "qid": "q_5041",
+  "question": "Có đúng là điểm thi chính thức là điểm cao nhất đạt được qua các lần học không?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Điểm thi chính thức được lấy theo điểm cao nhất trong các lần học",
+  "intent": "check"
+},
+{
+  "qid": "q_5042",
+  "question": "Khái niệm 'điểm thi chính thức' trong quy định này là gì?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Điểm thi chính thức được lấy theo điểm cao nhất trong các lần học",
+  "intent": "definition"
+},
+{
+  "qid": "q_5043",
+  "question": "Ai được hưởng cách tính điểm theo điểm cao nhất cho điểm thi chính thức?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Điểm thi chính thức được lấy theo điểm cao nhất trong các lần học",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5044",
+  "question": "Nếu một môn học được học lại, điểm thi chính thức có thể thay đổi không?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Điểm thi chính thức được lấy theo điểm cao nhất trong các lần học",
+  "intent": "check"
+},
+{
+  "qid": "q_5045",
+  "question": "Quy trình xác định điểm thi chính thức gồm bước nào?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Điểm thi chính thức được lấy theo điểm cao nhất",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5046",
+  "question": "Điểm thi chính thức khác với điểm của từng lần học như thế nào?",
+  "positive_passage_id": "p_0050",
+  "evidence": "được lấy theo điểm cao nhất trong các lần học",
+  "intent": "what"
+},
+{
+  "qid": "q_5047",
+  "question": "Để có điểm thi chính thức cao, cần phải làm gì?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Điểm thi chính thức được lấy theo điểm cao nhất trong các lần học",
+  "intent": "howto"
+},
+{
+  "qid": "q_5048",
+  "question": "Việc đăng ký học lại được thực hiện ra sao?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Việc đăng ký học lại vẫn thực hiện theo các bước như đăng ký học phần lần đầu",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5049",
+  "question": "Làm cách nào để đăng ký học lại?",
+  "positive_passage_id": "p_0050",
+  "evidence": "thực hiện theo các bước như đăng ký học phần lần đầu",
+  "intent": "howto"
+},
+{
+  "qid": "q_5050",
+  "question": "Có phải quy trình đăng ký học lại giống hệt quy trình đăng ký lần đầu không?",
+  "positive_passage_id": "p_0050",
+  "evidence": "vẫn thực hiện theo các bước như đăng ký học phần lần đầu",
+  "intent": "check"
+},
+{
+  "qid": "q_5051",
+  "question": "Định nghĩa của 'đăng ký học lại' theo văn bản này là gì?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Việc đăng ký học lại vẫn thực hiện theo các bước như đăng ký học phần lần đầu",
+  "intent": "definition"
+},
+{
+  "qid": "q_5052",
+  "question": "Yêu cầu bắt buộc khi đăng ký học lại là gì?",
+  "positive_passage_id": "p_0050",
+  "evidence": "thực hiện theo các bước như đăng ký học phần lần đầu",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5053",
+  "question": "Ai là người phải thực hiện đăng ký học lại theo các bước giống lần đầu?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Việc đăng ký học lại vẫn thực hiện theo các bước như đăng ký học phần lần đầu",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5054",
+  "question": "Khi muốn học lại, tôi cần làm theo quy trình nào?",
+  "positive_passage_id": "p_0050",
+  "evidence": "thực hiện theo các bước như đăng ký học phần lần đầu",
+  "intent": "howto"
+},
+{
+  "qid": "q_5055",
+  "question": "Có sự khác biệt nào giữa đăng ký học lại và đăng ký học phần lần đầu không?",
+  "positive_passage_id": "p_0050",
+  "evidence": "vẫn thực hiện theo các bước như đăng ký học phần lần đầu",
+  "intent": "check"
+},
+{
+  "qid": "q_5056",
+  "question": "Yêu cầu đối với việc xác định điểm thi chính thức là gì?",
+  "positive_passage_id": "p_0050",
+  "evidence": "được lấy theo điểm cao nhất trong các lần học",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5057",
+  "question": "Sinh viên nào được xem xét cho học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "Đối với những sinh viên còn có học phần bắt buộc nhưng chưa học",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5058",
+  "question": "Điều kiện đầu tiên để được học môn thay thế là gì?",
+  "positive_passage_id": "p_0051",
+  "evidence": "mà học phần này Trường không còn mở lớp cho khóa sau nữa",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5059",
+  "question": "Làm thế nào để sinh viên có thể học một học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "Bộ môn chuyên môn, Hội đồng Khoa xem xét và đề nghị Trường cho phép",
+  "intent": "howto"
+},
+{
+  "qid": "q_5060",
+  "question": "Ai là người đề nghị Trường cho phép học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "Bộ môn chuyên môn, Hội đồng Khoa xem xét",
+  "intent": "what"
+},
+{
+  "qid": "q_5061",
+  "question": "Cơ quan nào có thẩm quyền cho phép sinh viên học học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "đề nghị Trường cho phép sinh viên học học phần thay thế",
+  "intent": "where"
+},
+{
+  "qid": "q_5062",
+  "question": "Quy trình xử lý trường hợp thiếu học phần bắt buộc diễn ra như thế nào?",
+  "positive_passage_id": "p_0051",
+  "evidence": "Bộ môn chuyên môn, Hội đồng Khoa xem xét và đề nghị Trường",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5063",
+  "question": "Có bao nhiêu sinh viên cần có nhu cầu học để được coi là quá ít?",
+  "positive_passage_id": "p_0051",
+  "evidence": "có quá ít sinh viên có nhu cầu học",
+  "intent": "check"
+},
+{
+  "qid": "q_5064",
+  "question": "Khi nào một sinh viên có thể được học học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "Trường không còn mở lớp cho khóa sau nữa và có quá ít sinh viên có nhu cầu học",
+  "intent": "time"
+},
+{
+  "qid": "q_5065",
+  "question": "Học phần thay thế là gì theo quy định này?",
+  "positive_passage_id": "p_0051",
+  "evidence": "cho phép sinh viên học học phần thay thế",
+  "intent": "definition"
+},
+{
+  "qid": "q_5066",
+  "question": "Bộ môn chuyên môn có vai trò gì trong việc cho phép học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "Bộ môn chuyên môn, Hội đồng Khoa xem xét",
+  "intent": "what"
+},
+{
+  "qid": "q_5067",
+  "question": "Sinh viên cần đáp ứng những ràng buộc gì để được đề nghị học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "sinh viên còn có học phần bắt buộc nhưng chưa học, mà học phần này Trường không còn mở lớp",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5068",
+  "question": "Làm cách nào để xác định liệu một học phần bắt buộc có được thay thế hay không?",
+  "positive_passage_id": "p_0051",
+  "evidence": "xem xét và đề nghị Trường cho phép",
+  "intent": "howto"
+},
+{
+  "qid": "q_5069",
+  "question": "Hội đồng Khoa tham gia vào bước nào của quy trình này?",
+  "positive_passage_id": "p_0051",
+  "evidence": "Hội đồng Khoa xem xét và đề nghị Trường",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5070",
+  "question": "Có yêu cầu gì về số lượng sinh viên đăng ký học phần đó không?",
+  "positive_passage_id": "p_0051",
+  "evidence": "có quá ít sinh viên có nhu cầu học",
+  "intent": "check"
+},
+{
+  "qid": "q_5071",
+  "question": "Ai là người cuối cùng quyết định việc thay thế học phần?",
+  "positive_passage_id": "p_0051",
+  "evidence": "đề nghị Trường cho phép sinh viên học học phần thay thế",
+  "intent": "what"
+},
+{
+  "qid": "q_5072",
+  "question": "Trường hợp nào sinh viên không cần học học phần bắt buộc nữa?",
+  "positive_passage_id": "p_0051",
+  "evidence": "cho phép sinh viên học học phần thay thế",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5073",
+  "question": "Sinh viên nên liên hệ với ai để được hỗ trợ về học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "Bộ môn chuyên môn, Hội đồng Khoa xem xét",
+  "intent": "where"
+},
+{
+  "qid": "q_5074",
+  "question": "Điều kiện về việc trường không mở lớp cho khóa sau có ý nghĩa gì?",
+  "positive_passage_id": "p_0051",
+  "evidence": "Trường không còn mở lớp cho khóa sau nữa",
+  "intent": "definition"
+},
+{
+  "qid": "q_5075",
+  "question": "Sinh viên bị ốm nghỉ thi cuối kỳ cần làm gì để được hoãn thi?",
+  "positive_passage_id": "p_0053",
+  "evidence": "phải có đơn xin phép hoãn thi nộp cho phòng ĐTĐH/phòng Đảm bảo chất lượng giáo dục",
+  "intent": "what"
+},
+{
+  "qid": "q_5076",
+  "question": "Nộp đơn xin hoãn thi cuối kỳ ở đâu khi bị tai nạn?",
+  "positive_passage_id": "p_0053",
+  "evidence": "nộp cho phòng ĐTĐH/phòng Đảm bảo chất lượng giáo dục",
+  "intent": "where"
+},
+{
+  "qid": "q_5077",
+  "question": "Thời hạn nộp đơn xin hoãn thi là bao lâu kể từ khi bị ốm?",
+  "positive_passage_id": "p_0053",
+  "evidence": "trong vòng một tuần kể từ ngày ốm",
+  "intent": "when"
+},
+{
+  "qid": "q_5078",
+  "question": "Có bắt buộc phải có giấy xác nhận của cơ quan y tế khi xin hoãn thi không?",
+  "positive_passage_id": "p_0053",
+  "evidence": "kèm theo xác nhận của cơ quan y tế",
+  "intent": "check"
+},
+{
+  "qid": "q_5079",
+  "question": "Đơn xin hoãn thi phải nộp cho phòng nào?",
+  "positive_passage_id": "p_0053",
+  "evidence": "phòng ĐTĐH/phòng Đảm bảo chất lượng giáo dục",
+  "intent": "where"
+},
+{
+  "qid": "q_5080",
+  "question": "Trường hợp nào sinh viên được hoãn thi cuối kỳ?",
+  "positive_passage_id": "p_0053",
+  "evidence": "Sinh viên bị ốm hoặc tai nạn phải vắng thi cuối kỳ",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5081",
+  "question": "Mình vừa khỏi ốm nhưng lỡ nghỉ thi cuối kỳ, có được nộp đơn xin hoãn muộn không?",
+  "positive_passage_id": "p_0053",
+  "evidence": "trong vòng một tuần kể từ ngày ốm",
+  "intent": "check"
+},
+{
+  "qid": "q_5082",
+  "question": "Hạn cuối để nộp đơn xin hoãn thi là khi nào?",
+  "positive_passage_id": "p_0053",
+  "evidence": "trong vòng một tuần kể từ ngày ốm",
+  "intent": "time"
+},
+{
+  "qid": "q_5083",
+  "question": "Sinh viên phải nộp đơn xin hoãn thi trong bao lâu?",
+  "positive_passage_id": "p_0053",
+  "evidence": "trong vòng một tuần kể từ ngày ốm",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5084",
+  "question": "Liệt kê các trường hợp sinh viên được nghỉ tạm thời và bảo lưu kết quả.",
+  "positive_passage_id": "p_0055",
+  "evidence": "Sinh viên được nghỉ tạm thời và bảo lưu kết quả trong 3 trường hợp:",
+  "intent": "what"
+},
+{
+  "qid": "q_5085",
+  "question": "Sinh viên chưa học xong một học kỳ nào có được xin nghỉ tạm thời vì nhu cầu cá nhân không?",
+  "positive_passage_id": "p_0055",
+  "evidence": "phải học ít nhất 1 học kỳ, không bị buộc thôi học",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5086",
+  "question": "Điểm trung bình tích lũy yêu cầu để được nghỉ vì lý do cá nhân là bao nhiêu?",
+  "positive_passage_id": "p_0055",
+  "evidence": "không bị buộc thôi học, TBC tích lũy ≥ 2,0",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5087",
+  "question": "Sinh viên đang bị buộc thôi học có được nghỉ tạm thời vì nhu cầu cá nhân không?",
+  "positive_passage_id": "p_0055",
+  "evidence": "không bị buộc thôi học, TBC tích lũy ≥ 2,0",
+  "intent": "check"
+},
+{
+  "qid": "q_5088",
+  "question": "Làm sao để xin nghỉ tạm thời khi bị ốm dài ngày?",
+  "positive_passage_id": "p_0055",
+  "evidence": "Ốm/tai nạn điều trị dài ngày (có giấy xác nhận y tế)",
+  "intent": "howto"
+},
+{
+  "qid": "q_5089",
+  "question": "Trường hợp nghỉ tạm thời nào yêu cầu giấy xác nhận y tế?",
+  "positive_passage_id": "p_0055",
+  "evidence": "Ốm/tai nạn điều trị dài ngày (có giấy xác nhận y tế)",
+  "intent": "what"
+},
+{
+  "qid": "q_5090",
+  "question": "Thời gian nghỉ tạm thời vì nhu cầu cá nhân có được tính vào thời gian học chính thức không?",
+  "positive_passage_id": "p_0055",
+  "evidence": "Thời gian nghỉ này tính vào thời gian học chính thức (theo Điều 7 Khoản 2)",
+  "intent": "time"
+},
+{
+  "qid": "q_5091",
+  "question": "Theo Điều 7 Khoản 2, thời gian nghỉ tạm thời được xử lý như thế nào?",
+  "positive_passage_id": "p_0055",
+  "evidence": "Thời gian nghỉ này tính vào thời gian học chính thức (theo Điều 7 Khoản 2)",
+  "intent": "what"
+},
+{
+  "qid": "q_5092",
+  "question": "Sinh viên có TBC tích lũy đúng 2,0 có đủ điều kiện nghỉ vì nhu cầu cá nhân không?",
+  "positive_passage_id": "p_0055",
+  "evidence": "phải học ít nhất 1 học kỳ, không bị buộc thôi học, TBC tích lũy ≥ 2,0",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5093",
+  "question": "Sinh viên bị ốm dài ngày nhưng không có giấy xác nhận y tế thì có được bảo lưu kết quả không?",
+  "positive_passage_id": "p_0055",
+  "evidence": "Ốm/tai nạn điều trị dài ngày (có giấy xác nhận y tế)",
+  "intent": "check"
+},
+{
+  "qid": "q_5094",
+  "question": "Có bao nhiêu trường hợp sinh viên được nghỉ tạm thời và bảo lưu kết quả?",
+  "positive_passage_id": "p_0055",
+  "evidence": "được nghỉ tạm thời và bảo lưu kết quả trong 3 trường hợp",
+  "intent": "what"
+},
+{
+  "qid": "q_5095",
+  "question": "Những điều kiện nào cần đáp ứng để sinh viên được nghỉ tạm thời vì nhu cầu cá nhân?",
+  "positive_passage_id": "p_0055",
+  "evidence": "phải học ít nhất 1 học kỳ, không bị buộc thôi học, TBC tích lũy ≥ 2,0",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5096",
+  "question": "Sinh viên đã học 2 học kỳ, TBC 2.5, không bị buộc thôi học, có được nghỉ vì nhu cầu cá nhân không?",
+  "positive_passage_id": "p_0055",
+  "evidence": "phải học ít nhất 1 học kỳ, không bị buộc thôi học, TBC tích lũy ≥ 2,0",
+  "intent": "check"
+},
+{
+  "qid": "q_5097",
+  "question": "Loại giấy tờ bắt buộc khi xin nghỉ tạm thời vì tai nạn dài ngày là gì?",
+  "positive_passage_id": "p_0055",
+  "evidence": "Ốm/tai nạn điều trị dài ngày (có giấy xác nhận y tế)",
+  "intent": "what"
+},
+{
+  "qid": "q_5098",
+  "question": "Yêu cầu về số học kỳ tối thiểu đã học để được hưởng chế độ nghỉ vì nhu cầu cá nhân là gì?",
+  "positive_passage_id": "p_0055",
+  "evidence": "phải học ít nhất 1 học kỳ, không bị buộc thôi học",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5099",
+  "question": "Cần làm gì để được nghỉ tạm thời khi điều trị dài ngày vì tai nạn?",
+  "positive_passage_id": "p_0055",
+  "evidence": "Ốm/tai nạn điều trị dài ngày (có giấy xác nhận y tế)",
+  "intent": "howto"
+},
+{
+  "qid": "q_5100",
+  "question": "Căn cứ pháp lý nào cho thấy thời gian nghỉ tạm thời được tính vào thời gian học chính thức?",
+  "positive_passage_id": "p_0055",
+  "evidence": "Thời gian nghỉ này tính vào thời gian học chính thức (theo Điều 7 Khoản 2)",
+  "intent": "what"
+},
+{
+  "qid": "q_5101",
+  "question": "Năm đào tạo thứ nhất được định nghĩa như thế nào theo hệ thống tín chỉ?",
+  "positive_passage_id": "p_0057",
+  "evidence": "Xếp hạng năm đào tạo theo tín chỉ tích lũy:\n- Năm 1: dưới 32 TC",
+  "intent": "definition"
+},
+{
+  "qid": "q_5102",
+  "question": "Thế nào là năm đào tạo thứ hai?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 1: dưới 32 TC\n- Năm 2: 32-64 TC",
+  "intent": "definition"
+},
+{
+  "qid": "q_5103",
+  "question": "Mình tích lũy được 45 tín chỉ, vậy đang ở năm thứ mấy?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 1: dưới 32 TC\n- Năm 2: 32-64 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5104",
+  "question": "Sinh viên có 100 tín chỉ có được xếp vào năm 4 không?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 3: 65-95 TC\n- Năm 4: 96-127 TC",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5105",
+  "question": "Cần tích lũy tối thiểu bao nhiêu tín chỉ để được xếp vào năm 3?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 2: 32-64 TC\n- Năm 3: 65-95 TC",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5106",
+  "question": "Làm thế nào để xác định năm đào tạo dựa trên tín chỉ?",
+  "positive_passage_id": "p_0057",
+  "evidence": "Xếp hạng năm đào tạo theo tín chỉ tích lũy:",
+  "intent": "howto"
+},
+{
+  "qid": "q_5107",
+  "question": "Năm đào tạo thứ năm áp dụng cho số tín chỉ từ bao nhiêu?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 4: 96-127 TC\n- Năm 5: từ 128 TC",
+  "intent": "what"
+},
+{
+  "qid": "q_5108",
+  "question": "Kiểm tra nhanh: 70 tín chỉ thì thuộc năm mấy?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 2: 32-64 TC\n- Năm 3: 65-95 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5109",
+  "question": "Để được xếp vào năm 2, sinh viên cần có ít nhất bao nhiêu tín chỉ?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 1: dưới 32 TC\n- Năm 2: 32-64 TC",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5110",
+  "question": "Điều kiện để được xếp hạng năm 4 là gì?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 3: 65-95 TC\n- Năm 4: 96-127 TC",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5111",
+  "question": "Hãy giải thích cách phân loại năm 3 theo tín chỉ tích lũy.",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 2: 32-64 TC\n- Năm 3: 65-95 TC",
+  "intent": "definition"
+},
+{
+  "qid": "q_5112",
+  "question": "Nếu ai đó có 128 tín chỉ, họ đang học năm thứ mấy?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 4: 96-127 TC\n- Năm 5: từ 128 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5113",
+  "question": "Sinh viên có 95 tín chỉ được xếp vào năm 3 hay năm 4?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 3: 65-95 TC\n- Năm 4: 96-127 TC",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5114",
+  "question": "Có thể dựa vào tiêu chí nào để phân loại năm đào tạo?",
+  "positive_passage_id": "p_0057",
+  "evidence": "Xếp hạng năm đào tạo theo tín chỉ tích lũy:",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5115",
+  "question": "Tín chỉ tích lũy 32 thì thuộc năm mấy?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 1: dưới 32 TC\n- Năm 2: 32-64 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5116",
+  "question": "Cần bao nhiêu tín chỉ để lên năm 5?",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 4: 96-127 TC\n- Năm 5: từ 128 TC",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5117",
+  "question": "Định nghĩa năm thứ tư trong thang xếp hạng tín chỉ.",
+  "positive_passage_id": "p_0057",
+  "evidence": "- Năm 3: 65-95 TC\n- Năm 4: 96-127 TC",
+  "intent": "definition"
+},
+{
+  "qid": "q_5118",
+  "question": "Hạng bình thường trong xếp hạng học lực được hiểu thế nào?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Hạng bình thường: Điểm TBC tích lũy đạt từ 2,0 trở lên.",
+  "intent": "definition"
+},
+{
+  "qid": "q_5119",
+  "question": "Muốn được xếp hạng bình thường thì điểm trung bình chung tích lũy cần đạt ít nhất bao nhiêu?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Điểm TBC tích lũy đạt từ 2,0 trở lên",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5120",
+  "question": "Em có điểm TBC tích lũy 1,8 thì sẽ rơi vào hạng gì?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Hạng yếu: Điểm TBC tích lũy đạt dưới 2,0",
+  "intent": "check"
+},
+{
+  "qid": "q_5121",
+  "question": "Một sinh viên đạt điểm TBC tích lũy 2,5 được xếp loại học lực nào?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Hạng bình thường: Điểm TBC tích lũy đạt từ 2,0 trở lên.",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5122",
+  "question": "Việc xếp hạng học lực của sinh viên dựa trên cơ sở nào?",
+  "positive_passage_id": "p_0058",
+  "evidence": "căn cứ vào điểm trung bình chung (TBC) tích luỹ, sinh viên được xếp hạng",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5123",
+  "question": "Làm cách nào để nhận biết mình thuộc diện học lực yếu?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Điểm TBC tích lũy đạt dưới 2,0 nhưng chưa rơi vào trường hợp bị buộc thôi học",
+  "intent": "howto"
+},
+{
+  "qid": "q_5124",
+  "question": "Thế nào được gọi là hạng yếu trong đánh giá học lực?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Hạng yếu: Điểm TBC tích lũy đạt dưới 2,0 nhưng chưa rơi vào trường hợp bị buộc thôi học",
+  "intent": "definition"
+},
+{
+  "qid": "q_5125",
+  "question": "Điều kiện để không bị xếp vào hạng yếu là gì?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Điểm TBC tích lũy đạt từ 2,0 trở lên",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5126",
+  "question": "Nếu điểm TBC tích lũy của mình đúng bằng 2,0 thì mình được xếp loại gì?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Điểm TBC tích lũy đạt từ 2,0 trở lên",
+  "intent": "check"
+},
+{
+  "qid": "q_5127",
+  "question": "Sinh viên có TBC tích lũy 1,9 và chưa bị đe dọa thôi học thì xếp vào hạng nào?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Hạng yếu: Điểm TBC tích lũy đạt dưới 2,0 nhưng chưa rơi vào trường hợp bị buộc thôi học",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5128",
+  "question": "Quy trình xếp hạng học lực diễn ra như thế nào?",
+  "positive_passage_id": "p_0058",
+  "evidence": "căn cứ vào điểm trung bình chung (TBC) tích luỹ, sinh viên được xếp hạng",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5129",
+  "question": "Làm sao để biết mình đạt hạng bình thường?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Điểm TBC tích lũy đạt từ 2,0 trở lên",
+  "intent": "howto"
+},
+{
+  "qid": "q_5130",
+  "question": "Yêu cầu về điểm số để tránh bị xếp loại yếu là bao nhiêu?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Điểm TBC tích lũy đạt từ 2,0 trở lên",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5131",
+  "question": "Sinh viên có TBC tích lũy 1,5 và không bị buộc thôi học thì được xếp loại gì?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Hạng yếu: Điểm TBC tích lũy đạt dưới 2,0 nhưng chưa rơi vào trường hợp bị buộc thôi học",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5132",
+  "question": "Căn cứ vào đâu để xác định một sinh viên thuộc hạng yếu?",
+  "positive_passage_id": "p_0058",
+  "evidence": "Điểm TBC tích lũy đạt dưới 2,0 nhưng chưa rơi vào trường hợp bị buộc thôi học",
+  "intent": "howto"
+},
+{
+  "qid": "q_5133",
+  "question": "Những biện pháp xử lý kết quả học tập nào được thực hiện vào cuối mỗi học kỳ chính?",
+  "positive_passage_id": "p_0060",
+  "evidence": "Các hình thức xử lý kết quả học tập được áp dụng cuối mỗi học kỳ chính, bao gồm",
+  "intent": "what"
+},
+{
+  "qid": "q_5134",
+  "question": "Có hay không việc áp dụng hình thức cảnh báo về kết quả học tập?",
+  "positive_passage_id": "p_0060",
+  "evidence": "bao gồm cảnh cáo học tập (mức 1 đến mức 3)",
+  "intent": "check"
+},
+{
+  "qid": "q_5135",
+  "question": "Hình thức buộc thôi học có nằm trong danh sách xử lý không?",
+  "positive_passage_id": "p_0060",
+  "evidence": "buộc thôi học và hạn chế khối lượng",
+  "intent": "check"
+},
+{
+  "qid": "q_5136",
+  "question": "Có áp dụng hạn chế số lượng môn đăng ký không?",
+  "positive_passage_id": "p_0060",
+  "evidence": "hạn chế khối lượng đăng ký học tập",
+  "intent": "check"
+},
+{
+  "qid": "q_5137",
+  "question": "Hình thức cảnh cáo trong học tập có những mức nào?",
+  "positive_passage_id": "p_0060",
+  "evidence": "cảnh cáo học tập (mức 1 đến mức 3)",
+  "intent": "what"
+},
+{
+  "qid": "q_5138",
+  "question": "Thời điểm nào các biện pháp xử lý này được đưa ra?",
+  "positive_passage_id": "p_0060",
+  "evidence": "được áp dụng cuối mỗi học kỳ chính",
+  "intent": "time"
+},
+{
+  "qid": "q_5139",
+  "question": "Có phải hình thức xử lý duy nhất là cảnh cáo không?",
+  "positive_passage_id": "p_0060",
+  "evidence": "cảnh cáo học tập (mức 1 đến mức 3), buộc thôi học",
+  "intent": "check"
+},
+{
+  "qid": "q_5140",
+  "question": "Ngoài cảnh cáo, còn những hình thức xử lý nào khác?",
+  "positive_passage_id": "p_0060",
+  "evidence": "buộc thôi học và hạn chế khối lượng đăng ký học tập",
+  "intent": "what"
+},
+{
+  "qid": "q_5141",
+  "question": "Có phải việc hạn chế đăng ký học tập được áp dụng cùng với buộc thôi học không?",
+  "positive_passage_id": "p_0060",
+  "evidence": "buộc thôi học và hạn chế khối lượng đăng ký học tập",
+  "intent": "check"
+},
+{
+  "qid": "q_5142",
+  "question": "Tên chính xác của hình thức liên quan đến việc không được đăng ký nhiều môn là gì?",
+  "positive_passage_id": "p_0060",
+  "evidence": "hạn chế khối lượng đăng ký học tập",
+  "intent": "what"
+},
+{
+  "qid": "q_5143",
+  "question": "Có đúng là chỉ có ba hình thức xử lý được liệt kê không?",
+  "positive_passage_id": "p_0060",
+  "evidence": "cảnh cáo học tập (mức 1 đến mức 3), buộc thôi học và hạn chế khối lượng",
+  "intent": "check"
+},
+{
+  "qid": "q_5144",
+  "question": "Điều kiện nào khiến mức cảnh báo học tập tăng 1 mức?",
+  "positive_passage_id": "p_0061",
+  "evidence": "tín chỉ không đạt 60-80% hoặc TBC kỳ <0,8 (năm 1)",
+  "intent": "what"
+},
+{
+  "qid": "q_5145",
+  "question": "Phần trăm tín chỉ không đạt để bị tăng 1 mức cảnh báo là bao nhiêu?",
+  "positive_passage_id": "p_0061",
+  "evidence": "Tăng 1 mức: tín chỉ không đạt 60-80%",
+  "intent": "definition"
+},
+{
+  "qid": "q_5146",
+  "question": "Nếu sinh viên có 90% tín chỉ không đạt thì bị tăng mấy mức?",
+  "positive_passage_id": "p_0061",
+  "evidence": "Tăng 2 mức: tín chỉ không đạt >80%",
+  "intent": "check"
+},
+{
+  "qid": "q_5147",
+  "question": "Giá trị TBC kỳ nào dẫn đến tăng 2 mức cảnh báo?",
+  "positive_passage_id": "p_0061",
+  "evidence": "tín chỉ không đạt >80% hoặc TBC kỳ <0,4",
+  "intent": "what"
+},
+{
+  "qid": "q_5148",
+  "question": "Ngoài điểm trung bình thấp và tín chỉ trượt cao, hành vi nào khác gây tăng 2 mức?",
+  "positive_passage_id": "p_0061",
+  "evidence": "TBC kỳ <0,4 hoặc tự ý bỏ học/không đăng ký",
+  "intent": "what"
+},
+{
+  "qid": "q_5149",
+  "question": "Bao nhiêu tín chỉ nợ tồn đọng từ đầu khóa thì bị cảnh báo mức 3?",
+  "positive_passage_id": "p_0061",
+  "evidence": "nợ tín chỉ tồn đọng từ đầu khóa >27",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5150",
+  "question": "Cảnh báo mức 3 được định nghĩa như thế nào?",
+  "positive_passage_id": "p_0061",
+  "evidence": "nợ tín chỉ tồn đọng từ đầu khóa >27",
+  "intent": "definition"
+},
+{
+  "qid": "q_5151",
+  "question": "Một sinh viên đang bị cảnh báo, có 10% tín chỉ không đạt và TBC kỳ 1,5. Có được giảm mức cảnh báo không?",
+  "positive_passage_id": "p_0061",
+  "evidence": "đang bị cảnh báo, tín chỉ không đạt ≤20% và TBC kỳ >1,0",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5152",
+  "question": "Các điều kiện cần có để được giảm một mức cảnh báo là gì?",
+  "positive_passage_id": "p_0061",
+  "evidence": "tín chỉ không đạt ≤20% và TBC kỳ >1,0",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5153",
+  "question": "Sinh viên đang bị cảnh báo có 25% tín chỉ không đạt, TBC kỳ 1,2 thì có được giảm mức không?",
+  "positive_passage_id": "p_0061",
+  "evidence": "đang bị cảnh báo, tín chỉ không đạt ≤20%",
+  "intent": "check"
+},
+{
+  "qid": "q_5154",
+  "question": "Tự ý bỏ học hoặc không đăng ký dẫn đến hậu quả gì về cảnh báo học tập?",
+  "positive_passage_id": "p_0061",
+  "evidence": "TBC kỳ <0,4 hoặc tự ý bỏ học/không đăng ký",
+  "intent": "what"
+},
+{
+  "qid": "q_5155",
+  "question": "Sinh viên đang bị cảnh báo có TBC kỳ chính xác bằng 1,0 thì có đủ điều kiện giảm mức không?",
+  "positive_passage_id": "p_0061",
+  "evidence": "tín chỉ không đạt ≤20% và TBC kỳ >1,0",
+  "intent": "check"
+},
+{
+  "qid": "q_5156",
+  "question": "Hai điều kiện riêng biệt nào có thể gây tăng 1 mức cảnh báo?",
+  "positive_passage_id": "p_0061",
+  "evidence": "tín chỉ không đạt 60-80% hoặc TBC kỳ <0,8 (năm 1)",
+  "intent": "what"
+},
+{
+  "qid": "q_5157",
+  "question": "Cảnh báo mức 3 có phải là lý do để buộc thôi học không?",
+  "positive_passage_id": "p_0062",
+  "evidence": "Cảnh báo mức 3 (trừ đối tượng ưu tiên:",
+  "intent": "check"
+},
+{
+  "qid": "q_5158",
+  "question": "Ai được miễn buộc thôi học khi bị cảnh báo mức 3?",
+  "positive_passage_id": "p_0062",
+  "evidence": "Cảnh báo mức 3 (trừ đối tượng ưu tiên:",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5159",
+  "question": "Đối tượng ưu tiên bị cảnh báo mức 3 được gia hạn trong bao lâu?",
+  "positive_passage_id": "p_0062",
+  "evidence": "đối tượng ưu tiên: được gia hạn 1 học kỳ",
+  "intent": "time"
+},
+{
+  "qid": "q_5160",
+  "question": "Có giới hạn nào về số lần gia hạn cho đối tượng ưu tiên không?",
+  "positive_passage_id": "p_0062",
+  "evidence": "được gia hạn 1 học kỳ, chỉ 1 lần toàn khóa",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5161",
+  "question": "Điều kiện buộc thôi học liên quan đến thời gian học là gì?",
+  "positive_passage_id": "p_0062",
+  "evidence": "Học quá thời gian cho phép hoặc không còn khả năng tốt nghiệp trong thời gian cho phép",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5162",
+  "question": "\"Không còn khả năng tốt nghiệp trong thời gian cho phép\" dẫn đến hình thức kỷ luật nào?",
+  "positive_passage_id": "p_0062",
+  "evidence": "không còn khả năng tốt nghiệp trong thời gian cho phép",
+  "intent": "what"
+},
+{
+  "qid": "q_5163",
+  "question": "Điều 7 quy định những trường hợp nào bị buộc thôi học?",
+  "positive_passage_id": "p_0062",
+  "evidence": "Học quá thời gian cho phép hoặc không còn khả năng tốt nghiệp trong thời gian cho phép",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5164",
+  "question": "Kỷ luật lần 2 vì thi hộ có dẫn đến buộc thôi học không?",
+  "positive_passage_id": "p_0062",
+  "evidence": "Kỷ luật lần 2 vì thi hộ/nhờ thi hộ (Điều 30 Khoản 2)",
+  "intent": "check"
+},
+{
+  "qid": "q_5165",
+  "question": "Theo Điều 30 Khoản 2, vi phạm nào bị buộc thôi học?",
+  "positive_passage_id": "p_0062",
+  "evidence": "Kỷ luật lần 2 vì thi hộ/nhờ thi hộ (Điều 30 Khoản 2)",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5166",
+  "question": "Bị xóa tên khỏi danh sách sinh viên có phải là lý do buộc thôi học không?",
+  "positive_passage_id": "p_0062",
+  "evidence": "bị xóa tên khỏi danh sách sinh viên",
+  "intent": "check"
+},
+{
+  "qid": "q_5167",
+  "question": "Ngoài kỷ luật lần 2 vì thi hộ, còn lý do nào khác ở điểm 3 để bị buộc thôi học?",
+  "positive_passage_id": "p_0062",
+  "evidence": "hoặc bị xóa tên khỏi danh sách sinh viên",
+  "intent": "what"
+},
+{
+  "qid": "q_5168",
+  "question": "Điều khoản nào quy định về kỷ luật lần 2 vì thi hộ dẫn đến buộc thôi học?",
+  "positive_passage_id": "p_0062",
+  "evidence": "thi hộ/nhờ thi hộ (Điều 30 Khoản 2)",
+  "intent": "where"
+},
+{
+  "qid": "q_5169",
+  "question": "Ai bị buộc thôi học do kỷ luật lần 2 vì thi hộ?",
+  "positive_passage_id": "p_0062",
+  "evidence": "Kỷ luật lần 2 vì thi hộ/nhờ thi hộ",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5170",
+  "question": "Theo quy định, bị xóa tên khỏi danh sách sinh viên có cùng hậu quả với vi phạm nào?",
+  "positive_passage_id": "p_0062",
+  "evidence": "Kỷ luật lần 2 vì thi hộ/nhờ thi hộ (Điều 30 Khoản 2) hoặc bị xóa tên",
+  "intent": "what"
+},
+{
+  "qid": "q_5171",
+  "question": "Hạn chế khối lượng học tập là gì?",
+  "positive_passage_id": "p_0063",
+  "evidence": "Hạn chế khối lượng học tập là hình thức buộc",
+  "intent": "definition"
+},
+{
+  "qid": "q_5172",
+  "question": "Sinh viên như thế nào thì bị áp dụng hạn chế khối lượng học tập?",
+  "positive_passage_id": "p_0063",
+  "evidence": "buộc những sinh viên học yếu kém hoặc chưa đạt chuẩn ngoại ngữ",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5173",
+  "question": "Thời điểm xét để xác định sinh viên bị hạn chế khối lượng học tập là lúc nào?",
+  "positive_passage_id": "p_0063",
+  "evidence": "xét tại thời điểm đăng ký học tập",
+  "intent": "time"
+},
+{
+  "qid": "q_5174",
+  "question": "Sinh viên bị cảnh báo học tập mức 1 được đăng ký tối đa bao nhiêu tín chỉ?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 1 được đăng ký tối đa 18 TC",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5175",
+  "question": "Sinh viên bị cảnh báo học tập mức 1 phải đăng ký ít nhất bao nhiêu tín chỉ?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 1 được đăng ký tối đa 18 TC và tối thiểu 10 TC",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5176",
+  "question": "Sinh viên bị cảnh báo học tập mức 2 được đăng ký tối đa bao nhiêu tín chỉ?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 2 được đăng ký tối đa 14 TC",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5177",
+  "question": "Sinh viên bị cảnh báo học tập mức 2 phải đăng ký ít nhất bao nhiêu tín chỉ?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 2 được đăng ký tối đa 14 TC và tối thiểu 10 TC",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5178",
+  "question": "Sinh viên bị cảnh báo mức 1 có thể đăng ký 15 tín chỉ không?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 1 được đăng ký tối đa 18 TC và tối thiểu 10 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5179",
+  "question": "Sinh viên bị cảnh báo mức 2 có được đăng ký 9 tín chỉ không?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 2 được đăng ký tối đa 14 TC và tối thiểu 10 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5180",
+  "question": "Có phải sinh viên bị cảnh báo mức 1 chỉ được đăng ký tối đa 18 tín chỉ đúng không?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 1 được đăng ký tối đa 18 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5181",
+  "question": "Sinh viên bị cảnh báo mức 2 có được đăng ký 14 tín chỉ không?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 2 được đăng ký tối đa 14 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5182",
+  "question": "Mức tín chỉ tối thiểu cho cả hai mức cảnh báo là bao nhiêu?",
+  "positive_passage_id": "p_0063",
+  "evidence": "tối thiểu 10 TC cho một học kỳ chính",
+  "intent": "what"
+},
+{
+  "qid": "q_5183",
+  "question": "Hạn chế khối lượng học tập áp dụng cho loại tín chỉ nào?",
+  "positive_passage_id": "p_0063",
+  "evidence": "đăng ký số tín chỉ học phần chuyên môn",
+  "intent": "what"
+},
+{
+  "qid": "q_5184",
+  "question": "Hạn chế khối lượng học tập được áp dụng trong khoảng thời gian nào?",
+  "positive_passage_id": "p_0063",
+  "evidence": "tối thiểu 10 TC cho một học kỳ chính",
+  "intent": "time"
+},
+{
+  "qid": "q_5185",
+  "question": "Sinh viên bị cảnh báo mức 1 có bắt buộc phải đăng ký ít nhất 10 tín chỉ không?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 1 được đăng ký tối đa 18 TC và tối thiểu 10 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5186",
+  "question": "Sinh viên bị cảnh báo mức 2 có được đăng ký 13 tín chỉ không?",
+  "positive_passage_id": "p_0063",
+  "evidence": "mức 2 được đăng ký tối đa 14 TC và tối thiểu 10 TC",
+  "intent": "check"
+},
+{
+  "qid": "q_5187",
+  "question": "Sinh viên chưa đạt chuẩn ngoại ngữ có phải chịu hạn chế khối lượng học tập không?",
+  "positive_passage_id": "p_0063",
+  "evidence": "buộc những sinh viên học yếu kém hoặc chưa đạt chuẩn ngoại ngữ",
+  "intent": "check"
+}
