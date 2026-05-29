@@ -1,1 +1,799 @@
 [
+{
+  "qid": "q_5000",
+  "question": "Hai chương trình muốn học cùng lúc thì ngành của chúng phải thế nào?",
+  "positive_passage_id": "p_0066",
+  "evidence": "Ngành chương trình 2 khác ngành chương trình 1",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5001",
+  "question": "Trước khi đăng ký chương trình 2, cần học chương trình 1 tối thiểu mấy kỳ?",
+  "positive_passage_id": "p_0066",
+  "evidence": "Học ít nhất 1 kỳ ở chương trình 1",
+  "intent": "time"
+},
+{
+  "qid": "q_5002",
+  "question": "Nếu sinh viên đã học chương trình 1 được 1 kỳ, TBC tích lũy 2.5 nhưng TBC học kỳ chỉ 1.8, có được học chương trình 2 không?",
+  "positive_passage_id": "p_0066",
+  "evidence": "có TBC tích lũy ≥ 2,0 và TBC học kỳ ≥ 2,0",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5003",
+  "question": "Hậu quả khi điểm tích lũy của chương trình 1 xuống dưới 2,0 trong lúc học song bằng?",
+  "positive_passage_id": "p_0066",
+  "evidence": "dưới 2,0 → bị tạm dừng học chương trình 2",
+  "intent": "what"
+},
+{
+  "qid": "q_5004",
+  "question": "Điều gì xảy ra nếu một trong hai chương trình có điểm trung bình học kỳ dưới 2,0?",
+  "positive_passage_id": "p_0066",
+  "evidence": "dưới 2,0 → bị tạm dừng học chương trình 2",
+  "intent": "what"
+},
+{
+  "qid": "q_5005",
+  "question": "Buộc thôi học chương trình 2 xảy ra khi nào?",
+  "positive_passage_id": "p_0066",
+  "evidence": "sẽ bị buộc thôi học chương trình 2 ở kỳ tiếp theo",
+  "intent": "time"
+},
+{
+  "qid": "q_5006",
+  "question": "Để không bị buộc thôi học chương trình 2, cần đăng ký ít nhất bao nhiêu tín chỉ?",
+  "positive_passage_id": "p_0066",
+  "evidence": "nếu đăng ký dưới 3 TC chương trình 2 sẽ bị buộc thôi học",
+  "intent": "threshold"
+},
+{
+  "qid": "q_5007",
+  "question": "Có bắt buộc ngành của chương trình 2 phải khác với ngành chương trình 1 không?",
+  "positive_passage_id": "p_0066",
+  "evidence": "Ngành chương trình 2 khác ngành chương trình 1",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5008",
+  "question": "Sinh viên chỉ mới học chương trình 1 được nửa kỳ, liệu có thể đăng ký chương trình 2 không?",
+  "positive_passage_id": "p_0066",
+  "evidence": "Học ít nhất 1 kỳ ở chương trình 1",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5009",
+  "question": "Nếu TBC tích lũy chương trình 1 đang là 2.0, TBC học kỳ 2.0, ngành khác, đã học 2 kỳ, vậy có đủ điều kiện không?",
+  "positive_passage_id": "p_0066",
+  "evidence": "có TBC tích lũy ≥ 2,0 và TBC học kỳ ≥ 2,0",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5010",
+  "question": "Khi nào thì bị tạm dừng chương trình 2?",
+  "positive_passage_id": "p_0066",
+  "evidence": "bị tạm dừng học chương trình 2 ở kỳ tiếp theo",
+  "intent": "time"
+},
+{
+  "qid": "q_5011",
+  "question": "Sau khi được cho phép, sinh viên phải đăng ký ít nhất bao nhiêu tín chỉ ở chương trình 2 để không bị buộc thôi học?",
+  "positive_passage_id": "p_0066",
+  "evidence": "nếu đăng ký dưới 3 TC chương trình 2 sẽ bị buộc thôi học",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5012",
+  "question": "Sinh viên học đồng thời hai chương trình được phép học tối đa trong bao lâu?",
+  "positive_passage_id": "p_0067",
+  "evidence": "thời gian tối đa quy định cho chương trình thứ nhất",
+  "intent": "time"
+},
+{
+  "qid": "q_5013",
+  "question": "Theo quy định, thời gian học tối đa cho sinh viên học hai chương trình được ghi ở điều khoản nào?",
+  "positive_passage_id": "p_0067",
+  "evidence": "khoản 2 Điều 7 của Quy định này",
+  "intent": "where"
+},
+{
+  "qid": "q_5014",
+  "question": "Khi học chương trình thứ hai, loại học phần nào được giữ lại điểm?",
+  "positive_passage_id": "p_0067",
+  "evidence": "những học phần có nội dung và khối lượng kiến thức tương đương",
+  "intent": "what"
+},
+{
+  "qid": "q_5015",
+  "question": "Cần điều kiện gì để sinh viên được bảo lưu điểm khi học chương trình thứ hai?",
+  "positive_passage_id": "p_0067",
+  "evidence": "có nội dung và khối lượng kiến thức tương đương",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5016",
+  "question": "Ai được hưởng bảo lưu điểm trong trường hợp học song song hai chương trình?",
+  "positive_passage_id": "p_0067",
+  "evidence": "sinh viên học cùng lúc hai chương trình",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5017",
+  "question": "Có đúng là thời gian tối đa học hai chương trình lấy theo chương trình thứ nhất không?",
+  "positive_passage_id": "p_0067",
+  "evidence": "thời gian tối đa quy định cho chương trình thứ nhất",
+  "intent": "check"
+},
+{
+  "qid": "q_5018",
+  "question": "Làm sao để sinh viên được bảo lưu điểm từ chương trình thứ nhất sang chương trình thứ hai?",
+  "positive_passage_id": "p_0067",
+  "evidence": "Khi học chương trình thứ hai, sinh viên được bảo lưu điểm",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5019",
+  "question": "Thuật ngữ 'bảo lưu điểm' trong đoạn văn này nghĩa là gì?",
+  "positive_passage_id": "p_0067",
+  "evidence": "được bảo lưu điểm của những học phần có nội dung và khối lượng kiến thức tương đương",
+  "intent": "definition"
+},
+{
+  "qid": "q_5020",
+  "question": "Thời gian tối đa cho phép học hai chương trình được xác định dựa trên chương trình nào?",
+  "positive_passage_id": "p_0067",
+  "evidence": "thời gian tối đa quy định cho chương trình thứ nhất",
+  "intent": "time"
+},
+{
+  "qid": "q_5021",
+  "question": "Tìm trong văn bản chỗ nào quy định thời gian học tối đa cho sinh viên học hai chương trình?",
+  "positive_passage_id": "p_0067",
+  "evidence": "khoản 2 Điều 7 của Quy định này",
+  "intent": "where"
+},
+{
+  "qid": "q_5022",
+  "question": "Những học phần nào ở chương trình thứ hai được bảo lưu điểm từ chương trình thứ nhất?",
+  "positive_passage_id": "p_0067",
+  "evidence": "học phần có nội dung và khối lượng kiến thức tương đương",
+  "intent": "what"
+},
+{
+  "qid": "q_5023",
+  "question": "Để được bảo lưu điểm, học phần ở chương trình thứ hai cần đáp ứng điều kiện gì so với chương trình thứ nhất?",
+  "positive_passage_id": "p_0067",
+  "evidence": "có nội dung và khối lượng kiến thức tương đương",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5024",
+  "question": "Khi học chương trình thứ hai, sinh viên xử lý điểm của các học phần đã học ở chương trình thứ nhất như thế nào?",
+  "positive_passage_id": "p_0067",
+  "evidence": "được bảo lưu điểm của những học phần có nội dung và khối lượng kiến thức tương đương",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5025",
+  "question": "Căn cứ nào để tính thời gian tối đa học song song hai chương trình?",
+  "positive_passage_id": "p_0067",
+  "evidence": "thời gian tối đa quy định cho chương trình thứ nhất, quy định tại khoản 2 Điều 7",
+  "intent": "what"
+},
+{
+  "qid": "q_5026",
+  "question": "Làm thế nào để biết thời gian tối đa cho phép khi học cùng lúc hai chương trình?",
+  "positive_passage_id": "p_0067",
+  "evidence": "thời gian tối đa quy định cho chương trình thứ nhất",
+  "intent": "howto"
+},
+{
+  "qid": "q_5027",
+  "question": "Sinh viên năm nhất có được phép chuyển ngành không?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Không phải sinh viên năm 1 hoặc năm cuối",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5028",
+  "question": "Một sinh viên đang trong thời gian bị xem xét buộc thôi học thì có thể nộp đơn chuyển ngành được không?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Không bị xem xét buộc thôi học, còn đủ thời gian học",
+  "intent": "check"
+},
+{
+  "qid": "q_5029",
+  "question": "Năm thứ mấy của sinh viên bị loại khỏi điều kiện chuyển ngành?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Không phải sinh viên năm 1 hoặc năm cuối",
+  "intent": "time"
+},
+{
+  "qid": "q_5030",
+  "question": "Yêu cầu về năm học đối với sinh viên muốn chuyển ngành là gì?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Không phải sinh viên năm 1 hoặc năm cuối",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5031",
+  "question": "Sinh viên đang bị buộc thôi học có được chuyển ngành không?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Không bị xem xét buộc thôi học, còn đủ thời gian học",
+  "intent": "check"
+},
+{
+  "qid": "q_5032",
+  "question": "Điều kiện về thời gian học còn lại để chuyển ngành là gì?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Không bị xem xét buộc thôi học, còn đủ thời gian học",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5033",
+  "question": "Những sinh viên nào không thể chuyển ngành vì lý do kỷ luật?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Không bị xem xét buộc thôi học, còn đủ thời gian học",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5034",
+  "question": "Sinh viên cần đạt điều kiện gì từ nơi chuyển đến về khóa học?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Đạt điều kiện trúng tuyển của nơi chuyển đến (cùng khóa)",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5035",
+  "question": "Có bắt buộc phải cùng khóa với nơi chuyển đến không?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Đạt điều kiện trúng tuyển của nơi chuyển đến (cùng khóa)",
+  "intent": "check"
+},
+{
+  "qid": "q_5036",
+  "question": "Điều kiện trúng tuyển của nơi chuyển đến yêu cầu gì về khóa?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Đạt điều kiện trúng tuyển của nơi chuyển đến (cùng khóa)",
+  "intent": "what"
+},
+{
+  "qid": "q_5037",
+  "question": "Nơi chuyển đến cần có những yếu tố gì về chỉ tiêu và năng lực?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Nơi chuyển đến còn chỉ tiêu, đủ năng lực đào tạo",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5038",
+  "question": "Nếu nơi chuyển đến đã hết chỉ tiêu thì sinh viên có thể chuyển ngành không?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Nơi chuyển đến còn chỉ tiêu, đủ năng lực đào tạo",
+  "intent": "check"
+},
+{
+  "qid": "q_5039",
+  "question": "Điều kiện về năng lực đào tạo của nơi chuyển đến là gì?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Nơi chuyển đến còn chỉ tiêu, đủ năng lực đào tạo",
+  "intent": "what"
+},
+{
+  "qid": "q_5040",
+  "question": "Ai phải đồng ý để sinh viên được chuyển ngành?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Được đồng ý của: Trưởng Khoa (nơi đi và đến) + Hiệu trưởng",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5041",
+  "question": "Có cần sự đồng ý của Hiệu trưởng khi chuyển ngành không?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Được đồng ý của: Trưởng Khoa (nơi đi và đến) + Hiệu trưởng",
+  "intent": "check"
+},
+{
+  "qid": "q_5042",
+  "question": "Yêu cầu về sự phê duyệt từ trưởng khoa nơi đi và nơi đến là gì?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Được đồng ý của: Trưởng Khoa (nơi đi và đến) + Hiệu trưởng",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5043",
+  "question": "Trưởng khoa nơi chuyển đi có vai trò gì trong quy trình chuyển ngành?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Được đồng ý của: Trưởng Khoa (nơi đi và đến) + Hiệu trưởng",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5044",
+  "question": "Nếu thiếu sự đồng ý của hiệu trưởng thì có được chuyển ngành không?",
+  "positive_passage_id": "p_0070",
+  "evidence": "Được đồng ý của: Trưởng Khoa (nơi đi và đến) + Hiệu trưởng",
+  "intent": "check"
+},
+{
+  "qid": "q_5045",
+  "question": "Điều kiện đầu tiên để được chuyển trường là gì?",
+  "positive_passage_id": "p_0071",
+  "evidence": "1. Gia đình chuyển nơi cư trú hoặc hoàn cảnh khó khăn → cần chuyển đến trường gần nhà",
+  "intent": "what"
+},
+{
+  "qid": "q_5046",
+  "question": "Gia đình chuyển nơi cư trú có được coi là lý do hợp lệ để xin chuyển trường không?",
+  "positive_passage_id": "p_0071",
+  "evidence": "Gia đình chuyển nơi cư trú hoặc hoàn cảnh khó khăn",
+  "intent": "check"
+},
+{
+  "qid": "q_5047",
+  "question": "Yêu cầu về ngành học giữa trường cũ và trường mới là gì?",
+  "positive_passage_id": "p_0071",
+  "evidence": "2. Trường đến phải cùng ngành hoặc cùng nhóm ngành",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5048",
+  "question": "Ai phải đồng ý để học sinh được chuyển trường?",
+  "positive_passage_id": "p_0071",
+  "evidence": "3. Được Hiệu trưởng cả 2 trường đồng ý",
+  "intent": "what"
+},
+{
+  "qid": "q_5049",
+  "question": "Nếu chỉ có hiệu trưởng trường cũ đồng ý, liệu có thể chuyển trường được không?",
+  "positive_passage_id": "p_0071",
+  "evidence": "Được Hiệu trưởng cả 2 trường đồng ý",
+  "intent": "check"
+},
+{
+  "qid": "q_5050",
+  "question": "Điều kiện thứ tư quy định điều gì?",
+  "positive_passage_id": "p_0071",
+  "evidence": "4. Không thuộc trường hợp bị cấm chuyển (khoản 3 Điều này)",
+  "intent": "what"
+},
+{
+  "qid": "q_5051",
+  "question": "Học sinh đang trong trường hợp bị cấm chuyển theo khoản 3 có được phép chuyển trường không?",
+  "positive_passage_id": "p_0071",
+  "evidence": "Không thuộc trường hợp bị cấm chuyển (khoản 3 Điều này)",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5052",
+  "question": "Trường mà học sinh muốn chuyển đến cần đáp ứng điều kiện gì về ngành?",
+  "positive_passage_id": "p_0071",
+  "evidence": "Trường đến phải cùng ngành hoặc cùng nhóm ngành",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5053",
+  "question": "Có cần sự đồng ý của hiệu trưởng cả hai trường không?",
+  "positive_passage_id": "p_0071",
+  "evidence": "Được Hiệu trưởng cả 2 trường đồng ý",
+  "intent": "check"
+},
+{
+  "qid": "q_5054",
+  "question": "Trường hợp gia đình chuyển nơi cư trú thì cần chuyển đến trường ở đâu?",
+  "positive_passage_id": "p_0071",
+  "evidence": "1. Gia đình chuyển nơi cư trú hoặc hoàn cảnh khó khăn → cần chuyển đến trường gần nhà",
+  "intent": "where"
+},
+{
+  "qid": "q_5055",
+  "question": "Những ai có thể xin chuyển trường theo điều kiện thứ nhất?",
+  "positive_passage_id": "p_0071",
+  "evidence": "Gia đình chuyển nơi cư trú hoặc hoàn cảnh khó khăn",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5056",
+  "question": "Nếu gia đình không chuyển nơi ở và không có hoàn cảnh khó khăn, có đủ điều kiện để chuyển trường không?",
+  "positive_passage_id": "p_0071",
+  "evidence": "1. Gia đình chuyển nơi cư trú hoặc hoàn cảnh khó khăn",
+  "intent": "check"
+},
+{
+  "qid": "q_5057",
+  "question": "Điều kiện thứ hai yêu cầu trường đến phải như thế nào?",
+  "positive_passage_id": "p_0071",
+  "evidence": "2. Trường đến phải cùng ngành hoặc cùng nhóm ngành",
+  "intent": "what"
+},
+{
+  "qid": "q_5058",
+  "question": "Việc chuyển trường có cần sự chấp thuận của hiệu trưởng không?",
+  "positive_passage_id": "p_0071",
+  "evidence": "Được Hiệu trưởng cả 2 trường đồng ý",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5059",
+  "question": "Sinh viên năm thứ nhất có được phép chuyển trường không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên năm thứ nhất và năm cuối khóa",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5060",
+  "question": "Mình đang là sinh viên năm cuối, mình có thể chuyển sang trường khác được không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên năm thứ nhất và năm cuối khóa",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5061",
+  "question": "Nếu điểm xét tuyển của tôi thấp hơn điểm chuẩn của trường muốn chuyển đến thì tôi có được chuyển không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "có điểm xét tuyển thấp hơn điểm xét tuyển của trường xin chuyển đến",
+  "intent": "condition"
+},
+{
+  "qid": "q_5062",
+  "question": "Sinh viên nằm ngoài vùng tuyển quy định của trường xin chuyển đến có được chuyển trường không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên thuộc diện nằm ngoài vùng tuyển quy định của trường xin chuyển đến",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5063",
+  "question": "Trong suốt năm học đầu tiên, sinh viên có quyền chuyển trường không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên năm thứ nhất và năm cuối khóa",
+  "intent": "time"
+},
+{
+  "qid": "q_5064",
+  "question": "Hình thức kỷ luật nào khiến sinh viên bị cấm chuyển trường?",
+  "positive_passage_id": "p_0072",
+  "evidence": "đang trong thời gian bị kỷ luật từ cảnh cáo trở lên",
+  "intent": "definition"
+},
+{
+  "qid": "q_5065",
+  "question": "Sinh viên đang trong thời gian bị kỷ luật cảnh cáo thì có được chuyển trường không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "đang trong thời gian bị kỷ luật từ cảnh cáo trở lên",
+  "intent": "condition"
+},
+{
+  "qid": "q_5066",
+  "question": "Sinh viên năm thứ hai có thuộc diện bị cấm chuyển trường vì lý do năm học không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên năm thứ nhất và năm cuối khóa",
+  "intent": "time"
+},
+{
+  "qid": "q_5067",
+  "question": "Điểm xét tuyển của tôi bằng điểm chuẩn trường đến thì tôi có được chuyển trường không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "có điểm xét tuyển thấp hơn điểm xét tuyển của trường xin chuyển đến",
+  "intent": "check"
+},
+{
+  "qid": "q_5068",
+  "question": "Trường hợp nào bị cấm chuyển trường vì vùng tuyển?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên thuộc diện nằm ngoài vùng tuyển quy định của trường xin chuyển đến",
+  "intent": "what"
+},
+{
+  "qid": "q_5069",
+  "question": "Sinh viên bị kỷ luật đình chỉ học tập có được chuyển trường không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "đang trong thời gian bị kỷ luật từ cảnh cáo trở lên",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5070",
+  "question": "Sinh viên năm thứ nhất có được chuyển trường nếu điểm xét tuyển cao hơn trường đến không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên năm thứ nhất và năm cuối khóa",
+  "intent": "condition"
+},
+{
+  "qid": "q_5071",
+  "question": "Những năm học nào sinh viên không được chuyển trường?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên năm thứ nhất và năm cuối khóa",
+  "intent": "what"
+},
+{
+  "qid": "q_5072",
+  "question": "Sinh viên năm thứ ba có nằm trong danh sách cấm chuyển trường do năm học không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên năm thứ nhất và năm cuối khóa",
+  "intent": "time"
+},
+{
+  "qid": "q_5073",
+  "question": "Nếu sinh viên vừa bị kỷ luật cảnh cáo và đang học năm thứ hai thì có được chuyển trường không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "đang trong thời gian bị kỷ luật từ cảnh cáo trở lên",
+  "intent": "condition"
+},
+{
+  "qid": "q_5074",
+  "question": "Sinh viên có điểm xét tuyển cao hơn trường đến nhưng lại nằm ngoài vùng tuyển thì có được chuyển không?",
+  "positive_passage_id": "p_0072",
+  "evidence": "Sinh viên thuộc diện nằm ngoài vùng tuyển quy định của trường xin chuyển đến",
+  "intent": "condition"
+},
+{
+  "qid": "q_5075",
+  "question": "Sinh viên nghỉ 15% số buổi có được thi cuối kỳ không?",
+  "positive_passage_id": "p_0075",
+  "evidence": "vắng >20% cấm thi, 0 điểm, học lại",
+  "intent": "check"
+},
+{
+  "qid": "q_5076",
+  "question": "Điểm C được cấu thành từ những yếu tố nào?",
+  "positive_passage_id": "p_0075",
+  "evidence": "C = (c1+c2)/2 (c1: nhận thức, thái độ; c2: chuyên cần)",
+  "intent": "definition"
+},
+{
+  "qid": "q_5077",
+  "question": "Hậu quả của việc nghỉ quá 20% số buổi học là gì?",
+  "positive_passage_id": "p_0075",
+  "evidence": "vắng >20% cấm thi, 0 điểm, học lại",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5078",
+  "question": "Điểm B bao gồm các loại điểm kiểm tra nào?",
+  "positive_passage_id": "p_0075",
+  "evidence": "B = (b1+b2+b3)/3 (b1: kiểm tra thường xuyên; b2: giữa kỳ; b3: tiểu luận)",
+  "intent": "definition"
+},
+{
+  "qid": "q_5079",
+  "question": "Điểm C có ý nghĩa gì trong công thức?",
+  "positive_passage_id": "p_0075",
+  "evidence": "C = (c1+c2)/2 (c1: nhận thức, thái độ; c2: chuyên cần)",
+  "intent": "definition"
+},
+{
+  "qid": "q_5080",
+  "question": "Điều kiện nào khiến sinh viên bị cấm thi cuối kỳ?",
+  "positive_passage_id": "p_0075",
+  "evidence": "vắng >20% cấm thi, 0 điểm, học lại",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5081",
+  "question": "Muốn được điểm chuyên cần tối đa (10) cần đáp ứng điều gì?",
+  "positive_passage_id": "p_0075",
+  "evidence": "c2: học đủ=10; vắng 2% trừ 1 điểm",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5082",
+  "question": "Cách tính giá trị B từ ba điểm thành phần b1, b2, b3.",
+  "positive_passage_id": "p_0075",
+  "evidence": "B = (b1+b2+b3)/3 (b1: kiểm tra thường xuyên; b2: giữa kỳ; b3: tiểu luận)",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5083",
+  "question": "Loại học phần nào bắt buộc sinh viên phải hoàn thành thực hành mới được thi lý thuyết?",
+  "positive_passage_id": "p_0076",
+  "evidence": "Đối với các học phần vừa có thực hành/thí nghiệm vừa có lý thuyết",
+  "intent": "definition"
+},
+{
+  "qid": "q_5084",
+  "question": "Điểm tổng kết học phần dành cho sinh viên bỏ qua phần thí nghiệm là bao nhiêu?",
+  "positive_passage_id": "p_0076",
+  "evidence": "sẽ có điểm đánh giá học phần 0 điểm",
+  "intent": "what"
+},
+{
+  "qid": "q_5085",
+  "question": "Khi nào sinh viên được quyền thi lý thuyết trong một học phần vừa lý thuyết vừa thực hành?",
+  "positive_passage_id": "p_0076",
+  "evidence": "Sinh viên sau khi hoàn thành phần thực hành/thí nghiệm sẽ được thi lý thuyết",
+  "intent": "time"
+},
+{
+  "qid": "q_5086",
+  "question": "Ai mới đủ điều kiện tham gia kỳ thi lý thuyết của học phần tích hợp?",
+  "positive_passage_id": "p_0076",
+  "evidence": "Sinh viên sau khi hoàn thành phần thực hành/thí nghiệm",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5087",
+  "question": "Sinh viên chưa hoàn tất phần thực hành thì kết cục điểm số ra sao?",
+  "positive_passage_id": "p_0076",
+  "evidence": "sẽ có điểm đánh giá học phần 0 điểm",
+  "intent": "what"
+},
+{
+  "qid": "q_5088",
+  "question": "Sau khi hoàn thành bài thực hành, sinh viên được làm gì tiếp theo?",
+  "positive_passage_id": "p_0076",
+  "evidence": "Sinh viên sau khi hoàn thành phần thực hành/thí nghiệm sẽ được thi lý thuyết",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5089",
+  "question": "Đối với môn học vừa lý thuyết vừa thực hành, điều kiện để được dự thi lý thuyết là gì?",
+  "positive_passage_id": "p_0076",
+  "evidence": "Sinh viên sau khi hoàn thành phần thực hành/thí nghiệm sẽ được thi lý thuyết",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5090",
+  "question": "Thời điểm nào sinh viên bị đánh giá 0 điểm cho cả học phần?",
+  "positive_passage_id": "p_0076",
+  "evidence": "sẽ có điểm đánh giá học phần 0 điểm",
+  "intent": "time"
+},
+{
+  "qid": "q_5091",
+  "question": "Học phần nào chịu sự điều chỉnh của quy tắc này?",
+  "positive_passage_id": "p_0076",
+  "evidence": "Đối với các học phần vừa có thực hành/thí nghiệm vừa có lý thuyết",
+  "intent": "definition"
+},
+{
+  "qid": "q_5092",
+  "question": "Sinh viên đã hoàn thành thực hành thì có được thi lý thuyết hay không?",
+  "positive_passage_id": "p_0076",
+  "evidence": "Sinh viên sau khi hoàn thành phần thực hành/thí nghiệm sẽ được thi lý thuyết",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5093",
+  "question": "Nếu bỏ qua phần thí nghiệm, sinh viên có thể nhận điểm khác không?",
+  "positive_passage_id": "p_0076",
+  "evidence": "sẽ có điểm đánh giá học phần 0 điểm",
+  "intent": "check"
+},
+{
+  "qid": "q_5094",
+  "question": "Quyền lợi thi lý thuyết xuất hiện sau khi sinh viên đáp ứng điều kiện gì?",
+  "positive_passage_id": "p_0076",
+  "evidence": "Sinh viên sau khi hoàn thành phần thực hành/thí nghiệm sẽ được thi lý thuyết",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5095",
+  "question": "Hình thức xử lý đối với sinh viên không hoàn thành thực hành là gì?",
+  "positive_passage_id": "p_0076",
+  "evidence": "sẽ không được thi phần lý thuyết và sẽ có điểm đánh giá học phần 0 điểm",
+  "intent": "what"
+},
+{
+  "qid": "q_5096",
+  "question": "Theo quy định, sinh viên cần đáp ứng điều kiện gì về mặt tham dự đối với các môn thực hành?",
+  "positive_passage_id": "p_0077",
+  "evidence": "Sinh viên phải tham dự đầy đủ các bài thực hành/thí nghiệm",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5097",
+  "question": "Sinh viên có được phép vắng một buổi thực hành không?",
+  "positive_passage_id": "p_0077",
+  "evidence": "phải tham dự đầy đủ các bài thực hành/thí nghiệm",
+  "intent": "check"
+},
+{
+  "qid": "q_5098",
+  "question": "Điểm của học phần thực hành được lấy từ đâu?",
+  "positive_passage_id": "p_0077",
+  "evidence": "Điểm trung bình cộng của điểm các bài thực hành/thí nghiệm",
+  "intent": "what"
+},
+{
+  "qid": "q_5099",
+  "question": "Thời gian tính điểm cho học phần thực hành diễn ra trong khoảng nào?",
+  "positive_passage_id": "p_0077",
+  "evidence": "các bài thực hành/thí nghiệm trong học kỳ",
+  "intent": "time"
+},
+{
+  "qid": "q_5100",
+  "question": "Làm thế nào để tính điểm tổng kết cho môn thực hành?",
+  "positive_passage_id": "p_0077",
+  "evidence": "được làm tròn đến một chữ số thập phân là điểm của học phần",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5101",
+  "question": "Định nghĩa điểm học phần thực hành theo văn bản này là gì?",
+  "positive_passage_id": "p_0077",
+  "evidence": "là điểm của học phần thực hành/thí nghiệm",
+  "intent": "definition"
+},
+{
+  "qid": "q_5102",
+  "question": "Yêu cầu về sự tham dự của sinh viên đối với các bài thí nghiệm là như thế nào?",
+  "positive_passage_id": "p_0077",
+  "evidence": "tham dự đầy đủ các bài thực hành/thí nghiệm",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5103",
+  "question": "Có phải tất cả các bài thực hành đều bắt buộc tham dự không?",
+  "positive_passage_id": "p_0077",
+  "evidence": "phải tham dự đầy đủ các bài thực hành/thí nghiệm",
+  "intent": "check"
+},
+{
+  "qid": "q_5104",
+  "question": "Điểm trung bình cộng của các bài thực hành được xử lý thế nào?",
+  "positive_passage_id": "p_0077",
+  "evidence": "được làm tròn đến một chữ số thập phân",
+  "intent": "what"
+},
+{
+  "qid": "q_5105",
+  "question": "Quy trình tính điểm cho học phần thực hành gồm những bước nào?",
+  "positive_passage_id": "p_0077",
+  "evidence": "Điểm trung bình cộng của điểm các bài thực hành/thí nghiệm trong học kỳ được làm tròn",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5106",
+  "question": "Khi nào thì điểm các bài thực hành được lấy để tính trung bình?",
+  "positive_passage_id": "p_0077",
+  "evidence": "các bài thực hành/thí nghiệm trong học kỳ",
+  "intent": "time"
+},
+{
+  "qid": "q_5107",
+  "question": "Thế nào được gọi là điểm học phần thực hành?",
+  "positive_passage_id": "p_0077",
+  "evidence": "là điểm của học phần thực hành/thí nghiệm",
+  "intent": "definition"
+},
+{
+  "qid": "q_5108",
+  "question": "Làm sao để làm tròn điểm trung bình các bài thực hành?",
+  "positive_passage_id": "p_0077",
+  "evidence": "làm tròn đến một chữ số thập phân",
+  "intent": "howto"
+},
+{
+  "qid": "q_5109",
+  "question": "Sinh viên có nghĩa vụ gì đối với các buổi thí nghiệm?",
+  "positive_passage_id": "p_0077",
+  "evidence": "phải tham dự đầy đủ các bài thực hành/thí nghiệm",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5110",
+  "question": "Việc tham dự đầy đủ các bài thực hành có phải là điều kiện bắt buộc không?",
+  "positive_passage_id": "p_0077",
+  "evidence": "tham dự đầy đủ các bài thực hành/thí nghiệm",
+  "intent": "check"
+},
+{
+  "qid": "q_5111",
+  "question": "Kết quả cuối cùng của học phần thực hành được gọi là gì?",
+  "positive_passage_id": "p_0077",
+  "evidence": "là điểm của học phần thực hành/thí nghiệm",
+  "intent": "what"
+},
+{
+  "qid": "q_5112",
+  "question": "Người ta tính điểm trung bình các bài thực hành rồi làm tròn như thế nào?",
+  "positive_passage_id": "p_0077",
+  "evidence": "được làm tròn đến một chữ số thập phân là điểm của học phần",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5113",
+  "question": "Cách xác định điểm học phần cho môn có thực hành ra sao?",
+  "positive_passage_id": "p_0077",
+  "evidence": "Điểm trung bình cộng của điểm các bài thực hành/thí nghiệm trong học kỳ",
+  "intent": "howto"
+}
