@@ -138,7 +138,7 @@ def main():
     ap.add_argument("--passages", default=str(Path(__file__).resolve().parents[1] / "data" / "passages4gen.json"))
     ap.add_argument("--output-questions", default=str(Path(__file__).resolve().parent / "new_questions.json"))
     ap.add_argument("--base-url", default=os.getenv("OPENAI_BASE_URL", "http://127.0.0.1:5001/v1"))
-    ap.add_argument("--api-key", default="sk-4a7c674e8c2443d880bb5b4167ee8055")
+    ap.add_argument("--api-key", default="sk-5999e2cfca9a433bb9534e18c1a83350")
     ap.add_argument("--model", default="deepseek-v4-flash")
 
     ap.add_argument("--n", type=int, default=18, help="Questions per passage before filtering")

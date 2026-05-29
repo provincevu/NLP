@@ -1,0 +1,988 @@
+[
+{
+  "qid": "q_5000",
+  "question": "Bộ môn có trách nhiệm tổ chức nghiệm thu cho những loại hình thực tập nào?",
+  "positive_passage_id": "p_0078",
+  "evidence": "các học phần thực tập sản xuất, thực tập tốt nghiệp, thực tập doanh nghiệp",
+  "intent": "what"
+},
+{
+  "qid": "q_5001",
+  "question": "Kết quả đánh giá của học phần thực tập được phân loại ra sao?",
+  "positive_passage_id": "p_0078",
+  "evidence": "đánh giá kết quả đạt hay không đạt",
+  "intent": "what"
+},
+{
+  "qid": "q_5002",
+  "question": "Sinh viên bị đánh giá không đạt ở thực tập sẽ phải làm gì?",
+  "positive_passage_id": "p_0078",
+  "evidence": "Sinh viên không đạt phải đi thực tập lại",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5003",
+  "question": "Có phải Bộ môn là đơn vị duy nhất đánh giá kết quả thực tập không?",
+  "positive_passage_id": "p_0078",
+  "evidence": "Bộ môn tổ chức nghiệm thu và đánh giá kết quả",
+  "intent": "check"
+},
+{
+  "qid": "q_5004",
+  "question": "Quy trình xử lý kết quả thực tập gồm những bước nào?",
+  "positive_passage_id": "p_0078",
+  "evidence": "tổ chức nghiệm thu và đánh giá kết quả đạt hay không đạt",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5005",
+  "question": "Ai là người quyết định việc đạt hay không đạt trong các học phần thực tập?",
+  "positive_passage_id": "p_0078",
+  "evidence": "Bộ môn tổ chức nghiệm thu và đánh giá kết quả",
+  "intent": "what"
+},
+{
+  "qid": "q_5006",
+  "question": "Sinh viên có bắt buộc phải thực tập lại nếu kết quả là không đạt không?",
+  "positive_passage_id": "p_0078",
+  "evidence": "Sinh viên không đạt phải đi thực tập lại",
+  "intent": "check"
+},
+{
+  "qid": "q_5007",
+  "question": "Những học phần nào thuộc diện Bộ môn tổ chức nghiệm thu?",
+  "positive_passage_id": "p_0078",
+  "evidence": "thực tập sản xuất, thực tập tốt nghiệp, thực tập doanh nghiệp",
+  "intent": "what"
+},
+{
+  "qid": "q_5008",
+  "question": "Việc đánh giá kết quả thực tập do ai thực hiện?",
+  "positive_passage_id": "p_0078",
+  "evidence": "Bộ môn tổ chức nghiệm thu và đánh giá",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5009",
+  "question": "Điều gì xảy ra khi sinh viên không vượt qua kỳ thực tập?",
+  "positive_passage_id": "p_0078",
+  "evidence": "Sinh viên không đạt phải đi thực tập lại",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5010",
+  "question": "Có bao nhiêu loại thực tập được nhắc đến trong đoạn văn?",
+  "positive_passage_id": "p_0078",
+  "evidence": "thực tập sản xuất, thực tập tốt nghiệp, thực tập doanh nghiệp",
+  "intent": "what"
+},
+{
+  "qid": "q_5011",
+  "question": "Liệu sinh viên có phải thực tập lại nếu rơi vào trường hợp không đạt?",
+  "positive_passage_id": "p_0078",
+  "evidence": "Sinh viên không đạt phải đi thực tập lại",
+  "intent": "check"
+},
+{
+  "qid": "q_5012",
+  "question": "Bộ môn đảm nhận vai trò gì trong các học phần thực tập?",
+  "positive_passage_id": "p_0078",
+  "evidence": "tổ chức nghiệm thu và đánh giá kết quả",
+  "intent": "what"
+},
+{
+  "qid": "q_5013",
+  "question": "Điểm đánh giá bộ phận được chấm theo thang điểm nào?",
+  "positive_passage_id": "p_0093",
+  "evidence": "Điểm đánh giá bộ phận và điểm thi kết thúc học phần được chấm theo thang điểm 10",
+  "intent": "what"
+},
+{
+  "qid": "q_5014",
+  "question": "Điểm thi kết thúc học phần có được làm tròn không?",
+  "positive_passage_id": "p_0093",
+  "evidence": "làm tròn đến 1 chữ số thập phân",
+  "intent": "check"
+},
+{
+  "qid": "q_5015",
+  "question": "Sau khi làm tròn, điểm số có mấy chữ số thập phân?",
+  "positive_passage_id": "p_0093",
+  "evidence": "làm tròn đến 1 chữ số thập phân",
+  "intent": "what"
+},
+{
+  "qid": "q_5016",
+  "question": "Có phải cả hai loại điểm đều dùng thang 10 không?",
+  "positive_passage_id": "p_0093",
+  "evidence": "Điểm đánh giá bộ phận và điểm thi kết thúc học phần được chấm theo thang điểm 10",
+  "intent": "check"
+},
+{
+  "qid": "q_5017",
+  "question": "Khi chấm điểm, có yêu cầu bắt buộc phải làm tròn không?",
+  "positive_passage_id": "p_0093",
+  "evidence": "làm tròn đến 1 chữ số thập phân",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5018",
+  "question": "Điểm được làm tròn đến hàng phần mười đúng không?",
+  "positive_passage_id": "p_0093",
+  "evidence": "làm tròn đến 1 chữ số thập phân",
+  "intent": "check"
+},
+{
+  "qid": "q_5019",
+  "question": "Điểm đánh giá bộ phận và điểm thi kết thúc học phần có cách chấm giống nhau không?",
+  "positive_passage_id": "p_0093",
+  "evidence": "Điểm đánh giá bộ phận và điểm thi kết thúc học phần được chấm theo thang điểm 10",
+  "intent": "check"
+},
+{
+  "qid": "q_5020",
+  "question": "Điểm số sau khi làm tròn luôn có một chữ số thập phân đúng không?",
+  "positive_passage_id": "p_0093",
+  "evidence": "làm tròn đến 1 chữ số thập phân",
+  "intent": "check"
+},
+{
+  "qid": "q_5021",
+  "question": "Điểm đánh giá bộ phận có thang điểm từ 0 đến 10 đúng không?",
+  "positive_passage_id": "p_0093",
+  "evidence": "Điểm đánh giá bộ phận và điểm thi kết thúc học phần được chấm theo thang điểm 10 (từ 0 đến 10)",
+  "intent": "check"
+},
+{
+  "qid": "q_5022",
+  "question": "Điểm học phần được định nghĩa như thế nào?",
+  "positive_passage_id": "p_0094",
+  "evidence": "Điểm học phần là tổng điểm của tất cả các điểm đánh giá bộ phận",
+  "intent": "definition"
+},
+{
+  "qid": "q_5023",
+  "question": "Làm cách nào để tính điểm học phần?",
+  "positive_passage_id": "p_0094",
+  "evidence": "tổng điểm của tất cả các điểm đánh giá bộ phận",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5024",
+  "question": "Điểm học phần được làm tròn đến bao nhiêu chữ số thập phân?",
+  "positive_passage_id": "p_0094",
+  "evidence": "làm tròn đến một chữ số thập phân",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5025",
+  "question": "Có bắt buộc phải làm tròn điểm học phần không?",
+  "positive_passage_id": "p_0094",
+  "evidence": "Điểm học phần làm tròn đến một chữ số thập phân",
+  "intent": "check"
+},
+{
+  "qid": "q_5026",
+  "question": "Sau khi làm tròn, điểm học phần được xử lý tiếp như thế nào?",
+  "positive_passage_id": "p_0094",
+  "evidence": "sau đó được chuyển thành điểm chữ như sau:",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5027",
+  "question": "Loại đạt có phân mức áp dụng cho những học phần nào?",
+  "positive_passage_id": "p_0094",
+  "evidence": "các học phần được tính vào điểm trung bình học tập",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5028",
+  "question": "Cách tính điểm học phần được quy định cụ thể tại điều khoản nào?",
+  "positive_passage_id": "p_0094",
+  "evidence": "khoản 1 Điều 20 của Quy định này",
+  "intent": "where"
+},
+{
+  "qid": "q_5029",
+  "question": "Khái niệm 'loại đạt có phân mức' là gì?",
+  "positive_passage_id": "p_0094",
+  "evidence": "Loại đạt có phân mức, áp dụng cho các học phần được tính vào điểm trung bình học tập",
+  "intent": "definition"
+},
+{
+  "qid": "q_5030",
+  "question": "Điểm học phần có được tính từ các điểm đánh giá bộ phận hay không?",
+  "positive_passage_id": "p_0094",
+  "evidence": "tổng điểm của tất cả các điểm đánh giá bộ phận",
+  "intent": "check"
+},
+{
+  "qid": "q_5031",
+  "question": "Mỗi điểm đánh giá bộ phận có trọng số riêng không?",
+  "positive_passage_id": "p_0094",
+  "evidence": "nhân với trọng số tương ứng theo cách tính",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5032",
+  "question": "Trình tự xử lý điểm học phần diễn ra thế nào?",
+  "positive_passage_id": "p_0094",
+  "evidence": "Điểm học phần làm tròn đến một chữ số thập phân, sau đó được chuyển thành điểm chữ",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5033",
+  "question": "Kết quả cuối cùng của việc tính điểm học phần là gì?",
+  "positive_passage_id": "p_0094",
+  "evidence": "sau đó được chuyển thành điểm chữ như sau:",
+  "intent": "what"
+},
+{
+  "qid": "q_5034",
+  "question": "Điểm học phần có được chuyển thành điểm chữ sau khi làm tròn đúng không?",
+  "positive_passage_id": "p_0094",
+  "evidence": "làm tròn đến một chữ số thập phân, sau đó được chuyển thành điểm chữ",
+  "intent": "check"
+},
+{
+  "qid": "q_5035",
+  "question": "Loại đạt có phân mức có liên quan đến điểm trung bình học tập không?",
+  "positive_passage_id": "p_0094",
+  "evidence": "áp dụng cho các học phần được tính vào điểm trung bình học tập",
+  "intent": "what"
+},
+{
+  "qid": "q_5036",
+  "question": "Các thành phần nào tạo nên điểm học phần?",
+  "positive_passage_id": "p_0094",
+  "evidence": "tổng điểm của tất cả các điểm đánh giá bộ phận",
+  "intent": "definition"
+},
+{
+  "qid": "q_5037",
+  "question": "Điểm học phần phải được làm tròn trước khi chuyển thành điểm chữ phải không?",
+  "positive_passage_id": "p_0094",
+  "evidence": "Điểm học phần làm tròn đến một chữ số thập phân, sau đó được chuyển thành điểm chữ",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5038",
+  "question": "Theo quy định, điểm học phần được tính dựa trên cơ sở nào?",
+  "positive_passage_id": "p_0094",
+  "evidence": "theo cách tính tại khoản 1 Điều 20 của Quy định này",
+  "intent": "where"
+},
+{
+  "qid": "q_5039",
+  "question": "Khoảng điểm nào cho ra điểm chữ A+?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "what"
+},
+{
+  "qid": "q_5040",
+  "question": "Ở thang điểm 10, mức điểm nào quy đổi thành 4.0 trên hệ 4?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "what"
+},
+{
+  "qid": "q_5041",
+  "question": "Xếp loại Đạt tương ứng với những mức điểm nào?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "what"
+},
+{
+  "qid": "q_5042",
+  "question": "Điểm số từ bao nhiêu đến bao nhiêu thì được coi là Đạt?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "what"
+},
+{
+  "qid": "q_5043",
+  "question": "Điểm 9.5 có thuộc diện xếp loại Đạt không?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5044",
+  "question": "Một người đạt 9.2 điểm thì có được điểm chữ A+ không?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5045",
+  "question": "Điểm 10.0 có quy đổi thành 4.0 trên hệ 4 không?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5046",
+  "question": "Nếu có 9.0 điểm, liệu có được xếp loại Đạt hay không?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5047",
+  "question": "Làm cách nào để nhận được điểm chữ A+?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "howto"
+},
+{
+  "qid": "q_5048",
+  "question": "Phải đạt điểm số thế nào để có hệ 4 là 4.0?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "howto"
+},
+{
+  "qid": "q_5049",
+  "question": "Cần điểm số trong khoảng nào để được điểm chữ A+?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5050",
+  "question": "Điều kiện điểm số để xếp loại Đạt là gì?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5051",
+  "question": "Những ai có điểm từ mấy đến mấy thì được xếp loại Đạt?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5052",
+  "question": "Định nghĩa của điểm chữ A+ theo thang điểm 10 là gì?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "definition"
+},
+{
+  "qid": "q_5053",
+  "question": "Xếp loại Đạt được hiểu như thế nào?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "definition"
+},
+{
+  "qid": "q_5054",
+  "question": "Điểm 9.1 có tương ứng với điểm chữ A+ không?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5055",
+  "question": "Điểm 9.8 sẽ được xếp vào loại nào?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "what"
+},
+{
+  "qid": "q_5056",
+  "question": "Điểm 9.4 có đạt cả hai tiêu chí A+ và Đạt không?",
+  "positive_passage_id": "p_0095",
+  "evidence": "Điểm từ 9.0 đến 10.0 tương ứng điểm chữ A+, hệ 4 là 4.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5057",
+  "question": "Điểm chữ A được xác định dựa trên khoảng điểm nào?",
+  "positive_passage_id": "p_0096",
+  "evidence": "Điểm từ 8.5 đến dưới 9.0 tương ứng điểm chữ A",
+  "intent": "definition"
+},
+{
+  "qid": "q_5058",
+  "question": "Cần đạt ít nhất bao nhiêu điểm để được điểm chữ A?",
+  "positive_passage_id": "p_0096",
+  "evidence": "Điểm từ 8.5 đến dưới 9.0 tương ứng điểm chữ A",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5059",
+  "question": "Điểm 8.9 có cùng điểm chữ với điểm 8.6 không?",
+  "positive_passage_id": "p_0096",
+  "evidence": "Điểm từ 8.5 đến dưới 9.0 tương ứng điểm chữ A",
+  "intent": "check"
+},
+{
+  "qid": "q_5060",
+  "question": "Liệu điểm 8.5 có được tính vào khoảng để đạt điểm A không?",
+  "positive_passage_id": "p_0096",
+  "evidence": "Điểm từ 8.5 đến dưới 9.0 tương ứng điểm chữ A",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5061",
+  "question": "Yêu cầu tối thiểu để đạt điểm chữ A là bao nhiêu?",
+  "positive_passage_id": "p_0096",
+  "evidence": "Điểm từ 8.5 đến dưới 9.0 tương ứng điểm chữ A",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5062",
+  "question": "Điểm số nào thì được xếp loại Đạt?",
+  "positive_passage_id": "p_0097",
+  "evidence": "từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt",
+  "intent": "what"
+},
+{
+  "qid": "q_5063",
+  "question": "Điểm chữ B+ tương ứng với khoảng điểm nào trên thang 10?",
+  "positive_passage_id": "p_0097",
+  "evidence": "Điểm từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+",
+  "intent": "what"
+},
+{
+  "qid": "q_5064",
+  "question": "Trên thang điểm 4, điểm B+ có giá trị bao nhiêu?",
+  "positive_passage_id": "p_0097",
+  "evidence": "ứng điểm chữ B+, hệ 4 là 3.5",
+  "intent": "what"
+},
+{
+  "qid": "q_5065",
+  "question": "Nếu đạt 8.0 điểm thì có được xếp loại Đạt không?",
+  "positive_passage_id": "p_0097",
+  "evidence": "từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5066",
+  "question": "Điểm 8.5 có được xếp loại Đạt theo quy định này không?",
+  "positive_passage_id": "p_0097",
+  "evidence": "từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5067",
+  "question": "Mức điểm 7.9 có đủ điều kiện để xếp loại Đạt không?",
+  "positive_passage_id": "p_0097",
+  "evidence": "từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5068",
+  "question": "Cần đạt ít nhất bao nhiêu điểm để được điểm chữ B+?",
+  "positive_passage_id": "p_0097",
+  "evidence": "Điểm từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5069",
+  "question": "Những sinh viên có điểm từ 8.0 đến dưới 8.5 sẽ được xếp loại gì?",
+  "positive_passage_id": "p_0097",
+  "evidence": "từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5070",
+  "question": "Thế nào được gọi là xếp loại Đạt trong hệ thống này?",
+  "positive_passage_id": "p_0097",
+  "evidence": "từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt",
+  "intent": "definition"
+},
+{
+  "qid": "q_5071",
+  "question": "Điểm 8.3 được quy đổi thành điểm chữ gì?",
+  "positive_passage_id": "p_0097",
+  "evidence": "Điểm từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+",
+  "intent": "what"
+},
+{
+  "qid": "q_5072",
+  "question": "Khoảng điểm cho điểm chữ B+ là từ đâu đến đâu?",
+  "positive_passage_id": "p_0097",
+  "evidence": "Điểm từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+",
+  "intent": "what"
+},
+{
+  "qid": "q_5073",
+  "question": "Điểm 8.49 có được coi là B+ không?",
+  "positive_passage_id": "p_0097",
+  "evidence": "Điểm từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+",
+  "intent": "check"
+},
+{
+  "qid": "q_5074",
+  "question": "Điểm 8.0 có phải là mức thấp nhất để đạt B+ hay không?",
+  "positive_passage_id": "p_0097",
+  "evidence": "Điểm từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+",
+  "intent": "check"
+},
+{
+  "qid": "q_5075",
+  "question": "Xếp loại Đạt đi kèm với điểm chữ nào?",
+  "positive_passage_id": "p_0097",
+  "evidence": "tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt",
+  "intent": "what"
+},
+{
+  "qid": "q_5076",
+  "question": "Nếu một môn học có điểm hệ 4 là 3.5 thì điểm chữ tương ứng là gì?",
+  "positive_passage_id": "p_0097",
+  "evidence": "ứng điểm chữ B+, hệ 4 là 3.5",
+  "intent": "what"
+},
+{
+  "qid": "q_5077",
+  "question": "Điều kiện về điểm số để được xếp loại Đạt là gì?",
+  "positive_passage_id": "p_0097",
+  "evidence": "từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5078",
+  "question": "Liệu điểm 8.2 có nằm trong khoảng cho điểm B+ không?",
+  "positive_passage_id": "p_0097",
+  "evidence": "Điểm từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+",
+  "intent": "check"
+},
+{
+  "qid": "q_5079",
+  "question": "Làm cách nào để biết điểm 8.1 được xếp loại gì?",
+  "positive_passage_id": "p_0097",
+  "evidence": "từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt",
+  "intent": "howto"
+},
+{
+  "qid": "q_5080",
+  "question": "Điểm 7.5 tương ứng với điểm chữ gì?",
+  "positive_passage_id": "p_0098",
+  "evidence": "Điểm từ 7.0 đến dưới 8.0 tương ứng điểm chữ B",
+  "intent": "what"
+},
+{
+  "qid": "q_5081",
+  "question": "Điểm 7.2 có được xếp loại Đạt không?",
+  "positive_passage_id": "p_0098",
+  "evidence": "Điểm từ 7.0 đến dưới 8.0 tương ứng điểm chữ B, hệ 4 là 3.0, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5082",
+  "question": "Cần điểm số nào để có điểm chữ B?",
+  "positive_passage_id": "p_0098",
+  "evidence": "Điểm từ 7.0 đến dưới 8.0 tương ứng điểm chữ B",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5083",
+  "question": "Làm thế nào để xác định điểm chữ từ điểm số 7.6?",
+  "positive_passage_id": "p_0098",
+  "evidence": "Điểm từ 7.0 đến dưới 8.0 tương ứng điểm chữ B",
+  "intent": "howto"
+},
+{
+  "qid": "q_5084",
+  "question": "Điểm chữ B trong thang điểm này được định nghĩa thế nào?",
+  "positive_passage_id": "p_0098",
+  "evidence": "Điểm từ 7.0 đến dưới 8.0 tương ứng điểm chữ B",
+  "intent": "definition"
+},
+{
+  "qid": "q_5085",
+  "question": "Điểm chữ của mức điểm 7.0 là gì?",
+  "positive_passage_id": "p_0098",
+  "evidence": "Điểm từ 7.0 đến dưới 8.0 tương ứng điểm chữ B",
+  "intent": "what"
+},
+{
+  "qid": "q_5086",
+  "question": "Cách quy đổi điểm 7.3 sang điểm chữ?",
+  "positive_passage_id": "p_0098",
+  "evidence": "Điểm từ 7.0 đến dưới 8.0 tương ứng điểm chữ B",
+  "intent": "howto"
+},
+{
+  "qid": "q_5087",
+  "question": "What letter grade corresponds to a score of 6.7?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "what"
+},
+{
+  "qid": "q_5088",
+  "question": "Is a score of 6.5 considered 'Đạt'?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5089",
+  "question": "What score range yields a C+ letter grade?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5090",
+  "question": "What does the classification 'Đạt' mean in terms of numerical score?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "definition"
+},
+{
+  "qid": "q_5091",
+  "question": "If a student gets a 2.5 on the 4-point scale, what is their classification?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5092",
+  "question": "How to convert a raw score of 6.8 to a letter grade?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5093",
+  "question": "How can I find out if my score of 6.6 passes?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "howto"
+},
+{
+  "qid": "q_5094",
+  "question": "What is the 4-scale equivalent of a score of 6.9?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "what"
+},
+{
+  "qid": "q_5095",
+  "question": "Does a score of 7.0 fall into the Đạt category?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5096",
+  "question": "What is the minimum score needed to achieve a C+?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5097",
+  "question": "What letter grade goes with a 4-scale score of 2.5?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "definition"
+},
+{
+  "qid": "q_5098",
+  "question": "Is a student with a score of 6.4 eligible for a Đạt classification?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5099",
+  "question": "How do I convert a score of 6.5 to the 4-point scale?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5100",
+  "question": "What is the highest score that still gets a C+?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "what"
+},
+{
+  "qid": "q_5101",
+  "question": "Is it true that a score of 6.75 yields a 2.5 on the 4-scale?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5102",
+  "question": "To get a classification of Đạt, what score range must one achieve?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5103",
+  "question": "What does the letter grade C+ represent in terms of the 4-point scale?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "definition"
+},
+{
+  "qid": "q_5104",
+  "question": "How can I tell if my score of 6.5 is considered passing?",
+  "positive_passage_id": "p_0099",
+  "evidence": "Điểm từ 6.5 đến dưới 7.0 tương ứng điểm chữ C+, hệ 4 là 2.5, xếp loại Đạt",
+  "intent": "howto"
+},
+{
+  "qid": "q_5105",
+  "question": "Điểm 5.7 tương ứng với điểm chữ gì?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "what"
+},
+{
+  "qid": "q_5106",
+  "question": "Học sinh được 6.2 có xếp loại Đạt không?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5107",
+  "question": "Cần bao nhiêu điểm để được điểm chữ C?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5108",
+  "question": "Điểm 5.5 có được xếp loại Đạt không?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5109",
+  "question": "Thang điểm 4 cho khoảng 5.5 đến dưới 6.5 là bao nhiêu?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "definition"
+},
+{
+  "qid": "q_5110",
+  "question": "Với điểm 6.4, điểm chữ là gì?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "what"
+},
+{
+  "qid": "q_5111",
+  "question": "Kiểm tra xem điểm 5.9 có tương ứng hệ 4 là 2.0 không?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5112",
+  "question": "Ngưỡng điểm tối thiểu để đạt xếp loại Đạt là bao nhiêu?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5113",
+  "question": "Điểm 6.49 có đủ điều kiện là điểm chữ C không?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5114",
+  "question": "Điểm chữ C được định nghĩa cho khoảng điểm nào?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "definition"
+},
+{
+  "qid": "q_5115",
+  "question": "Nếu có điểm hệ 4 là 2.0 thì điểm chữ tương ứng là gì?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "what"
+},
+{
+  "qid": "q_5116",
+  "question": "Có đúng là điểm 6.5 không thuộc điểm chữ C không?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5117",
+  "question": "Muốn có điểm hệ 4 là 2.0 thì cần điểm số trong khoảng nào?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5118",
+  "question": "Điểm 5.8 có được coi là Đạt theo xếp loại này không?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5119",
+  "question": "Xếp loại Đạt trong văn cảnh này ứng với điểm từ bao nhiêu đến bao nhiêu?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "definition"
+},
+{
+  "qid": "q_5120",
+  "question": "Điểm 5.5 tương đương bao nhiêu trên thang điểm 4?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "what"
+},
+{
+  "qid": "q_5121",
+  "question": "Hãy xác nhận liệu điểm 6.0 có nằm trong khoảng cho điểm chữ C hay không?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "check"
+},
+{
+  "qid": "q_5122",
+  "question": "Yêu cầu về điểm số để được xếp loại Đạt là gì?",
+  "positive_passage_id": "p_0100",
+  "evidence": "Điểm từ 5.5 đến dưới 6.5 tương ứng điểm chữ C, hệ 4 là 2.0, xếp loại Đạt.",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5123",
+  "question": "Khoảng điểm nào tương ứng với điểm chữ D+?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+",
+  "intent": "what"
+},
+{
+  "qid": "q_5124",
+  "question": "Giá trị quy đổi sang thang điểm 4 của khoảng điểm 5.0-5.5 là bao nhiêu?",
+  "positive_passage_id": "p_0101",
+  "evidence": "tương ứng điểm chữ D+, hệ 4 là 1.5",
+  "intent": "what"
+},
+{
+  "qid": "q_5125",
+  "question": "Điểm 5.0 có nằm trong diện xếp loại Đạt hay không?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+, hệ 4 là 1.5, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5126",
+  "question": "Điểm 5.5 có được tính là D+ không?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+",
+  "intent": "check"
+},
+{
+  "qid": "q_5127",
+  "question": "Điều kiện về điểm số để nhận điểm chữ D+ là gì?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5128",
+  "question": "Định nghĩa điểm chữ D+ là gì?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+",
+  "intent": "definition"
+},
+{
+  "qid": "q_5129",
+  "question": "Điểm 5.4 có được xếp loại Đạt không?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+, hệ 4 là 1.5, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5130",
+  "question": "Với số điểm 5.2, điểm chữ tương ứng là gì?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+",
+  "intent": "what"
+},
+{
+  "qid": "q_5131",
+  "question": "Điểm hệ 4 bằng 1.5 thì điểm chữ là gì?",
+  "positive_passage_id": "p_0101",
+  "evidence": "tương ứng điểm chữ D+, hệ 4 là 1.5",
+  "intent": "what"
+},
+{
+  "qid": "q_5132",
+  "question": "Điểm 5.0 có đủ tiêu chuẩn xếp loại Đạt không?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+, hệ 4 là 1.5, xếp loại Đạt",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5133",
+  "question": "Tiêu chí để đạt xếp loại Đạt là gì?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+, hệ 4 là 1.5, xếp loại Đạt",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5134",
+  "question": "Điểm 5.49 có phải điểm chữ D+ không?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+",
+  "intent": "check"
+},
+{
+  "qid": "q_5135",
+  "question": "Khoảng điểm nào dẫn đến hệ 4 là 1.5?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+, hệ 4 là 1.5",
+  "intent": "what"
+},
+{
+  "qid": "q_5136",
+  "question": "Điểm 5.1 có nằm trong vùng điểm D+ không?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+",
+  "intent": "check"
+},
+{
+  "qid": "q_5137",
+  "question": "Xếp loại Đạt trong hệ thống điểm 10 được hiểu thế nào?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+, hệ 4 là 1.5, xếp loại Đạt",
+  "intent": "definition"
+},
+{
+  "qid": "q_5138",
+  "question": "Điểm số nào cho kết quả hệ 4 là 1.5?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+, hệ 4 là 1.5",
+  "intent": "what"
+},
+{
+  "qid": "q_5139",
+  "question": "Điểm 5.3 có được coi là Đạt không?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+, hệ 4 là 1.5, xếp loại Đạt",
+  "intent": "check"
+},
+{
+  "qid": "q_5140",
+  "question": "Để đạt D+, học sinh cần điểm số trong khoảng nào?",
+  "positive_passage_id": "p_0101",
+  "evidence": "Điểm từ 5.0 đến dưới 5.5 tương ứng điểm chữ D+",
+  "intent": "requirement"
+}
