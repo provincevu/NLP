@@ -287,6 +287,55 @@
   "intent": "time"
 },
 {
+  "qid": "q_5034",
+  "question": "Thời gian đi nghĩa vụ quân sự có được tính vào thời gian tối đa không?",
+  "positive_passage_id": "p_0024",
+  "evidence": "Nghĩa vụ quân sự: không tính vào thời gian tối đa.",
+  "intent": "check"
+},
+{
+  "qid": "q_5035",
+  "question": "Thời gian tối đa cho phép của một chương trình học được xác định như thế nào?",
+  "positive_passage_id": "p_0024",
+  "evidence": "Thời gian tối đa ≤ 2 lần thời gian chuẩn.",
+  "intent": "definition"
+},
+{
+  "qid": "q_5036",
+  "question": "Một chương trình có thời gian chuẩn 4 năm thì thời gian tối đa là bao nhiêu?",
+  "positive_passage_id": "p_0024",
+  "evidence": "Thời gian tối đa ≤ 2 lần thời gian chuẩn.",
+  "intent": "time"
+},
+{
+  "qid": "q_5037",
+  "question": "Hệ vừa làm vừa học kéo dài hơn bao nhiêu phần trăm so với hệ chính quy?",
+  "positive_passage_id": "p_0024",
+  "evidence": "Hệ vừa làm vừa học: dài hơn 20%",
+  "intent": "what"
+},
+{
+  "qid": "q_5038",
+  "question": "Chương trình cử nhân 4 năm hệ vừa làm vừa học sẽ kéo dài bao lâu?",
+  "positive_passage_id": "p_0024",
+  "evidence": "Hệ vừa làm vừa học: dài hơn 20% (4 năm → 5 năm",
+  "intent": "what"
+},
+{
+  "qid": "q_5039",
+  "question": "Chương trình 4,5 năm hệ vừa làm vừa học thì học trong bao lâu?",
+  "positive_passage_id": "p_0024",
+  "evidence": "vừa làm vừa học: dài hơn 20% (4 năm → 5 năm; 4,5 năm → 5,5 năm)",
+  "intent": "what"
+},
+{
+  "qid": "q_5040",
+  "question": "Thời gian nghỉ ốm có phép tối đa không bị tính chậm tiến độ là bao lâu?",
+  "positive_passage_id": "p_0024",
+  "evidence": "Nghỉ ốm có phép ≤ 2 năm: không tính chậm tiến độ.",
+  "intent": "time"
+},
+{
   "qid": "q_5041",
   "question": "Loại nghỉ nào không bị tính vào thời gian tối đa?",
   "positive_passage_id": "p_0024",
@@ -348,6 +397,55 @@
   "positive_passage_id": "p_0026",
   "evidence": "nguyện vọng đăng ký (theo thứ tự ưu tiên), điểm thi, kết quả học tập",
   "intent": "requirement"
+},
+{
+  "qid": "q_5050",
+  "question": "Nguyện vọng đăng ký được xét theo thứ tự như thế nào?",
+  "positive_passage_id": "p_0026",
+  "evidence": "nguyện vọng đăng ký (theo thứ tự ưu tiên)",
+  "intent": "what"
+},
+{
+  "qid": "q_5051",
+  "question": "Điểm thi có được dùng để xếp sinh viên không?",
+  "positive_passage_id": "p_0026",
+  "evidence": "nguyện vọng đăng ký (theo thứ tự ưu tiên), điểm thi,",
+  "intent": "check"
+},
+{
+  "qid": "q_5052",
+  "question": "Hiệu trưởng có quyền quy định những gì?",
+  "positive_passage_id": "p_0026",
+  "evidence": "Hiệu trưởng quy định số lượng và tiêu chí cụ thể",
+  "intent": "what"
+},
+{
+  "qid": "q_5053",
+  "question": "Hiệu trưởng có quy định số lượng không?",
+  "positive_passage_id": "p_0026",
+  "evidence": "Hiệu trưởng quy định số lượng và tiêu chí cụ thể",
+  "intent": "check"
+},
+{
+  "qid": "q_5054",
+  "question": "Làm cách nào để biết được chỉ tiêu của từng chương trình?",
+  "positive_passage_id": "p_0026",
+  "evidence": "Trường công bố chỉ tiêu từng chương trình",
+  "intent": "howto"
+},
+{
+  "qid": "q_5055",
+  "question": "Sinh viên cần có những gì để được xếp hạng?",
+  "positive_passage_id": "p_0026",
+  "evidence": "nguyện vọng đăng ký (theo thứ tự ưu tiên), điểm thi, kết quả học tập",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5056",
+  "question": "Kết quả học tập có được xem xét khi xếp sinh viên không?",
+  "positive_passage_id": "p_0026",
+  "evidence": "nguyện vọng đăng ký (theo thứ tự ưu tiên), điểm thi, kết quả học tập",
+  "intent": "check"
 },
 {
   "qid": "q_5050",
@@ -567,6 +665,83 @@
   "intent": "check"
 },
 {
+  "qid": "q_5070",
+  "question": "Số lượng sinh viên tối thiểu có chính xác là 20 không?",
+  "positive_passage_id": "p_0027",
+  "evidence": "Số lượng sinh viên tối thiểu để mở đào tạo một chuyên ngành là 20",
+  "intent": "check"
+},
+{
+  "qid": "q_5071",
+  "question": "Chức danh nào có quyền quyết định trường hợp đặc biệt?",
+  "positive_passage_id": "p_0027",
+  "evidence": "Trường hợp đặc biệt do Hiệu trưởng quyết định",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5072",
+  "question": "Làm thế nào để một chuyên ngành được mở dù số lượng sinh viên ít?",
+  "positive_passage_id": "p_0027",
+  "evidence": "Trường hợp đặc biệt do Hiệu trưởng quyết định",
+  "intent": "howto"
+},
+{
+  "qid": "q_5073",
+  "question": "Khi nào một chuyên ngành có thể không được mở đào tạo?",
+  "positive_passage_id": "p_0027",
+  "evidence": "nếu số lượng sinh viên đăng ký nguyện vọng theo học quá ít",
+  "intent": "time"
+},
+{
+  "qid": "q_5074",
+  "question": "Yêu cầu về số lượng sinh viên để mở chuyên ngành là gì?",
+  "positive_passage_id": "p_0027",
+  "evidence": "Số lượng sinh viên tối thiểu để mở đào tạo một chuyên ngành là 20",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5075",
+  "question": "Trong passage, 'trường hợp đặc biệt' được xử lý ra sao?",
+  "positive_passage_id": "p_0027",
+  "evidence": "Trường hợp đặc biệt do Hiệu trưởng quyết định",
+  "intent": "definition"
+},
+{
+  "qid": "q_5076",
+  "question": "Có trường hợp đặc biệt nào được đề cập không?",
+  "positive_passage_id": "p_0027",
+  "evidence": "Trường hợp đặc biệt do Hiệu trưởng quyết định",
+  "intent": "check"
+},
+{
+  "qid": "q_5077",
+  "question": "Điều kiện tiên quyết để mở một chuyên ngành về mặt số lượng là gì?",
+  "positive_passage_id": "p_0027",
+  "evidence": "Số lượng sinh viên tối thiểu để mở đào tạo một chuyên ngành là 20",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5078",
+  "question": "Quy trình xử lý trường hợp đặc biệt được mô tả thế nào?",
+  "positive_passage_id": "p_0027",
+  "evidence": "Trường hợp đặc biệt do Hiệu trưởng quyết định",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5079",
+  "question": "Theo passage, người nào có quyền quyết định cuối cùng đối với trường hợp đặc biệt?",
+  "positive_passage_id": "p_0027",
+  "evidence": "Trường hợp đặc biệt do Hiệu trưởng quyết định",
+  "intent": "what"
+},
+{
+  "qid": "q_5080",
+  "question": "Số lượng sinh viên đăng ký quá ít có thể khiến một chuyên ngành không được mở không?",
+  "positive_passage_id": "p_0027",
+  "evidence": "có thể không được mở đào tạo cho một khóa sinh viên",
+  "intent": "check"
+},
+{
   "qid": "q_5081",
   "question": "Sĩ số tối thiểu để mở một lớp chung cho nhiều ngành là bao nhiêu?",
   "positive_passage_id": "p_0032",
@@ -649,6 +824,68 @@
   "positive_passage_id": "p_0032",
   "evidence": "Thực hành/thí nghiệm: 10-20 sinh viết/nhóm, 1 người hướng dẫn",
   "intent": "what"
+},
+{
+  "qid": "q_5093",
+  "question": "Yêu cầu về người hướng dẫn cho mỗi nhóm thực hành là gì?",
+  "positive_passage_id": "p_0032",
+  "evidence": "Thực hành/thí nghiệm: 10-20 sinh viết/nhóm, 1 người hướng dẫn",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5094",
+  "question": "Học phí của lớp chuyên ngành mở theo đơn sẽ như thế nào so với bình thường?",
+  "positive_passage_id": "p_0032",
+  "evidence": "Ngoại lệ chuyên ngành:\n- 5-19 sinh viên: mở lớp theo đơn, học phí cao hơn",
+  "intent": "what"
+},
+{  "qid": "q_5095",
+  "question": "Lớp quản lý sinh viên được hiểu như thế nào?",
+  "positive_passage_id": "p_0033",
+  "evidence": "Lớp quản lý sinh viên: cùng ngành/chuyên ngành, cùng khóa",
+  "intent": "definition"
+},
+{
+  "qid": "q_5096",
+  "question": "Điều kiện bắt buộc về ngành học của sinh viên trong cùng một lớp quản lý là gì?",
+  "positive_passage_id": "p_0033",
+  "evidence": "Lớp quản lý sinh viên: cùng ngành/chuyên ngành, cùng khóa",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5097",
+  "question": "Yêu cầu về khóa đào tạo đối với lớp quản lý sinh viên là gì?",
+  "positive_passage_id": "p_0033",
+  "evidence": "Lớp quản lý sinh viên: cùng ngành/chuyên ngành, cùng khóa",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5098",
+  "question": "Ai đảm nhận vai trò tư vấn học tập cho sinh viên trong lớp?",
+  "positive_passage_id": "p_0033",
+  "evidence": "Có giảng viên chủ nhiệm/cố vấn học tập",
+  "intent": "who"
+},
+{
+  "qid": "q_5099",
+  "question": "Phòng nào phụ trách quản lý sinh viên trên phạm vi toàn trường?",
+  "positive_passage_id": "p_0033",
+  "evidence": "trực tiếp. Phòng CTCT-SV quản lý chung toàn trường",
+  "intent": "where"
+},
+{
+  "qid": "q_5100",
+  "question": "Giảng viên chủ nhiệm tư vấn cho sinh viên những nội dung cụ thể nào?",
+  "positive_passage_id": "p_0033",
+  "evidence": "lập kế hoạch học tập, định hướng nghề nghiệp, chọn học phần, đăng ký/rút học phần",
+  "intent": "what"
+},
+{
+  "qid": "q_5101",
+  "question": "Có đúng là giảng viên chủ nhiệm giúp sinh viên lập kế hoạch học tập không?",
+  "positive_passage_id": "p_0033",
+  "evidence": "lập kế hoạch học tập, định hướng nghề nghiệp",
+  "intent": "check"
 },
 {
   "qid": "q_5093",
@@ -796,6 +1033,109 @@
   "positive_passage_id": "p_0036",
   "evidence": "Đợt 2: chậm nhất 2 tuần trước học kỳ, đăng ký chính thức",
   "intent": "check"
+},
+{  "qid": "q_5114",
+  "question": "Thời hạn đăng ký đợt 1 là bao lâu trước học kỳ?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 1: trước 4 tuần, điều chỉnh theo kế hoạch (có tư vấn)",
+  "intent": "time"
+},
+{  "qid": "q_5115",
+  "question": "Hạn chót của đợt đăng ký chính thức là khi nào?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 2: chậm nhất 2 tuần trước học kỳ, đăng ký chính thức",
+  "intent": "time"
+},
+{
+  "qid": "q_5116",
+  "question": "Đợt bổ sung cần hoàn thành trước thời điểm nào?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 3: chậm nhất 1 tuần trước học kỳ, chỉ đăng ký bổ sung",
+  "intent": "time"
+},
+{
+  "qid": "q_5117",
+  "question": "Đợt 3 chỉ dành cho loại đăng ký nào?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 3: chậm nhất 1 tuần trước học kỳ, chỉ đăng ký bổ sung",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5118",
+  "question": "Trong đợt đầu tiên, sinh viên được phép thực hiện hành động gì?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 1: trước 4 tuần, điều chỉnh theo kế hoạch (có tư vấn)",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5119",
+  "question": "Học kỳ phụ có được hưởng đợt đăng ký thứ ba không?",
+  "positive_passage_id": "p_0036",
+  "evidence": "chỉ đăng ký bổ sung (học kỳ phụ không có đợt 3)",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5120",
+  "question": "Có phải tất cả các học kỳ đều có đủ 3 đợt đăng ký không?",
+  "positive_passage_id": "p_0036",
+  "evidence": "chỉ đăng ký bổ sung (học kỳ phụ không có đợt 3)",
+  "intent": "check"
+},
+{
+  "qid": "q_5121",
+  "question": "'Đăng ký chính thức' là thuật ngữ chỉ đợt nào?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 2: chậm nhất 2 tuần trước học kỳ, đăng ký chính thức",
+  "intent": "definition"
+},
+{
+  "qid": "q_5122",
+  "question": "'Đăng ký bổ sung' xuất hiện ở đợt thứ mấy?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 3: chậm nhất 1 tuần trước học kỳ, chỉ đăng ký bổ sung",
+  "intent": "definition"
+},
+{
+  "qid": "q_5123",
+  "question": "Đợt đăng ký nào có hỗ trợ tư vấn?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 1: trước 4 tuần, điều chỉnh theo kế hoạch (có tư vấn)",
+  "intent": "what"
+},
+{
+  "qid": "q_5124",
+  "question": "Đợt đăng ký nào diễn ra sớm nhất?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 1: trước 4 tuần, điều chỉnh theo",
+  "intent": "what"
+},
+{
+  "qid": "q_5125",
+  "question": "Sinh viên có bắt buộc đăng ký qua daotao.humg.edu.vn không?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đăng ký học qua daotao.humg.edu.vn. Các đợt đăng ký",
+  "intent": "check"
+},
+{
+  "qid": "q_5126",
+  "question": "Đợt đăng ký đầu tiên nhằm mục đích gì?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 1: trước 4 tuần, điều chỉnh theo kế hoạch (có tư vấn)",
+  "intent": "what"
+},
+{
+  "qid": "q_5127",
+  "question": "Có tồn tại đợt đăng ký thứ ba trong học kỳ phụ không?",
+  "positive_passage_id": "p_0036",
+  "evidence": "chỉ đăng ký bổ sung (học kỳ phụ không có đợt 3)",
+  "intent": "check"
+},
+{
+  "qid": "q_5128",
+  "question": "Đợt đăng ký nào có thời hạn gần nhất với ngày bắt đầu học kỳ?",
+  "positive_passage_id": "p_0036",
+  "evidence": "Đợt 3: chậm nhất 1 tuần trước học kỳ, chỉ đăng ký bổ sung",
+  "intent": "time"
 },
 {
   "qid": "q_5114",
@@ -1005,6 +1345,108 @@
   "question": "Sinh viên học lực bình thường có bắt buộc phải đăng ký ít nhất 14 tín chỉ trong học kỳ chính (không kể kỳ cuối) không?",
   "positive_passage_id": "p_0037",
   "evidence": "Học lực bình thường trở lên: 14 TC",
+  "intent": "check"
+},
+{  "qid": "q_5144",
+  "question": "Đối với sinh viên học lực yếu, mức tín chỉ tối thiểu trong học kỳ chính (trừ kỳ cuối) có đúng là 10 không?",
+  "positive_passage_id": "p_0037",
+  "evidence": "14 TC\n- Học lực yếu: 10 TC",
+  "intent": "check"
+},
+{  "qid": "q_5145",
+  "question": "Khi nào học kỳ chính không áp dụng quy định tín chỉ tối thiểu?",
+  "positive_passage_id": "p_0037",
+  "evidence": "Tín chỉ tối thiểu mỗi học kỳ chính (trừ học kỳ cuối):",
+  "intent": "time"
+},
+{  "qid": "q_5146",
+  "question": "Khi đăng ký học phần theo từng học kỳ, sinh viên bắt buộc phải đảm bảo điều gì?",
+  "positive_passage_id": "p_0039",
+  "evidence": "đăng ký các học phần sẽ học cho từng học kỳ phải bảo đảm điều kiện tiên quyết",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5147",
+  "question": "Có yêu cầu gì về thứ tự các môn học trong từng chương trình không?",
+  "positive_passage_id": "p_0039",
+  "evidence": "điều kiện tiên quyết của từng học phần và trình tự học tập của mỗi chương trình cụ thể",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5148",
+  "question": "Sinh viên có thể đăng ký môn song hành trong trường hợp nào?",
+  "positive_passage_id": "p_0039",
+  "evidence": "điều kiện ràng buộc riêng của từng học phần (môn tiên quyết, môn học trước, môn song hành…)",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5149",
+  "question": "Làm sao để biết mình đã đáp ứng đủ điều kiện đăng ký một học phần?",
+  "positive_passage_id": "p_0039",
+  "evidence": "thoả mãn được các điều kiện ràng buộc riêng của từng học phần",
+  "intent": "check"
+},
+{
+  "qid": "q_5150",
+  "question": "Cần kiểm tra những loại ràng buộc nào trước khi đăng ký học phần?",
+  "positive_passage_id": "p_0039",
+  "evidence": "các điều kiện ràng buộc riêng của từng học phần (môn tiên quyết, môn học trước, môn song hành…)",
+  "intent": "check"
+},
+{
+  "qid": "q_5151",
+  "question": "Đa số sinh viên học theo hình thức nào?",
+  "positive_passage_id": "p_0039",
+  "evidence": "Nhìn chung sinh viên học theo chương trình đào tạo đã được sắp xếp",
+  "intent": "what"
+},
+{
+  "qid": "q_5152",
+  "question": "Ngoại lệ trong quá trình học là gì?",
+  "positive_passage_id": "p_0039",
+  "evidence": "sinh viên có thể đăng ký và theo học bất cứ học phần nào có mở trong học kỳ",
+  "intent": "what"
+},
+{
+  "qid": "q_5153",
+  "question": "Cần làm gì để đăng ký một học phần không theo lộ trình chuẩn?",
+  "positive_passage_id": "p_0039",
+  "evidence": "phải bảo đảm điều kiện tiên quyết của từng học phần và trình tự học tập",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5154",
+  "question": "Làm thế nào để đảm bảo đúng trình tự học tập khi đăng ký?",
+  "positive_passage_id": "p_0039",
+  "evidence": "bảo đảm điều kiện tiên quyết của từng học phần và trình tự học tập",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5155",
+  "question": "Có phải mỗi học phần đều có điều kiện tiên quyết riêng không?",
+  "positive_passage_id": "p_0039",
+  "evidence": "điều kiện tiên quyết của từng học phần",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5156",
+  "question": "Theo đoạn văn, việc đăng ký học phần cần tuân theo trình tự nào?",
+  "positive_passage_id": "p_0039",
+  "evidence": "và trình tự học tập của mỗi chương trình cụ thể",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5157",
+  "question": "Hậu quả của việc không đóng học phí sau đợt gia hạn cuối cùng là gì?",
+  "positive_passage_id": "p_0041",
+  "evidence": "có thể bị đình chỉ học tập ở học kỳ kế tiếp",
+  "intent": "what"
+},
+{
+  "qid": "q_5158",
+  "question": "Có đúng là sinh viên không đóng học phí sau đợt thứ nhất sẽ bị hủy đúng 2 học phần không?",
+  "positive_passage_id": "p_0041",
+  "evidence": "Đợt thứ nhất: nếu sinh viên không đóng học phí sẽ bị hủy bỏ đăng ký của tất cả các học phần đã đăng ký trong đợt này (khoảng 15-20 TC)",
   "intent": "check"
 },
 {
@@ -1336,6 +1778,109 @@
   "evidence": "Rút học phần: sau 2 tuần (học kỳ chính), sau 1 tuần (học kỳ phụ)",
   "intent": "howto"
 },
+{  "qid": "q_5191",
+  "question": "Thời gian tối đa để rút học phần không bị ảnh hưởng đến điểm số?",
+  "positive_passage_id": "p_0043",
+  "evidence": "Rút học phần: sau 2 tuần (học kỳ chính), sau 1 tuần (học kỳ phụ)",
+  "intent": "time"
+},
+{  "qid": "q_5192",
+  "question": "Sinh viên muốn rút bớt học phần đã đăng ký thì cần làm những gì?",
+  "positive_passage_id": "p_0044",
+  "evidence": "Sinh viên phải tự viết đơn gửi phòng ĐTĐH sau khi có ý kiến của giảng viên chủ nhiệm",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5193",
+  "question": "Đơn xin rút bớt học phần phải gửi đến đâu?",
+  "positive_passage_id": "p_0044",
+  "evidence": "Sinh viên phải tự viết đơn gửi phòng đào tạo đại học",
+  "intent": "where"
+},
+{
+  "qid": "q_5194",
+  "question": "Có được rút bớt học phần nếu vi phạm khoản 4 Điều 10 không?",
+  "positive_passage_id": "p_0044",
+  "evidence": "Không vi phạm khoản 4 Điều 10 của Quy định này",
+  "intent": "check"
+},
+{
+  "qid": "q_5195",
+  "question": "Học phí của học phần đã rút bớt có được hoàn lại không?",
+  "positive_passage_id": "p_0044",
+  "evidence": "Những học phần rút bớt không được hoàn trả học phí",
+  "intent": "check"
+},
+{
+  "qid": "q_5196",
+  "question": "Quy định nào không được vi phạm khi rút bớt học phần?",
+  "positive_passage_id": "p_0044",
+  "evidence": "Không vi phạm khoản 4 Điều 10 của Quy định này",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5197",
+  "question": "Giảng viên chủ nhiệm có vai trò gì trong quy trình rút bớt học phần?",
+  "positive_passage_id": "p_0044",
+  "evidence": "có ý kiến của giảng viên chủ nhiệm",
+  "intent": "definition"
+},
+{
+  "qid": "q_5198",
+  "question": "Sau khi hết hạn đăng ký môn học, trường xử lý thế nào với những lớp ít sinh viên?",
+  "positive_passage_id": "p_0045",
+  "evidence": "Trường sẽ hủy các lớp học phần không đủ số lượng sinh viên đăng ký",
+  "intent": "what"
+},
+{
+  "qid": "q_5199",
+  "question": "Loại lớp nào không bị hủy dù đăng ký ít?",
+  "positive_passage_id": "p_0045",
+  "evidence": "trừ các lớp học phần sinh viên có đề nghị duy trì để giải quyết nhu cầu học lại, học vượt",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5200",
+  "question": "Khi nào một lớp bị áp dụng mức học phí cao hơn?",
+  "positive_passage_id": "p_0045",
+  "evidence": "có số lượng sinh viên dưới mức tối thiểu theo quy định tại khoản 2 Điều 9",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5201",
+  "question": "Thời điểm trường bắt đầu hủy lớp là lúc nào?",
+  "positive_passage_id": "p_0045",
+  "evidence": "Kết thúc thời hạn quy định đăng ký học phần trên hệ thống quản lý đào tạo",
+  "intent": "time"
+},
+{
+  "qid": "q_5202",
+  "question": "Lớp có sĩ số dưới mức tối thiểu cần thực hiện nghĩa vụ gì?",
+  "positive_passage_id": "p_0045",
+  "evidence": "phải đóng mức học phí cao hơn quy định để bù đắp chi phí tổ chức lớp",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5203",
+  "question": "Quy định về số lượng sinh viên tối thiểu được đề cập ở điều khoản nào?",
+  "positive_passage_id": "p_0045",
+  "evidence": "theo quy định tại khoản 2 Điều 9 của Quy định này",
+  "intent": "definition"
+},
+{
+  "qid": "q_5204",
+  "question": "Việc thu học phí cao hơn cho lớp ít sinh viên nhằm mục đích gì?",
+  "positive_passage_id": "p_0045",
+  "evidence": "để bù đắp chi phí tổ chức lớp",
+  "intent": "purpose"
+},
+{
+  "qid": "q_5205",
+  "question": "Những nhu cầu nào giúp lớp học ít người vẫn được duy trì?",
+  "positive_passage_id": "p_0045",
+  "evidence": "có đề nghị duy trì để giải quyết nhu cầu học lại, học vượt",
+  "intent": "eligibility"
+},
 {
   "qid": "q_5191",
   "question": "Thời gian tối đa để rút học phần không bị ảnh hưởng đến điểm số?",
@@ -1496,4 +2041,54 @@
   "positive_passage_id": "p_0045",
   "evidence": "Các lớp học phần có số lượng sinh viên dưới mức tối thiểu",
   "intent": "what"
+},
+{
+  "qid": "q_5214",
+  "question": "Quy định về việc hủy lớp học phần được nêu trong điều khoản nào?",
+  "positive_passage_id": "p_0045",
+  "evidence": "theo quy định tại khoản 2 Điều 9 của Quy định này",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5215",
+  "question": "Có phải tất cả các lớp học phần đều phải đạt số lượng sinh viên tối thiểu không?",
+  "positive_passage_id": "p_0045",
+  "evidence": "Trường sẽ hủy các lớp học phần không đủ số lượng sinh viên đăng ký, trừ các lớp học phần sinh viên có đề nghị duy trì",
+  "intent": "check"
+},
+{
+  "qid": "q_5216",
+  "question": "Mức học phí cao hơn được áp dụng cho lớp nào?",
+  "positive_passage_id": "p_0045",
+  "evidence": "có số lượng sinh viên dưới mức tối thiểu theo quy định tại khoản 2 Điều 9",
+  "intent": "what"
+},
+{
+  "qid": "q_5217",
+  "question": "Thời điểm nào là hạn cuối để đăng ký học phần trên hệ thống quản lý đào tạo?",
+  "positive_passage_id": "p_0045",
+  "evidence": "Kết thúc thời hạn quy định đăng ký học phần trên hệ thống quản lý đào tạo",
+  "intent": "time"
+},
+{
+  "qid": "q_5218",
+  "question": "Quy trình xử lý lớp học phần không đủ sinh viên đăng ký là gì?",
+  "positive_passage_id": "p_0045",
+  "evidence": "Trường sẽ hủy các lớp học phần không đủ số lượng sinh viên đăng ký, trừ các lớp học phần sinh viên có đề nghị duy trì",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5219",
+  "question": "Có phải tất cả các lớp học phần đều phải đạt số lượng sinh viên tối thiểu để tránh bị hủy không?",
+  "positive_passage_id": "p_0045",
+  "evidence": "Trường sẽ hủy các lớp học phần không đủ số lượng sinh viên đăng ký, trừ các lớp học phần sinh viên có đề nghị duy trì",
+  "intent": "check"
+},
+{
+  "qid": "q_5220",
+  "question": "Mục đích của việc hủy lớp học phần không đủ sinh viên đăng ký là gì?",
+  "positive_passage_id": "p_0045",
+  "evidence": "để đảm bảo hiệu quả tổ chức lớp học và sử dụng nguồn lực đào tạo một cách hợp lý",
+  "intent": "purpose"
 }
+]

@@ -137,6 +137,251 @@
   "question": "Sinh viên cần làm gì ngay sau khi nhận được điểm F của học phần bắt buộc?",
   "positive_passage_id": "p_0048",
   "evidence": "đăng ký học lại học phần đó ở một trong các học kỳ tiếp theo",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5020",
+  "question": "Mục đích cuối cùng của việc học lại môn bắt buộc là gì?",
+  "positive_passage_id": "p_0048",
+  "evidence": "học phần đó ở một trong các học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "what"
+},
+{
+  "qid": "q_5021",
+  "question": "Sinh viên nào được phép học lại môn tự chọn bị điểm F?",
+  "positive_passage_id": "p_0049",
+  "evidence": "Sinh viên có học phần tự chọn bị điểm F",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5022",
+  "question": "Những lựa chọn nào dành cho sinh viên bị điểm F ở môn tự chọn?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó hoặc học đổi sang học phần tự chọn tương đương khác",
+  "intent": "what"
+},
+{
+  "qid": "q_5023",
+  "question": "Có thể học lại học phần tự chọn đã bị điểm F không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó",
+  "intent": "check"
+},
+{
+  "qid": "q_5024",
+  "question": "Có được phép đổi sang một môn tự chọn khác tương đương nếu bị F không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học đổi sang học phần tự chọn tương đương khác cùng danh mục",
+  "intent": "check"
+},
+{
+  "qid": "q_5025",
+  "question": "Làm thế nào để xử lý khi bị điểm F ở môn tự chọn?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó hoặc học đổi sang học phần tự chọn tương đương khác",
+  "intent": "howto"
+},
+{
+  "qid": "q_5026",
+  "question": "Thế nào là học phần tự chọn tương đương trong quy định này?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học phần tự chọn tương đương là học phần có nội dung, mục tiêu và số tín chỉ tương tự như học phần bị điểm F",
+  "intent": "definition"
+},
+{
+  "qid": "q_5027",
+  "question": "Điều kiện để được học lại hoặc học đổi môn tự chọn là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "Sinh viên có học phần tự chọn bị điểm F",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5028",
+  "question": "Sinh viên bị điểm F môn tự chọn có bắt buộc phải học lại không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó",
+  "intent": "check"
+},
+{
+  "qid": "q_5029",
+  "question": "Có được chọn một môn tự chọn khác cùng danh mục thay vì học lại môn bị F không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học đổi sang học phần tự chọn tương đương khác cùng danh mục",
+  "intent": "check"
+},
+{
+  "qid": "q_5030",
+  "question": "Ai có quyền đăng ký học đổi môn tự chọn sau khi bị F?",
+  "positive_passage_id": "p_0049",
+  "evidence": "Sinh viên có học phần tự chọn bị điểm F",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5031",
+  "question": "Hai phương án giải quyết cho sinh viên bị F môn tự chọn là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "đăng ký học lại học phần đó hoặc học đổi sang học phần tự chọn tương đương khác",
+  "intent": "what"
+},
+{
+  "qid": "q_5032",
+  "question": "'Cùng danh mục' trong quy định có nghĩa là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "'Cùng danh mục' có nghĩa là các học phần thuộc cùng một nhóm hoặc lĩnh vực chuyên ngành trong chương trình đào tạo.",
+  "intent": "definition"
+},
+{
+  "qid": "q_5033",
+  "question": "Làm cách nào để học đổi sang môn tự chọn tương đương khi bị F?",
+  "positive_passage_id": "p_0049",
+  "evidence": "học đổi sang học phần tự chọn tương đương khác cùng danh mục",
+  "intent": "howto"
+},
+{
+  "qid": "q_5034",
+  "question": "Sự khác biệt giữa học lại và học đổi môn tự chọn bị F là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "đăng ký học lại học phần đó hoặc học đổi sang học phần tự chọn tương đương khác cùng danh mục",
+  "intent": "definition"
+},
+{
+  "qid": "q_5035",
+  "question": "Sinh viên bị F môn tự chọn có bắt buộc phải học đổi sang môn khác không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "có thể đăng ký học lại học phần đó",
+  "intent": "check"
+},
+{
+  "qid": "q_5036",
+  "question": "Trong quy định này, 'học lại' có nghĩa là gì?",
+  "positive_passage_id": "p_0049",
+  "evidence": "'Học lại' có nghĩa là sinh viên phải đăng ký và hoàn thành lại cùng một học phần đã bị điểm F để cải thiện điểm số.",
+  "intent": "definition"
+},
+{
+  "qid": "q_5037",
+  "question": "Sinh viên năm cuối bị F môn tự chọn có được áp dụng quy định này không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "Sinh viên có học phần tự chọn bị điểm F",
+  "intent": "check"
+},
+{
+  "qid": "q_5038",
+  "question": "Môn tự chọn tương đương khi học đổi có nhất thiết phải khác môn đã bị F không?",
+  "positive_passage_id": "p_0049",
+  "evidence": "'Cùng danh mục' có nghĩa là các học phần thuộc cùng một nhóm hoặc lĩnh vực chuyên ngành trong chương trình đào tạo.",
+  "intent": "check"
+},
+{
+  "qid": "q_5039",
+  "question": "Điểm thi chính thức được xác định dựa trên cơ sở nào?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Điểm thi chính thức được lấy theo điểm cao nhất trong các lần học",
+  "intent": "what"
+},
+{
+  "qid": "q_5040",
+  "question": "Làm thế nào để tính điểm thi chính thức khi sinh viên học nhiều lần?",
+  "positive_passage_id": "p_0050",
+  "evidence": "Điểm thi chính thức được lấy theo điểm cao nhất trong các lần học",
+  "intent": "howto"
+},
+{
+  "qid": "q_5006",
+  "question": "Những sinh viên nào bắt buộc phải học lại học phần bắt buộc khi bị điểm F?",
+  "positive_passage_id": "p_0048",
+  "evidence": "Sinh viên có điểm học phần bắt buộc bị điểm F và không thuộc diện xử lý buộc thôi học",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5007",
+  "question": "Điều bắt buộc phải làm sau khi sinh viên bị F môn bắt buộc nhưng không bị thôi học là gì?",
+  "positive_passage_id": "p_0048",
+  "evidence": "thì phải đăng ký học lại học phần đó ở một trong các học kỳ tiếp theo",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5008",
+  "question": "Vào thời điểm nào trong năm học, sinh viên cần đăng ký học lại môn bắt buộc bị điểm F?",
+  "positive_passage_id": "p_0048",
+  "evidence": "ở một trong các học kỳ tiếp theo",
+  "intent": "time"
+},
+{
+  "qid": "q_5009",
+  "question": "Sinh viên phải học lại môn bắt buộc bị F cho đến lúc nào?",
+  "positive_passage_id": "p_0048",
+  "evidence": "các học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "time"
+},
+{
+  "qid": "q_5010",
+  "question": "Quy trình xử lý khi sinh viên có điểm F ở học phần bắt buộc diễn ra như thế nào?",
+  "positive_passage_id": "p_0048",
+  "evidence": "đăng ký học lại học phần đó ở một trong các học kỳ tiếp theo",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5011",
+  "question": "Làm sao để biết mình có nằm trong nhóm phải học lại môn bắt buộc hay không?",
+  "positive_passage_id": "p_0048",
+  "evidence": "có điểm học phần bắt buộc bị điểm F và không thuộc diện xử lý buộc thôi học",
+  "intent": "check"
+},
+{
+  "qid": "q_5012",
+  "question": "Làm cách nào để khắc phục điểm F trong môn học bắt buộc?",
+  "positive_passage_id": "p_0048",
+  "evidence": "học lại học phần đó ở một trong các học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "howto"
+},
+{
+  "qid": "q_5013",
+  "question": "Nếu sinh viên không thuộc diện buộc thôi học nhưng bị F môn bắt buộc thì hậu quả là gì?",
+  "positive_passage_id": "p_0048",
+  "evidence": "thì phải đăng ký học lại học phần đó",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5014",
+  "question": "Sinh viên được phép học lại môn bắt buộc trong bao nhiêu học kỳ?",
+  "positive_passage_id": "p_0048",
+  "evidence": "học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "time"
+},
+{
+  "qid": "q_5015",
+  "question": "Có giới hạn số lần học lại đối với môn bắt buộc bị F không?",
+  "positive_passage_id": "p_0048",
+  "evidence": "các học kỳ tiếp theo cho đến khi đạt điểm tích lũy",
+  "intent": "what"
+},
+{
+  "qid": "q_5016",
+  "question": "Hành động bắt buộc sinh viên phải thực hiện khi bị F môn bắt buộc là gì?",
+  "positive_passage_id": "p_0048",
+  "evidence": "phải đăng ký học lại học phần đó",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5017",
+  "question": "Loại học phần nào bị ảnh hưởng bởi quy định học lại này?",
+  "positive_passage_id": "p_0048",
+  "evidence": "điểm học phần bắt buộc bị điểm F",
+  "intent": "what"
+},
+{
+  "qid": "q_5018",
+  "question": "Sinh viên có thể đăng ký học lại môn bắt buộc bị F vào học kỳ nào trong tương lai?",
+  "positive_passage_id": "p_0048",
+  "evidence": "ở một trong các học kỳ tiếp theo",
+  "intent": "time"
+},
+{
+  "qid": "q_5019",
+  "question": "Sinh viên cần làm gì ngay sau khi nhận được điểm F của học phần bắt buộc?",
+  "positive_passage_id": "p_0048",
+  "evidence": "đăng ký học lại học phần đó ở một trong các học kỳ tiếp theo",
   "intent": "procedure"
 },
 {
@@ -425,6 +670,18 @@
   "positive_passage_id": "p_0051",
   "evidence": "Bộ môn chuyên môn, Hội đồng Khoa xem xét",
   "intent": "what"
+},
+{  "qid": "q_5061",
+  "question": "làm thế nào để sinh viên có thể học một học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "đề nghị Trường cho phép sinh viên học học phần thay thế",
+  "intent": "where"
+},
+{  "qid": "q_5061",
+  "question": "Ai có thẩm quyền quyết định việc cho phép sinh viên học học phần thay thế?",
+  "positive_passage_id": "p_0051",
+  "evidence": "đề nghị Trường cho phép sinh viên học học phần thay thế",
+  "intent": "who"
 },
 {
   "qid": "q_5061",
@@ -1315,3 +1572,4251 @@
   "evidence": "buộc những sinh viên học yếu kém hoặc chưa đạt chuẩn ngoại ngữ",
   "intent": "check"
 }
+,
+  {
+    "question": "Sinh viên thuộc diện buộc thôi học có được học lại học phần đó không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Bị buộc thôi học thì sinh viên có thể học lại học phần đó không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Người học bị buộc thôi học có được đăng ký học lại học phần ấy không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Trường hợp bị buộc thôi học, sinh viên có được học lại học phần không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Nếu sinh viên bị buộc thôi học thì còn được học lại học phần đó chứ?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên bị buộc thôi học có được phép học lại học phần đã học không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Khi bị buộc thôi học, sinh viên có quyền học lại học phần đó không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Bị buộc thôi học có được đăng ký học lại học phần đó không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên đang trong diện buộc thôi học có được học lại học phần không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Người học bị buộc thôi học có được tiếp tục học lại học phần đó không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Yêu cầu về điểm để được học lại là gì?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Tiêu chí điểm số để được phép học lại là gì?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Cần đạt mức điểm nào thì mới được học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điều kiện điểm số nào cho phép đăng ký học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Muốn học lại thì phải có điểm thế nào?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điểm số tối thiểu để được học lại là bao nhiêu?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Quy định điểm số để học lại là gì?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điểm học phần cần đạt mức nào để được học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điều kiện về điểm để có thể học lại là gì?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điểm số nào thì đủ điều kiện học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên được đăng ký học lại vào lúc nào?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Thời điểm nào sinh viên có thể đăng ký học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Bao giờ sinh viên được phép đăng ký học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên có thể đăng ký học lại ở thời điểm nào?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Lúc nào người học được đăng ký học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Khi nào người học được phép học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Thời gian nào cho phép sinh viên đăng ký học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Trong học kỳ nào sinh viên có thể đăng ký học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên được đăng ký học lại khi nào?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Thời điểm đăng ký học lại của sinh viên là khi nào?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên có điểm C có được phép đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Đạt điểm C thì có thể đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Người học đạt C có được học lại học phần không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điểm C có cho phép sinh viên học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên được điểm C có được học lại học phần không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Nếu đạt C thì có quyền đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Trường hợp điểm C, sinh viên có được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điểm C có được đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Học phần đạt C có cho phép đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên đạt C có được học lại môn đó không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên đạt điểm A có được đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Đạt điểm A thì có được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Người học được điểm A có được phép học lại môn đó không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điểm A có cho phép học lại học phần không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Trường hợp đạt A, sinh viên có được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Nếu đã đạt A, có được đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điểm A có được học lại môn đó không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên có điểm A có được học lại học phần không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Học phần đạt A có cho phép học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Đã đạt điểm A, sinh viên có quyền học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên điểm C nhưng thuộc diện buộc thôi học có được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Có điểm C mà bị buộc thôi học thì có được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Người học đạt C nhưng đang bị buộc thôi học có được đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Trường hợp điểm C nhưng bị buộc thôi học, sinh viên có được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Bị buộc thôi học dù có điểm C thì có được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên đang bị buộc thôi học, dù đạt C, có được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Nếu bị buộc thôi học nhưng có điểm C thì có được phép học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Điểm C nhưng bị buộc thôi học có được học lại học phần không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Có điểm C trong khi bị buộc thôi học thì còn được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên bị buộc thôi học có điểm C có được đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "question": "Sinh viên nào phải học lại học phần bắt buộc khi bị điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Đối tượng nào bắt buộc học lại môn bắt buộc khi bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ai phải đăng ký học lại học phần bắt buộc nếu bị điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trường hợp nào sinh viên buộc phải học lại môn bắt buộc khi bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên nào rơi vào diện phải học lại học phần bắt buộc do điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Người học nào phải học lại học phần bắt buộc khi bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ai bắt buộc học lại môn bắt buộc khi bị điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Những ai phải học lại học phần bắt buộc vì điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên nào phải học lại môn bắt buộc khi bị điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Đối tượng sinh viên nào phải học lại học phần bắt buộc khi bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sau khi bị F môn bắt buộc nhưng không bị buộc thôi học, sinh viên phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc nhưng không bị thôi học thì bắt buộc làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên bị F môn bắt buộc nhưng không thôi học cần làm gì bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trường hợp F môn bắt buộc nhưng không bị buộc thôi học, phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Nếu bị điểm F môn bắt buộc mà không bị thôi học thì phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc nhưng vẫn học tiếp thì cần làm gì bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sau khi nhận F môn bắt buộc mà không thôi học, phải thực hiện gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Người học bị F môn bắt buộc nhưng không buộc thôi học phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi bị F môn bắt buộc mà không bị thôi học, phải làm việc gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Điều bắt buộc sau khi bị F môn bắt buộc nhưng không bị thôi học là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong năm học, lúc nào sinh viên phải đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Thời điểm nào trong năm học cần đăng ký học lại môn bắt buộc bị điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi nào trong năm học sinh viên phải đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ở thời điểm nào của năm học cần đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên cần đăng ký học lại môn bắt buộc bị F vào lúc nào trong năm học?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong năm học, sinh viên đăng ký học lại môn bắt buộc bị F vào thời điểm nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Thời điểm trong năm học để đăng ký học lại môn bắt buộc bị F là khi nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Lúc nào trong năm học phải đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong năm học, khi nào cần đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Thời gian nào trong năm học sinh viên phải đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên phải học lại môn bắt buộc bị F đến khi nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Phải học lại môn bắt buộc bị F đến bao giờ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên cần học lại môn bắt buộc bị F cho tới khi nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc bị F kéo dài đến khi nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Người học phải học lại môn bắt buộc bị F đến lúc nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Việc học lại môn bắt buộc bị F tiếp diễn đến khi nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên phải học lại môn bắt buộc bị F cho tới bao giờ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc bị F phải học lại đến khi nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc bị F đến lúc nào thì dừng?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cần học lại môn bắt buộc bị F đến khi nào thì đạt yêu cầu?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trình tự xử lý khi sinh viên bị điểm F ở học phần bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Thủ tục xử lý khi sinh viên có điểm F môn bắt buộc diễn ra ra sao?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Các bước xử lý khi sinh viên bị F học phần bắt buộc như thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy trình giải quyết khi sinh viên bị điểm F học phần bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi sinh viên bị F học phần bắt buộc thì xử lý theo quy trình nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách xử lý khi sinh viên có điểm F môn bắt buộc ra sao?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trình tự xử lý trường hợp F môn bắt buộc như thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Xử lý thế nào khi sinh viên có điểm F ở học phần bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy trình đối với sinh viên bị F học phần bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Thủ tục xử lý điểm F ở học phần bắt buộc diễn ra thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào biết mình có thuộc diện phải học lại môn bắt buộc không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách nhận biết mình có phải học lại môn bắt buộc hay không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao xác định mình thuộc nhóm phải học lại môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào để kiểm tra mình có phải học lại môn bắt buộc không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách biết mình nằm trong nhóm phải học lại môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao biết mình có thuộc diện bắt buộc học lại môn bắt buộc không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao để biết mình có phải học lại môn bắt buộc hay không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách nào xác định mình phải học lại môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào để biết mình có thuộc nhóm phải học lại môn bắt buộc không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao kiểm tra mình có phải học lại môn bắt buộc hay không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bằng cách nào để khắc phục điểm F ở môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao để cải thiện điểm F của môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách nào để xử lý điểm F trong học phần bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào để sửa điểm F môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Muốn khắc phục điểm F môn bắt buộc thì làm thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách khắc phục điểm F ở môn học bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao để vượt qua điểm F ở môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách nào để khắc phục việc bị F môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào để giải quyết điểm F môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cần làm gì để khắc phục điểm F trong môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Không thuộc diện buộc thôi học nhưng bị F môn bắt buộc thì phải làm sao?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên không bị buộc thôi học nhưng bị F môn bắt buộc thì hậu quả gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc nhưng không thuộc diện buộc thôi học thì sao?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trường hợp không buộc thôi học nhưng bị F môn bắt buộc thì hậu quả là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Nếu không bị buộc thôi học mà bị F môn bắt buộc thì sẽ thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên không trong diện buộc thôi học mà bị F môn bắt buộc thì sao?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc, không buộc thôi học, thì phải chịu điều gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Hậu quả khi bị F môn bắt buộc nhưng không bị buộc thôi học là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Không thuộc diện buộc thôi học mà bị F môn bắt buộc thì thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi bị F môn bắt buộc nhưng không buộc thôi học thì có hậu quả gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên được học lại môn bắt buộc trong bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Được phép học lại môn bắt buộc tối đa bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc được phép trong mấy học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên có thể học lại môn bắt buộc trong bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc được học lại trong bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Số học kỳ được phép học lại môn bắt buộc là bao nhiêu?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc được kéo dài bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên được phép học lại môn bắt buộc bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cho phép học lại môn bắt buộc trong mấy học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc có thể học lại trong bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc bị F có giới hạn số lần học lại không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Có giới hạn số lần học lại khi môn bắt buộc bị F không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc bị F có bị giới hạn số lần không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Số lần học lại môn bắt buộc bị F có bị giới hạn không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc bị F có bị giới hạn số lần học lại không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Có quy định giới hạn số lần học lại đối với môn bắt buộc bị F không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc bị F được học lại bao nhiêu lần, có giới hạn không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Việc học lại môn bắt buộc bị F có giới hạn số lần không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Có hạn chế số lần học lại môn bắt buộc bị F không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc bị F có bị giới hạn số lần đăng ký học lại không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi bị F môn bắt buộc, sinh viên bắt buộc phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị điểm F môn bắt buộc thì hành động bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên bị F môn bắt buộc phải thực hiện việc gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trường hợp bị F môn bắt buộc, sinh viên phải làm gì bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Điều bắt buộc khi sinh viên bị F môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc thì sinh viên phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Hành động bắt buộc sau khi bị F môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên bị điểm F môn bắt buộc cần làm gì bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi môn bắt buộc bị F, sinh viên phải thực hiện gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc thì bắt buộc phải làm việc gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy định học lại này áp dụng cho loại học phần nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học phần nào bị áp dụng quy định học lại này?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Loại học phần nào chịu tác động của quy định học lại?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy định học lại này liên quan đến học phần nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy định học lại này ảnh hưởng đến học phần loại nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học phần nào thuộc phạm vi quy định học lại này?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Loại học phần nào nằm trong quy định học lại này?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy định học lại áp dụng cho học phần nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Những học phần nào bị ảnh hưởng bởi quy định học lại?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy định học lại này áp dụng với loại học phần nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên có thể đăng ký học lại môn bắt buộc bị F vào học kỳ nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học kỳ nào trong tương lai cho phép đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Người học được đăng ký học lại môn bắt buộc bị F ở học kỳ nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong các học kỳ sắp tới, học kỳ nào có thể đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên được đăng ký học lại môn bắt buộc bị F vào học kỳ nào trong các kỳ tới?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học kỳ nào sinh viên có thể học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên đăng ký học lại môn bắt buộc bị F vào kỳ nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong tương lai, học kỳ nào cho phép học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học kỳ nào được phép đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên có thể học lại môn bắt buộc bị F ở học kỳ nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ngay sau khi nhận điểm F học phần bắt buộc, sinh viên cần làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sau khi có điểm F môn bắt buộc, sinh viên phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi vừa nhận điểm F học phần bắt buộc, cần làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên nhận điểm F môn bắt buộc thì cần làm gì ngay?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Vừa nhận điểm F môn bắt buộc, sinh viên cần thực hiện gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ngay khi có điểm F học phần bắt buộc, sinh viên phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sau khi nhận điểm F của môn bắt buộc, cần làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi nhận điểm F học phần bắt buộc, sinh viên cần làm việc gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên vừa bị điểm F môn bắt buộc cần làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ngay sau khi bị điểm F môn bắt buộc, phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Mục tiêu cuối cùng của việc học lại môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ý nghĩa cuối cùng của việc học lại môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Việc học lại môn bắt buộc nhằm mục đích cuối cùng gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc hướng tới mục tiêu gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Mục đích chính của việc học lại môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc để đạt mục tiêu cuối cùng nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Mục tiêu sau cùng khi học lại môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Việc học lại môn bắt buộc nhằm đạt điều gì cuối cùng?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Mục đích sau cùng của học lại môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc có mục đích cuối cùng gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên nào được học lại môn tự chọn bị điểm F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Đối tượng nào được phép học lại môn tự chọn bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ai được đăng ký học lại môn tự chọn bị điểm F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Trường hợp nào sinh viên được học lại môn tự chọn bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Người học nào được phép học lại môn tự chọn khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ai có quyền học lại môn tự chọn bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Những sinh viên nào được phép học lại môn tự chọn bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên nào được phép đăng ký học lại môn tự chọn bị điểm F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Đối tượng sinh viên nào được học lại môn tự chọn bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ai được phép học lại học phần tự chọn bị điểm F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị điểm F môn tự chọn có những lựa chọn nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có những phương án nào cho sinh viên bị F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Những cách xử lý nào dành cho sinh viên bị F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F môn tự chọn, sinh viên có những lựa chọn gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị F môn tự chọn được chọn những phương án nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị điểm F môn tự chọn thì có lựa chọn nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Các lựa chọn cho sinh viên bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị F môn tự chọn có thể chọn phương án nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Những phương án giải quyết cho sinh viên bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn thì sinh viên có những hướng nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học phần tự chọn bị F có thể học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có được học lại học phần tự chọn đã bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học lại môn tự chọn bị điểm F có được không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn bị F có thể đăng ký học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có thể đăng ký học lại học phần tự chọn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học phần tự chọn bị điểm F có được phép học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn thì có thể học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có thể học lại môn tự chọn đã bị điểm F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn bị F có quyền học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học lại học phần tự chọn bị F có được phép không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F thì có được đổi sang môn tự chọn tương đương khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có thể đổi sang môn tự chọn khác tương đương khi bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Nếu bị F, có được phép học đổi môn tự chọn tương đương không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị điểm F có được đổi sang học phần tự chọn tương đương khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có quyền đổi sang môn tự chọn tương đương khác khi bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F, sinh viên có thể đổi sang môn tự chọn tương đương không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F có được phép học đổi sang môn tự chọn khác tương đương không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Nếu bị điểm F, có được đổi môn tự chọn tương đương khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có thể học đổi sang môn tự chọn khác tương đương nếu bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F thì được phép đổi sang môn tự chọn tương đương khác chứ?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bằng cách nào để xử lý khi bị điểm F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Làm sao xử lý khi bị F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Cách nào để giải quyết khi bị điểm F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F môn tự chọn thì xử lý ra sao?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Làm thế nào để khắc phục điểm F ở môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Cách xử lý điểm F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn thì cần làm gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Làm sao để xử lý việc bị F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Cách nào để xử lý trường hợp F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F môn tự chọn, phải làm gì để xử lý?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học phần tự chọn tương đương trong quy định này được hiểu là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Định nghĩa học phần tự chọn tương đương theo quy định này là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Theo quy định này, học phần tự chọn tương đương là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học phần tự chọn tương đương được hiểu như thế nào trong quy định?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Quy định này giải thích học phần tự chọn tương đương ra sao?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khái niệm học phần tự chọn tương đương trong quy định này là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học phần tự chọn tương đương theo quy định này được định nghĩa thế nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Theo quy định, học phần tự chọn tương đương nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học phần tự chọn tương đương là gì trong quy định này?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Thế nào được gọi là học phần tự chọn tương đương theo quy định này?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Điều kiện nào để được học lại hoặc học đổi môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Yêu cầu để học lại hoặc học đổi môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Tiêu chí để được học lại hoặc học đổi môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Muốn học lại hoặc học đổi môn tự chọn cần điều kiện gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Điều kiện nào cho phép học lại hoặc học đổi môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Cần đáp ứng điều kiện gì để học lại hoặc học đổi môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Điều kiện để đăng ký học lại hoặc học đổi môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học lại hoặc học đổi môn tự chọn cần những điều kiện nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Tiêu chí nào để được học lại hoặc học đổi môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Điều kiện bắt buộc để học lại hoặc học đổi môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị F môn tự chọn có phải bắt buộc học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị điểm F môn tự chọn có bắt buộc học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có bắt buộc phải học lại nếu bị F môn tự chọn không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị F môn tự chọn có cần học lại bắt buộc không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn bị F có bắt buộc học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn có phải học lại bắt buộc không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị điểm F môn tự chọn có phải học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F môn tự chọn, có bắt buộc học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn có cần phải học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn bị F có phải học lại bắt buộc không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có được chọn môn tự chọn khác cùng danh mục thay cho môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Thay vì học lại môn bị F, có thể chọn môn tự chọn khác cùng danh mục không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F có được chọn môn tự chọn khác cùng danh mục không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có thể chọn môn tự chọn khác cùng danh mục thay vì học lại môn F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Được phép chọn môn tự chọn khác cùng danh mục thay cho môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có quyền chọn môn tự chọn khác cùng danh mục thay vì học lại môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F, có thể học môn tự chọn khác cùng danh mục thay thế không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F có được đổi sang môn tự chọn khác cùng danh mục thay vì học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có thể chọn một môn tự chọn khác cùng danh mục để thay cho môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Thay cho môn bị F, có được chọn môn tự chọn khác cùng danh mục không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ai được quyền đăng ký học đổi môn tự chọn sau khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Đối tượng nào được đăng ký học đổi môn tự chọn khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Những ai có quyền học đổi môn tự chọn sau khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên nào được đăng ký học đổi môn tự chọn sau khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ai được phép đăng ký học đổi môn tự chọn khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Người học nào có quyền học đổi môn tự chọn sau khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ai có thể đăng ký học đổi môn tự chọn khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Đối tượng sinh viên nào được học đổi môn tự chọn sau khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ai được quyền đổi môn tự chọn sau khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Những sinh viên nào được quyền đăng ký học đổi môn tự chọn khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Hai phương án xử lý cho sinh viên bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn thì có hai phương án nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Hai cách giải quyết cho sinh viên bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F môn tự chọn, sinh viên có hai lựa chọn nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Hai lựa chọn xử lý cho sinh viên bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có hai phương án nào cho sinh viên bị F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị F môn tự chọn có hai phương án gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Hai cách xử lý khi bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Hai lựa chọn cho sinh viên bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn thì hai phương án giải quyết là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Cụm từ \"cùng danh mục\" trong quy định nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Cùng danh mục\" theo quy định được hiểu là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Theo quy định, \"cùng danh mục\" có nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Cùng danh mục\" trong quy định được định nghĩa thế nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ý nghĩa của \"cùng danh mục\" trong quy định là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khái niệm \"cùng danh mục\" trong quy định là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Cùng danh mục\" theo quy định này nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Cùng danh mục\" trong quy định được hiểu như thế nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Cùng danh mục\" trong văn bản này có nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Cùng danh mục\" có nghĩa gì theo quy định?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bằng cách nào để học đổi sang môn tự chọn tương đương khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Làm sao để học đổi sang môn tự chọn tương đương khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Cách nào để đổi sang môn tự chọn tương đương khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F, làm thế nào để học đổi sang môn tự chọn tương đương?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F thì học đổi sang môn tự chọn tương đương ra sao?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Quy trình học đổi sang môn tự chọn tương đương khi bị F là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Làm sao để đổi sang môn tự chọn tương đương nếu bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Cách học đổi sang môn tự chọn tương đương khi bị F là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F thì làm thế nào để học đổi môn tự chọn tương đương?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Làm thế nào để đăng ký học đổi môn tự chọn tương đương khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khác nhau giữa học lại và học đổi môn tự chọn bị F là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học lại và học đổi môn tự chọn bị F khác nhau thế nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sự khác nhau giữa học lại và học đổi môn tự chọn bị F là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học lại khác học đổi môn tự chọn bị F ở điểm nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học lại và học đổi môn tự chọn bị F có gì khác?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sự khác biệt giữa học lại và học đổi môn tự chọn bị F là ở đâu?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học đổi và học lại môn tự chọn bị F khác nhau ra sao?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học lại so với học đổi môn tự chọn bị F khác gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Điểm khác nhau giữa học lại và học đổi môn tự chọn bị F là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học đổi môn tự chọn bị F và học lại khác nhau thế nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị F môn tự chọn có phải bắt buộc học đổi sang môn khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn có bắt buộc học đổi sang môn khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có bắt buộc phải học đổi sang môn khác khi bị F môn tự chọn không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn bị F có cần học đổi sang môn khác bắt buộc không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn có phải học đổi môn khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị F môn tự chọn có phải đổi sang môn khác bắt buộc không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F môn tự chọn, có bắt buộc học đổi môn khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn bị F có bắt buộc đổi sang môn khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn có cần đổi sang môn khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn có phải học đổi sang môn khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Theo quy định này, \"học lại\" nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khái niệm \"học lại\" trong quy định này là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Học lại\" trong quy định này được hiểu như thế nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Học lại\" theo quy định này là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Quy định này định nghĩa \"học lại\" ra sao?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Học lại\" trong văn bản này có nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ý nghĩa của \"học lại\" trong quy định này là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Theo quy định, \"học lại\" được hiểu là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Học lại\" nghĩa là gì theo quy định này?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "\"Học lại\" theo quy định được định nghĩa thế nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên năm cuối bị F môn tự chọn có được hưởng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Năm cuối bị F môn tự chọn có được áp dụng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên năm cuối nếu bị F môn tự chọn có được áp dụng quy định không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Trường hợp sinh viên năm cuối bị F môn tự chọn có áp dụng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Năm cuối bị điểm F môn tự chọn có thuộc phạm vi quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên sắp tốt nghiệp bị F môn tự chọn có được áp dụng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên năm cuối bị F môn tự chọn có được dùng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn ở năm cuối có được áp dụng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên năm cuối nếu bị F môn tự chọn có được hưởng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Năm cuối bị F môn tự chọn có được áp dụng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn tương đương khi học đổi có bắt buộc phải khác môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học đổi môn tự chọn tương đương có phải là môn khác với môn đã bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn tương đương khi học đổi có cần khác môn đã bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi học đổi, môn tự chọn tương đương có nhất thiết phải khác môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có bắt buộc chọn môn tự chọn tương đương khác với môn đã bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn tương đương khi học đổi có phải khác môn đã bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi học đổi, có cần chọn môn tự chọn khác môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn tương đương để học đổi có phải khác môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có phải môn học đổi tương đương phải khác môn đã bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học đổi môn tự chọn tương đương có buộc phải khác môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Điểm thi chính thức được xác định dựa trên tiêu chí nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Cơ sở nào để xác định điểm thi chính thức?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức dựa trên căn cứ nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức được tính dựa trên cơ sở nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Theo cơ sở nào mà xác định điểm thi chính thức?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức xác định theo tiêu chí nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Dựa vào đâu để xác định điểm thi chính thức?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức được quyết định theo cơ sở nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Căn cứ nào dùng để xác định điểm thi chính thức?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức dựa vào cơ sở nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Cách tính điểm thi chính thức khi sinh viên học nhiều lần là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Tính điểm thi chính thức khi học nhiều lần như thế nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Khi sinh viên học nhiều lần, điểm thi chính thức được tính ra sao?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Làm sao tính điểm thi chính thức nếu sinh viên học nhiều lần?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Bằng cách nào xác định điểm thi chính thức khi học nhiều lần?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Quy tắc tính điểm thi chính thức khi học nhiều lần là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Khi học nhiều lần, điểm thi chính thức được tính thế nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Tính điểm thi chính thức trong trường hợp học nhiều lần ra sao?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Làm thế nào tính điểm thi chính thức với nhiều lần học?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Cách tính điểm thi chính thức khi có nhiều lần học là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Những đối tượng sinh viên nào phải học lại học phần bắt buộc khi bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên thuộc nhóm nào phải học lại học phần bắt buộc do bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ai nằm trong diện phải học lại học phần bắt buộc khi điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Những ai bị bắt buộc học lại học phần bắt buộc vì điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên nào bị yêu cầu học lại học phần bắt buộc khi bị điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Các sinh viên nào phải học lại môn bắt buộc nếu bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trường hợp sinh viên nào phải học lại học phần bắt buộc vì bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Nhóm sinh viên nào phải học lại môn bắt buộc khi bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ai buộc phải học lại môn bắt buộc khi nhận điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên nào bị bắt buộc đăng ký học lại học phần bắt buộc khi điểm F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sau khi bị F môn bắt buộc nhưng không buộc thôi học, sinh viên phải thực hiện gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc mà không thôi học thì bắt buộc làm gì tiếp theo?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trường hợp F môn bắt buộc nhưng không bị buộc thôi học, sinh viên phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc nhưng vẫn được học tiếp thì phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sau khi điểm F môn bắt buộc và không bị buộc thôi học, cần làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc mà không bị thôi học, yêu cầu bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi bị F môn bắt buộc nhưng không buộc thôi học, sinh viên phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc nhưng không bị thôi học, sinh viên cần làm gì bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trường hợp bị F môn bắt buộc mà không bị buộc thôi học, phải làm gì tiếp?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Điều bắt buộc nếu bị F môn bắt buộc nhưng không buộc thôi học là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong năm học, sinh viên cần đăng ký học lại môn bắt buộc bị F vào thời điểm nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Thời điểm nào trong năm học phải đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong năm học, khi nào phải đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên phải đăng ký học lại môn bắt buộc bị F vào lúc nào trong năm học?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Thời gian trong năm học để đăng ký học lại môn bắt buộc bị F là khi nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Lúc nào trong năm học sinh viên cần đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ở thời điểm nào trong năm học sinh viên phải đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong năm học, lúc nào sinh viên đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Thời điểm nào của năm học cần đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong năm học, thời điểm nào phải đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc bị F đến khi nào thì thôi?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên học lại môn bắt buộc bị F tới lúc nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc bị F phải học lại đến bao giờ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Việc học lại môn bắt buộc bị F kéo dài tới khi nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc bị F cho đến khi nào thì đạt?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên phải học lại môn bắt buộc bị F tới khi nào thì xong?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Phải học lại môn bắt buộc bị F tới khi nào mới dừng?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc bị F phải học lại đến lúc nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc bị F đến khi nào mới kết thúc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên cần học lại môn bắt buộc bị F đến bao giờ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy trình xử lý trường hợp sinh viên bị F học phần bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Xử lý thế nào khi sinh viên bị F ở học phần bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trình tự xử lý khi sinh viên nhận điểm F học phần bắt buộc ra sao?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Các bước xử lý khi học phần bắt buộc bị điểm F là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi học phần bắt buộc bị F, quy trình xử lý thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Thủ tục xử lý điểm F ở học phần bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy trình giải quyết trường hợp bị F học phần bắt buộc ra sao?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Xử lý ra sao khi sinh viên có điểm F học phần bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trình tự giải quyết khi bị F học phần bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi sinh viên có điểm F môn bắt buộc, xử lý theo trình tự nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao nhận biết mình thuộc diện phải học lại môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách nào để biết mình phải học lại môn bắt buộc hay không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào xác định mình có phải học lại môn bắt buộc không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao để xác định mình nằm trong diện phải học lại môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách kiểm tra mình có thuộc diện học lại môn bắt buộc không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao biết mình thuộc nhóm phải học lại môn bắt buộc hay không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào để biết mình có phải học lại môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách nhận diện mình phải học lại môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao kiểm tra mình thuộc diện phải học lại môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào biết mình nằm trong diện học lại môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào để khắc phục điểm F ở môn học bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách nào để sửa điểm F môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao để xử lý điểm F môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bằng cách nào để khắc phục việc bị F môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Muốn khắc phục điểm F môn bắt buộc cần làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách giải quyết điểm F ở môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm sao để cải thiện điểm F môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Cách nào để khắc phục điểm F trong học phần bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Phải làm gì để khắc phục điểm F môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Làm thế nào để vượt qua điểm F ở môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Không thuộc diện buộc thôi học mà bị F môn bắt buộc thì phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc nhưng không buộc thôi học thì có hậu quả gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Nếu không bị buộc thôi học mà bị F môn bắt buộc thì xử lý thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trường hợp không thuộc diện buộc thôi học nhưng bị F môn bắt buộc thì sao?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc trong khi không bị buộc thôi học thì điều gì xảy ra?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Không thuộc diện buộc thôi học nhưng điểm F môn bắt buộc thì thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Nếu bị F môn bắt buộc mà không buộc thôi học thì phải chịu gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên không bị buộc thôi học nhưng bị F môn bắt buộc thì sao?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc nhưng không buộc thôi học thì sẽ thế nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Hậu quả đối với sinh viên không buộc thôi học nhưng bị F môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên được phép học lại môn bắt buộc trong mấy học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc tối đa được phép trong bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc được phép học lại trong mấy học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Số học kỳ tối đa được học lại môn bắt buộc là bao nhiêu?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên có thể học lại môn bắt buộc tối đa bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc có giới hạn số học kỳ không, là bao nhiêu?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Môn bắt buộc có thể học lại trong tối đa bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Được phép học lại môn bắt buộc trong bao nhiêu học kỳ tối đa?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bao nhiêu học kỳ là giới hạn để học lại môn bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên được học lại môn bắt buộc trong tối đa mấy học kỳ?",
+    "positive_passage_id": "p_0048"
+  }
+,
+  {
+    "question": "Môn bắt buộc bị điểm F có bị giới hạn số lần học lại không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Số lần học lại môn bắt buộc khi bị F có giới hạn không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Có quy định hạn chế số lần học lại đối với môn bắt buộc bị F không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Bị F môn bắt buộc thì sinh viên phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Khi nhận điểm F môn bắt buộc, hành động bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên bị điểm F môn bắt buộc cần thực hiện gì bắt buộc?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy định học lại này áp dụng cho học phần nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Những học phần nào chịu quy định học lại này?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Quy định học lại liên quan đến loại học phần nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sinh viên được đăng ký học lại môn bắt buộc bị F vào học kỳ nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học kỳ nào cho phép đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Trong các kỳ tới, sinh viên có thể học lại môn bắt buộc bị F ở học kỳ nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Vừa nhận điểm F môn bắt buộc, sinh viên phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ngay sau khi có điểm F học phần bắt buộc, cần làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Sau khi bị F môn bắt buộc, sinh viên cần thực hiện việc gì ngay?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Mục tiêu cuối cùng của việc học lại môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Học lại môn bắt buộc nhằm đạt mục đích cuối cùng nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ý nghĩa sau cùng của việc học lại môn bắt buộc là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "question": "Ai được phép học lại môn tự chọn bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Những sinh viên nào được học lại môn tự chọn khi bị điểm F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Đối tượng nào có quyền học lại học phần tự chọn bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị F môn tự chọn có những phương án nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị điểm F môn tự chọn thì có lựa chọn gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có những hướng xử lý nào cho sinh viên bị F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn bị điểm F có được học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có được đăng ký học lại môn tự chọn đã bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học lại học phần tự chọn bị F có được phép không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F có được đổi sang môn tự chọn tương đương khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có thể học đổi sang học phần tự chọn tương đương nếu bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi bị F, có được phép đổi sang môn tự chọn tương đương không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Cách xử lý khi bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị điểm F môn tự chọn thì nên xử lý ra sao?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Làm sao để giải quyết trường hợp F môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học phần tự chọn tương đương theo quy định được hiểu là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khái niệm học phần tự chọn tương đương trong quy định này là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Theo quy định, học phần tự chọn tương đương nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Điều kiện nào để được học lại hoặc học đổi môn tự chọn?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Tiêu chí để học lại hoặc học đổi môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Muốn học lại hoặc học đổi môn tự chọn cần điều kiện gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn có bắt buộc học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị điểm F môn tự chọn có phải học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn bị F có cần học lại bắt buộc không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Có thể chọn môn tự chọn khác cùng danh mục thay cho môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F có được chọn môn tự chọn khác cùng danh mục không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Thay vì học lại, có được chọn môn tự chọn khác cùng danh mục không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ai được phép đăng ký học đổi môn tự chọn khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Đối tượng nào có quyền học đổi môn tự chọn sau khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Những sinh viên nào được đăng ký học đổi môn tự chọn khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Hai lựa chọn dành cho sinh viên bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn thì có hai phương án nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Hai cách giải quyết cho sinh viên bị F môn tự chọn là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Theo quy định, cụm từ 'cùng danh mục' nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "'Cùng danh mục' trong quy định được hiểu thế nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Ý nghĩa của 'cùng danh mục' theo quy định là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Làm sao để đổi sang môn tự chọn tương đương khi bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bằng cách nào học đổi môn tự chọn tương đương nếu bị F?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Quy trình học đổi môn tự chọn tương đương khi bị F là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học lại và học đổi môn tự chọn bị F khác nhau thế nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Điểm khác nhau giữa học lại và học đổi môn tự chọn bị F là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học đổi môn tự chọn bị F khác học lại ở chỗ nào?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Bị F môn tự chọn có bắt buộc phải học đổi sang môn khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên bị F môn tự chọn có phải đổi sang môn khác không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn bị F có cần học đổi bắt buộc không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Theo quy định, 'học lại' được hiểu là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khái niệm 'học lại' trong quy định này là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "'Học lại' trong văn bản này có nghĩa là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Sinh viên năm cuối bị F môn tự chọn có áp dụng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Năm cuối bị F môn tự chọn có được hưởng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Nếu ở năm cuối và bị F môn tự chọn thì có áp dụng quy định này không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Môn tự chọn tương đương khi học đổi có cần khác môn đã bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Khi học đổi, môn tự chọn tương đương có bắt buộc khác môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Học đổi môn tự chọn tương đương có phải chọn môn khác môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "question": "Điểm thi chính thức dựa trên căn cứ nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Cơ sở nào dùng để xác định điểm thi chính thức?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Theo tiêu chí nào xác định điểm thi chính thức?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Khi học nhiều lần, điểm thi chính thức được tính thế nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Cách tính điểm thi chính thức nếu sinh viên học nhiều lần là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức trong trường hợp học nhiều lần được tính ra sao?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Có phải điểm thi chính thức là điểm cao nhất qua các lần học không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức có đúng là lấy điểm cao nhất trong các lần học không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Liệu điểm thi chính thức là điểm cao nhất đạt được qua các lần học không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Khái niệm điểm thi chính thức theo quy định này là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức được hiểu thế nào trong quy định?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Theo quy định, 'điểm thi chính thức' là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Ai được áp dụng cách tính điểm thi chính thức theo điểm cao nhất?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Đối tượng nào được hưởng cách tính điểm thi chính thức lấy điểm cao nhất?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Những ai được áp dụng quy tắc lấy điểm cao nhất cho điểm thi chính thức?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Nếu học lại môn học, điểm thi chính thức có thay đổi không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Học lại có làm điểm thi chính thức thay đổi không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức có thể đổi khi học lại môn không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Quy trình xác định điểm thi chính thức gồm những bước nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Cách xác định điểm thi chính thức diễn ra thế nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Trình tự xác định điểm thi chính thức là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức khác điểm từng lần học ở điểm nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điểm thi chính thức khác với điểm mỗi lần học như thế nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Sự khác biệt giữa điểm thi chính thức và điểm từng lần học là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Muốn có điểm thi chính thức cao thì cần làm gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Làm thế nào để đạt điểm thi chính thức cao?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Cần làm gì để điểm thi chính thức cao hơn?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Quy trình đăng ký học lại được thực hiện như thế nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Đăng ký học lại được thực hiện ra sao?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Cách thức đăng ký học lại diễn ra thế nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Làm sao để đăng ký học lại học phần?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Cách đăng ký học lại là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Bằng cách nào để đăng ký học lại?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Quy trình đăng ký học lại có giống đăng ký lần đầu không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Có đúng là đăng ký học lại giống hệt đăng ký lần đầu không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Đăng ký học lại có giống quy trình đăng ký học phần lần đầu không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Theo văn bản này, 'đăng ký học lại' được hiểu là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Khái niệm 'đăng ký học lại' trong văn bản này là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "'Đăng ký học lại' theo quy định này nghĩa là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điều kiện bắt buộc khi đăng ký học lại là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Yêu cầu cần có khi đăng ký học lại là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Đăng ký học lại cần đáp ứng yêu cầu gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Ai phải đăng ký học lại theo các bước như lần đầu?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Đối tượng nào phải thực hiện đăng ký học lại theo quy trình lần đầu?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Những ai phải làm thủ tục đăng ký học lại giống lần đầu?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Khi muốn học lại, phải theo quy trình nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Muốn học lại thì làm theo thủ tục nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Nếu muốn học lại thì cần làm theo các bước nào?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Đăng ký học lại và đăng ký lần đầu có khác nhau không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Có sự khác biệt nào giữa đăng ký học lại và đăng ký học phần lần đầu?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Đăng ký học lại có khác quy trình đăng ký lần đầu không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Yêu cầu khi xác định điểm thi chính thức là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Điều kiện để xác định điểm thi chính thức là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Tiêu chí xác định điểm thi chính thức là gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "question": "Những sinh viên nào được xem xét học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Ai được xem xét cho việc học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Đối tượng nào đủ điều kiện được xét học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Điều kiện đầu tiên để học môn thay thế là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Yêu cầu đầu tiên để được học học phần thay thế là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Tiêu chí đầu tiên để học môn thay thế là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Bằng cách nào sinh viên được học một học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Quy trình để sinh viên học học phần thay thế là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Làm sao để được phép học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Ai là đơn vị đề nghị Trường cho phép học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Đơn vị nào đề nghị Trường cho phép học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Ai có trách nhiệm đề nghị Trường cho phép học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Làm sao để sinh viên được học một học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Bằng cách nào sinh viên có thể học một học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Cách nào để sinh viên được phép học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Ai có thẩm quyền quyết định cho phép học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Người nào có thẩm quyền cho phép sinh viên học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Ai quyết định việc cho phép học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Cơ quan nào có thẩm quyền cho phép học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Đơn vị nào có thẩm quyền quyết định việc cho phép học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Cơ quan nào quyết định việc cho phép sinh viên học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Quy trình xử lý khi thiếu học phần bắt buộc diễn ra ra sao?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Trình tự xử lý trường hợp thiếu học phần bắt buộc là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Thủ tục xử lý trường hợp thiếu học phần bắt buộc như thế nào?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Bao nhiêu sinh viên được xem là quá ít để mở học phần?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Số lượng sinh viên thế nào thì được coi là quá ít?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Có bao nhiêu sinh viên là quá ít theo quy định?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Khi nào sinh viên được học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Thời điểm nào sinh viên có thể học học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Sinh viên được phép học học phần thay thế khi nào?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Theo quy định, học phần thay thế là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Học phần thay thế được hiểu như thế nào trong quy định này?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Khái niệm học phần thay thế theo quy định này là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Bộ môn chuyên môn đóng vai trò gì trong việc cho phép học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Vai trò của bộ môn chuyên môn trong việc xét học phần thay thế là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Bộ môn chuyên môn tham gia thế nào trong việc cho phép học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Sinh viên cần điều kiện gì để được đề nghị học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Ràng buộc nào để sinh viên được đề nghị học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Điều kiện nào để được đề xuất học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Làm sao xác định một học phần bắt buộc có thể thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Cách nào để xác định học phần bắt buộc được phép thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Bằng cách nào xác định học phần bắt buộc có được thay thế hay không?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Hội đồng Khoa tham gia bước nào trong quy trình?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Hội đồng Khoa tham gia ở khâu nào của quy trình này?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Bước nào có sự tham gia của Hội đồng Khoa?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Có yêu cầu về số lượng sinh viên đăng ký học phần không?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Số lượng sinh viên đăng ký học phần có yêu cầu gì không?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Có quy định nào về số lượng sinh viên đăng ký học phần đó không?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Ai là người quyết định cuối cùng việc thay thế học phần?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Quyết định cuối cùng về học phần thay thế thuộc về ai?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Ai đưa ra quyết định cuối cùng về việc thay thế học phần?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Trường hợp nào sinh viên không cần học học phần bắt buộc nữa?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Khi nào sinh viên được miễn học học phần bắt buộc?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Điều kiện nào để sinh viên không phải học học phần bắt buộc nữa?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Sinh viên nên liên hệ ai để được hỗ trợ về học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Cần liên hệ với ai để được hỗ trợ về học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Hỏi ai để được hỗ trợ về học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Ý nghĩa của việc Trường không mở lớp cho khóa sau là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Điều kiện Trường không còn mở lớp cho khóa sau nghĩa là gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Trường không mở lớp cho khóa sau có ý nghĩa gì trong quy định?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "question": "Bị ốm nghỉ thi cuối kỳ thì cần làm gì để được hoãn thi?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Sinh viên ốm không thi cuối kỳ cần làm gì để xin hoãn?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Muốn hoãn thi vì ốm thì sinh viên phải làm gì?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Bị tai nạn thì nộp đơn xin hoãn thi cuối kỳ ở đâu?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Đơn xin hoãn thi nộp ở đâu khi bị tai nạn?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Khi bị tai nạn, nộp đơn hoãn thi cuối kỳ tại đâu?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Thời hạn nộp đơn hoãn thi tính từ ngày ốm là bao lâu?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Sau khi ốm, trong bao lâu phải nộp đơn hoãn thi?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Nộp đơn hoãn thi trong vòng bao lâu kể từ ngày ốm?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Xin hoãn thi có bắt buộc kèm xác nhận cơ quan y tế không?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Có cần giấy xác nhận y tế khi xin hoãn thi không?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Hoãn thi có yêu cầu giấy xác nhận y tế không?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Đơn xin hoãn thi nộp cho phòng nào?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Nộp đơn hoãn thi cho phòng nào?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Đơn hoãn thi phải nộp tại phòng nào?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Những trường hợp nào sinh viên được hoãn thi cuối kỳ?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Sinh viên được hoãn thi cuối kỳ trong trường hợp nào?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Điều kiện nào để được hoãn thi cuối kỳ?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Vừa khỏi ốm nhưng lỡ nghỉ thi, có được nộp đơn hoãn muộn không?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Lỡ nghỉ thi do ốm, nộp đơn hoãn muộn có được không?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Sau khi khỏi ốm mới nộp đơn hoãn thi có được không?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Hạn cuối nộp đơn hoãn thi là khi nào?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Đến khi nào phải nộp đơn hoãn thi?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Thời điểm cuối cùng nộp đơn hoãn thi là lúc nào?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Sinh viên phải nộp đơn hoãn thi trong thời hạn bao lâu?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Thời gian phải nộp đơn hoãn thi là bao lâu?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Nộp đơn hoãn thi phải trong bao lâu?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "question": "Nêu các trường hợp sinh viên được nghỉ tạm thời và bảo lưu kết quả.",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Những trường hợp nào được nghỉ tạm thời và bảo lưu kết quả?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Các trường hợp được nghỉ tạm thời, bảo lưu kết quả là gì?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Chưa học xong học kỳ nào có được nghỉ tạm thời vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Sinh viên chưa hoàn thành học kỳ nào có được xin nghỉ tạm thời vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Nếu chưa học xong học kỳ nào thì có được nghỉ tạm thời vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Điểm TBC tích lũy tối thiểu để được nghỉ vì lý do cá nhân là bao nhiêu?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Yêu cầu TBC tích lũy để nghỉ vì lý do cá nhân là gì?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Cần TBC tích lũy bao nhiêu để được nghỉ vì nhu cầu cá nhân?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Đang bị buộc thôi học có được nghỉ tạm thời vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Sinh viên thuộc diện buộc thôi học có được xin nghỉ tạm thời vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Bị buộc thôi học thì có được nghỉ tạm thời vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Bằng cách nào xin nghỉ tạm thời khi ốm dài ngày?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Làm sao để xin nghỉ tạm thời vì ốm dài ngày?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Cách xin nghỉ tạm thời khi điều trị ốm dài ngày là gì?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Trường hợp nghỉ tạm thời nào cần giấy xác nhận y tế?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Nghỉ tạm thời trường hợp nào phải có xác nhận y tế?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Khi nào nghỉ tạm thời cần giấy xác nhận y tế?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Nghỉ tạm thời vì nhu cầu cá nhân có được tính vào thời gian học chính thức không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Thời gian nghỉ vì nhu cầu cá nhân có tính vào thời gian học chính thức không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Nghỉ tạm thời vì nhu cầu cá nhân có tính vào thời gian học không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Theo Điều 7 Khoản 2, thời gian nghỉ tạm thời được tính như thế nào?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Điều 7 Khoản 2 quy định xử lý thời gian nghỉ tạm thời ra sao?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Theo Điều 7 Khoản 2, thời gian nghỉ tạm thời được tính vào đâu?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "TBC tích lũy đúng 2,0 có đủ điều kiện nghỉ vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Điểm TBC tích lũy bằng 2,0 có được nghỉ vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Nếu TBC tích lũy 2,0 thì có đủ điều kiện nghỉ vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Ốm dài ngày nhưng không có giấy xác nhận y tế có được bảo lưu kết quả không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Bị ốm dài ngày không có xác nhận y tế có được bảo lưu kết quả không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Không có giấy xác nhận y tế thì có được bảo lưu kết quả khi ốm dài ngày không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Có mấy trường hợp sinh viên được nghỉ tạm thời và bảo lưu kết quả?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Số trường hợp được nghỉ tạm thời và bảo lưu kết quả là bao nhiêu?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Bao nhiêu trường hợp được nghỉ tạm thời, bảo lưu kết quả?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Điều kiện để được nghỉ tạm thời vì nhu cầu cá nhân là gì?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Những yêu cầu nào để được nghỉ tạm thời vì nhu cầu cá nhân?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Cần đáp ứng gì để được nghỉ tạm thời vì nhu cầu cá nhân?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Đã học 2 học kỳ, TBC 2.5, không bị buộc thôi học thì có được nghỉ vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Sinh viên học 2 học kỳ, TBC 2.5, không buộc thôi học có được nghỉ vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Trường hợp học 2 học kỳ, TBC 2.5, không buộc thôi học có được nghỉ vì nhu cầu cá nhân không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Giấy tờ bắt buộc khi xin nghỉ tạm thời do tai nạn dài ngày là gì?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Xin nghỉ tạm thời vì tai nạn dài ngày cần giấy tờ gì?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Loại giấy tờ nào bắt buộc khi nghỉ tạm thời vì tai nạn dài ngày?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Phải học tối thiểu bao nhiêu học kỳ để được nghỉ vì nhu cầu cá nhân?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Số học kỳ tối thiểu đã học để được nghỉ vì nhu cầu cá nhân là bao nhiêu?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Yêu cầu về số học kỳ đã học để được nghỉ vì nhu cầu cá nhân là gì?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Làm sao để được nghỉ tạm thời khi điều trị tai nạn dài ngày?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Cần làm gì để được nghỉ tạm thời do tai nạn dài ngày?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Cách xin nghỉ tạm thời khi điều trị tai nạn dài ngày là gì?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Căn cứ nào cho thấy thời gian nghỉ tạm thời được tính vào thời gian học chính thức?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Cơ sở pháp lý nào quy định thời gian nghỉ tạm thời tính vào thời gian học chính thức?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Dựa vào đâu để biết thời gian nghỉ tạm thời tính vào thời gian học chính thức?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "question": "Theo hệ thống tín chỉ, năm đào tạo thứ nhất được hiểu thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Năm 1 theo tín chỉ tích lũy được định nghĩa ra sao?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Hệ thống tín chỉ định nghĩa năm đào tạo thứ nhất như thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Năm đào tạo thứ hai được hiểu thế nào theo tín chỉ?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Định nghĩa năm đào tạo thứ hai theo tín chỉ tích lũy là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Theo tín chỉ tích lũy, năm 2 được xác định ra sao?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 45 tín chỉ thì thuộc năm mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Có 45 tín chỉ thì đang học năm thứ mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Nếu tích lũy 45 tín chỉ, sinh viên ở năm mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "100 tín chỉ có được xếp năm 4 không?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Sinh viên có 100 tín chỉ có thuộc năm 4 không?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 100 tín chỉ thì có được xếp năm 4 không?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tối thiểu bao nhiêu tín chỉ để được xếp năm 3?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Bao nhiêu tín chỉ thì được vào năm 3?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Điều kiện tín chỉ tối thiểu để lên năm 3 là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Cách xác định năm đào tạo theo tín chỉ là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Xác định năm đào tạo dựa trên tín chỉ như thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Theo tín chỉ tích lũy, năm đào tạo được xác định ra sao?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Năm đào tạo thứ năm áp dụng từ bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Từ bao nhiêu tín chỉ thì được xếp năm 5?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Bao nhiêu tín chỉ thì thuộc năm đào tạo thứ năm?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Có 70 tín chỉ thì thuộc năm mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 70 tín chỉ thì ở năm thứ mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "70 tín chỉ thuộc năm nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Ít nhất bao nhiêu tín chỉ để được xếp năm 2?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Muốn vào năm 2 cần tối thiểu bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Điều kiện tín chỉ tối thiểu để xếp năm 2 là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Điều kiện tín chỉ để xếp năm 4 là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Cần bao nhiêu tín chỉ để được xếp năm 4?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Yêu cầu để được xếp hạng năm 4 là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Giải thích cách xếp năm 3 theo tín chỉ tích lũy.",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Theo tín chỉ tích lũy, năm 3 được phân loại thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Cách phân loại năm 3 dựa trên tín chỉ tích lũy ra sao?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Có 128 tín chỉ thì đang học năm thứ mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 128 tín chỉ thì thuộc năm mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Nếu có 128 tín chỉ thì xếp năm nào?",
+    "positive_passage_id": "p_0057"
+  }
+,
+  {
+    "question": "Theo thang tín chỉ, năm nhất được xếp thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Năm 1 theo tín chỉ tích lũy được quy định ra sao?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Trong hệ thống tín chỉ, năm đào tạo thứ nhất là mức tín chỉ nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Năm 2 theo tín chỉ tích lũy được xác định ra sao?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Theo thang tín chỉ, năm thứ hai là mức tín chỉ nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Định nghĩa năm đào tạo thứ hai trong hệ thống tín chỉ là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tôi có 45 tín chỉ thì đang ở năm mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "45 tín chỉ tương ứng năm đào tạo nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 45 TC thì xếp năm thứ mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Có 100 tín chỉ thì được xếp năm 4 không?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "100 TC có thuộc năm đào tạo thứ tư không?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 100 tín chỉ có được tính là năm 4 không?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Bao nhiêu tín chỉ tối thiểu để vào năm 3?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Mốc tín chỉ thấp nhất để xếp năm 3 là bao nhiêu?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Muốn lên năm 3 cần tích lũy ít nhất bao nhiêu TC?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Cách xếp năm đào tạo theo tín chỉ tích lũy là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Dựa vào tín chỉ, xác định năm đào tạo như thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Theo tiêu chí tín chỉ, phân loại năm đào tạo ra sao?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Năm 5 bắt đầu từ bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Từ mốc tín chỉ nào thì xếp năm đào tạo thứ năm?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Năm thứ năm tương ứng mức tín chỉ nào trở lên?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Có 70 tín chỉ thì đang học năm nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "70 TC thuộc năm đào tạo nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 70 tín chỉ thì xếp năm mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tối thiểu bao nhiêu tín chỉ để lên năm 2?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Mốc tín chỉ thấp nhất để vào năm 2 là bao nhiêu?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Muốn được xếp năm 2 cần ít nhất bao nhiêu TC?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Cần bao nhiêu tín chỉ để xếp năm thứ tư?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tiêu chí tín chỉ để vào năm 4 là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Mốc tín chỉ nào tương ứng năm 4?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Giải thích cách xếp năm 3 theo tín chỉ tích lũy.",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Theo tín chỉ tích lũy, năm 3 được phân loại như thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Cách xác định năm thứ ba dựa trên tín chỉ là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Có 128 tín chỉ thì thuộc năm nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 128 TC thì đang học năm mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "128 tín chỉ tương ứng năm đào tạo nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "95 tín chỉ được xếp năm 3 hay năm 4?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Có 95 TC thì thuộc năm thứ mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 95 tín chỉ thì xếp năm 3 hay năm 4?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tiêu chí nào dùng để phân loại năm đào tạo?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Dựa vào đâu để xếp hạng năm đào tạo?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Theo tiêu chí gì để phân loại năm học theo tín chỉ?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Có 32 tín chỉ thì thuộc năm nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Tích lũy 32 TC thì xếp năm mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "32 tín chỉ tương ứng năm đào tạo nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Muốn lên năm 5 cần tối thiểu bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Mốc tín chỉ để vào năm 5 là bao nhiêu?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Bao nhiêu TC thì được xếp năm thứ năm?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Năm thứ tư trong thang tín chỉ được xác định thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Theo thang xếp hạng tín chỉ, năm 4 là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Định nghĩa năm 4 theo tín chỉ tích lũy ra sao?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "question": "Hạng bình thường trong xếp hạng học lực là gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Theo quy định, hạng bình thường được hiểu thế nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Định nghĩa hạng bình thường trong đánh giá học lực là gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Điểm TBC tích lũy tối thiểu để được hạng bình thường là bao nhiêu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Cần TBC tích lũy bao nhiêu để xếp hạng bình thường?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Điều kiện điểm để đạt hạng bình thường là gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "TBC tích lũy 1,8 thì xếp hạng gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Nếu điểm TBC tích lũy 1,8 thì thuộc hạng nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Điểm TBC 1,8 rơi vào hạng học lực nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "TBC tích lũy 2,5 thì thuộc loại học lực nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Điểm TBC 2,5 được xếp hạng học lực gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Sinh viên có TBC 2,5 được xếp loại nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Xếp hạng học lực dựa trên tiêu chí nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Căn cứ nào để xếp hạng học lực sinh viên?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Theo cơ sở nào mà phân loại học lực?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Cách xác định mình thuộc diện học lực yếu là gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Làm sao biết mình bị xếp hạng yếu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Dựa vào đâu để biết mình thuộc học lực yếu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Hạng yếu trong đánh giá học lực được định nghĩa thế nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Định nghĩa hạng yếu là gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Hạng yếu được hiểu ra sao trong xếp hạng học lực?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Muốn không bị xếp hạng yếu cần điểm TBC bao nhiêu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Điều kiện để tránh hạng yếu là gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Cần đạt TBC tích lũy thế nào để không bị xếp yếu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "TBC tích lũy 2,0 thì xếp hạng gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Điểm TBC = 2,0 thuộc loại học lực nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "TBC đúng 2,0 được xếp hạng nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "TBC 1,9 và chưa buộc thôi học thì thuộc hạng nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Nếu TBC tích lũy 1,9 thì xếp hạng gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Điểm TBC 1,9 (chưa buộc thôi học) thuộc hạng nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Quy trình xếp hạng học lực được thực hiện ra sao?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Cách thức xếp hạng học lực diễn ra thế nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Xếp hạng học lực thực hiện theo trình tự nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Cách kiểm tra mình thuộc hạng bình thường là gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Làm thế nào để xác định mình ở hạng bình thường?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Dựa vào đâu biết mình đạt hạng bình thường?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "TBC tích lũy bao nhiêu để không bị xếp yếu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Điểm tối thiểu để tránh hạng yếu là bao nhiêu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Cần đạt điểm nào để không bị xếp loại yếu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "TBC 1,5 và không buộc thôi học thì xếp hạng nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Điểm TBC 1,5 thuộc hạng học lực gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Nếu TBC tích lũy 1,5 thì được xếp loại nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Dựa vào tiêu chí nào để xác định hạng yếu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Căn cứ nào để xếp sinh viên vào hạng yếu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Theo điều kiện gì thì sinh viên thuộc hạng yếu?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "question": "Cuối mỗi học kỳ chính áp dụng các hình thức xử lý nào?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Các biện pháp xử lý kết quả học tập cuối kỳ chính gồm gì?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Cuối kỳ chính có những hình thức xử lý kết quả học tập nào?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Có áp dụng cảnh cáo học tập về kết quả học tập không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Hình thức cảnh cáo học tập có được áp dụng không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Có tồn tại biện pháp cảnh cáo học tập không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Buộc thôi học có thuộc các hình thức xử lý không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Danh sách xử lý có bao gồm buộc thôi học không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Biện pháp buộc thôi học có được liệt kê không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Có áp dụng hạn chế khối lượng đăng ký học tập không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Có giới hạn số môn được đăng ký không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Hình thức hạn chế khối lượng học tập có được áp dụng không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Cảnh cáo học tập có những mức nào?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Có bao nhiêu mức cảnh cáo học tập?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Các mức cảnh cáo học tập gồm những mức gì?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Các biện pháp xử lý được áp dụng vào thời điểm nào?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Khi nào áp dụng các hình thức xử lý kết quả học tập?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Thời điểm ban hành các biện pháp xử lý là lúc nào?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Chỉ có cảnh cáo là hình thức xử lý duy nhất đúng không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Hình thức xử lý có phải chỉ gồm cảnh cáo không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Có phải chỉ có cảnh cáo học tập thôi không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Ngoài cảnh cáo còn hình thức xử lý nào khác?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Các hình thức xử lý khác ngoài cảnh cáo là gì?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Bên cạnh cảnh cáo, còn biện pháp nào?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Hạn chế khối lượng đăng ký học tập có đi kèm buộc thôi học không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Có áp dụng hạn chế đăng ký học tập cùng với buộc thôi học không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Hạn chế đăng ký học tập có được áp dụng đồng thời với buộc thôi học không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Hình thức không cho đăng ký nhiều môn gọi là gì?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Tên gọi của biện pháp hạn chế đăng ký nhiều môn là gì?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Biện pháp liên quan đến hạn chế đăng ký nhiều môn có tên gì?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Chỉ có ba hình thức xử lý được liệt kê đúng không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Danh sách xử lý có đúng 3 hình thức không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Có phải chỉ có 3 hình thức xử lý được nêu không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "question": "Khi nào mức cảnh báo học tập tăng lên 1 mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Điều kiện để tăng 1 mức cảnh báo học tập là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Trường hợp nào làm cảnh báo học tập tăng 1 mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Tỷ lệ tín chỉ không đạt bao nhiêu thì tăng 1 mức cảnh báo?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Bao nhiêu % tín chỉ không đạt dẫn đến tăng 1 mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Mức phần trăm tín chỉ trượt để tăng 1 mức cảnh báo là bao nhiêu?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "90% tín chỉ không đạt thì bị tăng mấy mức cảnh báo?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Khi trượt 90% tín chỉ, cảnh báo tăng bao nhiêu mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Tín chỉ không đạt 90% thì tăng mấy mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "TBC kỳ bao nhiêu thì tăng 2 mức cảnh báo?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Mức TBC kỳ nào khiến cảnh báo tăng 2 mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "TBC kỳ ở ngưỡng nào sẽ bị tăng 2 mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Ngoài TBC thấp và tín chỉ trượt cao, còn yếu tố nào làm tăng 2 mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Hành vi nào khác dẫn đến tăng 2 mức cảnh báo?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Có nguyên nhân nào khác khiến cảnh báo tăng 2 mức không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Nợ bao nhiêu tín chỉ từ đầu khóa thì bị cảnh báo mức 3?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Số tín chỉ nợ tồn đọng bao nhiêu thì rơi vào mức 3?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Mốc nợ tín chỉ nào dẫn đến cảnh báo mức 3?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Cảnh báo mức 3 được hiểu là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Định nghĩa của cảnh báo học tập mức 3 là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Mức 3 của cảnh báo học tập được xác định ra sao?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Đang bị cảnh báo, trượt 10% tín chỉ và TBC kỳ 1,5 thì có được giảm mức không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Sinh viên đang bị cảnh báo, 10% tín chỉ không đạt và TBC 1,5 có giảm mức được không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Nếu đang bị cảnh báo, tín chỉ không đạt 10% và TBC kỳ 1,5 thì có giảm mức không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Điều kiện để giảm 1 mức cảnh báo là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Cần đáp ứng gì để được hạ một mức cảnh báo?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Tiêu chí giảm một mức cảnh báo học tập là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Đang bị cảnh báo, 25% tín chỉ không đạt và TBC kỳ 1,2 thì có giảm mức không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Sinh viên bị cảnh báo với 25% tín chỉ trượt, TBC 1,2 có được hạ mức không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "25% tín chỉ không đạt và TBC kỳ 1,2 thì có giảm mức cảnh báo không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Tự ý bỏ học/không đăng ký sẽ dẫn đến mức cảnh báo nào?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Hậu quả cảnh báo học tập khi tự ý bỏ học là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Không đăng ký học tập thì cảnh báo học tập tăng thế nào?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "TBC kỳ đúng 1,0 thì có đủ điều kiện giảm mức cảnh báo không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Đang bị cảnh báo, TBC kỳ 1,0 có được hạ mức không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "TBC kỳ bằng 1,0 có được giảm mức cảnh báo không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Hai điều kiện nào làm cảnh báo tăng 1 mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Các trường hợp riêng biệt khiến tăng 1 mức cảnh báo là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Những điều kiện nào dẫn đến tăng 1 mức cảnh báo?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "question": "Bị cảnh báo mức 3 có bị buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Cảnh báo mức 3 có dẫn đến buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Mức cảnh báo 3 có phải căn cứ buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Đối tượng nào được miễn buộc thôi học khi cảnh báo mức 3?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Những ai không bị buộc thôi học dù cảnh báo mức 3?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Ai thuộc diện ưu tiên không bị buộc thôi học khi mức 3?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Đối tượng ưu tiên bị cảnh báo mức 3 được gia hạn bao lâu?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Gia hạn cho đối tượng ưu tiên mức 3 là trong thời gian nào?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Mức 3 đối tượng ưu tiên được kéo dài thêm bao lâu?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Đối tượng ưu tiên được gia hạn mấy lần tối đa?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Gia hạn cho đối tượng ưu tiên có giới hạn số lần không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Số lần gia hạn tối đa cho đối tượng ưu tiên là bao nhiêu?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Điều kiện buộc thôi học về thời gian học là gì?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Trường hợp nào về thời gian học dẫn đến buộc thôi học?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Quá thời gian học như thế nào thì bị buộc thôi học?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Không còn khả năng tốt nghiệp trong thời gian cho phép thì bị xử lý gì?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Trường hợp không thể tốt nghiệp trong thời gian cho phép bị kỷ luật gì?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Không còn khả năng tốt nghiệp đúng hạn dẫn đến hình thức gì?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Theo Điều 7, những trường hợp nào phải buộc thôi học?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Điều 7 nêu các trường hợp bị buộc thôi học là gì?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Những trường hợp buộc thôi học theo Điều 7 là gì?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Bị kỷ luật lần 2 vì thi hộ có bị buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Kỷ luật lần 2 do thi hộ/nhờ thi hộ có dẫn đến buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Thi hộ lần 2 bị kỷ luật thì có buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Điều 30 Khoản 2 quy định vi phạm nào dẫn đến buộc thôi học?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Vi phạm nào theo Điều 30 Khoản 2 bị buộc thôi học?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Theo Điều 30 Khoản 2, hành vi nào bị buộc thôi học?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Bị xóa tên khỏi danh sách sinh viên có bị buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Xóa tên khỏi danh sách sinh viên có dẫn đến buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Bị xóa tên khỏi danh sách sinh viên có bị coi là buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Ngoài kỷ luật lần 2 vì thi hộ, lý do nào khác dẫn đến buộc thôi học?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Ngoài thi hộ lần 2, còn nguyên nhân nào bị buộc thôi học?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Lý do khác ngoài thi hộ lần 2 để buộc thôi học là gì?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Quy định kỷ luật lần 2 vì thi hộ nằm ở điều khoản nào?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Điều khoản nào nói về thi hộ/nhờ thi hộ lần 2?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Thi hộ lần 2 bị buộc thôi học được quy định ở điều nào?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Đối tượng nào bị buộc thôi học vì kỷ luật lần 2 thi hộ?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Ai bị buộc thôi học khi bị kỷ luật lần 2 do thi hộ?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Những ai bị buộc thôi học vì kỷ luật lần 2 thi hộ?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Bị xóa tên khỏi danh sách sinh viên tương đương với vi phạm nào?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Xóa tên khỏi danh sách sinh viên có cùng hậu quả với vi phạm gì?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Vi phạm nào có hậu quả như bị xóa tên khỏi danh sách sinh viên?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "question": "Khái niệm hạn chế khối lượng học tập là gì?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Hạn chế khối lượng học tập được hiểu thế nào?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Định nghĩa hình thức hạn chế khối lượng học tập là gì?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Đối tượng nào bị áp dụng hạn chế khối lượng học tập?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Những sinh viên nào phải chịu hạn chế khối lượng học tập?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Trường hợp nào sinh viên bị áp dụng hạn chế khối lượng học tập?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Xét hạn chế khối lượng học tập vào thời điểm nào?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Khi nào xác định sinh viên bị hạn chế khối lượng học tập?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Thời điểm xác định hạn chế khối lượng học tập là lúc nào?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 1 được đăng ký tối đa bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức cảnh báo 1 cho phép đăng ký tối đa bao nhiêu TC?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên cảnh báo mức 1 được đăng ký nhiều nhất bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 1 phải đăng ký tối thiểu bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức 1 cần đăng ký ít nhất bao nhiêu TC?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên mức cảnh báo 1 tối thiểu đăng ký bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 2 được đăng ký tối đa bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức cảnh báo 2 cho phép đăng ký tối đa bao nhiêu TC?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên mức 2 được đăng ký nhiều nhất bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 2 phải đăng ký tối thiểu bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức 2 cần đăng ký ít nhất bao nhiêu TC?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên cảnh báo mức 2 tối thiểu đăng ký bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức cảnh báo 1 có được đăng ký 15 tín chỉ không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 1 đăng ký 15 TC có được không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên mức 1 có thể đăng ký 15 TC không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức cảnh báo 2 có được đăng ký 9 tín chỉ không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 2 đăng ký 9 TC có được không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên mức 2 có thể đăng ký 9 TC không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 1 có phải chỉ được đăng ký tối đa 18 tín chỉ không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức 1 chỉ được đăng ký tối đa 18 TC đúng không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên mức cảnh báo 1 tối đa 18 TC đúng không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 2 đăng ký 14 tín chỉ có được không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức cảnh báo 2 có thể đăng ký 14 TC không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên mức 2 đăng ký 14 TC có được không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Tín chỉ tối thiểu cho cả hai mức cảnh báo là bao nhiêu?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức tối thiểu tín chỉ cho hai mức cảnh báo là gì?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cả mức 1 và 2 tối thiểu đăng ký bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Hạn chế khối lượng học tập áp dụng với tín chỉ loại nào?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Loại tín chỉ nào bị áp dụng hạn chế khối lượng học tập?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Quy định hạn chế khối lượng học tập áp dụng cho tín chỉ nào?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Hạn chế khối lượng học tập áp dụng trong thời gian nào?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Khoảng thời gian áp dụng hạn chế khối lượng học tập là khi nào?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Hạn chế khối lượng học tập được áp dụng vào thời điểm nào?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 1 có bắt buộc đăng ký tối thiểu 10 tín chỉ không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức 1 có phải đăng ký ít nhất 10 TC không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên mức 1 có bắt buộc đăng ký tối thiểu 10 TC không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Cảnh báo mức 2 đăng ký 13 tín chỉ có được không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Mức 2 có thể đăng ký 13 TC không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên mức 2 có được đăng ký 13 TC không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Chưa đạt chuẩn ngoại ngữ có bị hạn chế khối lượng học tập không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Sinh viên chưa đạt chuẩn ngoại ngữ có phải chịu hạn chế khối lượng học tập không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "question": "Không đạt chuẩn ngoại ngữ thì có bị áp dụng hạn chế khối lượng học tập không?",
+    "positive_passage_id": "p_0063"
+  }
+]

@@ -181,6 +181,257 @@
   "evidence": "Chuyên ngành là một lĩnh vực chuyên môn sâu",
   "intent": "check"
 },
+{  "qid": "q_5026",
+  "question": "Liệu ngành đào tạo có phải lĩnh vực chuyên môn rộng?",
+  "positive_passage_id": "p_0003",
+  "evidence": "Ngành đào tạo (hay ngành học) là một lĩnh vực chuyên môn rộng",
+  "intent": "check"
+},
+{
+  "qid": "q_5027",
+  "question": "Bộ Giáo dục và Đào tạo quản lý danh mục gì?",
+  "positive_passage_id": "p_0003",
+  "evidence": "danh mục do Bộ Giáo dục và Đào tạo quản lý",
+  "intent": "what"
+},
+{
+  "qid": "q_5028",
+  "question": "Trường đại học quản lý khía cạnh nào của chuyên ngành?",
+  "positive_passage_id": "p_0003",
+  "evidence": "thuộc một ngành đào tạo do Trường quản lý",
+  "intent": "what"
+},
+{
+  "qid": "q_5029",
+  "question": "Chuyên ngành trực thuộc đối tượng nào?",
+  "positive_passage_id": "p_0003",
+  "evidence": "Chuyên ngành là một lĩnh vực chuyên môn sâu thuộc một ngành đào tạo",
+  "intent": "what"
+},
+{
+  "qid": "q_5030",
+  "question": "Các chuyên ngành thuộc cùng một ngành đào tạo có sự khác biệt tối đa là bao nhiêu?",
+  "positive_passage_id": "p_0003",
+  "evidence": "phần kiến thức khác nhau giữa các chuyên ngành thuộc một ngành đào tạo không quá 1/3 chương trình toàn khóa",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5031",
+  "question": "Tên gọi khác của ngành đào tạo là gì?",
+  "positive_passage_id": "p_0003",
+  "evidence": "Ngành đào tạo (hay ngành học) là một",
+  "intent": "what"
+},
+{
+  "qid": "q_5032",
+  "question": "Mã số có phải là một phần của ngành đào tạo không?",
+  "positive_passage_id": "p_0003",
+  "evidence": "Ngành đào tạo (hay ngành học) là một lĩnh vực chuyên môn rộng, có mã số",
+  "intent": "check"
+},
+{
+  "qid": "q_5033",
+  "question": "Có phải chuyên ngành do nhà trường quản lý không?",
+  "positive_passage_id": "p_0003",
+  "evidence": "thuộc một ngành đào tạo do Trường quản lý",
+  "intent": "check"
+},
+{
+  "qid": "q_5034",
+  "question": "Có quy định nào về phần kiến thức khác nhau giữa các chuyên ngành không?",
+  "positive_passage_id": "p_0003",
+  "evidence": "phần kiến thức khác nhau giữa các chuyên ngành thuộc một ngành đào tạo không quá 1/3",
+  "intent": "check"
+},
+{
+  "qid": "q_5035",
+  "question": "Điều gì bị giới hạn không quá 1/3?",
+  "positive_passage_id": "p_0003",
+  "evidence": "phần kiến thức khác nhau giữa các chuyên ngành thuộc một ngành đào tạo không quá 1/3",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5036",
+  "question": "Cho hỏi, chương trình đào tạo có thể hiện rõ trình độ đào tạo hay không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "thể hiện rõ trình độ đào tạo, ngành đào tạo",
+  "intent": "check"
+},
+{
+  "qid": "q_5037",
+  "question": "Mình đang kiểm tra một chương trình đào tạo, liệu nó có bao gồm thông tin về ngành đào tạo không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "ngành đào tạo và văn bằng tốt nghiệp",
+  "intent": "check"
+},
+{
+  "qid": "q_5038",
+  "question": "Văn bằng tốt nghiệp có nằm trong những nội dung bắt buộc của chương trình đào tạo không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "trình độ đào tạo, ngành đào tạo và văn bằng tốt nghiệp",
+  "intent": "check"
+},
+{
+  "qid": "q_5039",
+  "question": "Theo đoạn văn, đối tượng đào tạo có được nêu rõ không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "đối tượng đào tạo và điều kiện nhập học",
+  "intent": "check"
+},
+{
+  "qid": "q_5040",
+  "question": "Điều kiện nhập học có phải là một thành phần của chương trình đào tạo?",
+  "positive_passage_id": "p_0004",
+  "evidence": "đối tượng đào tạo và điều kiện nhập học",
+  "intent": "check"
+},
+{
+  "qid": "q_5041",
+  "question": "Mục tiêu đào tạo có được liệt kê trong chương trình không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "mục tiêu đào tạo, chuẩn năng lực của người tốt nghiệp",
+  "intent": "check"
+},
+{
+  "qid": "q_5042",
+  "question": "Chuẩn năng lực của người tốt nghiệp có xuất hiện trong chương trình đào tạo không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "chuẩn năng lực của người tốt nghiệp và điều kiện tốt nghiệp",
+  "intent": "check"
+},
+{
+  "qid": "q_5043",
+  "question": "Điều kiện tốt nghiệp có được đề cập đến không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "điều kiện tốt nghiệp, yêu cầu kiến thức bắt buộc",
+  "intent": "check"
+},
+{
+  "qid": "q_5044",
+  "question": "Yêu cầu về kiến thức bắt buộc và tự chọn trong chương trình đào tạo là gì?",
+  "positive_passage_id": "p_0004",
+  "evidence": "yêu cầu kiến thức bắt buộc và tự chọn",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5045",
+  "question": "Chương trình đào tạo yêu cầu kế hoạch học tập như thế nào?",
+  "positive_passage_id": "p_0004",
+  "evidence": "kế hoạch học tập chuẩn toàn khóa và đề cương chi tiết",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5046",
+  "question": "Có yêu cầu gì về đề cương chi tiết và mô tả học phần không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "đề cương chi tiết cũng như mô tả tóm tắt các học phần",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5047",
+  "question": "Làm thế nào để biết được kế hoạch học tập chuẩn toàn khóa?",
+  "positive_passage_id": "p_0004",
+  "evidence": "kế hoạch học tập chuẩn toàn khóa và",
+  "intent": "howto"
+},
+{
+  "qid": "q_5048",
+  "question": "Làm sao để tra cứu mô tả tóm tắt các học phần?",
+  "positive_passage_id": "p_0004",
+  "evidence": "cũng như mô tả tóm tắt các học phần",
+  "intent": "howto"
+},
+{
+  "qid": "q_5049",
+  "question": "Ở đâu có thông tin về chuẩn năng lực của người tốt nghiệp?",
+  "positive_passage_id": "p_0004",
+  "evidence": "chuẩn năng lực của người tốt nghiệp và điều kiện tốt nghiệp",
+  "intent": "check"
+},
+{
+  "qid": "q_5050",
+  "question": "Tìm đâu ra đề cương chi tiết của chương trình?",
+  "positive_passage_id": "p_0004",
+  "evidence": "đề cương chi tiết cũng như mô tả",
+  "intent": "where"
+},
+{
+  "qid": "q_5051",
+  "question": "Thế nào được gọi là một chương trình đào tạo theo nội dung đoạn văn?",
+  "positive_passage_id": "p_0004",
+  "evidence": "Chương trình đào tạo thể hiện rõ trình độ đào tạo, ngành đào tạo và văn bằng tốt nghiệp",
+  "intent": "definition"
+},
+{
+  "qid": "q_5052",
+  "question": "Chương trình đào tạo có bao gồm mô tả tóm tắt các học phần không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "mô tả tóm tắt các học phần trong",
+  "intent": "check"
+},
+{
+  "qid": "q_5053",
+  "question": "Kế hoạch học tập chuẩn toàn khóa có được thể hiện trong chương trình không?",
+  "positive_passage_id": "p_0004",
+  "evidence": "kế hoạch học tập chuẩn toàn khóa và",
+  "intent": "check"
+},
+{
+  "qid": "q_5054",
+  "question": "Chương trình đào tạo được cấu trúc từ những gì?",
+  "positive_passage_id": "p_0006",
+  "evidence": "được cấu trúc từ các học phần thuộc hai khối kiến thức",
+  "intent": "definition"
+},
+{
+  "qid": "q_5055",
+  "question": "Hai khối kiến thức trong cấu trúc chương trình là gì?",
+  "positive_passage_id": "p_0006",
+  "evidence": "Giáo dục đại cương và Giáo dục chuyên nghiệp",
+  "intent": "what"
+},
+{
+  "qid": "q_5056",
+  "question": "Chương trình nào được cấu trúc từ hai khối kiến thức?",
+  "positive_passage_id": "p_0006",
+  "evidence": "được cấu trúc từ các học phần thuộc hai khối kiến thức: Giáo dục đại cương và Giáo dục chuyên nghiệp",
+  "intent": "what"
+},
+{
+  "qid": "q_5057",
+  "question": "Khối kiến thức nào bao gồm Giáo dục đại cương?",
+  "positive_passage_id": "p_0006",
+  "evidence": "được cấu trúc từ các học phần thuộc hai khối kiến thức: Giáo dục đại cương và Giáo dục chuyên nghiệp",
+  "intent": "what"
+},
+{
+  "qid": "q_5058",
+  "question": "Khối kiến thức nào bao gồm Giáo dục chuyên nghiệp?",
+  "positive_passage_id": "p_0006",
+  "evidence": "được cấu trúc từ các học phần thuộc hai khối kiến thức: Giáo dục đại cương và Giáo dục chuyên nghiệp",
+  "intent": "what"
+},
+{
+  "qid": "q_5059",
+  "question": "Có phải chương trình đào tạo được cấu trúc từ các học phần không?",
+  "positive_passage_id": "p_0006",
+  "evidence": "được cấu trúc từ các học phần thuộc hai khối kiến thức",
+  "intent": "check"
+},
+{
+  "qid": "q_5060",
+  "question": "Chương trình đào tạo có bao gồm học phần Giáo dục đại cương không?",
+  "positive_passage_id": "p_0006",
+  "evidence": "được cấu trúc từ các học phần thuộc hai khối kiến thức: Giáo dục đại cương và Giáo dục chuyên nghiệp",
+  "intent": "check"
+},
+{
+  "qid": "q_5061",
+  "question": "Chương trình đào tạo có bao gồm học phần Giáo dục chuyên nghiệp không?",
+  "positive_passage_id": "p_0006",
+  "evidence": "được cấu trúc từ các học phần thuộc hai khối kiến thức: Giáo dục đại cương và Giáo dục chuyên nghiệp",
+  "intent": "check"
+},
 {
   "qid": "q_5026",
   "question": "Liệu ngành đào tạo có phải lĩnh vực chuyên môn rộng?",
@@ -454,6 +705,18 @@
   "evidence": "được cấu trúc từ các học phần thuộc hai khối kiến thức",
   "intent": "procedure"
 },
+{  "qid": "q_5065",
+  "question": "Sinh viên đại học phải tích lũy ít nhất bao nhiêu tín chỉ?",
+  "positive_passage_id": "p_0007",
+  "evidence": "- Đại học: 120 TC (+ thể chất, quốc phòng)",
+  "intent": "requirement"
+},
+{  "qid": "q_5066",
+  "question": "Nếu chưa có bằng cử nhân, thì chương trình chuyên sâu bậc 7 yêu cầu tối thiểu bao nhiêu tín chỉ?",
+  "positive_passage_id": "p_0007",
+  "evidence": "- Chuyên sâu bậc 7: 150 TC (+ thể chất, quốc phòng)",
+  "intent": "requirement"
+},
 {
   "qid": "q_5065",
   "question": "Sinh viên đại học phải tích lũy ít nhất bao nhiêu tín chỉ?",
@@ -601,6 +864,32 @@
   "evidence": "Sinh viên tự chọn học phần từ danh mục của Khoa/Bộ môn để tích lũy đủ tín chỉ",
   "intent": "howto"
 },
+{  "qid": "q_5086",
+  "question": "Sinh viên có thể tìm học phần tự chọn ở đâu?",
+  "positive_passage_id": "p_0008",
+  "evidence": "Sinh viên tự chọn học phần từ danh mục của Khoa/Bộ môn",
+  "intent": "where"
+},
+{  "qid": "q_5087",
+  "question": "Đối tượng nào được phép chọn học phần tự chọn?",
+  "positive_passage_id": "p_0008",
+  "evidence": "Sinh viên tự chọn học phần từ danh mục",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5088",
+  "question": "Sinh viên có tự quyết định được học phần tự chọn không?",
+  "positive_passage_id": "p_0008",
+  "evidence": "Sinh viên tự chọn học phần từ danh mục",
+  "intent": "check"
+},
+{
+  "qid": "q_5085",
+  "question": "Làm sao để sinh viên tích lũy đủ tín chỉ?",
+  "positive_passage_id": "p_0008",
+  "evidence": "Sinh viên tự chọn học phần từ danh mục của Khoa/Bộ môn để tích lũy đủ tín chỉ",
+  "intent": "howto"
+},
 {
   "qid": "q_5086",
   "question": "Sinh viên có thể tìm học phần tự chọn ở đâu?",
@@ -719,6 +1008,60 @@
   "positive_passage_id": "p_0009",
   "evidence": "Học nhiều hơn 1 thì chỉ tính điểm cao nhất.",
   "intent": "what"
+},
+{  "qid": "q_5103",
+  "question": "Làm sao để được học học phần thay thế?",
+  "positive_passage_id": "p_0009",
+  "evidence": "được chỉ định học khi học phần bắt buộc không có điều kiện giảng dạy.",
+  "intent": "howto"
+},
+{  "qid": "q_5104",
+  "question": "Học phần tương đương có bắt buộc phải học không?",
+  "positive_passage_id": "p_0009",
+  "evidence": "sinh viên được chọn học thay cho học phần bắt buộc.",
+  "intent": "check"
+},
+{
+  "qid": "q_5105",
+  "question": "Học phần thay thế được chỉ định như thế nào?",
+  "positive_passage_id": "p_0009",
+  "evidence": "được chỉ định học khi học phần bắt buộc không có điều kiện giảng dạy.",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5106",
+  "question": "Điều kiện cần để áp dụng học phần thay thế là gì?",
+  "positive_passage_id": "p_0009",
+  "evidence": "khi học phần bắt buộc không có điều kiện giảng dạy.",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5107",
+  "question": "Quy tắc chỉ tính điểm cao nhất có áp dụng khi chỉ học một học phần tương đương không?",
+  "positive_passage_id": "p_0009",
+  "evidence": "Học nhiều hơn 1 thì chỉ tính điểm cao nhất.",
+  "intent": "check"
+},
+{
+  "qid": "q_5108",
+  "question": "Sinh viên có được dùng học phần tương đương để thay thế học phần bắt buộc không?",
+  "positive_passage_id": "p_0009",
+  "evidence": "sinh viên được chọn học thay cho học phần bắt buộc.",
+  "intent": "eligibility"
+},
+{
+  "qid": "q_5109",
+  "question": "Học phần thay thế có được dùng khi học phần bắt buộc vẫn có điều kiện giảng dạy không?",
+  "positive_passage_id": "p_0009",
+  "evidence": "khi học phần bắt buộc không có điều kiện giảng dạy.",
+  "intent": "check"
+},
+{
+  "qid": "q_5110",
+  "question": "Điểm của học phần tương đương được xử lý thế nào nếu học nhiều môn?",
+  "positive_passage_id": "p_0009",
+  "evidence": "Học nhiều hơn 1 thì chỉ tính điểm cao nhất.",
+  "intent": "procedure"
 },
 {
   "qid": "q_5103",
@@ -923,6 +1266,12 @@
   "evidence": "khối lượng, điều kiện tham dự, mục tiêu, chuẩn đầu ra, đánh giá, giáo trình, tài liệu",
   "intent": "what"
 },
+{  "qid": "q_5132",
+  "question": "danh sách những thành phần nào được bao gồm trong đề cương chi tiết?",
+  "positive_passage_id": "p_0011",
+  "evidence": "khối lượng, điều kiện tham dự, mục tiêu, chuẩn đầu ra, đánh giá, giáo trình, tài liệu",
+  "intent": "what"
+},
 {
   "qid": "q_5132",
   "question": "Who is responsible for proposing the detailed outline?",
@@ -930,12 +1279,24 @@
   "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua",
   "intent": "who"
 },
-{
-  "qid": "q_5133",
-  "question": "Which body approves the detailed outline?",
+{  "qid": "q_5133",
+  "question": "Ai là người chịu trách nhiệm đề xuất đề cương chi tiết?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua",
+  "intent": "who"
+},
+
+{  "qid": "q_5133",
+  "question": "Ai là người chịu trách nhiệm phê duyệt đề cương chi tiết?",
   "positive_passage_id": "p_0011",
   "evidence": "Hội đồng Khoa thông qua, công bố đầu kỳ",
   "intent": "who"
+},
+{  "qid": "q_5134",
+  "question": "khi nào đề cương chi tiết được công bố?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua, công bố đầu kỳ",
+  "intent": "time"
 },
 {
   "qid": "q_5134",
@@ -951,9 +1312,21 @@
   "evidence": "mục tiêu, chuẩn đầu ra, đánh giá, giáo trình",
   "intent": "check"
 },
+{  "qid": "q_5135",
+  "question": "Đề cương chi tiết có bao gồm chuẩn đầu ra không?",
+  "positive_passage_id": "p_0011",
+  "evidence": "mục tiêu, chuẩn đầu ra, đánh giá, giáo trình",
+  "intent": "check"
+},
 {
   "qid": "q_5136",
   "question": "Is the detailed outline proposed by the Faculty Council?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua",
+  "intent": "check"
+},
+{  "qid": "q_5136",
+  "question": "Đề cương chi tiết có phải do Hội đồng Khoa đề xuất không?",
   "positive_passage_id": "p_0011",
   "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua",
   "intent": "check"
@@ -965,9 +1338,21 @@
   "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua, công bố đầu kỳ",
   "intent": "procedure"
 },
+{  "qid": "q_5137",
+  "question": "Quy trình ban hành đề cương chi tiết là gì?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua, công bố đầu kỳ",
+  "intent": "procedure"
+},
 {
   "qid": "q_5138",
   "question": "What is a detailed outline in academic context?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Đề cương chi tiết gồm: khối lượng, điều kiện tham dự, mục tiêu, chuẩn đầu ra, đánh giá, giáo trình",
+  "intent": "definition"
+},
+{  "qid": "q_5138",
+  "question": "Đề cương chi tiết trong bối cảnh học thuật là gì?",
   "positive_passage_id": "p_0011",
   "evidence": "Đề cương chi tiết gồm: khối lượng, điều kiện tham dự, mục tiêu, chuẩn đầu ra, đánh giá, giáo trình",
   "intent": "definition"
@@ -979,6 +1364,12 @@
   "evidence": "Hội đồng Khoa thông qua, công bố đầu kỳ",
   "intent": "procedure"
 },
+{  "qid": "q_5139",
+  "question": "Sau khi Hội đồng Khoa thông qua đề cương chi tiết thì điều gì xảy ra?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Hội đồng Khoa thông qua, công bố đầu kỳ",
+  "intent": "procedure"
+},
 {
   "qid": "q_5140",
   "question": "What conditions must be met for a detailed outline to be considered official?",
@@ -986,8 +1377,13 @@
   "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua",
   "intent": "requirement"
 },
-{
-  "qid": "q_5141",
+{  "qid": "q_5140",
+  "question": "Để đề cương chi tiết được coi là chính thức thì cần đáp ứng những điều kiện gì?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua",
+  "intent": "requirement"
+},
+{  "qid": "q_5141",
   "question": "How is the detailed outline approved?",
   "positive_passage_id": "p_0011",
   "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua",
@@ -1007,9 +1403,21 @@
   "evidence": "chuẩn đầu ra, đánh giá, giáo trình, tài liệu",
   "intent": "check"
 },
+{  "qid": "q_5143",
+  "question": "Đề cương chi tiết có bao gồm giáo trình và tài liệu không?",
+  "positive_passage_id": "p_0011",
+  "evidence": "chuẩn đầu ra, đánh giá, giáo trình, tài liệu",
+  "intent": "check"
+},
 {
   "qid": "q_5144",
   "question": "Is the detailed outline announced before the term ends?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Hội đồng Khoa thông qua, công bố đầu kỳ",
+  "intent": "check"
+},
+{  "qid": "q_5144",
+  "question": "Đề cương chi tiết có được công bố trước khi kết thúc học kỳ không?",
   "positive_passage_id": "p_0011",
   "evidence": "Hội đồng Khoa thông qua, công bố đầu kỳ",
   "intent": "check"
@@ -1021,9 +1429,21 @@
   "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua",
   "intent": "what"
 },
+{  "qid": "q_5145",
+  "question": "Vai trò của Hội đồng Khoa đối với đề cương chi tiết là gì?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Hội đồng Khoa thông qua",
+  "intent": "what"
+},
 {
   "qid": "q_5146",
   "question": "How many distinct sections does the detailed outline contain?",
+  "positive_passage_id": "p_0011",
+  "evidence": "khối lượng, điều kiện tham dự, mục tiêu, chuẩn đầu ra, đánh giá, giáo trình, tài liệu",
+  "intent": "what"
+},
+{  "qid": "q_5146",
+  "question": "Đề cương chi tiết có bao nhiêu phần riêng biệt?",
   "positive_passage_id": "p_0011",
   "evidence": "khối lượng, điều kiện tham dự, mục tiêu, chuẩn đầu ra, đánh giá, giáo trình, tài liệu",
   "intent": "what"
@@ -1036,10 +1456,24 @@
   "intent": "check"
 },
 {
+  "qid": "q_5147",
+  "question": "Đề cương chi tiết có bao gồm mục tiêu không?",
+  "positive_passage_id": "p_0011",
+  "evidence": "khối lượng, điều kiện tham dự, mục tiêu",
+  "intent": "check"
+},
+{
   "qid": "q_5148",
   "question": "What is the first step in the detailed outline's approval process?",
   "positive_passage_id": "p_0011",
   "evidence": "Do Bộ môn đề xuất, Hội đồng Khoa thông qua",
+  "intent": "procedure"
+},
+{
+  "qid": "q_5148",
+  "question": "Bước đầu tiên trong quy trình phê duyệt đề cương chi tiết là gì?",
+  "positive_passage_id": "p_0011",
+  "evidence": "Do Bộ môn đề xuất",
   "intent": "procedure"
 },
 {
@@ -1119,6 +1553,18 @@
   "evidence": "yêu cầu tối thiểu về trình độ, năng lực, kinh nghiệm",
   "intent": "requirement"
 },
+{  "qid": "q_5160",
+  "question": "sinh viên có cần đáp ứng yêu cầu tối thiểu về trình độ, năng lực, kinh nghiệm không?",
+  "positive_passage_id": "p_0012",
+  "evidence": "yêu cầu tối thiểu về trình độ, năng lực, kinh nghiệm",
+  "intent": "eligibility"
+},
+{  "qid": "q_5161",
+  "question": "sinh viên có phải đáp ứng yêu cầu tối thiểu về trình độ, năng lực, kinh nghiệm để học tập không?",
+  "positive_passage_id": "p_0012",
+  "evidence": "mà sinh viên cần đáp ứng để có thể học tập",
+  "intent": "eligibility"
+},
 {
   "qid": "q_5160",
   "question": "Ai cần đáp ứng chuẩn đầu vào?",
@@ -1143,6 +1589,55 @@
 {
   "qid": "q_5163",
   "question": "Trong văn bản nào quy định các yêu cầu tối thiểu?",
+  "positive_passage_id": "p_0012",
+  "evidence": "Chuẩn đầu vào của chương trình đào tạo quy định những yêu cầu tối thiểu",
+  "intent": "where"
+},
+{  "qid": "q_5164",
+  "question": "Yêu cầu tối thiểu được quy định trong tài liệu nào?",
+  "positive_passage_id": "p_0012",
+  "evidence": "Chuẩn đầu vào của chương trình đào tạo quy định những yêu cầu tối thiểu",
+  "intent": "where"
+},
+{  "qid": "q_5163",
+  "question": "Văn bản nào quy định các yêu cầu tối thiểu?",
+  "positive_passage_id": "p_0012",
+  "evidence": "Chuẩn đầu vào của chương trình đào tạo quy định những yêu cầu tối thiểu",
+  "intent": "where"
+},
+{  "qid": "q_5164",
+  "question": "Tài liệu nào quy định các yêu cầu tối thiểu?",
+  "positive_passage_id": "p_0012",
+  "evidence": "Chuẩn đầu vào của chương trình đào tạo quy định những yêu cầu tối thiểu",
+  "intent": "where"
+},
+{  "qid": "q_5163",
+  "question": "Nơi nào quy định các yêu cầu tối thiểu?",
+  "positive_passage_id": "p_0012",
+  "evidence": "Chuẩn đầu vào của chương trình đào tạo quy định những yêu cầu tối thiểu",
+  "intent": "where"
+},
+{  "qid": "q_5164",
+  "question": "Địa điểm nào quy định các yêu cầu tối thiểu?",
+  "positive_passage_id": "p_0012",
+  "evidence": "Chuẩn đầu vào của chương trình đào tạo quy định những yêu cầu tối thiểu",
+  "intent": "where"
+},
+{  "qid": "q_5163",
+  "question": "Chỗ nào quy định các yêu cầu tối thiểu?",
+  "positive_passage_id": "p_0012",
+  "evidence": "Chuẩn đầu vào của chương trình đào tạo quy định những yêu cầu tối thiểu",
+  "intent": "where"
+},
+{  "qid": "q_5164",
+  "question": "Ở đâu quy định các yêu cầu tối thiểu?",
+  "positive_passage_id": "p_0012",
+  "evidence": "Chuẩn đầu vào của chương trình đào tạo quy định những yêu cầu tối thiểu",
+  "intent": "where"
+},
+{
+  "qid": "q_5163",
+  "question": "Văn phòng nào quy định các yêu cầu tối thiểu?",
   "positive_passage_id": "p_0012",
   "evidence": "Chuẩn đầu vào của chương trình đào tạo quy định những yêu cầu tối thiểu",
   "intent": "where"
@@ -1189,6 +1684,36 @@
   "evidence": "phải tốt nghiệp trung học phổ thông hoặc",
   "intent": "check"
 },
+{  "qid": "q_5170",
+  "question": "Trình độ ngoại ngữ bậc 2 có phải là yêu cầu bắt buộc không?",
+  "positive_passage_id": "p_0013",
+  "evidence": "có trình độ ngoại ngữ bậc 2",
+  "intent": "check"
+},
+{  "qid": "q_5170",
+  "question": "Nếu tôi có trình độ ngoại ngữ tương đương bậc 2, tôi có đủ điều kiện không?",
+  "positive_passage_id": "p_0013",
+  "evidence": "bậc 2 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc tương đương",
+  "intent": "eligibility"
+},
+{  "qid": "q_5170",
+  "question": "Có chấp nhận trình độ ngoại ngữ tương đương bậc 2 không?",
+  "positive_passage_id": "p_0013",
+  "evidence": "bậc 2 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc tương đương",
+  "intent": "eligibility"
+},
+{  "qid": "q_5170",
+  "question": "Trình độ ngoại ngữ tương đương bậc 2 có được chấp nhận không?",
+  "positive_passage_id": "p_0013",
+  "evidence": "bậc 2 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc tương đương",
+  "intent": "eligibility"
+},
+{  "qid": "q_5170",
+  "question": "Có được chấp nhận trình độ ngoại ngữ tương đương bậc 2 không?",
+  "positive_passage_id": "p_0013",
+  "evidence": "bậc 2 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc tương đương",
+  "intent": "eligibility"
+},
 {
   "qid": "q_5170",
   "question": "Trình độ ngoại ngữ tương đương bậc 2 có được chấp nhận không?",
@@ -1230,6 +1755,30 @@
   "positive_passage_id": "p_0013",
   "evidence": "tốt nghiệp trung học phổ thông hoặc trình độ tương đương",
   "intent": "requirement"
+},
+{  "qid": "q_5175",
+  "question": "muốn tham gia chương trình đào tạo chuyên sâu đặc thù, học viên cần có trình độ học vấn tối thiểu nào?",
+  "positive_passage_id": "p_0013",
+  "evidence": "tốt nghiệp trung học phổ thông hoặc trình độ tương đương",
+  "intent": "check"
+},
+{  "qid": "q_5175",
+  "question": "Có phải học viên cần tốt nghiệp trung học phổ thông để tham gia chương trình đào tạo chuyên sâu đặc thù không?",
+  "positive_passage_id": "p_0013",
+  "evidence": "tốt nghiệp trung học phổ thông hoặc trình độ tương đương",
+  "intent": "check"
+},
+{  "qid": "q_5175",
+  "question": "Có chấp nhận trình độ học vấn tương đương trung học phổ thông không?",
+  "positive_passage_id": "p_0013",
+  "evidence": "tốt nghiệp trung học phổ thông hoặc trình độ tương đương",
+  "intent": "eligibility"
+},
+{  "qid": "q_5175",
+  "question": "Trình độ học vấn tương đương trung học phổ thông có được chấp nhận không?",
+  "positive_passage_id": "p_0013",
+  "evidence": "tốt nghiệp trung học phổ thông hoặc trình độ tương đương",
+  "intent": "eligibility"
 },
 {
   "qid": "q_5176",
@@ -1348,6 +1897,20 @@
   "question": "Một tín chỉ lý thuyết yêu cầu tối thiểu bao nhiêu giờ lên lớp?",
   "positive_passage_id": "p_0017",
   "evidence": "Một tín chỉ được quy định tối thiểu bằng 15 giờ học lý thuyết",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5001",
+  "question": "Một tín chỉ thực hành yêu cầu tối thiểu bao nhiêu giờ lên lớp?",
+  "positive_passage_id": "p_0017",
+  "evidence": "Một tín chỉ được quy định tối thiểu bằng 30 giờ thực hành, thí nghiệm, thảo luận",
+  "intent": "requirement"
+},
+{
+  "qid": "q_5002",
+  "question": "Tín chỉ thực tập tại cơ sở yêu cầu tối thiểu bao nhiêu giờ thực tập?",
+  "positive_passage_id": "p_0017",
+  "evidence": "Một tín chỉ được quy định tối thiểu bằng 45 giờ thực tập tại cơ sở",
   "intent": "requirement"
 },
 {
@@ -1581,3 +2144,4 @@
   "evidence": "Học phần: 1-4 TC (trừ thực tập, khóa luận, đồ án tốt nghiệp có thể lớn hơn)",
   "intent": "check"
 }
+]

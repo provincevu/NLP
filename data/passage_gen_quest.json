@@ -1,0 +1,5572 @@
+[
+	{
+		"question": "Quy định đào tạo theo tín chỉ gồm những hoạt động nào?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Trong quy định tín chỉ, có những việc gì?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Đào tạo tín chỉ ở HUMG bao gồm mấy mảng?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Quy định tín chỉ có nhắc đến đánh giá kết quả hk ko?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Quy định đào tạo có gồm xét tốt nghiệp hông?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Nội dung chính của quy định tín chỉ là gì?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Quy định tín chỉ gồm tổ chức đào tạo ko?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Trong quy định đào tạo theo tín chỉ có phần công nhận tốt nghiệp không?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Quy định tín chỉ nói về những hoạt động nào của trường?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Nói ngắn gọn: quy định tín chỉ bao trùm gì?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Có bao gồm đánh giá kết quả học tập trong quy định tín chỉ không?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Quy định tín chỉ có mục xét & công nhận tốt nghiệp chứ?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Các hoạt động trong đào tạo tín chỉ là những gì?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Quy định đào tạo tín chỉ có nhắc tổ chức đào tạo ko?",
+		"positive_passage_id": "p_0001"
+	},
+	{
+		"question": "Trong quy định tín chỉ có phần xét tốt nghiệp không nhỉ?",
+		"positive_passage_id": "p_0001"
+	},
+
+	{
+		"question": "Ngành đào tạo là gì?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Ngành học khác chuyên ngành ở điểm nào?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Chuyên ngành là gì vậy?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Ngành đào tạo có mã số do ai quản lý?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Chuyên ngành thuộc quản lý của ai?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Phần kiến thức khác nhau giữa các chuyên ngành tối đa bao nhiêu?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Khác biệt kiến thức giữa chuyên ngành trong cùng ngành tối đa là mấy?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Ngành học là lĩnh vực rộng hay hẹp?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Chuyên ngành là lĩnh vực sâu đúng ko?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Ngành đào tạo và chuyên ngành khác nhau ntn?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Mức chênh kiến thức giữa chuyên ngành có quá 1/3 ko?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Chuyên ngành thuộc một ngành đào tạo đúng ko?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Ngành đào tạo do Bộ GD&DT quản lý đúng hông?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Trường quản lý chuyên ngành hay Bộ quản lý?",
+		"positive_passage_id": "p_0003"
+	},
+	{
+		"question": "Chuyên ngành khác nhau trong 1 ngành có chênh kiến thức bao nhiêu tối đa?",
+		"positive_passage_id": "p_0003"
+	},
+
+	{
+		"question": "Chương trình đào tạo phải thể hiện những nội dung gì?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "CTĐT gồm các mục nào vậy?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "Chương trình đào tạo có nêu chuẩn đầu ra không?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "CTĐT có ghi điều kiện nhập học ko?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "CTĐT có yêu cầu về học phần bắt buộc/tự chọn không?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "Chương trình đào tạo có kế hoạch học tập chuẩn toàn khóa chứ?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "Đề cương chi tiết có nằm trong CTĐT không?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "CTĐT có mô tả tóm tắt học phần không?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "CTĐT cần nêu rõ mục tiêu đào tạo đúng ko?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "Trong CTĐT có nói tới văn bằng tốt nghiệp không?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "CTĐT phải ghi đối tượng đào tạo à?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "Chương trình đào tạo có nêu điều kiện tốt nghiệp ko?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "CTĐT phải thể hiện trình độ đào tạo không?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "Chương trình đào tạo có nêu chuẩn năng lực người tốt nghiệp ko?",
+		"positive_passage_id": "p_0004"
+	},
+	{
+		"question": "CTĐT có ghi ngành đào tạo + văn bằng tốt nghiệp không?",
+		"positive_passage_id": "p_0004"
+	},
+
+	{
+		"question": "Chương trình đào tạo phải đảm bảo những tiêu chí gì?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT cần cơ bản, thiết thực, hiện đại đúng không?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT có phải phù hợp sứ mạng/định hướng của trường ko?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT phải đáp ứng tiêu chuẩn chất lượng trong nước chứ?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT cần phù hợp chuẩn mực quốc tế không?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT có yêu cầu đáp ứng hội nhập không?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "Yêu cầu chung của CTĐT là gì?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT có phải hiện đại không?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT phải thiết thực đúng ko?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT cần bám định hướng phát triển trường hông?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT có yêu cầu phù hợp chuẩn chất lượng quốc tế ko?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT phải cơ bản + hiện đại đúng hk?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "Chương trình đào tạo có cần đáp ứng chuẩn mực quốc tế ko?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT phải đảm bảo tính cơ bản và thiết thực đúng k?",
+		"positive_passage_id": "p_0005"
+	},
+	{
+		"question": "CTĐT có yêu cầu hội nhập không nhỉ?",
+		"positive_passage_id": "p_0005"
+	},
+
+	{
+		"question": "Mỗi chương trình gắn với mấy ngành?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "Chương trình có thể là đơn ngành hay song ngành?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "CTĐT cấu trúc từ những khối kiến thức nào?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "Khối kiến thức trong CTĐT gồm gì?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "Có mấy khối kiến thức trong CTĐT?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "CTĐT gồm giáo dục đại cương và chuyên nghiệp đúng ko?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "Chương trình học gắn với 1 ngành hay nhiều ngành?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "CTĐT có thể song ngành không?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "Cấu trúc CTĐT gồm khối kiến thức nào vậy?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "Giáo dục đại cương nằm trong CTĐT đúng hk?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "Giáo dục chuyên nghiệp có thuộc CTĐT không?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "CTĐT có thể gắn với nhiều ngành không?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "Chương trình học có thể là đơn ngành hay song ngành vậy?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "CTĐT cấu trúc từ mấy khối kiến thức?",
+		"positive_passage_id": "p_0006"
+	},
+	{
+		"question": "Hai khối kiến thức của CTĐT là gì?",
+		"positive_passage_id": "p_0006"
+	},
+
+	{
+		"question": "Tín chỉ tối thiểu bậc đại học là bao nhiêu?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Đại học cần tối thiểu bao nhiêu TC?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Bậc 7 chuyên sâu cần tối thiểu bao nhiêu tín chỉ?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Chuyên sâu bậc 7 cần 150 TC đúng ko?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Nếu đã có đại học cùng nhóm ngành thì cần bao nhiêu TC bậc 7?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Đại học có tính TC thể chất, quốc phòng không?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Tín chỉ tối thiểu hệ đại học là 120 TC hả?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Bậc 7 chuyên sâu: 150 TC hay 30 TC?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Tín chỉ tối thiểu cho chuyên sâu bậc 7 là bao nhiêu?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "TC tối thiểu đại học gồm cả thể chất/quốc phòng đúng hông?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Nếu có bằng ĐH cùng nhóm ngành thì bậc 7 cần mấy TC?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Đại học tối thiểu 120 TC cộng thêm gì?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Chuyên sâu bậc 7 yêu cầu tối thiểu mấy TC (chưa tính TC thể chất/quốc phòng)?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Bậc 7 nếu đã có ĐH cùng nhóm ngành chỉ cần 30 TC đúng ko?",
+		"positive_passage_id": "p_0007"
+	},
+	{
+		"question": "Tín chỉ tối thiểu hệ đại học là bao nhiêu nhỉ?",
+		"positive_passage_id": "p_0007"
+	},
+
+	{
+		"question": "Học phần bắt buộc là sao?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Học phần tự chọn gồm mấy loại?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Tự chọn theo chuyên ngành là gì?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Tự chọn tự do là kiểu gì?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Học phần bắt buộc có phải hoàn thành hết không?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Học phần tự chọn lấy từ đâu?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Sinh viên tự chọn học phần từ danh mục nào?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Học phần tự chọn có loại theo chuyên ngành và tự do đúng ko?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Tự chọn tự do để làm gì?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Tự chọn theo chuyên ngành là học sâu đúng k?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Học phần tự chọn giúp tích lũy đủ tín chỉ đúng ko?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Danh mục học phần tự chọn do ai đưa ra?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Học phần bắt buộc có bắt buộc phải xong hết không?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Sinh viên tự chọn học phần từ Khoa/Bộ môn hả?",
+		"positive_passage_id": "p_0008"
+	},
+	{
+		"question": "Học phần tự chọn có mấy kiểu vậy?",
+		"positive_passage_id": "p_0008"
+	},
+
+	{
+		"question": "Học phần tương đương là gì?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần tương đương có thể thay cho học phần bắt buộc không?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học nhiều hơn 1 học phần tương đương thì tính điểm sao?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần thay thế là gì?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Khi nào được chỉ định học phần thay thế?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần tương đương khác gì học phần thay thế?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Nếu học 2 học phần tương đương thì lấy điểm nào?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần thay thế là do ai chỉ định?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần tương đương dùng khi nào vậy?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần thay thế áp dụng khi học phần bắt buộc không mở đúng ko?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần tương đương: học thay học phần bắt buộc phải không?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Nếu học nhiều học phần tương đương thì điểm cao nhất được tính chứ?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần thay thế là khi không có điều kiện giảng dạy đúng hông?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần thay thế khác học phần tương đương ntn?",
+		"positive_passage_id": "p_0009"
+	},
+	{
+		"question": "Học phần tương đương có được chọn tự do không?",
+		"positive_passage_id": "p_0009"
+	},
+
+	{
+		"question": "Mỗi khóa tuyển sinh có chương trình riêng à?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "SV học chậm có được học theo chương trình khóa sau không?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "Học chậm thì có thể xin học theo CT khóa sau chứ?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "Chương trình đào tạo có theo từng khóa tuyển sinh không?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "Mỗi khóa có CT riêng hay dùng chung?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "SV học chậm có thể tốt nghiệp theo CT khóa sau không?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "Học chậm có thể xin chuyển sang CT khóa sau đúng ko?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "CT đào tạo có áp dụng theo từng khóa tuyển sinh hả?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "SV học chậm có quyền theo chương trình khóa sau không?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "Mỗi khóa sinh viên có chương trình học riêng đúng k?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "Nếu học chậm, xin học theo khóa sau được ko?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "CT từng khóa có khác nhau không?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "Học chậm có thể xin tốt nghiệp theo khóa sau hả?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "Chương trình riêng cho từng khóa tuyển sinh đúng hk?",
+		"positive_passage_id": "p_0010"
+	},
+	{
+		"question": "SV học chậm có được học theo CT khóa sau không nhỉ?",
+		"positive_passage_id": "p_0010"
+	},
+
+	{
+		"question": "Đề cương chi tiết gồm những gì?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đề cương chi tiết có mục tiêu và chuẩn đầu ra không?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đề cương chi tiết ai đề xuất?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đề cương chi tiết ai thông qua?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đề cương chi tiết công bố khi nào?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đề cương chi tiết có phần đánh giá ko?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Trong đề cương chi tiết có giáo trình/tài liệu không?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đề cương chi tiết có điều kiện tham dự không?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Bộ môn hay khoa đề xuất đề cương chi tiết?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Hội đồng Khoa có duyệt đề cương chi tiết không?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đề cương chi tiết phải nêu khối lượng học tập đúng ko?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đề cương chi tiết có phần mục tiêu học phần hông?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đầu kỳ có công bố đề cương chi tiết không?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Đề cương chi tiết do Bộ môn đề xuất rồi Hội đồng Khoa thông qua đúng k?",
+		"positive_passage_id": "p_0011"
+	},
+	{
+		"question": "Trong đề cương chi tiết có mục chuẩn đầu ra không nhỉ?",
+		"positive_passage_id": "p_0011"
+	},
+
+	{
+		"question": "Chuẩn đầu vào của CTĐT là gì?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào nói về những yêu cầu nào?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào quy định tối thiểu những gì?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào liên quan đến trình độ/năng lực đúng ko?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào có nhắc đến kinh nghiệm không?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào áp dụng cho từng trình độ/ngành/định hướng hả?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào giúp đảm bảo học tập thành công đúng không?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào nhằm để SV hoàn thành CTĐT đúng ko?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Nói gọn: chuẩn đầu vào gồm những yêu cầu gì?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào có yêu cầu tối thiểu về năng lực không?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào liên quan tới kinh nghiệm học tập hả?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào có khác nhau theo ngành không?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào quy định những yêu cầu tối thiểu để học tốt CTĐT đúng ko?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào của CTĐT nói về trình độ và năng lực gì?",
+		"positive_passage_id": "p_0012"
+	},
+	{
+		"question": "Chuẩn đầu vào có nhắc đến từng định hướng đào tạo không?",
+		"positive_passage_id": "p_0012"
+	},
+
+	{
+		"question": "Chuẩn đầu vào bậc 7 cần điều kiện gì?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Bậc 7 yêu cầu tốt nghiệp THPT hay tương đương đúng ko?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Chuẩn ngoại ngữ đầu vào bậc 7 là bậc mấy?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Bậc 7 cần ngoại ngữ bậc 2 theo khung 6 bậc hả?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Chuẩn đầu vào CTĐT bậc 7 yêu cầu gì về ngoại ngữ?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Muốn vào CTĐT bậc 7 cần bằng cấp gì?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Trình độ ngoại ngữ tối thiểu đầu vào bậc 7 là gì?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Đầu vào CTĐT chuyên sâu bậc 7 yêu cầu THPT đúng ko?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Bậc 7 có cần ngoại ngữ bậc 2 không?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Chuẩn đầu vào bậc 7 có nói đến khung ngoại ngữ 6 bậc không?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Tốt nghiệp THPT là điều kiện đầu vào bậc 7 đúng hk?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Đầu vào bậc 7 yêu cầu ngoại ngữ bậc 2 hay cao hơn?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "CTĐT chuyên sâu bậc 7 cần trình độ ngoại ngữ nào?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Bậc 7 yêu cầu trình độ THPT hoặc tương đương đúng không?",
+		"positive_passage_id": "p_0013"
+	},
+	{
+		"question": "Ngoại ngữ đầu vào bậc 7 là bậc mấy theo khung VN?",
+		"positive_passage_id": "p_0013"
+	},
+
+	{
+		"question": "Chuẩn đầu ra tốt nghiệp gồm những gì?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Chuẩn ngoại ngữ tốt nghiệp là bậc mấy?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Chuẩn CNTT tốt nghiệp theo quy định nào?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Đầu ra tốt nghiệp có yêu cầu riêng của trường không?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Tốt nghiệp cần đạt ngoại ngữ bậc 3 đúng ko?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Chuẩn đầu ra gồm ngoại ngữ + CNTT + quy định riêng đúng hk?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Chuẩn đầu ra ngoại ngữ theo khung mấy bậc?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "CNTT đầu ra theo Bộ TT&TT hay theo trường?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Chuẩn đầu ra của trường gồm những điều kiện nào?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Tốt nghiệp cần đạt chuẩn CNTT theo quy định nào?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Ngoại ngữ bậc 3 là chuẩn đầu ra tốt nghiệp đúng không?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Chuẩn đầu ra tốt nghiệp có yêu cầu theo quy định riêng trường không?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Chuẩn CNTT đầu ra theo Bộ TT&TT đúng ko?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Muốn tốt nghiệp cần đạt những chuẩn gì?",
+		"positive_passage_id": "p_0016"
+	},
+	{
+		"question": "Đầu ra ngoại ngữ yêu cầu mức nào?",
+		"positive_passage_id": "p_0016"
+	},
+
+	{
+		"question": "1 tín chỉ là bao nhiêu giờ học lý thuyết?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "1 TC gồm mấy giờ tự học với lý thuyết?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "1 tín chỉ thực hành/thí nghiệm tương đương bao nhiêu giờ?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "1 TC thực tập tại cơ sở là bao nhiêu giờ?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "1 giờ tín chỉ kéo dài bao lâu?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "TC là đơn vị tính gì?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "Lý thuyết: 1 TC = 15h học + 30h tự học đúng ko?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "Thực hành: 1 TC = 30h thực hành + 15h tự học hả?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "Thực tập/đồ án: 1 TC = 45h phải không?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "Một giờ tín chỉ là 50 phút đúng hk?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "TC tính khối lượng học tập như thế nào?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "1 TC có thể là lý thuyết hoặc thực hành đúng ko?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "1 tín chỉ thực tập tại cơ sở tính 45h à?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "Một giờ tín chỉ = 50p hay 60p?",
+		"positive_passage_id": "p_0017"
+	},
+	{
+		"question": "Tín chỉ là đơn vị đo khối lượng học tập đúng không?",
+		"positive_passage_id": "p_0017"
+	},
+
+	{
+		"question": "Một học phần thường mấy tín chỉ?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học phần có mã số riêng đúng ko?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học phần tiên quyết là gì?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học phần học trước là sao?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học phần song hành là gì vậy?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học phần cấp chứng chỉ có tính tín chỉ không?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học phần thường 1-4 TC đúng k?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Thực tập/khóa luận có thể nhiều TC hơn 4 không?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Tiên quyết là phải học xong A rồi mới học B đúng ko?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học trước là bắt buộc hoàn thành A rồi mới học B hả?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Song hành là có thể học cùng lúc đúng hk?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học phần cấp chứng chỉ không tính tích lũy TC đúng ko?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học phần có loại tiên quyết/học trước/song hành đúng không?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Một học phần có mã số riêng à?",
+		"positive_passage_id": "p_0018"
+	},
+	{
+		"question": "Học phần thực tập có thể >4 TC đúng ko?",
+		"positive_passage_id": "p_0018"
+	},
+
+	{
+		"question": "Tối đa bao nhiêu % CTĐT được học online?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Hệ chính quy/vừa làm vừa học được học online tối đa bao nhiêu?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Online tối đa 30% đúng ko?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Khi thiên tai/dịch bệnh thì dạy học theo ai hướng dẫn?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Trường hợp bất khả kháng thì phương thức dạy học theo hướng dẫn nào?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Học trực tuyến tối đa bao nhiêu phần trăm CTĐT?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Chính quy có được học online quá 30% không?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Vừa làm vừa học có giới hạn online không?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Khi dịch bệnh phức tạp, trường dạy theo hướng dẫn của ai?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Trong thiên tai thì trường dạy học theo quy định nào?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Giới hạn học online của CTĐT là bao nhiêu?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Học trực tuyến tối đa 30% áp dụng cho hệ nào?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Trường hợp bất khả kháng thì dạy học theo hướng dẫn của Bộ nào?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Có giới hạn % online cho chính quy + vừa làm vừa học không?",
+		"positive_passage_id": "p_0022"
+	},
+	{
+		"question": "Học online tối đa 30% CTĐT đúng hk?",
+		"positive_passage_id": "p_0022"
+	},
+
+	{
+		"question": "Khóa học đại học chuẩn dài bao lâu?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Một năm có mấy học kỳ chính và phụ?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Học kỳ chính kéo dài mấy tuần?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Học kỳ phụ kéo dài bao lâu?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Học kỳ chính có thi giữa kỳ bao lâu?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Thi cuối kỳ kéo dài mấy tuần?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Học kỳ phụ dùng để làm gì?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "HK chính có thể xếp 8 tuần hoặc 16 tuần đúng ko?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Khóa chuẩn đại học 4-4,5 năm hả?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Mỗi năm có mấy học kỳ phụ?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "HK phụ có 5 tuần học + 1 tuần thi đúng ko?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Thi giữa kỳ thường 1-2 tuần à?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "Thi cuối kỳ thường 2-3 tuần đúng hk?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "HK phụ dành cho học lại/học vượt đúng không?",
+		"positive_passage_id": "p_0023"
+	},
+	{
+		"question": "HK phụ có thể học ngoài CT không?",
+		"positive_passage_id": "p_0023"
+	},
+
+	{
+		"question": "Tốt nghiệp sớm với CT 4 năm mất bao lâu?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "CT 4,5 năm thì tốt nghiệp sớm là mấy năm?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Nghỉ ốm có phép <=2 năm có tính chậm tiến độ không?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Nghỉ ốm >2 năm thì tính vào thời gian tối đa hả?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Nghĩa vụ quân sự có tính vào thời gian tối đa không?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Thời gian tối đa học là bao nhiêu lần thời gian chuẩn?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Hệ vừa làm vừa học dài hơn bao nhiêu %?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Hệ vừa làm vừa học: 4 năm -> mấy năm?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Hệ vừa làm vừa học: 4,5 năm -> mấy năm?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Giới hạn giờ học/tuần tối đa là bao nhiêu?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Một ngày học tối đa bao nhiêu giờ?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Nghỉ ốm có phép <=2 năm thì có bị tính chậm tiến độ ko?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Tốt nghiệp sớm CT 4 năm là 3 năm đúng hk?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Tốt nghiệp sớm CT 4,5 năm là 3,5 năm đúng k?",
+		"positive_passage_id": "p_0024"
+	},
+	{
+		"question": "Thời gian tối đa học <=2 lần thời gian chuẩn đúng ko?",
+		"positive_passage_id": "p_0024"
+	},
+
+	{
+		"question": "Tuyển sinh theo nhóm ngành dựa vào những gì?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Xếp SV theo nhóm ngành dựa trên tiêu chí nào?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Có xét nguyện vọng khi tuyển sinh nhóm ngành không?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Tuyển sinh nhóm ngành có xét điểm thi không?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Có xét kết quả học tập khi tuyển sinh nhóm ngành hông?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Chỉ tiêu từng CT do ai công bố?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Hiệu trưởng quy định tiêu chí tuyển sinh nhóm ngành đúng ko?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Xếp SV theo thứ tự ưu tiên nguyện vọng hả?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Trong tuyển sinh nhóm ngành, tiêu chí gồm những gì?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Tuyển sinh nhóm ngành có xét điểm thi + học bạ không?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Ai quyết định số lượng và tiêu chí cụ thể?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Tiêu chí xếp SV theo nhóm ngành là gì vậy?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Nguyện vọng có được tính khi xếp SV nhóm ngành không?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Chỉ tiêu từng chương trình do ai công bố?",
+		"positive_passage_id": "p_0026"
+	},
+	{
+		"question": "Hiệu trưởng có quyền quy định tiêu chí tuyển sinh nhóm ngành không?",
+		"positive_passage_id": "p_0026"
+	},
+
+	{
+		"question": "Ngành/chuyên ngành có thể không mở nếu ít SV đăng ký đúng ko?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Số SV tối thiểu để mở 1 chuyên ngành là bao nhiêu?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Nếu ít SV đăng ký thì có mở chuyên ngành không?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Chuyên ngành tối thiểu phải có 20 SV đúng không?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Trường hợp đặc biệt ai quyết định mở chuyên ngành?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Ít SV đăng ký thì ngành có thể không mở cho khóa đó hả?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Mốc tối thiểu SV để mở chuyên ngành là mấy?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Chuyên ngành cần ít nhất 20 SV đúng hk?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Nếu dưới 20 SV thì có thể mở chuyên ngành không?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Ngành/chuyên ngành có thể không mở nếu nguyện vọng quá ít đúng ko?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Quy định tối thiểu SV mở chuyên ngành là bao nhiêu?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Trường hợp đặc biệt mở chuyên ngành do ai quyết định?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Ít SV đăng ký thì có thể không mở chuyên ngành cho khóa đó không?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Chuyên ngành mở đào tạo cần tối thiểu bao nhiêu SV?",
+		"positive_passage_id": "p_0027"
+	},
+	{
+		"question": "Nếu số SV đăng ký quá ít thì chuyên ngành bị hủy mở đúng ko?",
+		"positive_passage_id": "p_0027"
+	},
+
+	{
+		"question": "Sĩ số tối thiểu mở lớp chung nhiều ngành là bao nhiêu?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Mở lớp chung ngành cần ít nhất mấy SV?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Chuyên ngành mở lớp tối thiểu bao nhiêu SV vậy?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Nếu chuyên ngành chỉ có 5-19 SV thì xử lý sao?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Dưới 5 SV học lại thì giải quyết kiểu gì?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Thực hành/thí nghiệm một nhóm cần bao nhiêu SV?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Lớp chuyên ngành tối thiểu 20 SV đúng hk?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Sĩ số tối thiểu lớp chung nhiều ngành là 40 hả?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Chung ngành mở lớp cần tối thiểu 30 SV đúng ko?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Chuyên ngành ít SV có phải đóng học phí cao hơn không?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Ngoại lệ chuyên ngành khi chỉ có 5-19 SV là gì?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Dưới 5 SV học lại thì làm đồ án/tiểu luận thay thế đúng ko?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Thực hành/thí nghiệm một nhóm 10-20 SV đúng hk?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Một nhóm thực hành có mấy người hướng dẫn?",
+		"positive_passage_id": "p_0032"
+	},
+	{
+		"question": "Sĩ số tối thiểu cho lớp chung ngành/chuyên ngành là bao nhiêu?",
+		"positive_passage_id": "p_0032"
+	},
+
+	{
+		"question": "Lớp quản lý SV được tổ chức theo tiêu chí nào?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Lớp quản lý gồm SV cùng ngành/chuyên ngành và cùng khóa đúng ko?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Lớp quản lý có giảng viên chủ nhiệm/cố vấn học tập không?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Khoa chuyên ngành quản lý trực tiếp lớp nào?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Phòng CTCT-SV quản lý phần nào?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Cố vấn học tập có nhiệm vụ gì?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Giảng viên chủ nhiệm tư vấn kế hoạch học tập đúng ko?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Cố vấn học tập hỗ trợ chọn học phần không?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Ai quản lý chung toàn trường về SV?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Lớp quản lý có phải cùng khóa không nhỉ?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Giảng viên chủ nhiệm tư vấn định hướng nghề nghiệp đúng k?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Cố vấn học tập có hỗ trợ đăng ký/rút học phần không?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Khoa chuyên ngành quản lý trực tiếp SV đúng ko?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Phòng CTCT-SV quản lý chung toàn trường đúng hk?",
+		"positive_passage_id": "p_0033"
+	},
+	{
+		"question": "Lớp quản lý SV có giảng viên chủ nhiệm kiêm cố vấn học tập không?",
+		"positive_passage_id": "p_0033"
+	},
+
+	{
+		"question": "Đăng ký học phần qua web nào?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 1 đăng ký học phần trước học kỳ bao lâu?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 2 đăng ký chậm nhất là khi nào?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 3 đăng ký học phần chậm nhất trước học kỳ mấy tuần?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 3 chỉ đăng ký bổ sung đúng ko?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Học kỳ phụ có đợt 3 không?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 1 có tư vấn khi đăng ký không?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đăng ký học qua daotao.humg.edu.vn đúng hk?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 1 mở trước 4 tuần đúng ko?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 2 là đăng ký chính thức đúng không?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 2 chậm nhất trước học kỳ 2 tuần hả?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 3 chỉ bổ sung và chậm nhất 1 tuần trước học kỳ đúng ko?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Học kỳ phụ không có đợt 3 đăng ký phải không?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Các đợt đăng ký học phần gồm mấy đợt?",
+		"positive_passage_id": "p_0036"
+	},
+	{
+		"question": "Đợt 1 có thể điều chỉnh theo kế hoạch không?",
+		"positive_passage_id": "p_0036"
+	},
+
+	{
+		"question": "HK chính tối thiểu bao nhiêu TC với học lực bình thường?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Học lực yếu thì tối thiểu mấy TC mỗi hk chính?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "HK phụ có quy định tối thiểu TC không?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Tối thiểu 14 TC áp dụng cho hk nào?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Học lực yếu đăng ký tối thiểu 10 TC đúng ko?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Học phần tự chọn phải mới, không trùng kiến thức cũ đúng hk?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Chọn tự chọn trùng kiến thức đã học thì có được công nhận điểm không?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "HK chính (trừ hk cuối) có quy định tối thiểu TC đúng không?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "HK phụ không yêu cầu tối thiểu TC đúng k?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Tối thiểu TC hk chính cho SV bình thường là 14 TC hả?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Tự chọn phải có nội dung mới, không thấp hơn kiến thức đã học đúng ko?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Nếu học sai tự chọn thì điểm có bị hủy không?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "HK chính trừ hk cuối mới bị ràng buộc tối thiểu TC hả?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Học lực yếu vẫn phải đăng ký tối thiểu 10 TC đúng hk?",
+		"positive_passage_id": "p_0037"
+	},
+	{
+		"question": "Tự chọn trùng/ thấp hơn kiến thức đã học sẽ không được công nhận điểm đúng không?",
+		"positive_passage_id": "p_0037"
+	},
+
+	{
+		"question": "Đăng ký học phần phải đảm bảo điều kiện tiên quyết đúng ko?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Sinh viên thường học theo CTĐT đã sắp xếp sẵn đúng hk?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Có thể đăng ký học phần bất kỳ mở trong hk nếu đủ điều kiện không?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Điều kiện ràng buộc khi đăng ký gồm những gì?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Môn tiên quyết/học trước/song hành ảnh hưởng đăng ký thế nào?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Đăng ký học phần phải theo trình tự học tập của CT đúng không?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "SV có thể học vượt nếu thỏa điều kiện của học phần không?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Nếu đủ tiên quyết thì được đăng ký bất cứ học phần mở trong hk hả?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Đăng ký học phần phải đảm bảo điều kiện học trước đúng hk?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Sinh viên thường học theo kế hoạch CTĐT nhưng vẫn được chọn môn mở đúng ko?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Điều kiện ràng buộc riêng của học phần gồm tiên quyết/học trước/song hành phải không?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Nếu không đủ điều kiện tiên quyết thì có đăng ký được không?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "SV có thể đăng ký học phần bất kỳ mở trong hk nếu thỏa điều kiện đúng ko?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Việc đăng ký học phần phải đảm bảo trình tự học tập của chương trình đúng hk?",
+		"positive_passage_id": "p_0039"
+	},
+	{
+		"question": "Điều kiện đăng ký học phần gồm môn tiên quyết, môn học trước, môn song hành đúng k?",
+		"positive_passage_id": "p_0039"
+	},
+
+	{
+		"question": "Không đóng học phí đợt 1 thì bị hủy mấy học phần?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Hủy 2 học phần nào khi không đóng học phí đợt 1?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Nếu quá hạn đóng học phí cuối kỳ thì có bị đình chỉ hk sau không?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Không đóng học phí đợt 1 bị hủy 2 học phần tín chỉ cao nhất đúng ko?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Sau gia hạn đóng học phí cuối cùng, SV có thể bị đình chỉ học tập hả?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Hết thời gian gia hạn đợt 1 mà chưa đóng thì sao?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Không đóng học phí thì trường hủy 2 học phần bất kỳ hay chọn môn nhiều TC?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Đóng học phí trễ đợt cuối có thể bị đình chỉ học kỳ kế tiếp đúng hk?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Khi kết thúc gia hạn đợt 1, SV chưa đóng học phí bị xử lý thế nào?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Học phần nào bị hủy khi không đóng học phí?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Không đóng học phí đợt cuối thì có bị đình chỉ học tập hk sau không?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Hết hạn đóng học phí đợt 1 thì sẽ hủy 2 học phần có TC cao nhất đúng ko?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Gia hạn đóng học phí kết thúc mà chưa đóng thì bị gì?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Nếu chưa đóng học phí, trường có thể đình chỉ học kỳ sau đúng không?",
+		"positive_passage_id": "p_0041"
+	},
+	{
+		"question": "Không đóng học phí sẽ bị hủy bao nhiêu môn?",
+		"positive_passage_id": "p_0041"
+	},
+
+	{
+		"question": "Sau mỗi năm học nếu chưa đạt chuẩn ngoại ngữ thì bị gì?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Không đạt chuẩn ngoại ngữ/IT thì bị giới hạn số TC đăng ký đúng ko?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Giới hạn số TC đăng ký nhằm mục đích gì?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Chuẩn đầu ra ngoại ngữ không đạt thì bị hạn chế TC theo điều nào?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Không đạt chuẩn đầu ra ngoại ngữ sau mỗi năm thì xử lý ra sao?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Giới hạn số TC đăng ký áp dụng cho hk sau đúng hk?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "SV chưa đạt chuẩn ngoại ngữ sẽ bị hạn chế tải học để có thời gian học ngoại ngữ đúng ko?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Chuẩn đầu ra Ngoại ngữ và CNTT không đạt thì có bị giới hạn đăng ký TC không?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Không đạt chuẩn ngoại ngữ theo lộ trình thì bị giới hạn TC tối đa đăng ký hk sau à?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Quy định giới hạn TC tối đa khi không đạt chuẩn ngoại ngữ nằm ở khoản mấy điều 17?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Sau mỗi năm học trường kiểm tra chuẩn ngoại ngữ và giới hạn TC nếu chưa đạt đúng ko?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Không đạt chuẩn CNTT/ngoại ngữ thì bị giới hạn số TC ở hk sau đúng hk?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Giới hạn TC nhằm tăng thời gian cho SV học ngoại ngữ đúng không?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Không đạt chuẩn đầu ra theo lộ trình thì bị hạn chế số TC đăng ký học kỳ tiếp theo đúng k?",
+		"positive_passage_id": "p_0042"
+	},
+	{
+		"question": "Sau mỗi năm học, ai chưa đạt chuẩn ngoại ngữ thì bị giới hạn TC tối đa đăng ký đúng ko?",
+		"positive_passage_id": "p_0042"
+	},
+
+	{
+		"question": "Rút học phần ở hk chính sau bao lâu?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Rút học phần ở hk phụ sau mấy tuần?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Quá hạn rút học phần thì sao?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Không đi học sau khi quá hạn rút thì bị điểm gì?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "HK chính rút học phần sau 2 tuần đúng ko?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "HK phụ rút học phần sau 1 tuần đúng hk?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Quá hạn rút, học phần vẫn giữ và vắng học coi như tự ý bỏ học đúng ko?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Tự ý bỏ học phần sau quá hạn rút sẽ bị điểm F đúng không?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Mốc rút học phần ở hk chính là sau 2 tuần kể từ khi học đúng hk?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Mốc rút ở hk phụ là sau 1 tuần đúng ko?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Qua hạn rút, học phần vẫn giữ trên hệ thống đúng k?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Vắng học sau khi quá hạn rút bị tính điểm F hả?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "HK chính rút môn sau 2 tuần, hk phụ sau 1 tuần đúng hk?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Rút học phần quá hạn thì không được rút và bị giữ môn đúng ko?",
+		"positive_passage_id": "p_0043"
+	},
+	{
+		"question": "Không đi học sau khi quá hạn rút bị coi là tự ý bỏ học đúng không?",
+		"positive_passage_id": "p_0043"
+	},
+
+	{
+		"question": "Điều kiện rút bớt học phần gồm những gì?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Rút bớt học phần phải viết đơn gửi phòng ĐTĐH đúng ko?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Rút học phần phải có ý kiến giảng viên chủ nhiệm không?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Rút bớt học phần phải được phòng ĐTĐH chấp thuận hả?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Sinh viên chỉ được bỏ lớp sau khi kiểm tra trên hệ thống đã xử lý xong đúng ko?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Học phần rút bớt có được hoàn trả học phí không?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Điều kiện rút học phần có yêu cầu không vi phạm khoản 4 điều 10 đúng hk?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Muốn rút bớt học phần phải nộp đơn và được duyệt đúng không?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Rút học phần xong có được hoàn học phí không nhỉ?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Phải tự viết đơn rút học phần gửi phòng ĐTĐH đúng ko?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Giảng viên chủ nhiệm phải cho ý kiến trước khi rút học phần đúng k?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Chỉ sau khi hệ thống báo xử lý thành công mới được bỏ lớp đúng hk?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Không hoàn trả học phí cho học phần rút bớt đúng không?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Điều kiện rút bớt có bao gồm việc được phòng ĐTĐH chấp thuận đúng ko?",
+		"positive_passage_id": "p_0044"
+	},
+	{
+		"question": "Sinh viên vi phạm khoản 4 điều 10 thì không được rút bớt học phần đúng hk?",
+		"positive_passage_id": "p_0044"
+	},
+
+	{
+		"question": "Kết thúc đăng ký, lớp học phần nào bị hủy?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Lớp học phần ít SV thì có bị hủy không?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Lớp học phần dưới sĩ số tối thiểu phải đóng học phí thế nào?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Lớp ít SV nhưng có nhu cầu học lại/học vượt thì có được giữ không?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Khi nào trường hủy lớp học phần?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Lớp dưới mức tối thiểu phải đóng học phí cao hơn đúng ko?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Kết thúc hạn đăng ký, lớp ít SV sẽ bị hủy trừ khi có đề nghị duy trì đúng hk?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Lớp học phần sinh viên đề nghị duy trì để học lại có bị hủy không?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Học phần dưới sĩ số tối thiểu thì học phí tăng đúng ko?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Trường hủy các lớp học phần sau khi hết thời hạn đăng ký đúng k?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Lớp ít SV có thể giữ lại nếu phục vụ học lại/học vượt đúng ko?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Đóng học phí cao hơn áp dụng cho lớp dưới mức tối thiểu đúng hk?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Sau hạn đăng ký, lớp không đủ SV sẽ bị hủy đúng không?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Lớp học phần dưới mức tối thiểu phải bù chi phí bằng học phí cao hơn hả?",
+		"positive_passage_id": "p_0045"
+	},
+	{
+		"question": "Lớp ít SV muốn giữ lại cần sinh viên đề nghị duy trì đúng ko?",
+		"positive_passage_id": "p_0045"
+	},
+
+	{
+		"question": "Điểm C/D+/D có được học lại để cải thiện không?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "SV không bị buộc thôi học có thể học lại để cải thiện điểm đúng hk?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Học lại để cải thiện áp dụng khi điểm học phần đạt C/D+/D đúng ko?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Điểm C có được học lại để tăng điểm không?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Điểm D+ có được đăng ký học lại cải thiện không?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Điểm D có thể học lại ở hk sau để cải thiện đúng ko?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Chỉ SV không thuộc diện buộc thôi học mới được học lại cải thiện điểm đúng k?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Học lại cải thiện điểm được đăng ký ở hk tiếp theo đúng hk?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Có thể học lại học phần đạt C để nâng điểm không nhỉ?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Điểm C/D+/D và không bị buộc thôi học thì được học lại đúng ko?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Học lại cải thiện điểm áp dụng cho những điểm nào?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Không bị buộc thôi học thì có quyền học lại để cải thiện điểm đúng hk?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Học lại cải thiện điểm không áp dụng cho SV bị buộc thôi học đúng ko?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Điểm C/D+/D có thể học lại ở hk sau đúng không?",
+		"positive_passage_id": "p_0047"
+	},
+	{
+		"question": "Học lại để cải thiện điểm phải đăng ký ở các học kỳ tiếp theo đúng k?",
+		"positive_passage_id": "p_0047"
+	},
+
+	{
+		"question": "Học phần bắt buộc bị F thì phải làm gì?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Điểm F học phần bắt buộc phải học lại đúng ko?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Học lại học phần bắt buộc bị F cho đến khi đạt điểm tích lũy đúng hk?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "SV bị F môn bắt buộc có được bỏ không?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Học phần bắt buộc bị F có phải đăng ký lại ở hk sau không?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Điểm F môn bắt buộc phải học lại đến khi đạt tích lũy đúng ko?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Học phần bắt buộc điểm F có được thay thế không?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "F môn bắt buộc thì phải đăng ký học lại tiếp theo đúng k?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Học phần bắt buộc bị F thì phải học lại bao nhiêu lần?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Điểm F môn bắt buộc có cần học lại cho tới khi đạt điểm tích lũy không?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Nếu F môn bắt buộc thì phải học lại ở hk tiếp theo đúng ko?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Điểm F học phần bắt buộc có bị yêu cầu học lại không nhỉ?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Môn bắt buộc bị F thì có thể học lại nhiều lần đến khi đậu đúng hk?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "F môn bắt buộc thì phải đăng ký học lại cho tới khi đủ điểm tích lũy đúng k?",
+		"positive_passage_id": "p_0048"
+	},
+	{
+		"question": "Học phần bắt buộc bị F không thuộc diện buộc thôi học thì vẫn phải học lại đúng ko?",
+		"positive_passage_id": "p_0048"
+	},
+
+	{
+		"question": "Học phần tự chọn bị F thì xử lý sao?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "F môn tự chọn có thể học lại không?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "F môn tự chọn có thể đổi sang môn tương đương không?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "Môn tự chọn bị F có thể chọn môn tự chọn khác cùng danh mục đúng ko?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "Điểm F tự chọn thì được học lại hoặc học đổi đúng hk?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "F môn tự chọn có cần học lại chính môn đó không?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "Có thể học đổi sang môn tự chọn tương đương nếu bị F đúng ko?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "Môn tự chọn bị F được đổi sang môn cùng danh mục hả?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "F môn tự chọn thì phương án xử lý là gì?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "Học phần tự chọn bị F có thể học lại hoặc đổi môn tương đương đúng k?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "Nếu F môn tự chọn thì có thể đăng ký học lại ở hk sau không?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "Môn tự chọn F có thể đổi sang môn khác trong danh mục đúng hk?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "F tự chọn có thể học lại hoặc chọn môn tương đương cùng danh mục đúng ko?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "Học phần tự chọn bị F không bắt buộc học lại chính môn đó đúng không?",
+		"positive_passage_id": "p_0049"
+	},
+	{
+		"question": "F môn tự chọn thì được phép đổi môn tương đương trong danh mục đúng hk?",
+		"positive_passage_id": "p_0049"
+	},
+
+	{
+		"question": "Điểm thi chính thức lấy theo điểm cao nhất đúng ko?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Học lại nhiều lần thì lấy điểm nào?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Điểm cao nhất trong các lần học được tính chính thức đúng hk?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Đăng ký học lại thực hiện như đăng ký lần đầu đúng ko?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Học lại có phải theo các bước đăng ký như lần đầu không?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Điểm thi chính thức = điểm cao nhất trong các lần học đúng k?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Đăng ký học lại giống hệt quy trình đăng ký học phần lần đầu đúng ko?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Nhiều lần học thì điểm cao nhất được lấy đúng hk?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Quy trình đăng ký học lại có khác lần đầu không?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Điểm thi chính thức lấy theo điểm nào?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Học lại vẫn phải đăng ký theo các bước như lần đầu đúng k?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Điểm cao nhất trong các lần học được công nhận chính thức đúng ko?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Học lại có cần đăng ký lại trên hệ thống như lần đầu không?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Điểm thi chính thức được lấy theo lần học cao điểm nhất đúng hk?",
+		"positive_passage_id": "p_0050"
+	},
+	{
+		"question": "Các bước đăng ký học lại y như đăng ký học phần lần đầu đúng ko?",
+		"positive_passage_id": "p_0050"
+	},
+
+	{
+		"question": "Học phần bắt buộc không mở cho khóa sau thì xử lý sao?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Khi ít SV cần học mà học phần bắt buộc không mở thì có học phần thay thế không?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Ai xem xét đề nghị cho học phần thay thế?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Bộ môn chuyên môn và Hội đồng Khoa có đề xuất học phần thay thế đúng ko?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Nếu học phần bắt buộc không còn mở lớp thì có thể học thay thế không?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Khi số SV quá ít và môn bắt buộc không mở thì giải pháp là gì?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Học phần thay thế do ai đề nghị?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Học phần bắt buộc chưa học mà trường không mở lớp nữa thì sao?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Có thể học học phần thay thế khi môn bắt buộc không còn mở đúng ko?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Bộ môn + Hội đồng Khoa xem xét đề nghị trường cho học phần thay thế đúng hk?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Trường hợp ít SV cần học môn bắt buộc thì ai đề nghị giải pháp?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Học phần thay thế áp dụng khi môn bắt buộc không còn mở cho khóa sau đúng ko?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Nếu môn bắt buộc không có lớp và ít SV đăng ký thì trường có thể cho học thay thế đúng k?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Ai đề nghị nhà trường cho SV học học phần thay thế?",
+		"positive_passage_id": "p_0051"
+	},
+	{
+		"question": "Học phần bắt buộc không còn mở lớp thì SV được giải quyết bằng học phần thay thế đúng hk?",
+		"positive_passage_id": "p_0051"
+	},
+
+	{
+		"question": "Vắng thi cuối kỳ do ốm thì phải làm gì?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Xin hoãn thi cuối kỳ nộp đơn trong bao lâu?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Đơn xin hoãn thi nộp cho phòng nào?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Hoãn thi cần giấy xác nhận y tế đúng ko?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Ốm/tai nạn vắng thi cuối kỳ thì nộp đơn trong 1 tuần đúng hk?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Xin hoãn thi cuối kỳ phải kèm giấy xác nhận cơ quan y tế đúng k?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Phòng ĐTĐH hay ĐBCLGD nhận đơn hoãn thi?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Vắng thi vì ốm có được hoãn thi không?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Thời hạn nộp đơn hoãn thi là trong vòng 1 tuần kể từ ngày ốm đúng ko?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Hoãn thi cuối kỳ cần có xác nhận y tế đúng hk?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Nếu tai nạn phải vắng thi cuối kỳ thì nộp đơn ở đâu?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Nộp đơn xin hoãn thi muộn hơn 1 tuần có được không?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Hoãn thi cuối kỳ: cần đơn + giấy y tế, nộp trong 1 tuần đúng k?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Vắng thi do ốm/tai nạn phải xin hoãn thi ở phòng ĐTĐH/ĐBCLGD đúng ko?",
+		"positive_passage_id": "p_0053"
+	},
+	{
+		"question": "Xin hoãn thi cuối kỳ vì ốm phải nộp đơn kèm xác nhận y tế trong 1 tuần đúng hk?",
+		"positive_passage_id": "p_0053"
+	},
+
+	{
+		"question": "SV được nghỉ tạm thời và bảo lưu kết quả trong những trường hợp nào?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Điều động vào lực lượng vũ trang có được bảo lưu kết quả không?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Ốm/tai nạn điều trị dài ngày có được nghỉ tạm thời không?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Nhu cầu cá nhân muốn nghỉ tạm thời cần điều kiện gì?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Nghỉ tạm thời vì lý do cá nhân phải học ít nhất 1 hk đúng ko?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Nghỉ tạm thời vì cá nhân cần TBC tích lũy >= 2.0 hả?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Nghỉ tạm thời vì cá nhân không được bị buộc thôi học đúng ko?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Thời gian nghỉ tạm thời có tính vào thời gian học chính thức không?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Nghỉ tạm thời bảo lưu kết quả có bao nhiêu trường hợp?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Bảo lưu kết quả khi điều trị dài ngày cần giấy xác nhận y tế đúng ko?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Nghỉ tạm thời do nhu cầu cá nhân có cần TBC >= 2.0 không?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Nghỉ tạm thời do nhu cầu cá nhân phải học ít nhất 1 hk và không bị buộc thôi học đúng k?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Thời gian nghỉ do nhu cầu cá nhân có tính vào thời gian học chính thức theo điều 7.2 không?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Nghỉ tạm thời bảo lưu kết quả gồm điều động vũ trang, ốm dài ngày, nhu cầu cá nhân đúng hk?",
+		"positive_passage_id": "p_0055"
+	},
+	{
+		"question": "Muốn nghỉ tạm thời vì cá nhân phải có điều kiện học ít nhất 1 hk + TBC >=2.0 đúng ko?",
+		"positive_passage_id": "p_0055"
+	},
+
+	{
+		"question": "Năm 1 theo tín chỉ là dưới bao nhiêu TC?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "Năm 2 là khoảng tín chỉ nào?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "Năm 3 tính theo TC từ bao nhiêu đến bao nhiêu?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "Năm 4 là 96-127 TC đúng ko?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "Năm 5 là từ 128 TC trở lên đúng hk?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "Có 40 TC thì đang xếp năm mấy?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "Nếu có 70 TC thì thuộc năm mấy?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "95 TC là năm mấy theo xếp hạng tín chỉ?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "127 TC thuộc năm mấy?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "Dưới 32 TC là năm 1 đúng ko?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "32-64 TC là năm 2 đúng hk?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "65-95 TC là năm 3 đúng k?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "96-127 TC là năm 4 đúng ko?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "Từ 128 TC trở lên là năm 5 đúng hk?",
+		"positive_passage_id": "p_0057"
+	},
+	{
+		"question": "Xếp hạng năm đào tạo dựa trên TC tích lũy đúng không?",
+		"positive_passage_id": "p_0057"
+	},
+
+	{
+		"question": "Học lực bình thường yêu cầu TBC tích lũy bao nhiêu?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "Học lực yếu là khi TBC tích lũy dưới mấy?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "TBC tích lũy >= 2.0 thì xếp hạng gì?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "TBC tích lũy < 2.0 thì bị xếp học lực yếu đúng ko?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "Học lực yếu là dưới 2.0 nhưng chưa bị buộc thôi học đúng hk?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "Sau mỗi học kỳ xếp hạng học lực dựa trên TBC tích lũy đúng ko?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "TBC tích lũy đạt 2.0 trở lên thì là hạng bình thường đúng hk?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "Nếu TBC < 2.0 thì vẫn chưa bị buộc thôi học nhưng bị xếp yếu đúng ko?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "Xếp hạng học lực dựa trên điểm TBC tích lũy sau mỗi hk đúng không?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "Học lực bình thường: TBC tích lũy từ 2.0 trở lên đúng k?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "Học lực yếu là TBC dưới 2.0 nhưng chưa bị thôi học đúng hk?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "TBC tích lũy bao nhiêu thì bị xếp yếu?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "Học lực bình thường và yếu phân loại theo TBC tích lũy đúng ko?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "TBC >=2.0 là hạng bình thường, dưới 2.0 là yếu đúng hk?",
+		"positive_passage_id": "p_0058"
+	},
+	{
+		"question": "Sau mỗi hk, TBC tích lũy dùng để xếp hạng học lực đúng k?",
+		"positive_passage_id": "p_0058"
+	},
+
+	{
+		"question": "Cuối mỗi hk chính áp dụng xử lý kết quả học tập nào?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Cảnh cáo học tập có mấy mức?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Các hình thức xử lý gồm cảnh cáo, buộc thôi học và gì nữa?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Xử lý kết quả học tập áp dụng vào cuối hk chính đúng ko?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Cảnh cáo học tập có mức 1-3 đúng hk?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Một trong các hình thức xử lý là hạn chế khối lượng đăng ký học tập đúng ko?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Có áp dụng buộc thôi học khi xét kết quả cuối hk chính không?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Cuối hk chính có thể bị cảnh cáo học tập mức 1-3 đúng ko?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Hạn chế khối lượng đăng ký học tập là một hình thức xử lý đúng hk?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Các hình thức xử lý gồm cảnh cáo học tập, buộc thôi học, hạn chế đăng ký đúng k?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Xử lý kết quả học tập được áp dụng sau mỗi hk chính đúng ko?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Cảnh cáo học tập mức 1,2,3 áp dụng cuối hk chính đúng hk?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Cuối hk chính có thể bị hạn chế khối lượng đăng ký học tập không?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Các hình thức xử lý kết quả học tập áp dụng vào cuối mỗi hk chính gồm những gì?",
+		"positive_passage_id": "p_0060"
+	},
+	{
+		"question": "Buộc thôi học là một hình thức xử lý kết quả học tập cuối hk chính đúng k?",
+		"positive_passage_id": "p_0060"
+	},
+
+	{
+		"question": "Cảnh báo học tập tăng 1 mức khi tín chỉ không đạt ở mức nào?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "TBC kỳ dưới 0.8 (năm 1) thì bị tăng mấy mức cảnh báo?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Các năm sau TBC kỳ dưới 1.0 thì tăng 1 mức cảnh báo đúng ko?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Tín chỉ không đạt >80% thì bị tăng 2 mức cảnh báo hả?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "TBC kỳ dưới 0.4 thì tăng mấy mức cảnh báo?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Tự ý bỏ học/không đăng ký thì bị tăng 2 mức cảnh báo đúng hk?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Cảnh báo mức 3 là khi nợ tín chỉ tồn đọng >27 đúng ko?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Nợ tín chỉ tồn đọng từ đầu khóa quá 27 thì cảnh báo mức mấy?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Khi nào được giảm 1 mức cảnh báo học tập?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Đang bị cảnh báo mà tín chỉ không đạt <=20% và TBC kỳ >1.0 thì giảm mức đúng hk?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Tín chỉ không đạt 60-80% thì tăng 1 mức cảnh báo đúng ko?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Năm 1 TBC kỳ dưới 0.8 là mức tăng cảnh báo nào?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Các năm sau TBC kỳ <1.0 thì bị tăng 1 mức cảnh báo hả?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Tăng 2 mức cảnh báo xảy ra khi tín chỉ không đạt >80% hoặc TBC kỳ <0.4 đúng k?",
+		"positive_passage_id": "p_0061"
+	},
+	{
+		"question": "Điều kiện giảm 1 mức cảnh báo gồm tín chỉ không đạt <=20% và TBC kỳ >1.0 đúng ko?",
+		"positive_passage_id": "p_0061"
+	},
+
+	{
+		"question": "Buộc thôi học áp dụng khi bị cảnh báo mức mấy?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Cảnh báo mức 3 thì bị buộc thôi học luôn hả?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Đối tượng ưu tiên cảnh báo mức 3 được gia hạn mấy học kỳ?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Học quá thời gian cho phép có bị buộc thôi học không?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Không còn khả năng tốt nghiệp trong thời gian cho phép thì bị buộc thôi học đúng ko?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Kỷ luật lần 2 vì thi hộ/nhờ thi hộ thì bị gì?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Bị xóa tên khỏi danh sách SV thì thuộc diện buộc thôi học hả?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Buộc thôi học có áp dụng khi cảnh báo mức 3 không?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Đối tượng ưu tiên được gia hạn 1 hk khi cảnh báo mức 3 đúng hk?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Gia hạn 1 hk cho cảnh báo mức 3 chỉ được 1 lần toàn khóa đúng ko?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Học quá thời gian cho phép theo Điều 7 thì bị buộc thôi học đúng hk?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Buộc thôi học áp dụng với trường hợp nào ngoài cảnh báo mức 3?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Không còn khả năng tốt nghiệp trong thời gian cho phép thì bị buộc thôi học hả?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Thi hộ/nhờ thi hộ lần 2 sẽ bị buộc thôi học đúng ko?",
+		"positive_passage_id": "p_0062"
+	},
+	{
+		"question": "Các lý do buộc thôi học gồm cảnh báo mức 3, quá thời gian học, kỷ luật lần 2 đúng k?",
+		"positive_passage_id": "p_0062"
+	},
+
+	{
+		"question": "Hạn chế khối lượng học tập áp dụng cho đối tượng nào?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "SV học yếu hoặc chưa đạt chuẩn ngoại ngữ sẽ bị hạn chế TC đúng ko?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Cảnh báo mức 1 được đăng ký tối đa bao nhiêu TC hk chính?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Cảnh báo mức 1 tối thiểu phải đăng ký bao nhiêu TC?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Cảnh báo mức 2 được đăng ký tối đa bao nhiêu TC?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Cảnh báo mức 2 tối thiểu đăng ký 10 TC đúng hk?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Hạn chế khối lượng học tập xét tại thời điểm đăng ký học phần đúng ko?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Cảnh báo mức 1: tối đa 18 TC, tối thiểu 10 TC đúng k?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Cảnh báo mức 2: tối đa 14 TC, tối thiểu 10 TC đúng ko?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Hạn chế khối lượng là buộc SV đăng ký ít TC chuyên môn hơn bình thường đúng hk?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Chưa đạt chuẩn ngoại ngữ có bị hạn chế số TC chuyên môn không?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "SV bị cảnh báo mức 1 tối đa 18 TC hk chính đúng ko?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "SV bị cảnh báo mức 2 tối đa 14 TC hk chính đúng hk?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Hạn chế khối lượng học tập áp dụng cho SV yếu kém hay chưa đạt ngoại ngữ đúng k?",
+		"positive_passage_id": "p_0063"
+	},
+	{
+		"question": "Mức tối thiểu 10 TC áp dụng cho cả cảnh báo mức 1 và 2 đúng ko?",
+		"positive_passage_id": "p_0063"
+	},
+
+	{
+		"question": "Điều kiện học cùng lúc 2 CTĐT là gì?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Ngành CT 2 phải khác ngành CT 1 đúng ko?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Phải học ít nhất 1 kỳ CT 1 mới được học CT 2 đúng hk?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Điều kiện TBC tích lũy để học CT 2 là bao nhiêu?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "TBC học kỳ phải >=2.0 mới được học CT 2 đúng ko?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Nếu TBC học kỳ dưới 2.0 thì bị tạm dừng CT 2 hả?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Nếu TBC tích lũy của bất kỳ CT nào <2.0 thì sao?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Đăng ký dưới 3 TC ở CT 2 thì bị xử lý gì?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Buộc thôi học CT 2 nếu đăng ký <3 TC ở kỳ tiếp theo đúng hk?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Trong quá trình học, nếu TBC kỳ <2.0 ở CT nào đó thì CT 2 bị tạm dừng đúng ko?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Điều kiện học song song 2 CT có yêu cầu ngành khác nhau đúng k?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Đã học 1 kỳ CT 1 và TBC >=2.0 thì đủ điều kiện học CT 2 đúng hk?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "TBC học kỳ và TBC tích lũy đều phải >=2.0 để học CT 2 đúng ko?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Nếu TBC kỳ <2.0 thì CT 2 bị dừng ở kỳ tiếp theo đúng k?",
+		"positive_passage_id": "p_0066"
+	},
+	{
+		"question": "Đăng ký dưới 3 TC CT 2 thì bị buộc thôi học CT 2 đúng hk?",
+		"positive_passage_id": "p_0066"
+	},
+
+	{
+		"question": "Thời gian tối đa học 2 CT bằng thời gian tối đa của CT nào?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Khi học CT 2 có được bảo lưu điểm học phần tương đương không?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Thời gian tối đa học 2 CT lấy theo CT thứ nhất đúng ko?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Điểm học phần tương đương ở CT 1 có được bảo lưu khi học CT 2 không?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Học CT 2 vẫn bị giới hạn thời gian như CT 1 đúng hk?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Thời gian tối đa học 2 CT theo khoản 2 Điều 7 đúng ko?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Các học phần tương đương giữa 2 CT được bảo lưu điểm đúng k?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Học CT 2 có được miễn học lại môn tương đương CT 1 không?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Thời gian tối đa khi học 2 CT là thời gian tối đa của CT 1 đúng hk?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Điểm của môn có nội dung và khối lượng tương đương được bảo lưu đúng ko?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Học CT thứ hai có thể bảo lưu điểm từ CT thứ nhất không?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Thời gian tối đa của CT 2 không vượt CT 1 đúng k?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Bảo lưu điểm áp dụng cho học phần tương đương về nội dung và khối lượng đúng ko?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Thời gian tối đa học 2 CT lấy theo CT thứ nhất (khoản 2 Điều 7) đúng hk?",
+		"positive_passage_id": "p_0067"
+	},
+	{
+		"question": "Điểm môn tương đương trong CT 1 được dùng lại ở CT 2 đúng ko?",
+		"positive_passage_id": "p_0067"
+	},
+
+	{
+		"question": "Điều kiện chuyển ngành/chương trình/phân hiệu gồm những gì?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "SV năm 1 hoặc năm cuối có được chuyển ngành không?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Không bị xem xét buộc thôi học mới được chuyển ngành đúng ko?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Chuyển ngành cần đạt điều kiện trúng tuyển nơi đến (cùng khóa) đúng hk?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Nơi chuyển đến phải còn chỉ tiêu và đủ năng lực đào tạo đúng ko?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Chuyển ngành cần đồng ý của Trưởng Khoa nơi đi và nơi đến đúng hk?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Chuyển chương trình phải được Hiệu trưởng đồng ý đúng ko?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "SV năm 1/năm cuối bị cấm chuyển ngành đúng không?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Còn đủ thời gian học mới được chuyển ngành đúng hk?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Điều kiện trúng tuyển nơi đến phải cùng khóa đúng k?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Chuyển phân hiệu cần đồng ý của Trưởng Khoa và Hiệu trưởng đúng ko?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Nơi chuyển đến không đủ chỉ tiêu thì không được chuyển đúng hk?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "SV đang bị xem xét buộc thôi học có được chuyển ngành không?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Chuyển ngành phải được Trưởng Khoa nơi đi và nơi đến đồng ý đúng ko?",
+		"positive_passage_id": "p_0070"
+	},
+	{
+		"question": "Chuyển ngành/chương trình cần Hiệu trưởng phê duyệt đúng hk?",
+		"positive_passage_id": "p_0070"
+	},
+
+	{
+		"question": "Điều kiện chuyển trường gồm những gì?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Gia đình chuyển nơi cư trú có thể xin chuyển trường đúng ko?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Hoàn cảnh khó khăn muốn chuyển trường thì cần gì?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Trường đến phải cùng ngành hoặc cùng nhóm ngành đúng hk?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Chuyển trường cần Hiệu trưởng cả 2 trường đồng ý đúng ko?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Không thuộc trường hợp bị cấm chuyển mới được chuyển đúng hk?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Chuyển trường vì gia đình chuyển chỗ ở là hợp lệ đúng ko?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Hoàn cảnh khó khăn cần chuyển về gần nhà đúng hk?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Trường chuyển đến phải cùng ngành/nhóm ngành với trường cũ đúng ko?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Hiệu trưởng cả hai trường đều phải đồng ý mới chuyển được đúng k?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Điều kiện chuyển trường có yêu cầu cùng nhóm ngành không?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Chuyển trường phải tránh các trường hợp bị cấm ở khoản 3 đúng hk?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Chuyển trường cần lý do gia đình chuyển nơi cư trú hoặc khó khăn đúng ko?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Cần có sự đồng ý của Hiệu trưởng cả 2 trường khi chuyển trường đúng hk?",
+		"positive_passage_id": "p_0071"
+	},
+	{
+		"question": "Không thuộc diện cấm chuyển trường mới được xét chuyển đúng k?",
+		"positive_passage_id": "p_0071"
+	},
+
+	{
+		"question": "Những trường hợp nào không được chuyển trường?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Điểm xét tuyển thấp hơn trường đến thì có được chuyển trường không?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "SV ngoài vùng tuyển của trường đến có được chuyển không?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "SV năm nhất có được chuyển trường không?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "SV năm cuối có được chuyển trường không?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Đang bị kỷ luật từ cảnh cáo trở lên có được chuyển trường không?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Điểm xét tuyển thấp hơn trường xin chuyển đến thì bị cấm chuyển đúng hk?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Nằm ngoài vùng tuyển của trường đến thì không được chuyển đúng ko?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Năm 1 và năm cuối thuộc diện cấm chuyển trường đúng k?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Bị kỷ luật cảnh cáo trở lên thì bị cấm chuyển trường đúng hk?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Các trường hợp bị cấm chuyển trường gồm điểm xét tuyển thấp hơn, ngoài vùng tuyển, năm 1/năm cuối đúng k?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "SV bị kỷ luật vẫn được chuyển trường không?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Năm cuối khóa muốn chuyển trường có được không?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Điểm xét tuyển thấp hơn trường đến là lý do cấm chuyển đúng hk?",
+		"positive_passage_id": "p_0072"
+	},
+	{
+		"question": "Thuộc diện kỷ luật từ cảnh cáo trở lên thì không được chuyển trường đúng ko?",
+		"positive_passage_id": "p_0072"
+	},
+
+	{
+		"question": "Công thức điểm học phần lý thuyết học trực tiếp là gì?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "Học online thì công thức điểm lý thuyết thế nào?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "A, B, C trong công thức điểm là gì?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "B = (b1+b2+b3)/3 đúng ko?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "C = (c1+c2)/2 đúng hk?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "Điểm chuyên cần c2 vắng 2% bị trừ 1 điểm đúng ko?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "Vắng 20% thì c2 = 0 đúng không?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "Vắng >20% thì bị cấm thi, 0 điểm, học lại đúng hk?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "Học lại thì A, B, C tính lại đúng ko?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "Điểm học phần làm tròn 1 chữ số thập phân đúng ko?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "Học trực tiếp: 0.6A + 0.3B + 0.1C đúng hk?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "Học trực tuyến: 0.5A + 0.4B + 0.1C đúng k?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "A là điểm thi cuối kỳ đúng ko?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "b1 là kiểm tra thường xuyên, b2 giữa kỳ, b3 tiểu luận đúng hk?",
+		"positive_passage_id": "p_0075"
+	},
+	{
+		"question": "Học đủ thì c2 = 10 đúng ko?",
+		"positive_passage_id": "p_0075"
+	},
+
+	{
+		"question": "Học phần vừa thực hành vừa lý thuyết: không hoàn thành thực hành thì sao?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Không hoàn thành thực hành thì có được thi lý thuyết không?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Không hoàn thành thực hành thì điểm học phần bị 0 đúng hk?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Hoàn thành thực hành rồi mới được thi lý thuyết đúng ko?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Môn có thực hành + lý thuyết yêu cầu hoàn thành thực hành trước đúng k?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Không xong phần thực hành thì bị cấm thi lý thuyết đúng hk?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Điểm học phần = 0 nếu không hoàn thành thực hành đúng ko?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Hoàn thành thực hành thì mới được thi phần lý thuyết hả?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Môn có thí nghiệm: bỏ thí nghiệm thì có được thi lý thuyết không?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Không làm xong thực hành thì bị điểm 0 toàn học phần đúng k?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Thực hành chưa xong thì không được thi lý thuyết đúng hk?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Hoàn thành thực hành rồi mới được thi lý thuyết là quy định đúng ko?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Không hoàn thành thực hành/thí nghiệm thì điểm đánh giá học phần = 0 đúng hk?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Môn có thực hành: phải xong thực hành rồi mới được thi lý thuyết đúng k?",
+		"positive_passage_id": "p_0076"
+	},
+	{
+		"question": "Nếu không làm thực hành thì bị cấm thi lý thuyết và 0 điểm đúng hk?",
+		"positive_passage_id": "p_0076"
+	},
+
+	{
+		"question": "Học phần thực hành/thí nghiệm yêu cầu tham dự đầy đủ đúng ko?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Điểm học phần thực hành là điểm trung bình các bài đúng hk?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Điểm thực hành làm tròn 1 chữ số thập phân đúng ko?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Không tham dự đủ bài thực hành thì có được tính điểm không?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Học phần thí nghiệm có cần dự đủ các buổi không?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Điểm học phần thực hành = trung bình cộng điểm các bài đúng ko?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Điểm thực hành được làm tròn đến 1 chữ số thập phân đúng hk?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Môn thực hành/thí nghiệm bắt buộc tham dự đầy đủ đúng k?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Điểm của học phần thực hành lấy theo trung bình các bài trong hk đúng ko?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Tham dự đủ bài thực hành là điều kiện bắt buộc đúng hk?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Điểm thực hành tính trung bình rồi làm tròn 1 chữ số đúng ko?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Học phần thí nghiệm lấy điểm trung bình các bài trong học kỳ đúng k?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Môn thực hành phải tham dự đầy đủ thì mới được tính điểm đúng hk?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Điểm học phần thực hành/thí nghiệm được làm tròn 1 chữ số thập phân đúng ko?",
+		"positive_passage_id": "p_0077"
+	},
+	{
+		"question": "Học phần thực hành: điểm là trung bình cộng các bài thực hành đúng hk?",
+		"positive_passage_id": "p_0077"
+	},
+
+	{
+		"question": "Thực tập sản xuất/tốt nghiệp được đánh giá đạt hay không đạt đúng ko?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Bộ môn tổ chức nghiệm thu thực tập đúng hk?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Không đạt thực tập thì phải làm lại đúng ko?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Thực tập doanh nghiệp do Bộ môn nghiệm thu đúng k?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Thực tập sản xuất đánh giá theo đạt/không đạt hả?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Không đạt thực tập thì buộc đi thực tập lại đúng hk?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Bộ môn đánh giá kết quả thực tập đúng ko?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Thực tập tốt nghiệp có phải nghiệm thu không?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Đánh giá thực tập là đạt/không đạt chứ không chấm điểm đúng k?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Không đạt thực tập doanh nghiệp thì phải đi lại đúng ko?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Bộ môn tổ chức nghiệm thu và đánh giá kết quả thực tập đúng hk?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Thực tập sản xuất/tốt nghiệp/ doanh nghiệp đều do Bộ môn đánh giá đạt/không đạt đúng k?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Nếu kết quả thực tập không đạt thì phải thực tập lại đúng hk?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Thực tập tốt nghiệp đánh giá dạng pass/fail đúng ko?",
+		"positive_passage_id": "p_0078"
+	},
+	{
+		"question": "Bộ môn nghiệm thu thực tập doanh nghiệp đúng hk?",
+		"positive_passage_id": "p_0078"
+	},
+
+	{
+		"question": "Điểm đánh giá bộ phận và điểm thi kết thúc chấm theo thang mấy?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Thang điểm 10 (0-10) áp dụng cho điểm bộ phận đúng ko?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm thi kết thúc học phần chấm theo thang 10 đúng hk?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm làm tròn đến 1 chữ số thập phân đúng ko?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm bộ phận chấm từ 0 đến 10 đúng hk?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm thi cuối học phần cũng làm tròn 1 chữ số đúng ko?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm đánh giá bộ phận + điểm thi cuối đều theo thang 10 đúng k?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Thang điểm dùng là 0-10 hay 0-4?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm bộ phận chấm theo thang 10, làm tròn 1 chữ số đúng hk?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm thi kết thúc học phần có làm tròn 1 chữ số thập phân không?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Thang điểm 10 áp dụng cho cả điểm bộ phận và điểm thi cuối đúng ko?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm bộ phận chấm 0-10 và làm tròn 1 chữ số đúng k?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm thi kết thúc học phần chấm 0-10 đúng hk?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm bộ phận và điểm thi cuối đều làm tròn 1 chữ số thập phân đúng ko?",
+		"positive_passage_id": "p_0093"
+	},
+	{
+		"question": "Điểm đánh giá bộ phận dùng thang 10 và làm tròn 1 chữ số đúng hk?",
+		"positive_passage_id": "p_0093"
+	},
+
+	{
+		"question": "Điểm học phần là tổng điểm bộ phận nhân trọng số đúng ko?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Trọng số tính điểm học phần theo khoản 1 Điều 20 đúng hk?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm học phần làm tròn 1 chữ số thập phân đúng ko?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm học phần sau đó chuyển sang điểm chữ đúng hk?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm học phần lấy từ tổng điểm bộ phận theo trọng số đúng k?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm học phần làm tròn rồi mới đổi sang điểm chữ đúng ko?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Áp dụng phân mức điểm chữ cho học phần tính vào TBC đúng hk?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm học phần tính theo cách ở khoản 1 Điều 20 đúng ko?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm học phần = tổng điểm bộ phận * trọng số tương ứng đúng hk?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm học phần sau khi làm tròn sẽ chuyển thành điểm chữ đúng k?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm chữ phân mức áp dụng cho học phần tính vào điểm TB học tập đúng ko?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Tổng điểm bộ phận nhân trọng số là điểm học phần đúng hk?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm học phần làm tròn 1 chữ số thập phân rồi đổi sang điểm chữ đúng ko?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Điểm học phần phụ thuộc trọng số các điểm bộ phận đúng k?",
+		"positive_passage_id": "p_0094"
+	},
+	{
+		"question": "Quy tắc đổi điểm chữ áp dụng cho học phần tính TBC đúng hk?",
+		"positive_passage_id": "p_0094"
+	},
+
+	{
+		"question": "Điểm 9.0-10.0 tương ứng điểm chữ gì?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "Điểm chữ A+ hệ 4 là bao nhiêu?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "Điểm 9.0-10.0 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "A+ tương ứng hệ 4 = 4.0 đúng hk?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "Điểm từ 9 đến 10 là A+ đúng k?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "A+ là mức đạt cao nhất đúng ko?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "Hệ 4.0 tương ứng điểm chữ A+ đúng hk?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "9.0-10.0 -> A+ -> 4.0 đúng ko?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "Điểm 9.5 thuộc điểm chữ A+ đúng hk?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "A+ xếp loại Đạt đúng không?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "Điểm chữ A+ có hệ 4 là 4.0 đúng k?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "Từ 9.0 trở lên là A+ đúng hk?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "Điểm 10.0 quy đổi A+ và hệ 4.0 đúng ko?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "A+ tương ứng mức đạt trong thang điểm chữ đúng hk?",
+		"positive_passage_id": "p_0095"
+	},
+	{
+		"question": "Khoảng điểm 9.0-10.0 được xếp loại Đạt và A+ đúng k?",
+		"positive_passage_id": "p_0095"
+	},
+
+	{
+		"question": "Điểm 8.5 đến dưới 9.0 là điểm chữ gì?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "Điểm chữ A hệ 4 là bao nhiêu?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "8.5-<9.0 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "A tương ứng hệ 4 = 3.7 đúng hk?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "Điểm 8.7 là A đúng k?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "A là mức Đạt đúng ko?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "Hệ 4.0 tương ứng A là 3.7 đúng hk?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "Khoảng 8.5-<9.0 quy đổi A và 3.7 đúng ko?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "Điểm 8.9 thuộc A đúng hk?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "Điểm chữ A có hệ 4 là 3.7 đúng ko?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "8.5 trở lên (dưới 9.0) là A đúng k?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "A xếp loại Đạt đúng hk?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "Điểm 8.5-<9.0 chuyển sang A đúng ko?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "A hệ 4 tương ứng 3.7 đúng k?",
+		"positive_passage_id": "p_0096"
+	},
+	{
+		"question": "Khoảng điểm A (8.5-<9.0) là Đạt đúng ko?",
+		"positive_passage_id": "p_0096"
+	},
+
+	{
+		"question": "Điểm 8.0 đến dưới 8.5 là điểm chữ gì?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "B+ hệ 4 là bao nhiêu?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "8.0-<8.5 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "Điểm 8.2 quy đổi B+ đúng hk?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "B+ tương ứng hệ 4 = 3.5 đúng k?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "B+ là mức Đạt đúng ko?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "8.0-<8.5 chuyển sang B+ và 3.5 đúng hk?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "Điểm 8.4 thuộc B+ đúng k?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "B+ hệ 4 là 3.5 đúng hk?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "Khoảng 8.0-<8.5 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "B+ tương ứng điểm 8.0 đến dưới 8.5 đúng k?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "Điểm chữ B+ là Đạt đúng hk?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "8.0-<8.5 quy đổi B+ hệ 4 = 3.5 đúng ko?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "Điểm 8.1 là B+ đúng hk?",
+		"positive_passage_id": "p_0097"
+	},
+	{
+		"question": "B+ xếp loại Đạt đúng k?",
+		"positive_passage_id": "p_0097"
+	},
+
+	{
+		"question": "Điểm 7.0 đến dưới 8.0 là điểm chữ gì?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "B hệ 4 là bao nhiêu?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "7.0-<8.0 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "Điểm 7.5 quy đổi B đúng hk?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "B tương ứng hệ 4 = 3.0 đúng k?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "B là mức Đạt đúng ko?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "Khoảng 7.0-<8.0 chuyển sang B và 3.0 đúng hk?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "Điểm 7.9 thuộc B đúng k?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "B hệ 4 là 3.0 đúng hk?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "7.0-<8.0 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "B tương ứng điểm 7.0 đến dưới 8.0 đúng k?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "Điểm chữ B là Đạt đúng hk?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "7.0-<8.0 quy đổi B hệ 4 = 3.0 đúng ko?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "Điểm 7.2 là B đúng hk?",
+		"positive_passage_id": "p_0098"
+	},
+	{
+		"question": "B xếp loại Đạt đúng k?",
+		"positive_passage_id": "p_0098"
+	},
+
+	{
+		"question": "Điểm 6.5 đến dưới 7.0 là điểm chữ gì?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "C+ hệ 4 là bao nhiêu?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "6.5-<7.0 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "Điểm 6.7 quy đổi C+ đúng hk?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "C+ tương ứng hệ 4 = 2.5 đúng k?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "C+ là mức Đạt đúng ko?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "Khoảng 6.5-<7.0 chuyển sang C+ và 2.5 đúng hk?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "Điểm 6.9 thuộc C+ đúng k?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "C+ hệ 4 là 2.5 đúng hk?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "6.5-<7.0 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "C+ tương ứng điểm 6.5 đến dưới 7.0 đúng k?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "Điểm chữ C+ là Đạt đúng hk?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "6.5-<7.0 quy đổi C+ hệ 4 = 2.5 đúng ko?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "Điểm 6.6 là C+ đúng hk?",
+		"positive_passage_id": "p_0099"
+	},
+	{
+		"question": "C+ xếp loại Đạt đúng k?",
+		"positive_passage_id": "p_0099"
+	},
+
+	{
+		"question": "Điểm 5.5 đến dưới 6.5 là điểm chữ gì?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "C hệ 4 là bao nhiêu?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "5.5-<6.5 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "Điểm 6.0 quy đổi C đúng hk?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "C tương ứng hệ 4 = 2.0 đúng k?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "C là mức Đạt đúng ko?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "Khoảng 5.5-<6.5 chuyển sang C và 2.0 đúng hk?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "Điểm 6.4 thuộc C đúng k?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "C hệ 4 là 2.0 đúng hk?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "5.5-<6.5 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "C tương ứng điểm 5.5 đến dưới 6.5 đúng k?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "Điểm chữ C là Đạt đúng hk?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "5.5-<6.5 quy đổi C hệ 4 = 2.0 đúng ko?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "Điểm 5.6 là C đúng hk?",
+		"positive_passage_id": "p_0100"
+	},
+	{
+		"question": "C xếp loại Đạt đúng k?",
+		"positive_passage_id": "p_0100"
+	},
+
+	{
+		"question": "Điểm 5.0 đến dưới 5.5 là điểm chữ gì?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "D+ hệ 4 là bao nhiêu?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "5.0-<5.5 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "Điểm 5.2 quy đổi D+ đúng hk?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "D+ tương ứng hệ 4 = 1.5 đúng k?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "D+ là mức Đạt đúng ko?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "Khoảng 5.0-<5.5 chuyển sang D+ và 1.5 đúng hk?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "Điểm 5.4 thuộc D+ đúng k?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "D+ hệ 4 là 1.5 đúng hk?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "5.0-<5.5 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "D+ tương ứng điểm 5.0 đến dưới 5.5 đúng k?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "Điểm chữ D+ là Đạt đúng hk?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "5.0-<5.5 quy đổi D+ hệ 4 = 1.5 đúng ko?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "Điểm 5.1 là D+ đúng hk?",
+		"positive_passage_id": "p_0101"
+	},
+	{
+		"question": "D+ xếp loại Đạt đúng k?",
+		"positive_passage_id": "p_0101"
+	},
+
+	{
+		"question": "Điểm 4.0 đến dưới 5.0 là điểm chữ gì?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "D hệ 4 là bao nhiêu?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "4.0-<5.0 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "Điểm 4.5 quy đổi D đúng hk?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "D tương ứng hệ 4 = 1.0 đúng k?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "D là mức Đạt đúng ko?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "Khoảng 4.0-<5.0 chuyển sang D và 1.0 đúng hk?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "Điểm 4.9 thuộc D đúng k?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "D hệ 4 là 1.0 đúng hk?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "4.0-<5.0 xếp loại Đạt đúng ko?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "D tương ứng điểm 4.0 đến dưới 5.0 đúng k?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "Điểm chữ D là Đạt đúng hk?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "4.0-<5.0 quy đổi D hệ 4 = 1.0 đúng ko?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "Điểm 4.1 là D đúng hk?",
+		"positive_passage_id": "p_0102"
+	},
+	{
+		"question": "D xếp loại Đạt đúng k?",
+		"positive_passage_id": "p_0102"
+	},
+
+	{
+		"question": "Điểm 0.0 đến dưới 4.0 là điểm chữ gì?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "F hệ 4 là bao nhiêu?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "0.0-<4.0 xếp loại Không đạt đúng ko?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "Điểm 3.5 quy đổi F đúng hk?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "F tương ứng hệ 4 = 0.0 đúng k?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "F là Không đạt đúng ko?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "Khoảng 0.0-<4.0 chuyển sang F và 0.0 đúng hk?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "Điểm 0.0 thuộc F đúng k?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "Điểm 3.9 vẫn là F đúng hk?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "Học phần chỉ yêu cầu đạt thì dùng điểm P đúng ko?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "P là từ 5.0 trở lên đúng hk?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "Điểm P không tính vào TBC đúng ko?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "F hệ 4 = 0.0 và xếp Không đạt đúng hk?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "Học phần chỉ yêu cầu đạt thì không phân mức đúng k?",
+		"positive_passage_id": "p_0103"
+	},
+	{
+		"question": "Điểm dưới 4.0 đều là F đúng ko?",
+		"positive_passage_id": "p_0103"
+	},
+
+	{
+		"question": "TBC học kỳ/tích lũy để xét thôi học tính theo điểm nào?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Xếp hạng học lực dùng điểm thi kết thúc học phần cao nhất đúng ko?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Nếu học lại nhiều lần thì lấy điểm thi cuối nào?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "TBC học kỳ tính theo điểm thi cuối cao nhất trong các lần học đúng hk?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "TBC tích lũy dùng điểm thi cuối cao nhất đúng ko?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Xếp hạng tốt nghiệp tính theo điểm thi cuối cao nhất đúng k?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Tính thôi học dựa trên điểm thi cuối cao nhất trong các lần học đúng hk?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Học lại xong thì TBC lấy điểm cao nhất của các lần thi cuối đúng ko?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Điểm thi kết thúc học phần cao nhất được dùng để tính TBC đúng hk?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Xếp hạng học lực dựa trên điểm thi cuối cao nhất đúng k?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "TBC năm học cũng lấy theo điểm thi cuối cao nhất đúng ko?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Điểm thi cuối cao nhất trong các lần học được dùng cho xét thôi học đúng hk?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Điểm thi cuối cao nhất dùng để xếp hạng tốt nghiệp đúng k?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "TBC học kỳ/tích lũy tính theo kết quả cao nhất của lần thi cuối đúng ko?",
+		"positive_passage_id": "p_0110"
+	},
+	{
+		"question": "Điểm thi cuối cao nhất được lấy cho xếp hạng học lực SV đúng hk?",
+		"positive_passage_id": "p_0110"
+	},
+
+	{
+		"question": "Loại xuất sắc TBC tích lũy từ bao nhiêu?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "Loại giỏi là TBC tích lũy từ mấy đến cận mấy?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "Loại khá là TBC tích lũy 2.5 đến cận 3.2 đúng ko?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "Loại trung bình là TBC tích lũy 2.0 đến cận 2.5 đúng hk?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "Loại yếu là TBC tích lũy 1.0 đến cận 2.0 đúng ko?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "Loại kém là TBC tích lũy dưới 1.0 đúng hk?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "TBC 3.7 thì xếp loại gì?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "TBC 3.4 thuộc loại giỏi đúng ko?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "TBC 2.8 là loại khá đúng hk?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "TBC 2.3 là loại trung bình đúng ko?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "TBC 1.6 là loại yếu đúng hk?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "TBC 0.9 là loại kém đúng ko?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "Xuất sắc: TBC tích lũy 3.6-4.0 đúng k?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "Giỏi: TBC 3.2 đến cận 3.6 đúng hk?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "Khá: TBC 2.5 đến cận 3.2 đúng ko?",
+		"positive_passage_id": "p_0111"
+	},
+	{
+		"question": "Trung bình: TBC 2.0 đến cận 2.5 đúng hk?",
+		"positive_passage_id": "p_0111"
+	},
+
+	{
+		"question": "Khối lượng tối đa được công nhận/chuyển đổi là bao nhiêu %?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Chuyển đổi tín chỉ tối đa không vượt quá 50% đúng ko?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Tối đa công nhận chuyển đổi là 1/2 khối lượng tối thiểu đúng hk?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Không được công nhận quá 50% khối lượng tối thiểu CTĐT đúng ko?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Khối lượng chuyển đổi tối đa là 50% CTĐT tối thiểu đúng k?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Tín chỉ công nhận/chuyển đổi có giới hạn 50% đúng hk?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Tối đa công nhận chuyển đổi = 50% khối lượng học tập tối thiểu đúng ko?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Khối lượng tối đa được công nhận không vượt quá một nửa đúng hk?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Chuyển đổi kết quả học tập chỉ tối đa 50% CTĐT tối thiểu đúng k?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Công nhận/chuyển đổi không quá 50% khối lượng tối thiểu đúng ko?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Giới hạn chuyển đổi tối đa là 50% đúng hk?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Tối đa công nhận học phần đã học là 50% khối lượng tối thiểu đúng ko?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Khối lượng được công nhận/chuyển đổi không vượt quá 50% đúng hk?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Tín chỉ chuyển đổi tối đa bằng một nửa khối lượng tối thiểu đúng k?",
+		"positive_passage_id": "p_0115"
+	},
+	{
+		"question": "Không công nhận quá 50% khối lượng tối thiểu CTĐT đúng ko?",
+		"positive_passage_id": "p_0115"
+	},
+
+	{
+		"question": "Điều kiện thực tập tốt nghiệp là gì?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Còn nợ tối đa mấy học phần thì được TTTN?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "TBC tích lũy tối thiểu để đi TTTN là bao nhiêu?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Điểm quá trình do ai chấm?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Điểm bảo vệ phải có ít nhất mấy giảng viên chấm?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Điểm liệt dưới 5 từ người hướng dẫn thì bị gì?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Điểm liệt dưới 5 từ bảo vệ thì học phần bị F đúng hk?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Hoàn thành học phần (trừ đồ án) mới được TTTN đúng ko?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Nợ tối đa 2 học phần vẫn được thực tập tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "TBC tích lũy >=2.0 mới đủ điều kiện TTTN đúng k?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Điểm quá trình TTTN do giảng viên hướng dẫn chấm đúng hk?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Điểm bảo vệ TTTN cần ít nhất 2 giảng viên đúng ko?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Điểm liệt <5 thì học phần F và phải đăng ký lại đúng k?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Bị điểm liệt từ người hướng dẫn hoặc bảo vệ thì có phải học lại không?",
+		"positive_passage_id": "p_0116"
+	},
+	{
+		"question": "Điều kiện TTTN: hoàn thành học phần (trừ đồ án) hoặc nợ tối đa 2 + TBC >=2.0 đúng hk?",
+		"positive_passage_id": "p_0116"
+	},
+
+	{
+		"question": "ĐATN phải được người hướng dẫn nhận xét trước khi bảo vệ đúng ko?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Giảng viên phản biện chấm đồ án đúng hk?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Điểm phản biện >=5 thì mới được bảo vệ trước hội đồng đúng ko?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Nếu phản biện <5 thì đồ án không ra hội đồng đúng hk?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "ĐATN muốn bảo vệ cần người hướng dẫn cho phép đúng ko?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Phản biện chấm đạt từ 5 trở lên mới được bảo vệ đúng hk?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Giảng viên phản biện là người chấm trước khi ra hội đồng đúng ko?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Điểm phản biện đạt yêu cầu là từ 5 điểm đúng k?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "ĐATN sau khi hoàn thành phải có nhận xét của người hướng dẫn đúng hk?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Không đạt điểm phản biện thì không được bảo vệ đúng ko?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Bảo vệ tốt nghiệp chỉ khi phản biện >=5 đúng hk?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Người hướng dẫn viết nhận xét và cho phép bảo vệ đúng ko?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Giảng viên phản biện chấm đồ án trước hội đồng đúng hk?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "Điểm phản biện phải từ 5 trở lên mới ra hội đồng đúng ko?",
+		"positive_passage_id": "p_0122"
+	},
+	{
+		"question": "ĐATN chỉ được bảo vệ khi phản biện đạt yêu cầu đúng hk?",
+		"positive_passage_id": "p_0122"
+	},
+
+	{
+		"question": "Điểm ĐATN là trung bình của ai?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Điểm ĐATN lấy 1 số lẻ thập phân đúng ko?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Chênh lệch điểm giữa các thành viên tối đa bao nhiêu?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Nếu có thành viên chấm dưới 5 thì ĐATN bị gì?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Điểm dưới 5 từ bất kỳ thành viên nào thì ĐATN bị F đúng hk?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Điểm ĐATN = trung bình phản biện + thành viên hội đồng đúng ko?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Khoảng chênh điểm giữa thành viên không quá 2 điểm đúng k?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Có ít nhất 1 người chấm <5 thì đồ án không đạt đúng hk?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Điểm ĐATN lấy trung bình và làm tròn 1 chữ số đúng ko?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "ĐATN bị F nếu có điểm thành viên dưới 5 đúng k?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Điểm giữa các thành viên chênh quá 2 điểm là không hợp lệ đúng hk?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Điểm ĐATN là trung bình của phản biện và hội đồng đúng ko?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Nếu có thành viên chấm 4.5 thì ĐATN không đạt đúng hk?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Chênh điểm tối đa giữa các thành viên là 2 điểm đúng ko?",
+		"positive_passage_id": "p_0125"
+	},
+	{
+		"question": "Điểm ĐATN lấy trung bình và có 1 chữ số thập phân đúng hk?",
+		"positive_passage_id": "p_0125"
+	},
+
+	{
+		"question": "ĐATN bị F thì phải làm gì?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "ĐATN F phải đăng ký làm lại trong bao lâu?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "Không hoàn thành ĐATN trong 1 năm thì phải làm gì?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "ĐATN F phải bảo vệ lại trong tối đa 1 năm đúng ko?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "Hết 1 năm không xong ĐATN thì phải đi TTTN/TTDN lại đúng hk?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "Thời gian làm lại ĐATN có tính vào thời gian tối đa CTĐT không?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "ĐATN bị điểm F thì phải đăng ký làm lại đúng ko?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "Bảo vệ ĐATN lại trong 1 năm tối đa đúng hk?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "Không hoàn thành ĐATN thì phải chuyển sang thực tập lại đúng ko?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "Thời gian làm lại ĐATN được tính vào thời gian tối đa hoàn thành CTĐT đúng hk?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "ĐATN F phải làm lại và bảo vệ trong 1 năm đúng ko?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "Quá hạn 1 năm chưa xong ĐATN thì đăng ký TTTN/TTDN lại đúng k?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "ĐATN F thì phải đăng ký làm lại ĐATN đúng hk?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "Thời gian làm lại ĐATN vẫn tính trong thời gian tối đa học đúng ko?",
+		"positive_passage_id": "p_0128"
+	},
+	{
+		"question": "Nếu không hoàn thành ĐATN trong 1 năm thì phải đi thực tập tốt nghiệp lại đúng hk?",
+		"positive_passage_id": "p_0128"
+	},
+
+	{
+		"question": "Điều kiện tốt nghiệp gồm những gì?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Không bị truy cứu hình sự là điều kiện tốt nghiệp đúng ko?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Không bị đình chỉ học tập mới đủ điều kiện tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Phải tích lũy đủ học phần và khối lượng đúng ko?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "TBC tích lũy toàn khóa >=2.0 mới tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Cần đạt yêu cầu nhóm ngành theo quy định Hiệu trưởng đúng k?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Có chứng chỉ quốc phòng-an ninh là điều kiện tốt nghiệp đúng ko?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Hoàn thành giáo dục thể chất mới được tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Đạt chuẩn ngoại ngữ của trường mới tốt nghiệp đúng ko?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Đạt chuẩn CNTT của trường là điều kiện tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "TBC toàn khóa tối thiểu 2.0 đúng k?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Phải có đủ học phần và khối lượng theo Điều 2 đúng ko?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Không bị đình chỉ và không bị truy cứu hình sự là điều kiện tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Cần có chứng chỉ QP-AN và hoàn thành GDTC đúng ko?",
+		"positive_passage_id": "p_0129"
+	},
+	{
+		"question": "Chuẩn đầu ra ngoại ngữ + CNTT đều phải đạt mới tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0129"
+	},
+
+	{
+		"question": "Loại xuất sắc/giỏi bị giảm hạng khi nào?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Tín chỉ học lại vượt quá 5% thì hạng tốt nghiệp bị giảm đúng ko?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Bị kỷ luật từ mức cảnh cáo trở lên thì hạng tốt nghiệp giảm 1 mức đúng hk?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Hạng tốt nghiệp xuất sắc/giỏi bị giảm nếu học lại nhiều đúng ko?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Tổng TC học từ lần 2 vượt 5% thì bị giảm hạng đúng k?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Bị cảnh cáo kỷ luật trong thời gian học thì hạng tốt nghiệp giảm đúng hk?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Giỏi/xuất sắc vẫn bị hạ 1 mức nếu vi phạm điều kiện đúng ko?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Điều kiện giảm hạng tốt nghiệp gồm học lại >5% hoặc bị kỷ luật đúng hk?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Học lại nhiều quá (TC lần 2 >5%) thì bị hạ hạng đúng ko?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Đã bị kỷ luật từ cảnh cáo thì hạng tốt nghiệp bị giảm 1 mức đúng k?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Xuất sắc/giỏi bị hạ hạng nếu có kỷ luật đúng hk?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "TC học từ lần thứ 2 vượt 5% là bị giảm hạng đúng ko?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Bị kỷ luật cảnh cáo trở lên thì bị giảm 1 bậc tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Hạng tốt nghiệp xuất sắc/giỏi có thể bị hạ 1 mức đúng ko?",
+		"positive_passage_id": "p_0136"
+	},
+	{
+		"question": "Điều kiện bị giảm hạng là học lại >5% hoặc kỷ luật đúng hk?",
+		"positive_passage_id": "p_0136"
+	},
+
+	{
+		"question": "Hết thời gian tối đa học mà thiếu chứng chỉ thì có còn xét tốt nghiệp không?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Sau khi hết thời gian tối đa, có bao lâu để bổ sung chứng chỉ còn thiếu?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Thiếu chứng chỉ QP-AN có thể bổ sung trong 3 năm đúng ko?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Chưa đạt GDTC có thể bổ sung để xét tốt nghiệp trong 3 năm đúng hk?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Chưa đạt chuẩn ngoại ngữ/IT có thể bổ sung trong 3 năm đúng ko?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Chứng chỉ ngoại ngữ phải cách ngày xét tốt nghiệp bao lâu?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Ngày cấp chứng chỉ ngoại ngữ không quá 24 tháng trước khi xét tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Hết thời gian tối đa vẫn có thể xét tốt nghiệp trong 3 năm nếu bổ sung đủ đúng ko?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Thiếu chứng chỉ thì vẫn có 3 năm để hoàn thiện đúng hk?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Chứng chỉ ngoại ngữ phải còn hạn 24 tháng khi xét tốt nghiệp đúng ko?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Sau khi hết thời gian tối đa, còn thiếu chứng chỉ vẫn được xét nếu bổ sung trong 3 năm đúng k?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Chưa đạt chuẩn CNTT có thể bổ sung trong 3 năm để xét tốt nghiệp đúng hk?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Chứng chỉ ngoại ngữ quá 24 tháng thì không được xét tốt nghiệp đúng ko?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Hết thời gian tối đa mà thiếu GDTC/ngoại ngữ/IT vẫn có thể xét trong 3 năm đúng hk?",
+		"positive_passage_id": "p_0139"
+	},
+	{
+		"question": "Thời hạn bổ sung chứng chỉ còn thiếu là 3 năm đúng k?",
+		"positive_passage_id": "p_0139"
+	},
+
+	{
+		"question": "Thi hộ/nhờ thi hộ lần 1 bị kỷ luật gì?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Thi hộ lần 2 bị buộc thôi học đúng ko?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Nhờ người khác thi hộ lần đầu bị đình chỉ học tập mấy năm?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Vi phạm lần 1 thi hộ bị đình chỉ 1 năm đúng hk?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Vi phạm lần 2 thi hộ bị buộc thôi học đúng ko?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Thi hộ hoặc nhờ thi hộ đều bị kỷ luật đúng hk?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Lần 1: đình chỉ học tập 1 năm đúng ko?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Lần 2: buộc thôi học đúng hk?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Thi hộ bị đình chỉ 1 năm cho lần đầu đúng ko?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Nhờ thi hộ lần 2 sẽ bị buộc thôi học đúng hk?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Kỷ luật thi hộ lần 1 là đình chỉ học tập 1 năm đúng k?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Kỷ luật thi hộ lần 2 là buộc thôi học đúng ko?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Nhờ người khác thi hộ cũng bị xử lý như thi hộ đúng hk?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Vi phạm lần 1 bị đình chỉ 1 năm, lần 2 buộc thôi học đúng ko?",
+		"positive_passage_id": "p_0142"
+	},
+	{
+		"question": "Thi hộ/nhờ thi hộ đều áp dụng đình chỉ 1 năm lần đầu đúng hk?",
+		"positive_passage_id": "p_0142"
+	},
+
+	{
+		"question": "Học kỳ I 2025-2026 có hỗ trợ SV chính quy như thế nào?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "SV dân tộc thiểu số vùng cao được trợ cấp bao nhiêu/tháng?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "SV mồ côi/tàn tật được hỗ trợ mấy tiền/tháng?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Hỗ trợ cho SV hoàn cảnh khó khăn là bao nhiêu/tháng?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Dân tộc thiểu số hộ nghèo/cận nghèo được hỗ trợ mấy?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Hỗ trợ 1.404.000đ/tháng áp dụng cho nhóm nào?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Trợ cấp 140.000đ/tháng áp dụng cho ai?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Trợ cấp 100.000đ/tháng dành cho đối tượng nào?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Các khoản hỗ trợ kéo dài mấy tháng?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Học kỳ I 2025-2026 hỗ trợ theo mấy nhóm đối tượng?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "SV dân tộc thiểu số vùng đặc biệt khó khăn được hỗ trợ bao nhiêu?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Trợ cấp 6 tháng áp dụng cho nhóm nào?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Hỗ trợ 5 tháng là cho đối tượng nào?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "SV chính quy có thuộc diện hỗ trợ học kỳ I 2025-2026 không?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Dân tộc thiểu số hộ cận nghèo được bao nhiêu/tháng?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Trợ cấp 1.404.000đ/tháng kéo dài mấy tháng?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Trợ cấp 140k/tháng áp dụng trong bao lâu?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Trợ cấp 100k/tháng áp dụng trong bao lâu?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Nhóm mồ côi/tàn tật được hỗ trợ 6 tháng đúng ko?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+	{
+		"question": "Hỗ trợ học kỳ I 2025-2026 có mục cho dân tộc thiểu số không?",
+		"positive_passage_id": "mgiam_hphi__001"
+	},
+
+	{
+		"question": "16 dân tộc rất ít người được trợ cấp bao nhiêu/tháng?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Trợ cấp 2.340.000đ/tháng áp dụng cho nhóm nào?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Hỗ trợ 2.340.000đ/tháng kéo dài mấy tháng?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Khoản trợ cấp này áp dụng 6 tháng cuối năm 2025 đúng ko?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Các dân tộc Cống, Mảng, Pu Péo có hỗ trợ gì?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "SV thuộc dân tộc rất ít người được bao nhiêu/tháng?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Hỗ trợ cho 16 dân tộc rất ít người là bao nhiêu?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Trợ cấp này áp dụng trong mấy tháng cuối 2025?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Mức hỗ trợ cho dân tộc rất ít người là 2.34 triệu/tháng đúng ko?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "SV dân tộc rất ít người được trợ cấp tháng mấy đến tháng mấy 2025?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Trợ cấp 2.340.000đ/tháng dành cho 16 dân tộc rất ít người đúng hk?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Hỗ trợ này chỉ áp dụng 6 tháng cuối 2025 đúng không?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Danh sách 16 dân tộc rất ít người có Cống/Mảng/Pu Péo đúng ko?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Mức hỗ trợ cho nhóm dân tộc rất ít người cao hơn nhóm khác đúng ko?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Trợ cấp 2.34 triệu/tháng là cho SV thuộc 16 dân tộc rất ít người đúng hk?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Khoản hỗ trợ này tính theo tháng đúng ko?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Thời gian hỗ trợ là 6 tháng cuối năm 2025 đúng ko?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Hỗ trợ cho dân tộc rất ít người là 2.340.000đ/tháng đúng k?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "SV thuộc dân tộc rất ít người được trợ cấp trong 6 tháng đúng ko?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+	{
+		"question": "Mức trợ cấp 2.340.000đ/tháng áp dụng cho SV dân tộc rất ít người đúng hk?",
+		"positive_passage_id": "mgiam_hphi__002"
+	},
+
+	{
+		"question": "Có hướng dẫn thủ tục miễn giảm học phí không?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Miễn giảm học phí có các mức 100/70/50 đúng ko?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Người có công được miễn giảm mức nào?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Trẻ bị bỏ rơi/mồ côi có được miễn giảm học phí không?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Người khuyết tật có thuộc diện miễn giảm học phí không?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Dân tộc thiểu số hộ nghèo/cận nghèo được giảm học phí mức nào?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Dân tộc rất ít người vùng khó khăn được miễn giảm học phí không?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Hồ sơ miễn giảm học phí gồm những gì?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Có hướng dẫn hồ sơ cần thiết để miễn giảm học phí đúng ko?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Ai thuộc diện được giảm 70% học phí?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Mức giảm 50% học phí áp dụng cho nhóm nào?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Miễn giảm học phí có phân theo đối tượng đúng hk?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Trẻ mồ côi có được miễn/giảm học phí theo hướng dẫn không?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Người khuyết tật thuộc diện miễn giảm học phí đúng ko?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Dân tộc thiểu số vùng khó khăn có được miễn giảm học phí không?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Miễn giảm học phí có yêu cầu nộp hồ sơ kèm giấy tờ đúng ko?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Danh sách đối tượng miễn giảm gồm người có công, mồ côi, khuyết tật đúng hk?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Có mức miễn giảm 100% học phí không?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Hướng dẫn miễn giảm học phí có nêu mức 70% và 50% đúng ko?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+	{
+		"question": "Hồ sơ miễn giảm học phí cần chuẩn bị theo hướng dẫn đúng hk?",
+		"positive_passage_id": "mgiam_hphi__003"
+	},
+
+	{
+		"question": "SV chính quy K64 có được tạm hoãn NVQS không?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Điều kiện tạm hoãn NVQS cho SV chính quy là gì?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Đang học học phần (không phải đồ án/thực tập) thì được xác nhận tạm hoãn đúng ko?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Cần có thời khóa biểu để được xác nhận tạm hoãn NVQS đúng hk?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Đóng học phí đầy đủ là điều kiện xác nhận tạm hoãn đúng ko?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "SV đang học đồ án/thực tập có được xác nhận bình thường không?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Hướng dẫn tạm hoãn NVQS áp dụng cho khóa nào?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Thời gian đào tạo 4,5 năm có thuộc diện xác nhận tạm hoãn không?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "SV có TKB và đóng học phí thì được xác nhận tạm hoãn đúng ko?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Tạm hoãn NVQS chỉ áp dụng cho SV chính quy đúng hk?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "SV đang học các học phần bình thường thì được xác nhận tạm hoãn đúng ko?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Không học đồ án/thực tập thì được xác nhận tạm hoãn đúng hk?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "SV chính quy cần điều kiện gì để xác nhận tạm hoãn NVQS?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "SV không đóng học phí thì có được xác nhận tạm hoãn không?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Xác nhận tạm hoãn NVQS yêu cầu có thời khóa biểu đúng ko?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "SV đang học học phần được xác nhận bình thường đúng hk?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Hướng dẫn tạm hoãn NVQS áp dụng cho SV chính quy K64 đúng ko?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "SV có TKB + đóng học phí đầy đủ sẽ được xác nhận tạm hoãn đúng k?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Đang học đồ án/thực tập thì không thuộc diện xác nhận bình thường đúng hk?",
+		"positive_passage_id": "nvqs__001"
+	},
+	{
+		"question": "Tạm hoãn NVQS cho SV chính quy có cần đang học học phần không?",
+		"positive_passage_id": "nvqs__001"
+	},
+
+	{
+		"question": "SV học kỳ cuối thực tập/đồ án xin tạm hoãn NVQS cần gì?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Học kỳ cuối muốn tạm hoãn NVQS phải có quyết định đúng ko?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Nếu hoàn thành trước 31/12 thì chỉ được xác nhận dự kiến đúng hk?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "SV làm đồ án kỳ cuối xin tạm hoãn cần giấy tờ gì?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "SV thực tập kỳ cuối cần quyết định để xin tạm hoãn đúng ko?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Hoàn thành trước 31/12 thì xác nhận loại gì?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Tạm hoãn NVQS cho SV kỳ cuối có khác SV bình thường không?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "SV kỳ cuối đang làm đồ án xin tạm hoãn cần quyết định đúng hk?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "SV kỳ cuối thực tập nếu xong trước 31/12 chỉ được xác nhận dự kiến đúng ko?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Điều kiện xác nhận tạm hoãn cho SV kỳ cuối là có quyết định thực tập/đồ án đúng k?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "SV kỳ cuối thực tập cần quyết định để xin tạm hoãn đúng hk?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Nếu hoàn thành trước 31/12 thì trường chỉ xác nhận dự kiến đúng ko?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Học kỳ cuối làm đồ án, xin tạm hoãn NVQS phải có quyết định đúng ko?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Xác nhận tạm hoãn kỳ cuối cần quyết định thực tập hoặc đồ án đúng hk?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Hoàn thành trước 31/12 thì xác nhận chính thức hay dự kiến?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "SV kỳ cuối đang thực tập muốn tạm hoãn NVQS cần quyết định đúng hk?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Tạm hoãn NVQS kỳ cuối cần giấy quyết định thực tập/đồ án đúng ko?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Nếu xong trước 31/12 thì chỉ xác nhận dự kiến đúng hk?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "SV kỳ cuối xin tạm hoãn phải có quyết định đúng ko?",
+		"positive_passage_id": "nvqs__002"
+	},
+	{
+		"question": "Xác nhận tạm hoãn kỳ cuối phụ thuộc quyết định thực tập/đồ án đúng k?",
+		"positive_passage_id": "nvqs__002"
+	},
+
+	{
+		"question": "Quyết định thực tập trước 14/7 có đủ căn cứ tạm hoãn NVQS không?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Quyết định đồ án trước 30/9 có đủ căn cứ tạm hoãn không?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Không đủ căn cứ tạm hoãn thì có thể bị gọi nhập ngũ tháng mấy?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "SV tự ý không đăng ký học phần sẽ bị xử lý gì về xác nhận?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Quyết định thực tập từ 14/7 trở về trước bị xem là không đủ căn cứ đúng ko?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Quyết định đồ án từ 30/9 trở về trước không đủ căn cứ tạm hoãn đúng hk?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Có thể bị gọi nhập ngũ tháng 2 năm sau nếu không đủ căn cứ đúng ko?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Tự ý không đăng ký học phần thì bị từ chối xác nhận đúng hk?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Quyết định thực tập quá sớm (trước 14/7) có bị từ chối xác nhận không?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Quyết định đồ án trước 30/9 có nguy cơ bị gọi nhập ngũ đúng ko?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Không đăng ký học phần thì trường có xác nhận tạm hoãn không?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "SV tự ý không học phần sẽ bị từ chối xác nhận NVQS đúng ko?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Quyết định thực tập trước 14/7 bị coi là không đủ căn cứ đúng hk?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Quyết định đồ án trước 30/9 thì không đủ căn cứ tạm hoãn đúng k?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Có thể bị gọi nhập ngũ tháng 2 năm sau nếu quyết định quá sớm đúng ko?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "SV không đăng ký học phần bị từ chối xác nhận tạm hoãn đúng hk?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Quyết định thực tập từ 14/7 trở về trước không đủ căn cứ đúng ko?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Quyết định đồ án từ 30/9 trở về trước không đủ căn cứ đúng hk?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Không đủ căn cứ tạm hoãn có thể bị gọi nhập ngũ tháng 2 năm sau đúng ko?",
+		"positive_passage_id": "nvqs__003"
+	},
+	{
+		"question": "Tự ý không đăng ký học phần sẽ bị từ chối xác nhận tạm hoãn NVQS đúng k?",
+		"positive_passage_id": "nvqs__003"
+	},
+
+	{
+		"question": "Nghị định 84/2020 quy định học bổng cho những nhóm nào?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Học sinh THPT chuyên có thuộc diện học bổng khuyến khích không?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Học sinh năng khiếu nghệ thuật/thể thao có được học bổng không?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Sinh viên đại học có thuộc diện học bổng theo NĐ 84/2020 không?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Học bổng khuyến khích áp dụng cho cơ sở GD nghề nghiệp đúng ko?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Điều kiện học bổng gồm hạnh kiểm và học lực đúng hk?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Có yêu cầu giải thưởng khi xét học bổng không?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "NĐ 84/2020 nêu mấy nhóm được học bổng?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Nhóm học sinh THPT chuyên được xét học bổng đúng ko?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Nhóm nghệ thuật/thể thao năng khiếu có điều kiện riêng không?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Sinh viên ĐH/CSGD nghề nghiệp được xét học bổng khuyến khích đúng hk?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Điều kiện học bổng theo NĐ 84/2020 gồm học lực + hạnh kiểm đúng ko?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "NĐ 84/2020 là quy định về học bổng khuyến khích học tập đúng hk?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Có xét giải thưởng khi cấp học bổng khuyến khích không?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Học bổng áp dụng cho học sinh THPT chuyên đúng k?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Học bổng áp dụng cho học sinh năng khiếu nghệ thuật/thể thao đúng k?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Học bổng áp dụng cho sinh viên đại học đúng hk?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Học bổng áp dụng cho CSGD nghề nghiệp đúng hk?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "Điều kiện xét học bổng có liên quan đến giải thưởng đúng ko?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+	{
+		"question": "NĐ 84/2020 chia học bổng thành 3 nhóm đối tượng đúng ko?",
+		"positive_passage_id": "quydinh_hb__001"
+	},
+
+	{
+		"question": "Mức học bổng tối thiểu bằng mấy lần học phí?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Học bổng chia mấy mức khá/giỏi/xuất sắc?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Hiệu trưởng xét cấp học bổng theo học kỳ đúng ko?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Ưu tiên xét học bổng theo giải thưởng hoặc điểm số đúng hk?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Học bổng cấp trong bao lâu mỗi năm?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Mức học bổng tối thiểu = 3 lần học phí đúng ko?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Có 3 mức học bổng: khá, giỏi, xuất sắc đúng hk?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Học bổng xét theo học kỳ do Hiệu trưởng quyết định đúng ko?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Thời gian cấp học bổng 9-10 tháng/năm đúng hk?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Ưu tiên theo giải thưởng hoặc điểm số khi xét học bổng đúng ko?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Mức tối thiểu học bổng bằng 3 lần học phí đúng hk?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Học bổng khuyến khích chia 3 mức đúng ko?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Hiệu trưởng xét cấp học bổng theo kỳ học đúng hk?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Thời gian cấp học bổng mỗi năm là 9-10 tháng đúng ko?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Mức học bổng tối thiểu 3x học phí đúng hk?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Học bổng khá/giỏi/xuất sắc là 3 mức đúng ko?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Ưu tiên xét theo giải thưởng hoặc điểm số đúng hk?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Mỗi năm cấp học bổng tối đa 10 tháng đúng ko?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Hiệu trưởng là người xét cấp học bổng đúng hk?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+	{
+		"question": "Học bổng tối thiểu bằng 3 lần học phí và chia 3 mức đúng ko?",
+		"positive_passage_id": "quydinh_hb__002"
+	},
+
+	{
+		"question": "Kỹ năng văn phòng cần có của SV gồm những gì?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "SV cần biết quản lý Gmail không?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Kỹ năng Google Drive có bắt buộc không?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "SV cần biết quản lý lịch làm việc đúng ko?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Kỹ năng đặt tên file có nằm trong kỹ năng văn phòng không?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "SV cần kỹ năng tìm kiếm Internet đúng hk?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Các kỹ năng văn phòng cơ bản cho SV là gì?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Có cần biết Gmail + Drive + Calendar không?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Kỹ năng đặt tên file đúng chuẩn là kỹ năng văn phòng đúng ko?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "SV cần kỹ năng quản lý Gmail để làm việc đúng hk?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Biết dùng Google Drive là kỹ năng cần thiết đúng ko?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Kỹ năng lịch làm việc cần có cho SV đúng hk?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Kỹ năng tìm kiếm Internet là kỹ năng văn phòng đúng ko?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "SV cần biết đặt tên file khoa học đúng hk?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Kỹ năng văn phòng gồm Gmail, Drive, lịch, đặt tên file, tìm kiếm đúng ko?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Biết quản lý Gmail là kỹ năng nền tảng cho SV đúng hk?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Biết tìm kiếm Internet hiệu quả là kỹ năng cần có đúng ko?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Kỹ năng văn phòng có bao gồm quản lý lịch làm việc không?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "SV cần biết dùng Gmail và Drive để học tập đúng hk?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+	{
+		"question": "Đặt tên file đúng chuẩn có nằm trong kỹ năng văn phòng không?",
+		"positive_passage_id": "skill_nedded__001"
+	},
+
+	{
+		"question": "Kỹ năng soạn thảo văn bản cần có gồm những gì?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Gõ tiếng Việt là kỹ năng soạn thảo bắt buộc đúng ko?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Sửa lỗi font là kỹ năng Word cơ bản đúng hk?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Word style có nằm trong kỹ năng soạn thảo không?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Header/footer là kỹ năng Word cần có đúng ko?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Trộn thư (mail merge) là kỹ năng soạn thảo đúng hk?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Kỹ năng gõ tiếng Việt chuẩn là yêu cầu cơ bản đúng ko?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Sửa lỗi font trong Word có cần thiết không?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Style trong Word giúp định dạng văn bản đúng hk?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Header/footer là phần nên biết khi soạn văn bản đúng hk?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Mail merge là kỹ năng soạn thảo văn bản cần có đúng ko?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Kỹ năng soạn thảo bao gồm gõ tiếng Việt + sửa lỗi font đúng ko?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Word style thuộc nhóm kỹ năng soạn thảo đúng hk?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Cần biết tạo header/footer khi làm văn bản đúng ko?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Trộn thư là kỹ năng nâng cao trong soạn thảo đúng hk?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Kỹ năng Word cơ bản gồm style, header/footer, trộn thư đúng ko?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Sửa lỗi font giúp văn bản chuẩn hóa đúng hk?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Soạn thảo văn bản cần biết gõ tiếng Việt đúng ko?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Kỹ năng Word gồm style + header/footer + mail merge đúng hk?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+	{
+		"question": "Soạn thảo văn bản cần biết sửa lỗi font đúng ko?",
+		"positive_passage_id": "skill_nedded__002"
+	},
+
+	{
+		"question": "Kỹ năng Excel cần có gồm những gì?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Excel cần biết các hàm thống kê/logic/chuỗi/ngày tháng đúng ko?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "VLOOKUP là kỹ năng Excel cần có đúng hk?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "PivotTable có nằm trong kỹ năng Excel không?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Macro là kỹ năng Excel nâng cao đúng ko?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Kỹ năng PowerPoint cần có gồm những gì?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Thiết kế slide là kỹ năng PowerPoint cơ bản đúng hk?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Slide master là kỹ năng PP cần có đúng ko?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Hiệu ứng slide thuộc kỹ năng PowerPoint đúng hk?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Chia sẻ và tùy chỉnh trình chiếu là kỹ năng PP đúng ko?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "PowerPoint có kỹ năng xuất video đúng hk?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Excel cần biết hàm thống kê, logic, chuỗi, ngày tháng đúng ko?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Kỹ năng VLOOKUP và PivotTable là bắt buộc trong Excel đúng hk?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Macro trong Excel là kỹ năng nên có đúng ko?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "PowerPoint: thiết kế slide + slide master + hiệu ứng đúng hk?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "PP cần biết chia sẻ và tùy chỉnh trình chiếu đúng ko?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Kỹ năng xuất video từ PowerPoint có cần thiết không?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Excel cần biết PivotTable để tổng hợp dữ liệu đúng hk?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "Excel cần biết VLOOKUP để tra cứu đúng hk?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+	{
+		"question": "PowerPoint cần kỹ năng thiết kế slide và hiệu ứng đúng ko?",
+		"positive_passage_id": "skill_nedded__003"
+	},
+
+	{
+		"question": "Trước bảo vệ đồ án cần lưu ý những gì?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Trước bảo vệ phải hủy môn tự chọn thừa đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Cần nộp kê khai thông tin và lệ phí trước bảo vệ đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Trước bảo vệ cần kiểm tra đăng ký học phần TTTN/DATN đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Hoàn thiện giấy thanh toán ra trường trước bảo vệ đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án ở đâu?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Phòng đào tạo cấp quyết định làm đồ án cho SV tốt nghiệp sớm/muộn đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Trước bảo vệ cần kiểm tra TTTN/DATN đã đăng ký chưa đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Hủy môn tự chọn thừa là bước bắt buộc trước bảo vệ đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Trước bảo vệ phải nộp lệ phí đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Phải nộp kê khai thông tin trước bảo vệ đồ án đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Trước bảo vệ cần hoàn thiện giấy thanh toán ra trường đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "SV tốt nghiệp sớm phải xin quyết định làm đồ án đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "SV tốt nghiệp muộn phải xin quyết định làm đồ án tại phòng đào tạo đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Trước bảo vệ cần làm đủ thủ tục hủy môn thừa đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Trước bảo vệ cần kiểm tra đăng ký học phần TTTN/DATN đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "SV phải hoàn thiện giấy thanh toán ra trường trước bảo vệ đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Tốt nghiệp sớm/muộn cần quyết định làm đồ án tại phòng đào tạo đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Trước bảo vệ đồ án phải nộp kê khai thông tin + lệ phí đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+	{
+		"question": "Trước bảo vệ cần hủy môn tự chọn thừa và hoàn thiện thủ tục ra trường đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__001"
+	},
+
+	{
+		"question": "Sau bảo vệ bao lâu thì kiểm tra điểm?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Sau bảo vệ bao lâu thì lấy bảng điểm và giấy chứng nhận?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Khi lấy bảng điểm cần kiểm tra thông tin cá nhân đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Muốn học cải thiện điểm/xếp loại bằng thì phải làm gì?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Học cải thiện điểm thì nộp đơn hoãn xét tốt nghiệp đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Nếu còn học tự chọn thì phải hủy môn thừa đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Chuẩn đầu ra GDQP/GDTC phải hoàn thành trong bao lâu?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Chuẩn đầu ra ngoại ngữ và tin học có hạn 3 năm đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Sau bảo vệ 7-10 ngày thì có điểm đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Lấy bảng điểm/giấy chứng nhận sau 2 tuần đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Nếu học cải thiện điểm thì phải nộp đơn hoãn xét tốt nghiệp đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Còn tự chọn thì phải hủy môn thừa trước khi xét tốt nghiệp đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "GDQP/GDTC phải hoàn thành trong 5 năm đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Ngoại ngữ và tin học phải hoàn thành trong 3 năm đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Sau bảo vệ cần kiểm tra điểm sau 7-10 ngày đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Lấy bảng điểm/giấy chứng nhận sau 2 tuần và kiểm tra thông tin đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Muốn cải thiện điểm/xếp loại bằng phải nộp đơn hoãn xét tốt nghiệp đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Nếu còn học tự chọn thì hủy môn thừa đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Chuẩn đầu ra GDQP/GDTC có hạn 5 năm đúng ko?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	},
+	{
+		"question": "Chuẩn đầu ra ngoại ngữ + tin học có hạn 3 năm đúng hk?",
+		"positive_passage_id": "sv_khoa_cuoi__002"
+	}
+]
