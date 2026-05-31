@@ -1,0 +1,2507 @@
+[
+  {
+    "qid": "q_3708",
+    "question": "Học phần thực tập doanh nghiệp có thời gian cụ thể?",
+    "positive_passage_id": "p_0078"
+  },
+  {
+    "qid": "q_2620",
+    "question": "Gia đình chuyển nơi cư trú có được coi là lý do hợp lệ để xin chuyển trường không?",
+    "positive_passage_id": "p_0071"
+  },
+  {
+    "qid": "q_4989",
+    "question": "Trường hợp nào sinh viên phải học lại?",
+    "positive_passage_id": "p_0075"
+  },
+  {
+    "qid": "q_2606",
+    "question": "Điều kiện về thời gian học còn lại để chuyển ngành là gì?",
+    "positive_passage_id": "p_0070"
+  },
+  {
+    "qid": "q_4981",
+    "question": "Sinh viên bị cấm thi khi nào?",
+    "positive_passage_id": "p_0075"
+  },
+  {
+    "qid": "q_5058",
+    "question": "Sinh viên phải làm gì nếu bị đánh giá không đạt thực tập tốt nghiệp?",
+    "positive_passage_id": "p_0078"
+  },
+  {
+    "qid": "q_3053",
+    "question": "Điều kiện áp dụng cho chương trình song ngành là gì?",
+    "positive_passage_id": "p_0006"
+  },
+  {
+    "qid": "q_0236",
+    "question": "Cơ sở giáo dục nghề nghiệp có được đề cập trong nghị định không?",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "qid": "q_2675",
+    "question": "Định nghĩa điểm học phần thực hành theo văn bản này là gì?",
+    "positive_passage_id": "p_0077"
+  },
+  {
+    "qid": "q_2562",
+    "question": "Hạn chế khối lượng học tập áp dụng trong thời gian nào?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "qid": "q_1944",
+    "question": "Thời điểm nào trong năm học phải đăng ký học lại môn bắt buộc bị F?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_3906",
+    "question": "Nếu chênh lệch 3 điểm thì ĐATN bị gì?",
+    "positive_passage_id": "p_0125"
+  },
+  {
+    "qid": "q_4613",
+    "question": "Việc học lại để cải thiện điểm được thực hiện vào thời điểm nào?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_4513",
+    "question": "Hậu quả của việc không đạt chuẩn ngoại ngữ theo lộ trình là gì?",
+    "positive_passage_id": "p_0042"
+  },
+  {
+    "qid": "q_1041",
+    "question": "Trường thông báo thông tin gì cho từng chương trình đào tạo?",
+    "positive_passage_id": "p_0026"
+  },
+  {
+    "qid": "q_0062",
+    "question": "Đợt trợ cấp kết thúc vào thời điểm nào trong năm 2025?",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "qid": "q_5126",
+    "question": "Điểm 8.9 cho kết quả điểm hệ 4 là bao nhiêu?",
+    "positive_passage_id": "p_0096"
+  },
+  {
+    "qid": "q_3970",
+    "question": "Sinh viên phải chịu mất bao nhiêu tín chỉ khi thi hộ?",
+    "positive_passage_id": "p_0142"
+  },
+  {
+    "qid": "q_3736",
+    "question": "Điểm A tương ứng với khoảng điểm nào?",
+    "positive_passage_id": "p_0096"
+  },
+  {
+    "qid": "q_0876",
+    "question": "How is the detailed outline approved?",
+    "positive_passage_id": "p_0011"
+  },
+  {
+    "qid": "q_3561",
+    "question": "Khi hết khả năng tốt nghiệp trong thời gian cho phép thì thế nào?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "qid": "q_3249",
+    "question": "Lớp thí nghiệm tối đa bao nhiêu sinh viên trong một nhóm?",
+    "positive_passage_id": "p_0032"
+  },
+  {
+    "qid": "q_2439",
+    "question": "Chỉ có ba hình thức xử lý được liệt kê đúng không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "qid": "q_2952",
+    "question": "Hiểu như thế nào về điều kiện 'tổng số tín chỉ học lần thứ hai vượt quá 5% chương trình'?",
+    "positive_passage_id": "p_0136"
+  },
+  {
+    "qid": "q_4729",
+    "question": "Thời gian nghỉ tạm thời có được tính vào thời gian học chính thức không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "qid": "q_1259",
+    "question": "Sinh viên muốn rút bớt học phần đã đăng ký thì cần làm những gì?",
+    "positive_passage_id": "p_0044"
+  },
+  {
+    "qid": "q_3590",
+    "question": "Học hai chương trình cần điểm TBC tích lũy tối thiểu bao nhiêu?",
+    "positive_passage_id": "p_0066"
+  },
+  {
+    "qid": "q_5494",
+    "question": "Nếu sinh viên không bổ sung đủ chứng chỉ còn thiếu trong 3 năm, thì có được xét tốt nghiệp không?",
+    "positive_passage_id": "p_0139"
+  },
+  {
+    "qid": "q_4455",
+    "question": "Sinh viên học lực bình thường có bắt buộc đăng ký ít nhất 14 tín mỗi học kỳ chính không?",
+    "positive_passage_id": "p_0037"
+  },
+  {
+    "qid": "q_3939",
+    "question": "Nếu học phần từ lần thứ hai vượt quá 5%, hạng bị gì?",
+    "positive_passage_id": "p_0136"
+  },
+  {
+    "qid": "q_5378",
+    "question": "Có được nợ tối đa bao nhiêu học phần khi thực tập?",
+    "positive_passage_id": "p_0116"
+  },
+  {
+    "qid": "q_4114",
+    "question": "Môn tự chọn chuyên ngành là học sâu theo định hướng chuyên ngành đúng ko?",
+    "positive_passage_id": "p_0008"
+  },
+  {
+    "qid": "q_1564",
+    "question": "Có điểm C mà bị buộc thôi học thì có được học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_3139",
+    "question": "Có được giảm thiểu yêu cầu ngoại ngữ nếu có bằng cấp khác?",
+    "positive_passage_id": "p_0013"
+  },
+  {
+    "qid": "q_2321",
+    "question": "Tích lũy 45 TC thì xếp năm thứ mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_0420",
+    "question": "Em vừa nhập mã môn xong, bước kế tiếp em cần thực hiện ra sao?",
+    "positive_passage_id": "dki_dukien__001"
+  },
+  {
+    "qid": "q_3971",
+    "question": "Sau bao nhiêu lần thi hộ thì bị buộc thôi học?",
+    "positive_passage_id": "p_0142"
+  },
+  {
+    "qid": "q_2720",
+    "question": "Trình tự xử lý điểm học phần diễn ra thế nào?",
+    "positive_passage_id": "p_0094"
+  },
+  {
+    "qid": "q_2806",
+    "question": "Điểm 5.8 có được coi là Đạt theo xếp loại này không?",
+    "positive_passage_id": "p_0100"
+  },
+  {
+    "qid": "q_5350",
+    "question": "Khối lượng chuyển đổi được công nhận có thể vượt quá 50% khối lượng tối thiểu không?",
+    "positive_passage_id": "p_0115"
+  },
+  {
+    "qid": "q_4244",
+    "question": "Quy định riêng của Trường ĐH Mỏ - Địa chất là về điều gì?",
+    "positive_passage_id": "p_0016"
+  },
+  {
+    "qid": "q_4128",
+    "question": "Nếu sinh viên học nhiều hơn một học phần tương đương thì điểm được tính thế nào?",
+    "positive_passage_id": "p_0009"
+  },
+  {
+    "qid": "q_4212",
+    "question": "Chuẩn đầu vào cho chương trình đào tạo chuyên sâu đặc thù bậc 7 gồm những gì?",
+    "positive_passage_id": "p_0013"
+  },
+  {
+    "qid": "q_2300",
+    "question": "70 tín chỉ thuộc năm nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_0907",
+    "question": "Yêu cầu tối thiểu được quy định trong tài liệu nào?",
+    "positive_passage_id": "p_0012"
+  },
+  {
+    "qid": "q_2821",
+    "question": "Tiêu chí để đạt xếp loại Đạt là gì?",
+    "positive_passage_id": "p_0101"
+  },
+  {
+    "qid": "q_3712",
+    "question": "Điểm đánh giá thang 10 tối đa bao nhiêu?",
+    "positive_passage_id": "p_0093"
+  },
+  {
+    "qid": "q_3595",
+    "question": "Sinh viên cần phải buộc tạm dừng học thêm chương trình thứ hai khi nào?",
+    "positive_passage_id": "p_0066"
+  },
+  {
+    "qid": "q_5085",
+    "question": "Trọng số ảnh hưởng thế nào đến điểm học phần?",
+    "positive_passage_id": "p_0094"
+  },
+  {
+    "qid": "q_4100",
+    "question": "Nếu tôi đã tốt nghiệp đại học đúng nhóm ngành, khi học chuyên sâu bậc 7 tôi phải lấy bao nhiêu TC?",
+    "positive_passage_id": "p_0007"
+  },
+  {
+    "qid": "q_4031",
+    "question": "Nếu thiếu đối tượng đào tạo thì chương trình có hợp lệ không?",
+    "positive_passage_id": "p_0004"
+  },
+  {
+    "qid": "q_2939",
+    "question": "Sinh viên có cần đạt chuẩn đầu ra công nghệ thông tin không?",
+    "positive_passage_id": "p_0129"
+  },
+  {
+    "qid": "q_4036",
+    "question": "Cái chương trình đào tạo ấy, nó có nói rõ mục tiêu đào tạo không?",
+    "positive_passage_id": "p_0004"
+  },
+  {
+    "qid": "q_0032",
+    "question": "Có hỗ trợ tài chính cho sinh viên tàn tật không?",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "qid": "q_3920",
+    "question": "Nếu điểm TBC dưới 2,0 sinh viên sẽ bị gì?",
+    "positive_passage_id": "p_0129"
+  },
+  {
+    "qid": "q_5331",
+    "question": "Điểm tích lũy 0,8 thì bị xếp loại kém, phải không?",
+    "positive_passage_id": "p_0111"
+  },
+  {
+    "qid": "q_0678",
+    "question": "Quy định đào tạo theo hệ thống tín chỉ của trường Mỏ - Địa chất gồm những hoạt động nào?",
+    "positive_passage_id": "p_0001"
+  },
+  {
+    "qid": "q_2848",
+    "question": "Làm thế nào để tính điểm trung bình tích lũy cho xếp hạng tốt nghiệp?",
+    "positive_passage_id": "p_0110"
+  },
+  {
+    "qid": "q_4898",
+    "question": "Theo quy định, thời gian tối đa dành cho sinh viên học hai chương trình được nêu ở đâu?",
+    "positive_passage_id": "p_0067"
+  },
+  {
+    "qid": "q_2908",
+    "question": "Nếu có một giám khảo cho điểm dưới 5 thì đồ án tốt nghiệp sẽ bị gì?",
+    "positive_passage_id": "p_0125"
+  },
+  {
+    "qid": "q_3697",
+    "question": "Thực tập không đạt phải làm gì?",
+    "positive_passage_id": "p_0078"
+  },
+  {
+    "qid": "q_2659",
+    "question": "Khi nào sinh viên được quyền thi lý thuyết trong một học phần vừa lý thuyết vừa thực hành?",
+    "positive_passage_id": "p_0076"
+  },
+  {
+    "qid": "q_5288",
+    "question": "Không đạt thì điểm chữ và hệ 4 thế nào?",
+    "positive_passage_id": "p_0103"
+  },
+  {
+    "qid": "q_3438",
+    "question": "Khi nào phải đăng ký học lại?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "qid": "q_5182",
+    "question": "Điểm chữ B thì điểm số tương ứng là bao nhiêu?",
+    "positive_passage_id": "p_0098"
+  },
+  {
+    "qid": "q_4944",
+    "question": "Theo quy định, muốn chuyển trường cần những điều kiện gì?",
+    "positive_passage_id": "p_0071"
+  },
+  {
+    "qid": "q_3278",
+    "question": "Đợt 2 kết thúc chậm nhất trước học kỳ mấy tuần?",
+    "positive_passage_id": "p_0036"
+  },
+  {
+    "qid": "q_4764",
+    "question": "Sinh viên có 32 tín chỉ thì ở năm đào tạo nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_0204",
+    "question": "Nếu tôi có quyết định đồ án ngày 25/9, tôi có đủ căn cứ xin tạm hoãn nghĩa vụ quân sự không?",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "qid": "q_2809",
+    "question": "Hãy xác nhận liệu điểm 6.0 có nằm trong khoảng cho điểm chữ C hay không?",
+    "positive_passage_id": "p_0100"
+  },
+  {
+    "qid": "q_3097",
+    "question": "Sinh viên nhập học năm nào học chương trình năm đó?",
+    "positive_passage_id": "p_0010"
+  },
+  {
+    "qid": "q_3607",
+    "question": "Học phần có khối lượng kiến thức tương đương được bảo lưu điểm như thế nào?",
+    "positive_passage_id": "p_0067"
+  },
+  {
+    "qid": "q_3987",
+    "question": "Các hoạt động bao gồm trong quy định đào tạo đại học theo tín chỉ tại Trường Đại học Mỏ - Địa chất là những gì?",
+    "positive_passage_id": "p_0001"
+  },
+  {
+    "qid": "q_4787",
+    "question": "Các hình thức xử lý kết quả học tập được áp dụng vào thời điểm nào?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "qid": "q_2464",
+    "question": "Sinh viên đang bị cảnh báo, 10% tín chỉ không đạt và TBC 1,5 có giảm mức được không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_4536",
+    "question": "Không đi học sau khi hết hạn rút môn sẽ thế nào?",
+    "positive_passage_id": "p_0043"
+  },
+  {
+    "qid": "q_2838",
+    "question": "Điểm 4.0 có được coi là Đạt không?",
+    "positive_passage_id": "p_0102"
+  },
+  {
+    "qid": "q_5474",
+    "question": "Sv xuất sắc bị hạnh kiểm cảnh cáo thì có mất một bậc hạng không?",
+    "positive_passage_id": "p_0136"
+  },
+  {
+    "qid": "q_3118",
+    "question": "Chuẩn đầu vào quy định yêu cầu gì?",
+    "positive_passage_id": "p_0012"
+  },
+  {
+    "qid": "q_4839",
+    "question": "Ai được gia hạn 1 học kỳ khi bị cảnh báo mức 3?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "qid": "q_2611",
+    "question": "Nơi chuyển đến cần có những yếu tố gì về chỉ tiêu và năng lực?",
+    "positive_passage_id": "p_0070"
+  },
+  {
+    "qid": "q_0752",
+    "question": "Điều kiện nhập học có phải là một thành phần của chương trình đào tạo?",
+    "positive_passage_id": "p_0004"
+  },
+  {
+    "qid": "q_1491",
+    "question": "Bị xóa tên khỏi danh sách sinh viên có phải là lý do buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "qid": "q_2460",
+    "question": "Cảnh báo mức 3 được hiểu là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_4213",
+    "question": "Sinh viên cần đáp ứng điều kiện gì để theo học bậc 7?",
+    "positive_passage_id": "p_0013"
+  },
+  {
+    "qid": "q_0260",
+    "question": "Làm thế nào để sinh viên đại học nhận được học bổng khuyến khích học tập?",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "qid": "q_1522",
+    "question": "Người học bị buộc thôi học có được tiếp tục học lại học phần đó không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_0029",
+    "question": "Mức trợ cấp hàng tháng cho sinh viên dân tộc thiểu số vùng cao là bao nhiêu?",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "qid": "q_0186",
+    "question": "Hoàn thành trước thời điểm nào thì sinh viên chỉ nhận xác nhận dự kiến?",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "qid": "q_2333",
+    "question": "Năm thứ năm tương ứng mức tín chỉ nào trở lên?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_2871",
+    "question": "Khi xem xét hồ sơ chuyển đổi, cần kiểm tra yếu tố nào về khối lượng?",
+    "positive_passage_id": "p_0115"
+  },
+  {
+    "qid": "q_4508",
+    "question": "\"Đóng học phí đợt 1 trễ bị hủy 2 môn, vậy môn nào bị hủy?\"",
+    "positive_passage_id": "p_0041"
+  },
+  {
+    "qid": "q_1496",
+    "question": "Hạn chế khối lượng học tập là gì?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "qid": "q_3403",
+    "question": "Trường áp dụng mức học phí cao hơn cho lớp nào?",
+    "positive_passage_id": "p_0045"
+  },
+  {
+    "qid": "q_2473",
+    "question": "Hậu quả cảnh báo học tập khi tự ý bỏ học là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_0135",
+    "question": "Có bắt buộc phải có hồ sơ khi làm thủ tục miễn giảm học phí không?",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "qid": "q_0057",
+    "question": "Sinh viên cần thuộc nhóm dân tộc nào để được nhận trợ cấp 2.340.000đ/tháng?",
+    "positive_passage_id": "mgiam_hphi__002"
+  },
+  {
+    "qid": "q_3083",
+    "question": "Làm sao để đăng ký học phần tự chọn theo chuyên ngành?",
+    "positive_passage_id": "p_0008"
+  },
+  {
+    "qid": "q_2905",
+    "question": "Giảng viên hướng dẫn cần làm gì trước khi đồ án được chuyển cho phản biện?",
+    "positive_passage_id": "p_0122"
+  },
+  {
+    "qid": "q_1187",
+    "question": "Cần kiểm tra những loại ràng buộc nào trước khi đăng ký học phần?",
+    "positive_passage_id": "p_0039"
+  },
+  {
+    "qid": "q_5087",
+    "question": "Sau khi làm tròn, điểm học phần được chuyển thành gì?",
+    "positive_passage_id": "p_0094"
+  },
+  {
+    "qid": "q_2238",
+    "question": "Bằng cách nào xin nghỉ tạm thời khi ốm dài ngày?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "qid": "q_1330",
+    "question": "Điều bắt buộc phải làm sau khi sinh viên bị F môn bắt buộc nhưng không bị thôi học là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_0980",
+    "question": "Sinh viên chưa đạt yêu cầu học phần A có được học tiên quyết B không?",
+    "positive_passage_id": "p_0018"
+  },
+  {
+    "qid": "q_4681",
+    "question": "Học lại có ảnh hưởng đến cách tính điểm chính thức không? (Có: điểm chính thức vẫn là điểm cao nhất)",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "qid": "q_3915",
+    "question": "Thời hạn làm lại đồ án tính vào thời gian tối đa của chương trình như thế nào?",
+    "positive_passage_id": "p_0128"
+  },
+  {
+    "qid": "q_0951",
+    "question": "Tín chỉ dùng để làm gì?",
+    "positive_passage_id": "p_0017"
+  },
+  {
+    "qid": "q_1032",
+    "question": "Hệ vừa làm vừa học kéo dài hơn bao nhiêu phần trăm so với hệ chính quy?",
+    "positive_passage_id": "p_0024"
+  },
+  {
+    "qid": "q_5068",
+    "question": "Làm tròn điểm đến hàng phần mười có đúng quy định không?",
+    "positive_passage_id": "p_0093"
+  },
+  {
+    "qid": "q_4106",
+    "question": "Học phần bắt buộc có phải hoàn thành tất cả không?",
+    "positive_passage_id": "p_0008"
+  },
+  {
+    "qid": "q_4995",
+    "question": "Cho A=8, B=7, C=9, tính điểm trực tiếp?",
+    "positive_passage_id": "p_0075"
+  },
+  {
+    "qid": "q_2740",
+    "question": "Định nghĩa của điểm chữ A+ theo thang điểm 10 là gì?",
+    "positive_passage_id": "p_0095"
+  },
+  {
+    "qid": "q_0079",
+    "question": "Đi kèm với hướng dẫn thủ tục giảm học phí là gì?",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "qid": "q_3167",
+    "question": "Một TC là 30 giờ thực hành, bao nhiêu giờ tự học?",
+    "positive_passage_id": "p_0017"
+  },
+  {
+    "qid": "q_0957",
+    "question": "Tín chỉ thực hành yêu cầu bao nhiêu giờ tự học?",
+    "positive_passage_id": "p_0017"
+  },
+  {
+    "qid": "q_2772",
+    "question": "Điểm chữ B trong thang điểm này được định nghĩa thế nào?",
+    "positive_passage_id": "p_0098"
+  },
+  {
+    "qid": "q_2109",
+    "question": "Muốn có điểm thi chính thức cao thì cần làm gì?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "qid": "q_0407",
+    "question": "Nếu sinh viên còn đăng ký môn tự chọn thừa, họ cần làm gì trước khi bảo vệ?",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "qid": "q_5349",
+    "question": "Khối lượng tối thiểu của chương trình đào tạo dùng để làm gì?",
+    "positive_passage_id": "p_0115"
+  },
+  {
+    "qid": "q_1957",
+    "question": "Học lại môn bắt buộc bị F cho đến khi nào thì đạt?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_0574",
+    "question": "Phải chăng học phí được xác định hoàn toàn dựa trên số tín chỉ và ngành học?",
+    "positive_passage_id": "hoc_phi__001"
+  },
+  {
+    "qid": "q_4366",
+    "question": "Số lượng tuyển sinh của từng chương trình do ai công bố?",
+    "positive_passage_id": "p_0026"
+  },
+  {
+    "qid": "q_2796",
+    "question": "Điểm 5.5 có được xếp loại Đạt không?",
+    "positive_passage_id": "p_0100"
+  },
+  {
+    "qid": "q_2880",
+    "question": "Bạn mình còn nợ đúng 2 môn và điểm trung bình tích lũy 2.2, liệu có đủ điều kiện thực tập tốt nghiệp không?",
+    "positive_passage_id": "p_0116"
+  },
+  {
+    "qid": "q_1402",
+    "question": "Thời hạn nộp đơn xin hoãn thi là bao lâu kể từ khi bị ốm?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "qid": "q_3192",
+    "question": "Có thể chuyển toàn bộ lớp online nếu thiên tai xảy ra không?",
+    "positive_passage_id": "p_0022"
+  },
+  {
+    "qid": "q_4977",
+    "question": "Sinh viên đang bị kỷ luật từ cảnh cáo trở lên có được chuyển không?",
+    "positive_passage_id": "p_0072"
+  },
+  {
+    "qid": "q_0221",
+    "question": "Mốc thời gian nào cho quyết định thực tập làm mất cơ hội xin tạm hoãn?",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "qid": "q_2458",
+    "question": "Số tín chỉ nợ tồn đọng bao nhiêu thì rơi vào mức 3?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_3684",
+    "question": "Thực hành có bắt buộc tham dự đầy đủ không?",
+    "positive_passage_id": "p_0077"
+  },
+  {
+    "qid": "q_5470",
+    "question": "Nếu tổng tín chỉ học lại lần 2 vượt quá 5% tổng tín chỉ chương trình, hậu quả là gì?",
+    "positive_passage_id": "p_0136"
+  },
+  {
+    "qid": "q_3844",
+    "question": "Thời gian xét học lực dựa trên điểm trung bình tích lũy.",
+    "positive_passage_id": "p_0111"
+  },
+  {
+    "qid": "q_4733",
+    "question": "Có mấy trường hợp sinh viên được tạm nghỉ và giữ kết quả?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "qid": "q_0398",
+    "question": "Sau khi bảo vệ, bao lâu thì sinh viên có thể lấy giấy chứng nhận?",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "qid": "q_0599",
+    "question": "Khi chuyển khoản học phí, sinh viên cần ghi rõ những thông tin gì?",
+    "positive_passage_id": "hoc_phi__006"
+  },
+  {
+    "qid": "q_3362",
+    "question": "Số tuần cho phép rút bớt sau đầu kỳ phụ là bao nhiêu?",
+    "positive_passage_id": "p_0043"
+  },
+  {
+    "qid": "q_4308",
+    "question": "Khóa học đại học chuẩn kéo dài bao lâu?",
+    "positive_passage_id": "p_0023"
+  },
+  {
+    "qid": "q_3917",
+    "question": "Điều khoản nào quy định về thời gian tối đa hoàn thành chương trình?",
+    "positive_passage_id": "p_0128"
+  },
+  {
+    "qid": "q_2304",
+    "question": "Điều kiện tín chỉ để xếp năm 4 là gì?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_5155",
+    "question": "Điểm chữ B+ ứng với hệ số 4 là bao nhiêu?",
+    "positive_passage_id": "p_0097"
+  },
+  {
+    "qid": "q_0853",
+    "question": "Điều kiện để tốt nghiệp theo chương trình khóa sau là gì?",
+    "positive_passage_id": "p_0010"
+  },
+  {
+    "qid": "q_0049",
+    "question": "Sinh viên có hoàn cảnh khó khăn nhận được bao nhiêu tiền mỗi tháng?",
+    "positive_passage_id": "mgiam_hphi__001"
+  },
+  {
+    "qid": "q_4514",
+    "question": "Sinh viên có trách nhiệm phải đạt chuẩn ngoại ngữ không?",
+    "positive_passage_id": "p_0042"
+  },
+  {
+    "qid": "q_3122",
+    "question": "Định hướng đào tạo áp dụng cho sinh viên cấp độ nào?",
+    "positive_passage_id": "p_0012"
+  },
+  {
+    "qid": "q_3035",
+    "question": "Cơ bản, thiết thực và hiện đại là yêu cầu gì của đào tạo?",
+    "positive_passage_id": "p_0005"
+  },
+  {
+    "qid": "q_1208",
+    "question": "Theo đoạn văn, việc đăng ký học phần cần tuân theo trình tự nào?",
+    "positive_passage_id": "p_0039"
+  },
+  {
+    "qid": "q_1169",
+    "question": "Học kỳ nào được miễn quy định tín chỉ tối thiểu?",
+    "positive_passage_id": "p_0037"
+  },
+  {
+    "qid": "q_2793",
+    "question": "Điểm 5.7 tương ứng với điểm chữ gì?",
+    "positive_passage_id": "p_0100"
+  },
+  {
+    "qid": "q_1332",
+    "question": "Sinh viên phải học lại môn bắt buộc bị F cho đến lúc nào?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_0850",
+    "question": "Sinh viên học chậm được phép làm gì theo quy định?",
+    "positive_passage_id": "p_0010"
+  },
+  {
+    "qid": "q_1002",
+    "question": "Tối đa bao nhiêu phần trăm khối lượng chương trình đào tạo chính quy có thể học online?",
+    "positive_passage_id": "p_0022"
+  },
+  {
+    "qid": "q_5165",
+    "question": "Hệ 4 là 3.5 khi điểm nằm ở đâu?",
+    "positive_passage_id": "p_0097"
+  },
+  {
+    "qid": "q_4913",
+    "question": "Sinh viên năm nhất có được chuyển ngành không?",
+    "positive_passage_id": "p_0070"
+  },
+  {
+    "qid": "q_2752",
+    "question": "Trên thang điểm 4, điểm B+ có giá trị bao nhiêu?",
+    "positive_passage_id": "p_0097"
+  },
+  {
+    "qid": "q_0072",
+    "question": "Dân tộc thiểu số thuộc hộ cận nghèo có được giảm học phí không?",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "qid": "q_3893",
+    "question": "Bảo vệ tốt nghiệp được thực hiện khi điểm là gì?",
+    "positive_passage_id": "p_0122"
+  },
+  {
+    "qid": "q_2751",
+    "question": "Điểm chữ B+ tương ứng với khoảng điểm nào trên thang 10?",
+    "positive_passage_id": "p_0097"
+  },
+  {
+    "qid": "q_3849",
+    "question": "Điểm TBC tích lũy dưới 1,0 đồng nghĩa với học lực kém.",
+    "positive_passage_id": "p_0111"
+  },
+  {
+    "qid": "q_0819",
+    "question": "Sinh viên có thể học nhiều hơn một học phần tương đương hay không?",
+    "positive_passage_id": "p_0009"
+  },
+  {
+    "qid": "q_3390",
+    "question": "Nếu không đủ số lượng, trường sẽ đóng mức học phí cao hơn bao nhiêu?",
+    "positive_passage_id": "p_0045"
+  },
+  {
+    "qid": "q_5428",
+    "question": "Nếu chỉ một người chấm dưới 5,0 thì đồ án có bị điểm F không?",
+    "positive_passage_id": "p_0125"
+  },
+  {
+    "qid": "q_0340",
+    "question": "Excel có tính năng PivotTable không?",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "qid": "q_4611",
+    "question": "Ai được phép đăng ký học lại một học phần?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_4002",
+    "question": "Nếu hai chuyên ngành thuộc cùng một ngành đào tạo thì phần kiến thức khác nhau giữa chúng tối đa là bao nhiêu?",
+    "positive_passage_id": "p_0003"
+  },
+  {
+    "qid": "q_3141",
+    "question": "Chỉ học viên có trình độ ngoại ngữ bậc 2 mới đủ điều kiện?",
+    "positive_passage_id": "p_0013"
+  },
+  {
+    "qid": "q_3292",
+    "question": "Sinh viên cần làm gì trước khi bắt đầu học kỳ?",
+    "positive_passage_id": "p_0036"
+  },
+  {
+    "qid": "q_3572",
+    "question": "Khi nào sinh viên phải nộp đơn xin gia hạn một học kỳ?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "qid": "q_0793",
+    "question": "So sánh số tín chỉ cơ bản giữa đại học và chuyên sâu bậc 7?",
+    "positive_passage_id": "p_0007"
+  },
+  {
+    "qid": "q_1217",
+    "question": "Những sinh viên nào có nguy cơ bị đình chỉ học tập ở học kỳ kế tiếp?",
+    "positive_passage_id": "p_0041"
+  },
+  {
+    "qid": "q_1504",
+    "question": "Sinh viên bị cảnh báo mức 2 có được đăng ký 9 tín chỉ không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "qid": "q_4715",
+    "question": "Kèm theo xác nhận của cơ quan y tế và nộp trong vòng một tuần – đó là yêu cầu gì?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "qid": "q_2742",
+    "question": "Điểm 9.1 có tương ứng với điểm chữ A+ không?",
+    "positive_passage_id": "p_0095"
+  },
+  {
+    "qid": "q_1267",
+    "question": "Khi nào một lớp bị áp dụng mức học phí cao hơn?",
+    "positive_passage_id": "p_0045"
+  },
+  {
+    "qid": "q_5524",
+    "question": "Sinh viên thi hộ có bị đình chỉ học tập không? Bao lâu?",
+    "positive_passage_id": "p_0142"
+  },
+  {
+    "qid": "q_2792",
+    "question": "How can I tell if my score of 6.5 is considered passing?",
+    "positive_passage_id": "p_0099"
+  },
+  {
+    "qid": "q_2875",
+    "question": "Làm cách nào để tính giới hạn trên của khối lượng được công nhận khi chuyển đổi?",
+    "positive_passage_id": "p_0115"
+  },
+  {
+    "qid": "q_3124",
+    "question": "Sinh viên phải đáp ứng năng lực như thế nào để học tập?",
+    "positive_passage_id": "p_0012"
+  },
+  {
+    "qid": "q_0765",
+    "question": "Kế hoạch học tập chuẩn toàn khóa có được thể hiện trong chương trình không?",
+    "positive_passage_id": "p_0004"
+  },
+  {
+    "qid": "q_0601",
+    "question": "Sinh viên có cần ghi họ tên khi chuyển khoản đóng học phí không?",
+    "positive_passage_id": "hoc_phi__006"
+  },
+  {
+    "qid": "q_0386",
+    "question": "Thời hạn hoàn thành chuẩn đầu ra môn GDQP và GDTC là bao nhiêu năm?",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "qid": "q_3485",
+    "question": "Nghỉ vì nhu cầu cá nhân có tính vào thời gian học không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "qid": "q_0337",
+    "question": "Trong Excel, có hàm xử lý chuỗi không?",
+    "positive_passage_id": "skill_nedded__003"
+  },
+  {
+    "qid": "q_4783",
+    "question": "Hãy nêu lại cách xếp hạng học lực dựa trên điểm tích lũy sau mỗi học kỳ.",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "qid": "q_4630",
+    "question": "Sinh viên có điểm rớt môn bắt buộc nhưng chưa bị xử lý thôi học thì phải học lại môn đó chứ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_1196",
+    "question": "Đối với sinh viên học lực yếu, mức tín chỉ tối thiểu trong học kỳ chính (trừ kỳ cuối) có đúng là 10 không?",
+    "positive_passage_id": "p_0037"
+  },
+  {
+    "qid": "q_3101",
+    "question": "Chương trình đào tạo áp dụng cho ai trong trường?",
+    "positive_passage_id": "p_0010"
+  },
+  {
+    "qid": "q_4344",
+    "question": "Với hệ vừa làm vừa học, thời gian học dài hơn bao nhiêu phần trăm so với hệ chuẩn?",
+    "positive_passage_id": "p_0024"
+  },
+  {
+    "qid": "q_5388",
+    "question": "Nếu giảng viên phản biện chấm dưới 5 thì điều gì xảy ra?",
+    "positive_passage_id": "p_0122"
+  },
+  {
+    "qid": "q_2715",
+    "question": "Loại đạt có phân mức áp dụng cho những học phần nào?",
+    "positive_passage_id": "p_0094"
+  },
+  {
+    "qid": "q_2795",
+    "question": "Cần bao nhiêu điểm để được điểm chữ C?",
+    "positive_passage_id": "p_0100"
+  },
+  {
+    "qid": "q_3490",
+    "question": "Tránh buộc thôi học cần TBC tích lũy tối thiểu bao nhiêu?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "qid": "q_1941",
+    "question": "Trường hợp bị F môn bắt buộc mà không bị buộc thôi học, phải làm gì tiếp?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_1229",
+    "question": "Có phải sinh viên chỉ bị giới hạn tín chỉ trong một học kỳ duy nhất không?",
+    "positive_passage_id": "p_0042"
+  },
+  {
+    "qid": "q_0960",
+    "question": "Một giờ tín chỉ kéo dài bao nhiêu phút?",
+    "positive_passage_id": "p_0017"
+  },
+  {
+    "qid": "q_0744",
+    "question": "Mã số có phải là một phần của ngành đào tạo không?",
+    "positive_passage_id": "p_0003"
+  },
+  {
+    "qid": "q_2811",
+    "question": "Khoảng điểm nào tương ứng với điểm chữ D+?",
+    "positive_passage_id": "p_0101"
+  },
+  {
+    "qid": "q_1003",
+    "question": "Một năm học có bao nhiêu học kỳ chính?",
+    "positive_passage_id": "p_0023"
+  },
+  {
+    "qid": "q_1100",
+    "question": "Làm thế nào để mở lớp cho nhóm 12 sinh viên chuyên ngành?",
+    "positive_passage_id": "p_0032"
+  },
+  {
+    "qid": "q_5501",
+    "question": "Chứng chỉ ngoại ngữ được cấp cách thời điểm xét công nhận tốt nghiệp đúng 24 tháng có được chấp nhận không?",
+    "positive_passage_id": "p_0139"
+  },
+  {
+    "qid": "q_5059",
+    "question": "Đạt hay không đạt – ai quyết định cho thực tập doanh nghiệp?",
+    "positive_passage_id": "p_0078"
+  },
+  {
+    "qid": "q_2419",
+    "question": "Có giới hạn số môn được đăng ký không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "qid": "q_3297",
+    "question": "Học kỳ phụ có quy định tín chỉ tối thiểu không?",
+    "positive_passage_id": "p_0037"
+  },
+  {
+    "qid": "q_3974",
+    "question": "Điều kiện bị đình chỉ là gì?",
+    "positive_passage_id": "p_0142"
+  },
+  {
+    "qid": "q_5104",
+    "question": "Nếu điểm từ 9.0 đến 10.0 thì điểm chữ là gì?",
+    "positive_passage_id": "p_0095"
+  },
+  {
+    "qid": "q_3922",
+    "question": "Tốt nghiệp cần chứng chỉ quốc phòng không?",
+    "positive_passage_id": "p_0129"
+  },
+  {
+    "qid": "q_0322",
+    "question": "Theo đoạn văn, sinh viên có cần biết gõ tiếng Việt không?",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "qid": "q_3281",
+    "question": "Học kỳ phụ có đợt đăng ký không?",
+    "positive_passage_id": "p_0036"
+  },
+  {
+    "qid": "q_3096",
+    "question": "Chương trình có điều chỉnh theo từng khóa không?",
+    "positive_passage_id": "p_0010"
+  },
+  {
+    "qid": "q_5294",
+    "question": "Xếp loại Không đạt ứng với dải điểm nào?",
+    "positive_passage_id": "p_0103"
+  },
+  {
+    "qid": "q_4587",
+    "question": "Mức học phí cao hơn áp dụng cho lớp nào?",
+    "positive_passage_id": "p_0045"
+  },
+  {
+    "qid": "q_4409",
+    "question": "Mỗi nhóm thực hành cần ít nhất 10 người, vậy nhiều nhất là bao nhiêu?",
+    "positive_passage_id": "p_0032"
+  },
+  {
+    "qid": "q_0829",
+    "question": "Làm sao để được học học phần thay thế?",
+    "positive_passage_id": "p_0009"
+  },
+  {
+    "qid": "q_4711",
+    "question": "Tai nạn không thi được, cần giấy tờ gì?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "qid": "q_5422",
+    "question": "Có cần tất cả thành viên chấm dưới 5,0 mới bị F không?",
+    "positive_passage_id": "p_0125"
+  },
+  {
+    "qid": "q_3051",
+    "question": "Khối giáo dục đại cương gồm những học phần nào?",
+    "positive_passage_id": "p_0006"
+  },
+  {
+    "qid": "q_4057",
+    "question": "Nếu chương trình đào tạo muốn hội nhập thì cần đáp ứng những điều kiện gì?",
+    "positive_passage_id": "p_0005"
+  },
+  {
+    "qid": "q_2840",
+    "question": "Xếp loại Đạt dành cho những điểm số như thế nào?",
+    "positive_passage_id": "p_0102"
+  },
+  {
+    "qid": "q_0210",
+    "question": "Sinh viên tự ý không đăng ký học phần sẽ bị xử lý thế nào?",
+    "positive_passage_id": "nvqs__003"
+  },
+  {
+    "qid": "q_2874",
+    "question": "Hiểu thế nào về khái niệm 'khối lượng tối đa được công nhận, chuyển đổi'?",
+    "positive_passage_id": "p_0115"
+  },
+  {
+    "qid": "q_0082",
+    "question": "Chính sách giảm học phí áp dụng cho ai ở vùng khó khăn?",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "qid": "q_5253",
+    "question": "Bao nhiêu điểm thì được điểm D+?",
+    "positive_passage_id": "p_0101"
+  },
+  {
+    "qid": "q_1946",
+    "question": "Sinh viên phải đăng ký học lại môn bắt buộc bị F vào lúc nào trong năm học?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_4433",
+    "question": "Đợt đăng ký chính thức phải hoàn thành chậm nhất là khi nào?",
+    "positive_passage_id": "p_0036"
+  },
+  {
+    "qid": "q_5325",
+    "question": "Cần điểm trung bình tích lũy bao nhiêu để được loại xuất sắc?",
+    "positive_passage_id": "p_0111"
+  },
+  {
+    "qid": "q_2783",
+    "question": "Does a score of 7.0 fall into the Đạt category?",
+    "positive_passage_id": "p_0099"
+  },
+  {
+    "qid": "q_2388",
+    "question": "TBC tích lũy 2,0 thì xếp hạng gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "qid": "q_0413",
+    "question": "Tôi phải truy cập vào địa chỉ web nào để thực hiện việc đăng ký học phần dự kiến?",
+    "positive_passage_id": "dki_dukien__001"
+  },
+  {
+    "qid": "q_4303",
+    "question": "Học chính quy, được online tối đa 30% đúng không?",
+    "positive_passage_id": "p_0022"
+  },
+  {
+    "qid": "q_4390",
+    "question": "Nếu lớp chuyên ngành có 10 sinh viên thì phải làm gì?",
+    "positive_passage_id": "p_0032"
+  },
+  {
+    "qid": "q_0715",
+    "question": "Theo đoạn văn, đối tượng đào tạo có được nêu rõ không?",
+    "positive_passage_id": "p_0004"
+  },
+  {
+    "qid": "q_4834",
+    "question": "Nhờ người thi hộ lần 2 có bị buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "qid": "q_1218",
+    "question": "Làm thế nào để xác định 2 học phần bị hủy khi sinh viên không đóng học phí?",
+    "positive_passage_id": "p_0041"
+  },
+  {
+    "qid": "q_4001",
+    "question": "Chuyên ngành do ai quản lý?",
+    "positive_passage_id": "p_0003"
+  },
+  {
+    "qid": "q_2677",
+    "question": "Có phải tất cả các bài thực hành đều bắt buộc tham dự không?",
+    "positive_passage_id": "p_0077"
+  },
+  {
+    "qid": "q_4852",
+    "question": "Sinh viên bị xóa tên có nằm trong diện buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "qid": "q_0727",
+    "question": "Thế nào được gọi là một chương trình đào tạo theo nội dung đoạn văn?",
+    "positive_passage_id": "p_0004"
+  },
+  {
+    "qid": "q_0375",
+    "question": "Sinh viên tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án ở đâu?",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "qid": "q_4957",
+    "question": "Trường hợp nào sinh viên không được phép chuyển trường?",
+    "positive_passage_id": "p_0072"
+  },
+  {
+    "qid": "q_2541",
+    "question": "Cảnh báo mức 2 phải đăng ký tối thiểu bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "qid": "q_4601",
+    "question": "Sinh viên có điểm D có bắt buộc phải học lại hay không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_3666",
+    "question": "Điểm đánh giá nhận thức được tính bằng thang điểm 10, đúng không?",
+    "positive_passage_id": "p_0075"
+  },
+  {
+    "qid": "q_4180",
+    "question": "Nếu Bộ môn đã đề xuất, bước tiếp theo là gì?",
+    "positive_passage_id": "p_0011"
+  },
+  {
+    "qid": "q_3121",
+    "question": "Kinh nghiệm thực tiễn yêu cầu tối thiểu bao gồm những gì?",
+    "positive_passage_id": "p_0012"
+  },
+  {
+    "qid": "q_4301",
+    "question": "Dịch bệnh phức tạp thì nhà trường dạy theo hướng dẫn của bộ nào?",
+    "positive_passage_id": "p_0022"
+  },
+  {
+    "qid": "q_3154",
+    "question": "Yêu cầu cấp độ bậc 3 ngoại ngữ là gì?",
+    "positive_passage_id": "p_0016"
+  },
+  {
+    "qid": "q_3457",
+    "question": "Trường không mở lớp, sinh viên có thể học phần thay thế?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "qid": "q_0782",
+    "question": "Bậc đại học có bắt buộc học thể dục và giáo dục quốc phòng không?",
+    "positive_passage_id": "p_0007"
+  },
+  {
+    "qid": "q_4712",
+    "question": "Sinh viên ốm muốn xin hoãn thi cuối kỳ, nộp đơn ở đâu?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "qid": "q_1216",
+    "question": "Đối tượng sinh viên nào sẽ bị hủy 2 học phần?",
+    "positive_passage_id": "p_0041"
+  },
+  {
+    "qid": "q_2379",
+    "question": "Cách xác định mình thuộc diện học lực yếu là gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "qid": "q_0125",
+    "question": "Mức giảm 70% học phí có được áp dụng không?",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "qid": "q_3764",
+    "question": "Điểm từ 7.0 đến dưới 8.0 là gì?",
+    "positive_passage_id": "p_0098"
+  },
+  {
+    "qid": "q_3620",
+    "question": "Có thể chuyển sang phân hiệu khác khi còn thời gian học tập theo Điều 7 không?",
+    "positive_passage_id": "p_0070"
+  },
+  {
+    "qid": "q_0273",
+    "question": "Hiệu trưởng có vai trò gì trong việc cấp học bổng?",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "qid": "q_4016",
+    "question": "Hai chuyên ngành trong cùng một ngành, kiến thức chênh lệch tối đa chiếm bao nhiêu chương trình?",
+    "positive_passage_id": "p_0003"
+  },
+  {
+    "qid": "q_3342",
+    "question": "Sinh viên phải không đạt chuẩn năng lực ngoại ngữ khi nào?",
+    "positive_passage_id": "p_0042"
+  },
+  {
+    "qid": "q_5113",
+    "question": "Cho hỏi quy định: điểm 9.8 thì xếp loại gì?",
+    "positive_passage_id": "p_0095"
+  },
+  {
+    "qid": "q_4248",
+    "question": "Tín chỉ là gì?",
+    "positive_passage_id": "p_0017"
+  },
+  {
+    "qid": "q_3067",
+    "question": "Tối thiểu 150 TC có bao gồm giáo dục quốc phòng- an ninh không?",
+    "positive_passage_id": "p_0007"
+  },
+  {
+    "qid": "q_4313",
+    "question": "Nếu lớp xếp 16 tuần ở học kỳ chính thì có tuần dự trữ không?",
+    "positive_passage_id": "p_0023"
+  },
+  {
+    "qid": "q_5013",
+    "question": "Chưa làm xong thực hành, có được vào phòng thi lý thuyết không?",
+    "positive_passage_id": "p_0076"
+  },
+  {
+    "qid": "q_4539",
+    "question": "Điểm F xảy ra trong trường hợp nào theo quy định?",
+    "positive_passage_id": "p_0043"
+  },
+  {
+    "qid": "q_3110",
+    "question": "Mức độ đáp ứng chuẩn đầu ra được đánh giá bằng cách nào?",
+    "positive_passage_id": "p_0011"
+  },
+  {
+    "qid": "q_0304",
+    "question": "Đặt tên file có phải là kỹ năng văn phòng sinh viên cần có?",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "qid": "q_1071",
+    "question": "Điều gì xảy ra nếu số sinh viên đăng ký nguyện vọng quá ít?",
+    "positive_passage_id": "p_0027"
+  },
+  {
+    "qid": "q_5134",
+    "question": "Nếu điểm là 8.5 thì điểm hệ 4 là bao nhiêu?",
+    "positive_passage_id": "p_0096"
+  },
+  {
+    "qid": "q_2453",
+    "question": "TBC kỳ ở ngưỡng nào sẽ bị tăng 2 mức?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_4892",
+    "question": "Để được học song song, trước đó cần học ít nhất một kỳ ở CT1 và có điểm thế nào?",
+    "positive_passage_id": "p_0066"
+  },
+  {
+    "qid": "q_0730",
+    "question": "Chương trình đào tạo được cấu trúc từ những gì?",
+    "positive_passage_id": "p_0006"
+  },
+  {
+    "qid": "q_4243",
+    "question": "Bên cạnh ngoại ngữ và tin học, còn yêu cầu gì khác?",
+    "positive_passage_id": "p_0016"
+  },
+  {
+    "qid": "q_4772",
+    "question": "TBC tích lũy từ 2,0 đổ lên gọi là hạng gì?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "qid": "q_1540",
+    "question": "Trong học kỳ nào sinh viên có thể đăng ký học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_4926",
+    "question": "Sinh viên bị buộc thôi học có được chuyển chương trình không?",
+    "positive_passage_id": "p_0070"
+  },
+  {
+    "qid": "q_3658",
+    "question": "b2 trong công thức B là điểm gì?",
+    "positive_passage_id": "p_0075"
+  },
+  {
+    "qid": "q_3513",
+    "question": "Nếu đạt 64 tín chỉ, bạn chuyển sang năm học nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_0287",
+    "question": "Điều kiện gì để được ưu tiên xét học bổng?",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "qid": "q_4594",
+    "question": "Lớp dưới mức sinh viên tối thiểu, học phí tính cao hơn đúng không?",
+    "positive_passage_id": "p_0045"
+  },
+  {
+    "qid": "q_2313",
+    "question": "Theo thang tín chỉ, năm nhất được xếp thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_0981",
+    "question": "Khi nào sinh viên được phép học học phần học trước?",
+    "positive_passage_id": "p_0018"
+  },
+  {
+    "qid": "q_1302",
+    "question": "Sinh viên được phép học lại môn bắt buộc trong bao nhiêu học kỳ?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_2756",
+    "question": "Cần đạt ít nhất bao nhiêu điểm để được điểm chữ B+?",
+    "positive_passage_id": "p_0097"
+  },
+  {
+    "qid": "q_2259",
+    "question": "Điều kiện để được nghỉ tạm thời vì nhu cầu cá nhân là gì?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "qid": "q_0826",
+    "question": "Sinh viên có được dùng học phần tương đương để thay thế học phần bắt buộc không?",
+    "positive_passage_id": "p_0009"
+  },
+  {
+    "qid": "q_2361",
+    "question": "Năm thứ tư trong thang tín chỉ được xác định thế nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_3948",
+    "question": "Nếu vượt 5% thì hạng giảm một mức, đúng không?",
+    "positive_passage_id": "p_0136"
+  },
+  {
+    "qid": "q_4141",
+    "question": "Môn bắt buộc không đủ điều kiện giảng dạy thì thay bằng môn gì?",
+    "positive_passage_id": "p_0009"
+  },
+  {
+    "qid": "q_2532",
+    "question": "Cảnh báo mức 1 được đăng ký tối đa bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "qid": "q_1443",
+    "question": "Hạng bình thường trong xếp hạng học lực được hiểu thế nào?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "qid": "q_2861",
+    "question": "Định nghĩa của điểm TBC tích lũy trong quy chế này là gì?",
+    "positive_passage_id": "p_0110"
+  },
+  {
+    "qid": "q_4774",
+    "question": "Hạng yếu được hiểu thế nào theo quy định?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "qid": "q_3627",
+    "question": "Chuyển trường cần cùng ngành hoặc cùng nhóm ngành không?",
+    "positive_passage_id": "p_0071"
+  },
+  {
+    "qid": "q_4549",
+    "question": "Rút học phần ở học kỳ chính sau 2 tuần, học kỳ phụ sau 1 tuần – có đúng quy định không?",
+    "positive_passage_id": "p_0043"
+  },
+  {
+    "qid": "q_4185",
+    "question": "Đầu kỳ, sinh viên có được xem đề cương chi tiết không?",
+    "positive_passage_id": "p_0011"
+  },
+  {
+    "qid": "q_1072",
+    "question": "Số lượng sinh viên tối thiểu có chính xác là 20 không?",
+    "positive_passage_id": "p_0027"
+  },
+  {
+    "qid": "q_3829",
+    "question": "Khi nào áp dụng điểm TBC để xét thôi học giữa các kỳ?",
+    "positive_passage_id": "p_0110"
+  },
+  {
+    "qid": "q_4579",
+    "question": "Lớp dưới mức tối thiểu thì học phí thế nào?",
+    "positive_passage_id": "p_0045"
+  },
+  {
+    "qid": "q_3638",
+    "question": "Trường có quy định về thời gian chuyển trường không?",
+    "positive_passage_id": "p_0071"
+  },
+  {
+    "qid": "q_2967",
+    "question": "Quy trình xét công nhận tốt nghiệp áp dụng cho sinh viên đã vượt quá thời gian học cho phép ra sao?",
+    "positive_passage_id": "p_0139"
+  },
+  {
+    "qid": "q_1062",
+    "question": "Hiệu trưởng có vai trò gì trong tuyển sinh?",
+    "positive_passage_id": "p_0026"
+  },
+  {
+    "qid": "q_3808",
+    "question": "Điểm P là bao nhiêu trở lên?",
+    "positive_passage_id": "p_0103"
+  },
+  {
+    "qid": "q_3267",
+    "question": "Lớp quản lý sinh viên được phân công giảng viên chủ nhiệm ở đâu?",
+    "positive_passage_id": "p_0033"
+  },
+  {
+    "qid": "q_4179",
+    "question": "Nếu muốn biết điều kiện tham dự thì tìm ở đâu?",
+    "positive_passage_id": "p_0011"
+  },
+  {
+    "qid": "q_4562",
+    "question": "Nếu chưa được phòng ĐTĐH chấp thuận thì có được rút bớt học phần không?",
+    "positive_passage_id": "p_0044"
+  },
+  {
+    "qid": "q_3799",
+    "question": "Điểm dưới 5.0 nhưng trên 4.0 có bằng D không?",
+    "positive_passage_id": "p_0102"
+  },
+  {
+    "qid": "q_3505",
+    "question": "Sinh viên có đủ 37 tín chỉ thì đang ở năm học nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_2679",
+    "question": "Quy trình tính điểm cho học phần thực hành gồm những bước nào?",
+    "positive_passage_id": "p_0077"
+  },
+  {
+    "qid": "q_4675",
+    "question": "Sinh viên phải thực hiện đăng ký học lại giống hệt đăng ký học phần lần đầu.",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "qid": "q_1000",
+    "question": "Yêu cầu về tỷ lệ trực tuyến đối với hệ đào tạo vừa làm vừa học có khác gì so với hệ chính quy?",
+    "positive_passage_id": "p_0022"
+  },
+  {
+    "qid": "q_4960",
+    "question": "Tôi là sinh viên năm nhất, tôi có thể chuyển trường được không?",
+    "positive_passage_id": "p_0072"
+  },
+  {
+    "qid": "q_2888",
+    "question": "Trường hợp em đã hoàn tất mọi môn học ngoại trừ đồ án, vậy có đủ điều kiện thực tập chưa?",
+    "positive_passage_id": "p_0116"
+  },
+  {
+    "qid": "q_0520",
+    "question": "Kể từ năm học nào thì sinh viên được áp dụng quy trình này?",
+    "positive_passage_id": "drl__002"
+  },
+  {
+    "qid": "q_2448",
+    "question": "90% tín chỉ không đạt thì bị tăng mấy mức cảnh báo?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_0513",
+    "question": "Sinh viên cần chuẩn bị những gì để điều chỉnh điểm rèn luyện?",
+    "positive_passage_id": "drl__002"
+  },
+  {
+    "qid": "q_4205",
+    "question": "\"Chuẩn đầu vào\" – nói nôm na là những điều kiện tối thiểu để học tốt phải không?",
+    "positive_passage_id": "p_0012"
+  },
+  {
+    "qid": "q_3350",
+    "question": "Học kỳ nào sau khi không đạt chuẩn năng lực?",
+    "positive_passage_id": "p_0042"
+  },
+  {
+    "qid": "q_2734",
+    "question": "Nếu có 9.0 điểm, liệu có được xếp loại Đạt hay không?",
+    "positive_passage_id": "p_0095"
+  },
+  {
+    "qid": "q_3210",
+    "question": "Chương trình 4 năm tốt nghiệp sớm nhất sau bao lâu?",
+    "positive_passage_id": "p_0024"
+  },
+  {
+    "qid": "q_0259",
+    "question": "Giải thưởng có phải là một trong những điều kiện để nhận học bổng không?",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "qid": "q_4275",
+    "question": "Cho em hỏi, học phần tiên quyết với học phần học trước khác nhau chỗ nào vậy?",
+    "positive_passage_id": "p_0018"
+  },
+  {
+    "qid": "q_3195",
+    "question": "Học kỳ chính có bao nhiêu tuần?",
+    "positive_passage_id": "p_0023"
+  },
+  {
+    "qid": "q_0895",
+    "question": "Có phải chuẩn đầu vào yêu cầu cả trình độ lẫn kinh nghiệm?",
+    "positive_passage_id": "p_0012"
+  },
+  {
+    "qid": "q_3512",
+    "question": "Bạn có 25 tín chỉ, bạn đang ở năm học nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_0364",
+    "question": "Sinh viên tốt nghiệp sớm cần xin quyết định gì?",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "qid": "q_4973",
+    "question": "Sinh viên bị kỷ luật mức cảnh cáo có được chuyển không?",
+    "positive_passage_id": "p_0072"
+  },
+  {
+    "qid": "q_5518",
+    "question": "Hai lần vi phạm thi hộ thì lần sau nặng hơn lần trước thế nào?",
+    "positive_passage_id": "p_0142"
+  },
+  {
+    "qid": "q_4578",
+    "question": "Học lại, học vượt có được đề nghị duy trì lớp không?",
+    "positive_passage_id": "p_0045"
+  },
+  {
+    "qid": "q_1142",
+    "question": "Có phải tất cả các học kỳ đều có đủ 3 đợt đăng ký không?",
+    "positive_passage_id": "p_0036"
+  },
+  {
+    "qid": "q_4343",
+    "question": "Đi nghĩa vụ quân sự 2 năm, thời gian đó có làm tăng thời gian tối đa không?",
+    "positive_passage_id": "p_0024"
+  },
+  {
+    "qid": "q_4886",
+    "question": "Nếu không bị tạm dừng học CT2 thì điểm của cả hai chương trình phải đạt từ bao nhiêu?",
+    "positive_passage_id": "p_0066"
+  },
+  {
+    "qid": "q_0798",
+    "question": "Học phần tự chọn tự do có đặc điểm gì?",
+    "positive_passage_id": "p_0008"
+  },
+  {
+    "qid": "q_4415",
+    "question": "Đơn vị nào có trách nhiệm quản lý chung toàn trường?",
+    "positive_passage_id": "p_0033"
+  },
+  {
+    "qid": "q_4707",
+    "question": "Sinh viên phải làm gì khi bị tai nạn vào ngày thi cuối kỳ?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "qid": "q_5502",
+    "question": "Bao lâu thì sinh viên quá hạn học phải bổ sung xong các chứng chỉ còn thiếu?",
+    "positive_passage_id": "p_0139"
+  },
+  {
+    "qid": "q_5069",
+    "question": "Hỏi nhanh: điểm thi kết thúc học phần tính theo thang mấy?",
+    "positive_passage_id": "p_0093"
+  },
+  {
+    "qid": "q_4178",
+    "question": "Tài liệu học tập có trong đề cương không?",
+    "positive_passage_id": "p_0011"
+  },
+  {
+    "qid": "q_0568",
+    "question": "Công thức tính học phí theo tín chỉ là gì?",
+    "positive_passage_id": "hoc_phi__001"
+  },
+  {
+    "qid": "q_4779",
+    "question": "Vào thời điểm nào thì sinh viên được đánh giá và xếp hạng học lực?",
+    "positive_passage_id": "p_0058"
+  },
+  {
+    "qid": "q_3492",
+    "question": "Điều 17 quy định buộc thôi học khi nào áp dụng cho sinh viên?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "qid": "q_2443",
+    "question": "Điều kiện để tăng 1 mức cảnh báo học tập là gì?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_4388",
+    "question": "Bao nhiêu là ít quá để không mở ngành?",
+    "positive_passage_id": "p_0027"
+  },
+  {
+    "qid": "q_2887",
+    "question": "Một người có điểm trung bình 1.9 và chỉ nợ 1 môn, có được đi thực tập không?",
+    "positive_passage_id": "p_0116"
+  },
+  {
+    "qid": "q_3817",
+    "question": "Xếp hạng tốt nghiệp dựa vào điểm thi kết thúc phần như?",
+    "positive_passage_id": "p_0110"
+  },
+  {
+    "qid": "q_3886",
+    "question": "Người hướng dẫn phải làm gì sau hoàn thành đồ án?",
+    "positive_passage_id": "p_0122"
+  },
+  {
+    "qid": "q_4374",
+    "question": "Một chuyên ngành có thể không được mở cho một khóa nếu số lượng đăng ký quá ít, đúng không?",
+    "positive_passage_id": "p_0027"
+  },
+  {
+    "qid": "q_0112",
+    "question": "Mức miễn giảm học phí 70% có áp dụng cho trẻ bị bỏ rơi không?",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "qid": "q_2477",
+    "question": "TBC kỳ bằng 1,0 có được giảm mức cảnh báo không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_5306",
+    "question": "Khi tính điểm trung bình chung học kỳ, người ta lấy điểm thi lần cao nhất hay lần cuối?",
+    "positive_passage_id": "p_0110"
+  },
+  {
+    "qid": "q_2688",
+    "question": "Bộ môn có trách nhiệm tổ chức nghiệm thu cho những loại hình thực tập nào?",
+    "positive_passage_id": "p_0078"
+  },
+  {
+    "qid": "q_0975",
+    "question": "Mỗi học phần có đặc điểm gì về mã số?",
+    "positive_passage_id": "p_0018"
+  },
+  {
+    "qid": "q_3378",
+    "question": "Nếu không vi phạm khoản 4 Điều 10 thì phòng ĐTĐH sẽ chấp thuận ngay?",
+    "positive_passage_id": "p_0044"
+  },
+  {
+    "qid": "q_3469",
+    "question": "Điều kiện bệnh lý để được hoãn thi là gì?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "qid": "q_2417",
+    "question": "Biện pháp buộc thôi học có được liệt kê không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "qid": "q_4559",
+    "question": "Được phòng ĐTĐH chấp thuận – đó có phải là một điều kiện để rút bớt học phần không?",
+    "positive_passage_id": "p_0044"
+  },
+  {
+    "qid": "q_3645",
+    "question": "Nằm ngoài vùng tuyển quy định làm sao ảnh hưởng tới chuyển trường?",
+    "positive_passage_id": "p_0072"
+  },
+  {
+    "qid": "q_2923",
+    "question": "Theo quy định, sinh viên khi bị điểm F đồ án có phải bảo vệ lại không?",
+    "positive_passage_id": "p_0128"
+  },
+  {
+    "qid": "q_0189",
+    "question": "Sinh viên đang làm đồ án ở kỳ cuối có thuộc diện được xin tạm hoãn nghĩa vụ quân sự không?",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "qid": "q_4382",
+    "question": "Với một khóa sinh viên, nếu số lượng đăng ký học quá ít, ngành đó sẽ không được mở đào tạo?",
+    "positive_passage_id": "p_0027"
+  },
+  {
+    "qid": "q_2317",
+    "question": "Theo thang tín chỉ, năm thứ hai là mức tín chỉ nào?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_0111",
+    "question": "Có phải mức miễn giảm học phí 100% chỉ áp dụng cho người có công không?",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "qid": "q_3079",
+    "question": "Sinh viên cần nộp danh mục học phần vào Khoa/Bộ môn khi nào?",
+    "positive_passage_id": "p_0008"
+  },
+  {
+    "qid": "q_1115",
+    "question": "Yêu cầu về người hướng dẫn cho mỗi nhóm thực hành là gì?",
+    "positive_passage_id": "p_0032"
+  },
+  {
+    "qid": "q_0682",
+    "question": "Hoạt động đầu tiên trong quy định là gì?",
+    "positive_passage_id": "p_0001"
+  },
+  {
+    "qid": "q_1048",
+    "question": "Hiệu trưởng có quy định số lượng không?",
+    "positive_passage_id": "p_0026"
+  },
+  {
+    "qid": "q_0299",
+    "question": "Ai là đối tượng cần có các kỹ năng văn phòng này?",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "qid": "q_5036",
+    "question": "Các bài thực hành trong học kỳ được tổng hợp thành điểm học phần như thế nào?",
+    "positive_passage_id": "p_0077"
+  },
+  {
+    "qid": "q_0395",
+    "question": "Điều kiện để được hoãn xét tốt nghiệp là gì?",
+    "positive_passage_id": "sv_khoa_cuoi__002"
+  },
+  {
+    "qid": "q_2508",
+    "question": "Bị xóa tên khỏi danh sách sinh viên có bị buộc thôi học không?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "qid": "q_5377",
+    "question": "Sinh viên nợ một môn, TBC 2,2 thì có được thực tập không?",
+    "positive_passage_id": "p_0116"
+  },
+  {
+    "qid": "q_3630",
+    "question": "Trường có thể từ chối chuyển trường theo khoản 3 Điều này?",
+    "positive_passage_id": "p_0071"
+  },
+  {
+    "qid": "q_0941",
+    "question": "Nếu tôi có trình độ ngoại ngữ tương đương bậc 2, tôi có đủ điều kiện không?",
+    "positive_passage_id": "p_0013"
+  },
+  {
+    "qid": "q_0943",
+    "question": "Có yêu cầu về công nghệ thông tin cho tốt nghiệp hay không?",
+    "positive_passage_id": "p_0016"
+  },
+  {
+    "qid": "q_3153",
+    "question": "Cần có trình độ công nghệ thông tin theo quy định của Bộ?",
+    "positive_passage_id": "p_0016"
+  },
+  {
+    "qid": "q_5510",
+    "question": "Thi hộ bị đình chỉ học tập một năm đúng không?",
+    "positive_passage_id": "p_0142"
+  },
+  {
+    "qid": "q_5265",
+    "question": "Hệ 4 của điểm từ 4.0 đến dưới 5.0 là bao nhiêu?",
+    "positive_passage_id": "p_0102"
+  },
+  {
+    "qid": "q_4447",
+    "question": "Đăng ký chính thức là đợt mấy?",
+    "positive_passage_id": "p_0036"
+  },
+  {
+    "qid": "q_1242",
+    "question": "Làm sao để tránh bị điểm F khi không muốn tiếp tục học phần?",
+    "positive_passage_id": "p_0043"
+  },
+  {
+    "qid": "q_4432",
+    "question": "Đăng ký học qua website nào?",
+    "positive_passage_id": "p_0036"
+  },
+  {
+    "qid": "q_4419",
+    "question": "Ai quản lý sinh viên?",
+    "positive_passage_id": "p_0033"
+  },
+  {
+    "qid": "q_4564",
+    "question": "Giảng viên chủ nhiệm cần có ý kiến về việc rút bớt học phần đúng không?",
+    "positive_passage_id": "p_0044"
+  },
+  {
+    "qid": "q_5285",
+    "question": "Từ 5,0 trở lên gọi là loại gì?",
+    "positive_passage_id": "p_0103"
+  },
+  {
+    "qid": "q_4477",
+    "question": "Thỏa mãn các điều kiện ràng buộc riêng thì sinh viên có thể đăng ký bất cứ học phần nào đang mở trong học kỳ, đúng không?",
+    "positive_passage_id": "p_0039"
+  },
+  {
+    "qid": "q_3270",
+    "question": "Được phân ngành, danh sách lớp quản lý có điều chỉnh không?",
+    "positive_passage_id": "p_0033"
+  },
+  {
+    "qid": "q_2587",
+    "question": "Theo quy định, thời gian học tối đa cho sinh viên học hai chương trình được ghi ở điều khoản nào?",
+    "positive_passage_id": "p_0067"
+  },
+  {
+    "qid": "q_1363",
+    "question": "Làm thế nào để tính điểm thi chính thức khi sinh viên học nhiều lần?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "qid": "q_3544",
+    "question": "Sinh viên bị cảnh báo mức 3 có phải nộp đơn xin phép không?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_5144",
+    "question": "Điểm từ 8.0 đến dưới 8.5 thì xếp loại gì?",
+    "positive_passage_id": "p_0097"
+  },
+  {
+    "qid": "q_1127",
+    "question": "Giảng viên chủ nhiệm có tư vấn việc rút học phần không?",
+    "positive_passage_id": "p_0033"
+  },
+  {
+    "qid": "q_3307",
+    "question": "Nếu học phần trùng sẽ bị loại điểm.",
+    "positive_passage_id": "p_0037"
+  },
+  {
+    "qid": "q_4019",
+    "question": "Ai có trách nhiệm quản lý chuyên ngành?",
+    "positive_passage_id": "p_0003"
+  },
+  {
+    "qid": "q_0231",
+    "question": "Học sinh THPT chuyên có được xét học bổng theo nghị định này không?",
+    "positive_passage_id": "quydinh_hb__001"
+  },
+  {
+    "qid": "q_5240",
+    "question": "Khoảng điểm 5.0 đến dưới 5.5 cho điểm chữ gì?",
+    "positive_passage_id": "p_0101"
+  },
+  {
+    "qid": "q_0178",
+    "question": "Điều kiện về học phí để được xác nhận tạm hoãn nghĩa vụ quân sự là gì?",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "qid": "q_0302",
+    "question": "Có phải sinh viên cần kỹ năng sử dụng Google Drive?",
+    "positive_passage_id": "skill_nedded__001"
+  },
+  {
+    "qid": "q_4379",
+    "question": "Hiệu trưởng có trách nhiệm gì trong trường hợp đặc biệt?",
+    "positive_passage_id": "p_0027"
+  },
+  {
+    "qid": "q_1010",
+    "question": "Học kỳ chính có những hình thức xếp lớp nào?",
+    "positive_passage_id": "p_0023"
+  },
+  {
+    "qid": "q_3044",
+    "question": "Sự phù hợp của đào tạo với sứ mạng trường là điều kiện gì?",
+    "positive_passage_id": "p_0005"
+  },
+  {
+    "qid": "q_1147",
+    "question": "Sinh viên có bắt buộc đăng ký qua daotao.humg.edu.vn không?",
+    "positive_passage_id": "p_0036"
+  },
+  {
+    "qid": "q_5005",
+    "question": "Khi nào sinh viên mới được thi lý thuyết?",
+    "positive_passage_id": "p_0076"
+  },
+  {
+    "qid": "q_4882",
+    "question": "Khi nào thì bị buộc thôi học chương trình 2?",
+    "positive_passage_id": "p_0066"
+  },
+  {
+    "qid": "q_3310",
+    "question": "Nếu không có trình tự học tập thì sinh viên làm gì?",
+    "positive_passage_id": "p_0039"
+  },
+  {
+    "qid": "q_3554",
+    "question": "Tính điểm không tham gia vào tỷ lệ % số tín chỉ không đạt như thế nào?",
+    "positive_passage_id": "p_0061"
+  },
+  {
+    "qid": "q_2046",
+    "question": "Học phần tự chọn tương đương theo quy định được hiểu là gì?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "qid": "q_3177",
+    "question": "Học phần song hành có thể đăng ký sau khi hoàn thành A, đúng không?",
+    "positive_passage_id": "p_0018"
+  },
+  {
+    "qid": "q_4499",
+    "question": "\"Không nộp tiền học sau hạn chót, có bị nghỉ học kỳ sau không?\"",
+    "positive_passage_id": "p_0041"
+  },
+  {
+    "qid": "q_0267",
+    "question": "Kể tên ba mức xếp loại sinh viên được đề cập.",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "qid": "q_4709",
+    "question": "Trong bao nhiêu ngày sau khi ốm thì sinh viên phải nộp đơn xin hoãn?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "qid": "q_4104",
+    "question": "Học chuyên sâu bậc 7 chỉ mất 30 tín chỉ trong điều kiện nào?",
+    "positive_passage_id": "p_0007"
+  },
+  {
+    "qid": "q_4797",
+    "question": "Nếu sinh viên bị xử lý học vụ, liệu có bị hạn chế đăng ký môn không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "qid": "q_1975",
+    "question": "Làm thế nào xác định mình có phải học lại môn bắt buộc không?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_1939",
+    "question": "Khi bị F môn bắt buộc nhưng không buộc thôi học, sinh viên phải làm gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_4804",
+    "question": "Nhà trường có nghĩa vụ áp dụng các hình thức xử lý kết quả học tập vào cuối mỗi học kỳ chính không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "qid": "q_5473",
+    "question": "Học lại nhiều quá 5% có bị tụt bằng không?",
+    "positive_passage_id": "p_0136"
+  },
+  {
+    "qid": "q_3687",
+    "question": "Điểm trung bình cộng của học phần thực hành được tính bằng cách nào?",
+    "positive_passage_id": "p_0077"
+  },
+  {
+    "qid": "q_4871",
+    "question": "Mức cảnh báo nào có giới hạn tối đa thấp hơn, mức 1 hay mức 2?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "qid": "q_5421",
+    "question": "Điểm đồ án tốt nghiệp có bắt buộc là số nguyên không?",
+    "positive_passage_id": "p_0125"
+  },
+  {
+    "qid": "q_3881",
+    "question": "Ai viết nhận xét cho đồ án sinh viên?",
+    "positive_passage_id": "p_0122"
+  },
+  {
+    "qid": "q_5021",
+    "question": "Có trường hợp nào chưa làm thực hành mà vẫn được thi lý thuyết không?",
+    "positive_passage_id": "p_0076"
+  },
+  {
+    "qid": "q_4799",
+    "question": "Được áp dụng vào cuối mỗi học kỳ chính, các hình thức xử lý kết quả học tập bao gồm những gì?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "qid": "q_3013",
+    "question": "Điều kiện để được chuyển đổi môn học trong hệ thống tín chỉ là gì?",
+    "positive_passage_id": "p_0001"
+  },
+  {
+    "qid": "q_5463",
+    "question": "Sinh viên hỏi nhanh: điểm TBC tích lũy tối thiểu là 2.0 đúng không?",
+    "positive_passage_id": "p_0129"
+  },
+  {
+    "qid": "q_1942",
+    "question": "Điều bắt buộc nếu bị F môn bắt buộc nhưng không buộc thôi học là gì?",
+    "positive_passage_id": "p_0048"
+  },
+  {
+    "qid": "q_4504",
+    "question": "Khi nào sinh viên bị hủy học phần?",
+    "positive_passage_id": "p_0041"
+  },
+  {
+    "qid": "q_5090",
+    "question": "Loại đạt có phân mức áp dụng cho loại học phần nào?",
+    "positive_passage_id": "p_0094"
+  },
+  {
+    "qid": "q_4353",
+    "question": "Nếu sinh viên đăng ký nhiều nguyện vọng, thứ tự ưu tiên có được áp dụng không?",
+    "positive_passage_id": "p_0026"
+  },
+  {
+    "qid": "q_4737",
+    "question": "Nếu không bị điều động vào quân đội, có nằm trong diện được nghỉ tạm thời không?",
+    "positive_passage_id": "p_0055"
+  },
+  {
+    "qid": "q_2944",
+    "question": "Theo điều kiện thứ hai, bên cạnh học phần, sinh viên cần tích lũy thêm gì?",
+    "positive_passage_id": "p_0129"
+  },
+  {
+    "qid": "q_2978",
+    "question": "Làm cách nào để bổ sung chứng chỉ còn thiếu nhằm được xét tốt nghiệp khi đã học quá thời hạn?",
+    "positive_passage_id": "p_0139"
+  },
+  {
+    "qid": "q_4095",
+    "question": "Một người đã có đại học cùng nhóm ngành muốn học chuyên sâu bậc 7 thì cần bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0007"
+  },
+  {
+    "qid": "q_5077",
+    "question": "Điểm thi kết thúc học phần chấm theo thang điểm 10 và làm tròn đến 0,1 có đúng không?",
+    "positive_passage_id": "p_0093"
+  },
+  {
+    "qid": "q_5342",
+    "question": "Loại giỏi có bao gồm điểm 3,6 không?",
+    "positive_passage_id": "p_0111"
+  },
+  {
+    "qid": "q_3791",
+    "question": "Hệ 4 là bao nhiêu tín chỉ cho D+?",
+    "positive_passage_id": "p_0101"
+  },
+  {
+    "qid": "q_2638",
+    "question": "Hình thức kỷ luật nào khiến sinh viên bị cấm chuyển trường?",
+    "positive_passage_id": "p_0072"
+  },
+  {
+    "qid": "q_2412",
+    "question": "Có áp dụng cảnh cáo học tập về kết quả học tập không?",
+    "positive_passage_id": "p_0060"
+  },
+  {
+    "qid": "q_3078",
+    "question": "Học phần tự chọn tự do bao gồm những gì?",
+    "positive_passage_id": "p_0008"
+  },
+  {
+    "qid": "q_2933",
+    "question": "Yêu cầu về kết quả học tập nhóm ngành nằm ở điều kiện thứ mấy?",
+    "positive_passage_id": "p_0129"
+  },
+  {
+    "qid": "q_0197",
+    "question": "Ai có thể nộp đơn xin tạm hoãn nghĩa vụ quân sự theo quy định này?",
+    "positive_passage_id": "nvqs__002"
+  },
+  {
+    "qid": "q_4620",
+    "question": "Sinh viên đã có điểm C có nghĩa vụ phải học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_4590",
+    "question": "Lớp học lại có được ưu tiên giữ dù ít người không?",
+    "positive_passage_id": "p_0045"
+  },
+  {
+    "qid": "q_4468",
+    "question": "Có bắt buộc học phần tự chọn phải có nội dung mới không?",
+    "positive_passage_id": "p_0037"
+  },
+  {
+    "qid": "q_3916",
+    "question": "Sinh viên cần nộp hồ sơ gì khi đăng ký TTTN/TTDN sau thời hạn?",
+    "positive_passage_id": "p_0128"
+  },
+  {
+    "qid": "q_4368",
+    "question": "Nếu số sinh viên đăng ký nguyện vọng theo học quá ít thì một ngành có không được mở đào tạo cho một khóa không?",
+    "positive_passage_id": "p_0027"
+  },
+  {
+    "qid": "q_1543",
+    "question": "Sinh viên có điểm C có được phép đăng ký học lại không?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_1189",
+    "question": "Ngoại lệ trong quá trình học là gì?",
+    "positive_passage_id": "p_0039"
+  },
+  {
+    "qid": "q_0705",
+    "question": "Chuyên ngành trực thuộc đối tượng nào?",
+    "positive_passage_id": "p_0003"
+  },
+  {
+    "qid": "q_4568",
+    "question": "Học phần bị rút bớt, học phí có được hoàn lại không?",
+    "positive_passage_id": "p_0044"
+  },
+  {
+    "qid": "q_0155",
+    "question": "Yêu cầu cụ thể về loại học phần để được xác nhận tạm hoãn là gì?",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "qid": "q_3769",
+    "question": "Điểm C+ hệ 4 là bao nhiêu?",
+    "positive_passage_id": "p_0099"
+  },
+  {
+    "qid": "q_0100",
+    "question": "Trong chính sách này có mức giảm 50% học phí không?",
+    "positive_passage_id": "mgiam_hphi__003"
+  },
+  {
+    "qid": "q_1511",
+    "question": "Sinh viên bị cảnh báo mức 2 có được đăng ký 13 tín chỉ không?",
+    "positive_passage_id": "p_0063"
+  },
+  {
+    "qid": "q_2336",
+    "question": "Tích lũy 70 tín chỉ thì xếp năm mấy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_5444",
+    "question": "Phải đăng ký đi TTTN/TTDN lại nếu không hoàn thành bảo vệ trong vòng một năm, đúng chứ?",
+    "positive_passage_id": "p_0128"
+  },
+  {
+    "qid": "q_3821",
+    "question": "Cách tính điểm TBC học kỳ có bao gồm môn nào?",
+    "positive_passage_id": "p_0110"
+  },
+  {
+    "qid": "q_3266",
+    "question": "Hết thời gian thiết kế khóa, sinh viên sinh hoạt lớp nào?",
+    "positive_passage_id": "p_0033"
+  },
+  {
+    "qid": "q_2331",
+    "question": "Năm 5 bắt đầu từ bao nhiêu tín chỉ?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_4284",
+    "question": "Loại học phần nào không được tích lũy tín chỉ?",
+    "positive_passage_id": "p_0018"
+  },
+  {
+    "qid": "q_3464",
+    "question": "Hoãn thi cần giấy tờ gì?",
+    "positive_passage_id": "p_0053"
+  },
+  {
+    "qid": "q_1902",
+    "question": "Học đổi môn tự chọn tương đương có buộc phải khác môn bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "qid": "q_3450",
+    "question": "Bộ môn đề nghị học phần thay thế đối với sinh viên thiếu gì?",
+    "positive_passage_id": "p_0051"
+  },
+  {
+    "qid": "q_4058",
+    "question": "Không đảm bảo tính cơ bản thì chương trình có vi phạm quy định không?",
+    "positive_passage_id": "p_0005"
+  },
+  {
+    "qid": "q_3215",
+    "question": "Mỗi ngày giảng tối đa bao nhiêu giờ?",
+    "positive_passage_id": "p_0024"
+  },
+  {
+    "qid": "q_0884",
+    "question": "How many distinct sections does the detailed outline contain?",
+    "positive_passage_id": "p_0011"
+  },
+  {
+    "qid": "q_3411",
+    "question": "Đăng ký học lại cần nộp hồ sơ gì?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_2831",
+    "question": "Muốn được điểm chữ D thì cần đạt điểm số trong khoảng nào?",
+    "positive_passage_id": "p_0102"
+  },
+  {
+    "qid": "q_1311",
+    "question": "Có thể học lại học phần tự chọn đã bị điểm F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "qid": "q_3776",
+    "question": "Xếp loại Đạt tương ứng với điểm bao nhiêu?",
+    "positive_passage_id": "p_0099"
+  },
+  {
+    "qid": "q_4761",
+    "question": "Làm thế nào để biết sinh viên đang học năm thứ mấy dựa vào tín chỉ tích lũy?",
+    "positive_passage_id": "p_0057"
+  },
+  {
+    "qid": "q_5176",
+    "question": "Lúc nào thì áp dụng điểm chữ B?",
+    "positive_passage_id": "p_0098"
+  },
+  {
+    "qid": "q_3657",
+    "question": "Điểm A trong công thức là gì?",
+    "positive_passage_id": "p_0075"
+  },
+  {
+    "qid": "q_0376",
+    "question": "Điều kiện để sinh viên tốt nghiệp sớm/muộn được thực hiện đồ án là gì?",
+    "positive_passage_id": "sv_khoa_cuoi__001"
+  },
+  {
+    "qid": "q_2790",
+    "question": "To get a classification of Đạt, what score range must one achieve?",
+    "positive_passage_id": "p_0099"
+  },
+  {
+    "qid": "q_0515",
+    "question": "Sinh viên có thể làm gì khi điểm rèn luyện bị sai sót?",
+    "positive_passage_id": "drl__002"
+  },
+  {
+    "qid": "q_2586",
+    "question": "Sinh viên học đồng thời hai chương trình được phép học tối đa trong bao lâu?",
+    "positive_passage_id": "p_0067"
+  },
+  {
+    "qid": "q_4897",
+    "question": "Điều kiện để được bảo lưu điểm khi học chương trình thứ hai là gì?",
+    "positive_passage_id": "p_0067"
+  },
+  {
+    "qid": "q_1040",
+    "question": "Phương thức 'tuyển sinh theo nhóm ngành' có nghĩa là gì?",
+    "positive_passage_id": "p_0026"
+  },
+  {
+    "qid": "q_4063",
+    "question": "Nếu chương trình gắn với nhiều ngành thì gọi là song ngành đúng không?",
+    "positive_passage_id": "p_0006"
+  },
+  {
+    "qid": "q_3250",
+    "question": "Đối với học phần chuyên ngành, khi có từ 10 đến 20 sinh viên, cần người hướng dẫn.",
+    "positive_passage_id": "p_0032"
+  },
+  {
+    "qid": "q_2091",
+    "question": "Có phải điểm thi chính thức là điểm cao nhất qua các lần học không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "qid": "q_2505",
+    "question": "Điều 30 Khoản 2 quy định vi phạm nào dẫn đến buộc thôi học?",
+    "positive_passage_id": "p_0062"
+  },
+  {
+    "qid": "q_3321",
+    "question": "Điều kiện ràng buộc của từng học phần là gì cụ thể?",
+    "positive_passage_id": "p_0039"
+  },
+  {
+    "qid": "q_3091",
+    "question": "Sinh viên cần làm gì khi lấy kết quả thay cho một học phần?",
+    "positive_passage_id": "p_0009"
+  },
+  {
+    "qid": "q_0149",
+    "question": "Sinh viên đủ điều kiện sẽ được trường xử lý thế nào?",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "qid": "q_5011",
+    "question": "Có phải cứ hoàn thành thực hành là được thi lý thuyết?",
+    "positive_passage_id": "p_0076"
+  },
+  {
+    "qid": "q_4646",
+    "question": "Bị F môn tự chọn, mình có được đăng ký môn khác thay thế không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "qid": "q_0324",
+    "question": "Sinh viên có phải học tính năng style trong Word hay không?",
+    "positive_passage_id": "skill_nedded__002"
+  },
+  {
+    "qid": "q_2886",
+    "question": "Hậu quả ra sao nếu sinh viên bị điểm liệt?",
+    "positive_passage_id": "p_0116"
+  },
+  {
+    "qid": "q_0294",
+    "question": "Học bổng được xét cấp theo chu kỳ nào?",
+    "positive_passage_id": "quydinh_hb__002"
+  },
+  {
+    "qid": "q_2749",
+    "question": "Yêu cầu tối thiểu để đạt điểm chữ A là bao nhiêu?",
+    "positive_passage_id": "p_0096"
+  },
+  {
+    "qid": "q_0518",
+    "question": "Theo quy trình, sinh viên phải sử dụng loại đơn nào?",
+    "positive_passage_id": "drl__002"
+  },
+  {
+    "qid": "q_0179",
+    "question": "Nếu sinh viên đáp ứng đủ điều kiện nhưng không có thời khóa biểu thì có được xác nhận không?",
+    "positive_passage_id": "nvqs__001"
+  },
+  {
+    "qid": "q_4035",
+    "question": "Chương trình đào tạo thể hiện điều kiện nhập học và cả điều kiện tốt nghiệp hả?",
+    "positive_passage_id": "p_0004"
+  },
+  {
+    "qid": "q_1378",
+    "question": "Có sự khác biệt nào giữa đăng ký học lại và đăng ký học phần lần đầu không?",
+    "positive_passage_id": "p_0050"
+  },
+  {
+    "qid": "q_4923",
+    "question": "Có cần trưởng khoa nơi đi và nơi đến cùng đồng ý không?",
+    "positive_passage_id": "p_0070"
+  },
+  {
+    "qid": "q_4221",
+    "question": "Người học bậc 7 có trách nhiệm phải có chứng chỉ ngoại ngữ bậc 2 không?",
+    "positive_passage_id": "p_0013"
+  },
+  {
+    "qid": "q_2052",
+    "question": "Bị F môn tự chọn có bắt buộc học lại không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "qid": "q_1312",
+    "question": "Có được phép đổi sang một môn tự chọn khác tương đương nếu bị F không?",
+    "positive_passage_id": "p_0049"
+  },
+  {
+    "qid": "q_4261",
+    "question": "Một tín chỉ có thể được tính bằng 45 giờ làm gì?",
+    "positive_passage_id": "p_0017"
+  },
+  {
+    "qid": "q_4006",
+    "question": "Bộ GD&ĐT quản lý loại mã số nào?",
+    "positive_passage_id": "p_0003"
+  },
+  {
+    "qid": "q_3008",
+    "question": "Có yêu cầu số tín chỉ tối thiểu để hoàn thành chương trình không?",
+    "positive_passage_id": "p_0001"
+  },
+  {
+    "qid": "q_1534",
+    "question": "Thời điểm nào sinh viên có thể đăng ký học lại?",
+    "positive_passage_id": "p_0047"
+  },
+  {
+    "qid": "q_3771",
+    "question": "Nếu điểm 6.8 thì được xếp loại gì?",
+    "positive_passage_id": "p_0099"
+  },
+  {
+    "qid": "q_3048",
+    "question": "Chương trình có mấy khối kiến thức?",
+    "positive_passage_id": "p_0006"
+  }
+]

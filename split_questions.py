@@ -14,11 +14,8 @@ def split_questions(
     in_path="data/questions.json",
     out_dir="data/splits",
     train_ratio=0.9,
-    val_ratio=0.099,
-    test_ratio=0.001,
     seed=42
 ):
-    assert abs(train_ratio + val_ratio + test_ratio - 1.0) < 1e-8, "Ratios must sum to 1.0"
 
     items = read_json(in_path)
 
@@ -27,7 +24,7 @@ def split_questions(
 
     n = len(items)
     n_train = int(n * train_ratio)
-    n_val = int(n * val_ratio)
+    n_val = int(n * (1 - train_ratio))  # các phần còn lại sẽ là val
 
     train_items = items[:n_train]
     val_items = items[n_train:n_train + n_val]

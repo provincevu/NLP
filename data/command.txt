@@ -1,1 +1,0 @@
-python generate_data/build_prompts_2.py --output-questions data/question_new3.json

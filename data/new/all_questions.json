@@ -1,145 +1,5 @@
 [
   {
-    "qid": "q_0001",
-    "question": "Ai được phép xin tạm hoãn?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0002",
-    "question": "Sinh viên muốn xin cái gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0003",
-    "question": "Sinh viên muốn xin tạm hoãn nghĩa vụ quân sự cần phải làm gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0004",
-    "question": "Có đúng là chỉ những sinh viên muốn xin tạm hoãn nghĩa vụ quân sự mới được xác minh không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0005",
-    "question": "Trong hoàn cảnh nào phòng sẽ xác minh?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0006",
-    "question": "Phòng sẽ xác minh điều gì cho sinh viên đang thực tập hoặc làm đồ án tốt nghiệp?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0007",
-    "question": "Có đúng là phòng chỉ xác minh thời điểm bảo vệ không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0008",
-    "question": "Phòng xác minh điều gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0009",
-    "question": "Ai cần điền phiếu xác nhận bằng mực xanh?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0010",
-    "question": "Yêu cầu về màu mực cho phiếu xác nhận là gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0011",
-    "question": "Có đúng là phiếu xác nhận phải được điền bằng mực xanh không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0012",
-    "question": "Phiếu xác nhận cần có những thông tin gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0013",
-    "question": "Sinh viên vi phạm quy chế cần tường trình có ý kiến của ai?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0014",
-    "question": "Có bắt buộc phải có ý kiến của khoa trong bản tường trình không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0015",
-    "question": "Sinh viên vi phạm quy chế cần làm gì để nhà trường xem xét?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0016",
-    "question": "Để được nhà trường xem xét, sinh viên cần nộp loại giấy tờ gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0017",
-    "question": "Sinh viên đang thực tập có được xin tạm hoãn nghĩa vụ quân sự không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0018",
-    "question": "Sinh viên đang làm đồ án tốt nghiệp có được xin tạm hoãn nghĩa vụ quân sự không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0019",
-    "question": "Sinh viên nào cần được xác minh thời điểm bảo vệ?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0020",
-    "question": "Phòng sẽ xác minh thời điểm gì cho sinh viên đang thực tập hoặc làm đồ án tốt nghiệp?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0021",
-    "question": "Cơ quan nào có trách nhiệm xác minh?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0022",
-    "question": "Có đúng là chỉ sinh viên đang thực tập mới được xác minh không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0023",
-    "question": "Yêu cầu về mực viết cho phiếu xác nhận là gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0024",
-    "question": "Sinh viên vi phạm quy chế cần tường trình có ý kiến của khoa để làm gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0025",
-    "question": "Sinh viên nào cần tường trình có ý kiến của khoa?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0026",
-    "question": "Sinh viên vi phạm quy chế cần tường trình có ý kiến của khoa để nhà trường xem xét có đúng không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0027",
-    "question": "Sinh viên đang làm đồ án tốt nghiệp có được xin tạm hoãn nghĩa vụ quân sự không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0028",
-    "question": "Sinh viên đang thực tập có được xin tạm hoãn nghĩa vụ quân sự không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
     "qid": "q_0029",
     "question": "Mức trợ cấp hàng tháng cho sinh viên dân tộc thiểu số vùng cao là bao nhiêu?",
     "positive_passage_id": "mgiam_hphi__001"
@@ -235,7 +95,7 @@
     "positive_passage_id": "mgiam_hphi__001"
   },
   {
-    "qid": "q_0048",
+    "qid": "p_0048",
     "question": "Mức trợ cấp 1.404.000 đồng mỗi tháng áp dụng cho sinh viên nào?",
     "positive_passage_id": "mgiam_hphi__001"
   },
@@ -2145,411 +2005,6 @@
     "positive_passage_id": "dki_dukien__001"
   },
   {
-    "qid": "q_0430",
-    "question": "Học phần loại tự chọn muốn được ưu tiên mở cần có yếu tố gì?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0431",
-    "question": "Ai thực hiện tư vấn đối với môn tự chọn?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0432",
-    "question": "Sinh viên sẽ được hưởng lợi ích gì từ việc đăng ký mang tính dự kiến?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0433",
-    "question": "Làm thế nào để biết một học phần dạng tự chọn có nằm trong diện ưu tiên mở không?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0434",
-    "question": "Cần phải làm gì để môn tự chọn của mình được tự động xếp thời khóa biểu?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0435",
-    "question": "Ai đóng vai trò tư vấn để môn tự chọn được ưu tiên?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0436",
-    "question": "Điều kiện để sinh viên không cần tự xếp lịch cho môn tự chọn là gì?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0437",
-    "question": "Trong quy trình đăng ký mang tính dự kiến, môn tự chọn được xử lý ra sao sau khi có tư vấn?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0438",
-    "question": "Dựa vào tiêu chí nào để xác định môn tự chọn được ưu tiên mở?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0439",
-    "question": "Việc tự động sắp xếp thời khóa biểu được hiểu như thế nào?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0440",
-    "question": "Yêu cầu bắt buộc để một môn tự chọn được đưa vào danh sách ưu tiên mở là gì?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0441",
-    "question": "Ai là người chịu trách nhiệm tư vấn môn tự chọn cho sinh viên?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0442",
-    "question": "Sinh viên có phải tự xếp thời khóa biểu cho môn tự chọn không?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0443",
-    "question": "Theo lưu ý, việc ưu tiên mở chỉ áp dụng cho loại môn học nào?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0444",
-    "question": "Nếu một môn tự chọn không được giáo viên chủ nhiệm tư vấn, nó sẽ không được ưu tiên mở đúng không?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0445",
-    "question": "Việc ưu tiên mở có áp dụng cho tất cả các môn tự chọn hay chỉ những môn đã được tư vấn?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0446",
-    "question": "Nếu tôi muốn một môn tự chọn của mình được ưu tiên mở, tôi cần phải làm gì?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0447",
-    "question": "Có phải tất cả các môn tự chọn đều sẽ được xếp thời khóa biểu tự động nếu có tư vấn không?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0448",
-    "question": "Nếu muốn chắc chắn rằng không có sai sót, tôi phải làm gì sau khi thoát?",
-    "positive_passage_id": "dki_dukien__001"
-  },
-  {
-    "qid": "q_0449",
-    "question": "Học phần loại tự chọn muốn được ưu tiên mở cần có yếu tố gì?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0450",
-    "question": "Ai thực hiện tư vấn đối với môn tự chọn?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0451",
-    "question": "Sinh viên sẽ được hưởng lợi ích gì từ việc đăng ký mang tính dự kiến?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0452",
-    "question": "Làm thế nào để biết một học phần dạng tự chọn có nằm trong diện ưu tiên mở không?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0453",
-    "question": "Cần phải làm gì để môn tự chọn của mình được tự động xếp thời khóa biểu?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0454",
-    "question": "Ai đóng vai trò tư vấn để môn tự chọn được ưu tiên?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0455",
-    "question": "Điều kiện để sinh viên không cần tự xếp lịch cho môn tự chọn là gì?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0456",
-    "question": "Trong quy trình đăng ký mang tính dự kiến, môn tự chọn được xử lý ra sao sau khi có tư vấn?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0457",
-    "question": "Dựa vào tiêu chí nào để xác định môn tự chọn được ưu tiên mở?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0458",
-    "question": "Việc tự động sắp xếp thời khóa biểu được hiểu như thế nào?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0459",
-    "question": "Yêu cầu bắt buộc để một môn tự chọn được đưa vào danh sách ưu tiên mở là gì?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0460",
-    "question": "Ai là người chịu trách nhiệm tư vấn môn tự chọn cho sinh viên?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0461",
-    "question": "Sinh viên có phải tự xếp thời khóa biểu cho môn tự chọn không?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0462",
-    "question": "Theo lưu ý, việc ưu tiên mở chỉ áp dụng cho loại môn học nào?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0463",
-    "question": "Mục đích của việc tư vấn môn tự chọn là gì?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0464",
-    "question": "Làm thế nào để sinh viên có lịch học tự động cho những môn tự chọn?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0465",
-    "question": "Điều gì xảy ra với môn tự chọn sau khi giáo viên chủ nhiệm tư vấn?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0466",
-    "question": "Video này có nội dung gì?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0467",
-    "question": "Làm sao để đăng ký môn học?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0468",
-    "question": "Xem video hướng dẫn đăng ký môn học ở đâu?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0469",
-    "question": "Có video hướng dẫn đăng ký môn học không?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0470",
-    "question": "Quy trình đăng ký môn học được mô tả như thế nào?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0471",
-    "question": "Thế nào được gọi là video hướng dẫn đăng ký môn học?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0472",
-    "question": "Video bắt đầu phát từ giây thứ mấy?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0473",
-    "question": "Mã nhận dạng của video trên YouTube là gì?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0474",
-    "question": "Điều gì xảy ra với môn tự chọn sau khi giáo viên chủ nhiệm tư vấn?",
-    "positive_passage_id": "dki_dukien__002"
-  },
-  {
-    "qid": "q_0475",
-    "question": "Video này có nội dung gì?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0476",
-    "question": "Làm sao để đăng ký môn học?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0477",
-    "question": "Xem video hướng dẫn đăng ký môn học ở đâu?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0478",
-    "question": "Có video hướng dẫn đăng ký môn học không?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0479",
-    "question": "Quy trình đăng ký môn học được mô tả như thế nào?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0480",
-    "question": "Thế nào được gọi là video hướng dẫn đăng ký môn học?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0481",
-    "question": "Video bắt đầu phát từ giây thứ mấy?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0482",
-    "question": "Mã nhận dạng của video trên YouTube là gì?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0483",
-    "question": "Video được lưu trữ trên nền tảng nào?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0484",
-    "question": "Giao thức nào được dùng để truy cập video?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0485",
-    "question": "Tham số 'v' trong link có giá trị cụ thể là bao nhiêu?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0486",
-    "question": "Tham số 't' trong URL cho biết điều gì?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0487",
-    "question": "Làm thế nào để truy cập vào video hướng dẫn?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0488",
-    "question": "Mục đích chính của video này là gì?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0489",
-    "question": "Video có cung cấp hướng dẫn chi tiết không?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0490",
-    "question": "Video có được cài đặt thời gian bắt đầu cụ thể không?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0491",
-    "question": "Tên miền của trang web chứa video?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0492",
-    "question": "Đường dẫn đầy đủ đến video là gì?",
-    "positive_passage_id": "dki_mon__001"
-  },
-  {
-    "qid": "q_0493",
-    "question": "Từ năm học nào điểm rèn luyện được tính như học phần trên bảng điểm?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0494",
-    "question": "Điểm rèn luyện của sinh viên Đại học Mỏ-Địa chất được tính như thế nào?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0495",
-    "question": "Trên bảng điểm, điểm rèn luyện được thể hiện dưới hình thức gì?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0496",
-    "question": "Đợt đánh giá điểm rèn luyện đầu kỳ do ai chủ trì?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0497",
-    "question": "Yêu cầu về số lượng sinh viên tham gia để tổ chức đánh giá điểm rèn luyện đầu kỳ là gì?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0498",
-    "question": "Sinh viên nào được tham gia đợt đánh giá bổ sung cuối kỳ?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0499",
-    "question": "Điểm rèn luyện có được coi là một học phần không?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0500",
-    "question": "Có phải điểm rèn luyện của sinh viên Mỏ-Địa chất được tính trên bảng điểm từ năm 2017-2018?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0501",
-    "question": "Điểm rèn luyện có được coi là một học phần không?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0502",
-    "question": "Có phải điểm rèn luyện của sinh viên Mỏ-Địa chất được tính trên bảng điểm từ năm 2017-2018?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0503",
-    "question": "Làm sao để sinh viên thiếu điểm rèn luyện được đánh giá?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0504",
-    "question": "Đợt đánh giá điểm rèn luyện đầu kỳ cần điều kiện gì về tỷ lệ tham gia?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0505",
-    "question": "Điểm rèn luyện được xem như là gì trong hệ thống đào tạo?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0506",
-    "question": "Ai được đánh giá trong đợt bổ sung cuối kỳ?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0507",
-    "question": "Tỷ lệ tham gia tối thiểu để tiến hành đánh giá điểm rèn luyện đầu kỳ là bao nhiêu?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0508",
-    "question": "Cách thức đánh giá điểm rèn luyện cho sinh viên thiếu điểm là gì?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0509",
-    "question": "Có đúng là việc đánh giá điểm rèn luyện do giáo viên chủ nhiệm chủ trì không?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0510",
-    "question": "Điểm rèn luyện có nằm trong bảng điểm không?",
-    "positive_passage_id": "drl__001"
-  },
-  {
     "qid": "q_0511",
     "question": "Ai có thể làm đơn điều chỉnh sai sót về điểm rèn luyện?",
     "positive_passage_id": "drl__002"
@@ -2613,21 +2068,6 @@
     "qid": "q_0523",
     "question": "Mục đích của việc làm đơn kèm minh chứng là gì?",
     "positive_passage_id": "drl__002"
-  },
-  {
-    "qid": "q_0524",
-    "question": "Cách thức đánh giá điểm rèn luyện cho sinh viên thiếu điểm là gì?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0525",
-    "question": "Có đúng là việc đánh giá điểm rèn luyện do giáo viên chủ nhiệm chủ trì không?",
-    "positive_passage_id": "drl__001"
-  },
-  {
-    "qid": "q_0526",
-    "question": "Điểm rèn luyện có nằm trong bảng điểm không?",
-    "positive_passage_id": "drl__001"
   },
   {
     "qid": "q_0527",
@@ -2745,96 +2185,6 @@
     "positive_passage_id": "drl__002"
   },
   {
-    "qid": "q_0550",
-    "question": "What does the notice from Hanoi University of Mining and Geology ask new students to do?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0551",
-    "question": "Which actions are mandatory for freshmen at HUMG according to the announcement?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0552",
-    "question": "Who is required to activate their email and make use of MS Teams?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0553",
-    "question": "What is the format of a student's Teams account?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0554",
-    "question": "How can new students take part in online courses?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0555",
-    "question": "Which online learning platform is specified in the university's message?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0556",
-    "question": "Do freshmen need to activate their university email?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0557",
-    "question": "What action regarding email is expected from new students?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0558",
-    "question": "What does a student's Teams account look like?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0559",
-    "question": "Who is the target audience of this university message?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0560",
-    "question": "Which university issued the notice about email and Teams?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0561",
-    "question": "Is using MS Teams a requirement for new students?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0562",
-    "question": "What is the domain name for student Teams accounts?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0563",
-    "question": "How should new students prepare for online learning?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0564",
-    "question": "What tool must be used for remote learning at HUMG?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0565",
-    "question": "Which group of students does this announcement apply to?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0566",
-    "question": "What does the announcement say freshmen need to do?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
-    "qid": "q_0567",
-    "question": "What are the two things new students are instructed to do?",
-    "positive_passage_id": "email_msteam__001"
-  },
-  {
     "qid": "q_0568",
     "question": "Công thức tính học phí theo tín chỉ là gì?",
     "positive_passage_id": "hoc_phi__001"
@@ -2900,479 +2250,99 @@
     "positive_passage_id": "hoc_phi__001"
   },
   {
-    "qid": "q_0581",
-    "question": "Khi nhìn vào số dư nợ, dấu trừ trước con số cho biết điều gì?",
-    "positive_passage_id": "hoc_phi__002"
-  },
-  {
-    "qid": "q_0582",
-    "question": "Làm sao để biết mình đã đóng thừa tiền học dựa vào số tồn nợ?",
-    "positive_passage_id": "hoc_phi__002"
-  },
-  {
-    "qid": "q_0583",
-    "question": "Cách xác định một sinh viên khóa mới còn thiếu bao nhiêu học phí?",
-    "positive_passage_id": "hoc_phi__002"
-  },
-  {
-    "qid": "q_0584",
-    "question": "Nếu thấy số tồn nợ ghi là -200.000đ, điều đó thể hiện điều gì?",
-    "positive_passage_id": "hoc_phi__002"
-  },
-  {
-    "qid": "q_0585",
-    "question": "Làm thế nào để kiểm tra xem mình đang thiếu học phí hay đã đóng dư?",
-    "positive_passage_id": "hoc_phi__002"
-  },
-  {
-    "qid": "q_0586",
-    "question": "Khi tính học phí thiếu cho sinh viên mới, người ta lấy tích số tín chỉ và đơn giá rồi trừ đi khoản nào?",
-    "positive_passage_id": "hoc_phi__002"
-  },
-  {
-    "qid": "q_0587",
-    "question": "Sự khác nhau giữa số tồn nợ có dấu trừ và không có dấu trừ là gì?",
-    "positive_passage_id": "hoc_phi__002"
-  },
-  {
-    "qid": "q_0588",
-    "question": "Hãy cho biết công thức xác định lượng học phí còn thiếu của một sinh viên mới nhập học.",
-    "positive_passage_id": "hoc_phi__002"
-  },
-  {
     "qid": "q_0589",
     "question": "Làm thế nào để nộp học phí?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0590",
     "question": "Sinh viên có thể nộp học phí qua đâu?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0591",
     "question": "Các phương thức thanh toán học phí gồm những gì?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0592",
     "question": "Có được dùng BIDV Smartbanking để đóng học phí không?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0593",
     "question": "Sinh viên có thể sử dụng ATM để thanh toán học phí không?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0594",
     "question": "Làm thế nào để nộp học phí?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0595",
     "question": "Sinh viên có thể nộp học phí qua đâu?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0596",
     "question": "Các phương thức thanh toán học phí gồm những gì?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0597",
     "question": "Có được dùng BIDV Smartbanking để đóng học phí không?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0598",
     "question": "Sinh viên có thể sử dụng ATM để thanh toán học phí không?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0599",
     "question": "Khi chuyển khoản học phí, sinh viên cần ghi rõ những thông tin gì?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0600",
     "question": "Có bắt buộc phải ghi mã sinh viên khi chuyển khoản đóng học phí không?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0601",
     "question": "Sinh viên có cần ghi họ tên khi chuyển khoản đóng học phí không?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0602",
     "question": "Học kỳ có phải là thông tin bắt buộc khi chuyển khoản không?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0603",
     "question": "Ai được phép đóng học phí theo các hình thức trên?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0604",
     "question": "Quy trình chuyển khoản đóng học phí gồm những bước nào?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0605",
     "question": "Tài khoản nhận chuyển khoản đóng học phí là của ai?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0606",
     "question": "Có bao nhiêu cách đóng học phí được đề cập?",
-    "positive_passage_id": "hoc_phi__003"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0607",
     "question": "Ngân hàng nào được sử dụng cho Smartbanking đóng học phí?",
-    "positive_passage_id": "hoc_phi__003"
-  },
-  {
-    "qid": "q_0608",
-    "question": "Khi đóng học phí, sinh viên cần lưu giữ loại bằng chứng nào?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0609",
-    "question": "Làm cách nào để tránh bị cấm thi vì vi phạm quy định học phí?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0610",
-    "question": "Yêu cầu về tần suất đồng bộ dữ liệu là bao nhiêu lần mỗi ngày?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0611",
-    "question": "Những khoản phí nào sinh viên năm cuối bắt buộc phải thanh toán đúng hạn?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0612",
-    "question": "Thời hạn cuối cho sinh viên năm cuối thanh toán thực tập và đồ án là trước thời điểm nào?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0613",
-    "question": "Có hình thức kỷ luật nào nếu không giữ minh chứng nộp tiền không?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0614",
-    "question": "Đối tượng nào phải đóng tiền đúng hạn cho thực tập và đồ án?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0615",
-    "question": "Số điện thoại hỗ trợ về vấn đề học phí là gì?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0616",
-    "question": "Có thể gọi đến số nào để được giúp đỡ khi gặp khó khăn trong nộp học phí?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0617",
-    "question": "Quy định bắt buộc về việc lưu giữ chứng từ nộp tiền là gì?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0618",
-    "question": "Có yêu cầu nào về đồng bộ dữ liệu đối với sinh viên không?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0619",
-    "question": "Hậu quả của việc vi phạm quy tắc nộp học phí là gì?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0620",
-    "question": "Sinh viên năm cuối cần hoàn thành nghĩa vụ tài chính trước mốc thời gian nào?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0621",
-    "question": "Bên cạnh số 02438386440, còn đầu số hotline nào khác?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0622",
-    "question": "Những bước cần làm khi thanh toán học phí là gì?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0623",
-    "question": "Có bắt buộc phải đồng bộ dữ liệu hai lần mỗi ngày không?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0624",
-    "question": "Ai là người phải thanh toán học phí đúng hạn để giáo viên kịp nhập điểm?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0625",
-    "question": "Từ ngày nào mẫu phiếu 23 được điều chỉnh?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0626",
-    "question": "Mẫu phiếu 23 dành cho đối tượng nào?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0627",
-    "question": "Những điều kiện cần có để xin tạm hoãn nghĩa vụ quân sự là gì?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0628",
-    "question": "Sinh viên có bắt buộc phải có thời khóa biểu không?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0629",
-    "question": "Có yêu cầu đóng đủ học phí khi xin tạm hoãn NVQS không?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0630",
-    "question": "Mỗi kỳ sinh viên phải đăng ký tối thiểu bao nhiêu tín chỉ?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0631",
-    "question": "Ai được sử dụng mẫu phiếu 23 để xin hoãn NVQS?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0632",
-    "question": "Cơ quan nào đã điều chỉnh mẫu phiếu 23?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0633",
-    "question": "Khi nào bắt đầu áp dụng mẫu phiếu 23 mới?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0634",
-    "question": "Sinh viên có cần đăng ký ít nhất 10 tín chỉ không?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0635",
-    "question": "Sinh viên năm cuối cần hoàn thành nghĩa vụ tài chính trước mốc thời gian nào?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0636",
-    "question": "Bên cạnh số 02438386440, còn đầu số hotline nào khác?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0637",
-    "question": "Những bước cần làm khi thanh toán học phí là gì?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0638",
-    "question": "Có bắt buộc phải đồng bộ dữ liệu hai lần mỗi ngày không?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0639",
-    "question": "Ai là người phải thanh toán học phí đúng hạn để giáo viên kịp nhập điểm?",
-    "positive_passage_id": "hoc_phi__004"
-  },
-  {
-    "qid": "q_0640",
-    "question": "Từ ngày nào mẫu phiếu 23 được điều chỉnh?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0641",
-    "question": "Mẫu phiếu 23 dành cho đối tượng nào?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0642",
-    "question": "Những điều kiện cần có để xin tạm hoãn nghĩa vụ quân sự là gì?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0643",
-    "question": "Sinh viên có bắt buộc phải có thời khóa biểu không?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0644",
-    "question": "Có yêu cầu đóng đủ học phí khi xin tạm hoãn NVQS không?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0645",
-    "question": "Mỗi kỳ sinh viên phải đăng ký tối thiểu bao nhiêu tín chỉ?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0646",
-    "question": "Ai được sử dụng mẫu phiếu 23 để xin hoãn NVQS?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0647",
-    "question": "Cơ quan nào đã điều chỉnh mẫu phiếu 23?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0648",
-    "question": "Khi nào bắt đầu áp dụng mẫu phiếu 23 mới?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0649",
-    "question": "Sinh viên có cần đăng ký ít nhất 10 tín chỉ không?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0650",
-    "question": "Điều kiện về học phí đối với sinh viên xin tạm hoãn NVQS là gì?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0651",
-    "question": "Số hiệu của phiếu dùng để xin tạm hoãn NVQS là gì?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0652",
-    "question": "Có yêu cầu về thời khóa biểu trong hồ sơ xin hoãn NVQS không?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0653",
-    "question": "Sinh viên hệ chính quy có được xin tạm hoãn bằng mẫu 23 không?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0654",
-    "question": "Ngoài thời khóa biểu, sinh viên còn cần điều kiện gì về tín chỉ?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0655",
-    "question": "Ngày 14 tháng 10 năm 2024 đánh dấu sự kiện gì về mẫu phiếu 23?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0656",
-    "question": "Mục đích của việc điều chỉnh mẫu phiếu 23 là gì?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0657",
-    "question": "Yêu cầu đăng ký 10 tín chỉ được áp dụng theo chu kỳ nào?",
-    "positive_passage_id": "mau_so_23__001"
-  },
-  {
-    "qid": "q_0658",
-    "question": "Ai được phép xin tạm hoãn?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0659",
-    "question": "Sinh viên muốn xin cái gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0660",
-    "question": "Trong hoàn cảnh nào phòng sẽ xác minh?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0661",
-    "question": "Phòng xác minh điều gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0662",
-    "question": "Cơ quan nào có trách nhiệm xác minh?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0663",
-    "question": "Có đúng là chỉ sinh viên đang thực tập mới được xác minh không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0664",
-    "question": "Yêu cầu về mực viết cho phiếu xác nhận là gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0665",
-    "question": "Phiếu xác nhận có bắt buộc dùng mực xanh không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0666",
-    "question": "Phiếu xác nhận cần đáp ứng yêu cầu gì về thông tin?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0667",
-    "question": "Sinh viên vi phạm nội quy trong trường hợp đặc biệt phải làm thế nào?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0668",
-    "question": "Bản tường trình của sinh viên cần có nội dung gì thêm?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0669",
-    "question": "Đối tượng nào bắt buộc phải có sự xác nhận của khoa trong tường trình?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0670",
-    "question": "Để được trường xem xét, sinh viên cần nộp loại giấy tờ gì?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0671",
-    "question": "Sinh viên đang làm đồ án có được xin tạm hoãn không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0672",
-    "question": "Hình thức xác nhận nào cần dùng mực xanh?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0673",
-    "question": "Sinh viên vi phạm cần xin ý kiến của ai?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0674",
-    "question": "Có bắt buộc phải có ý kiến khoa trong tường trình không?",
-    "positive_passage_id": "mau_so_23__002"
-  },
-  {
-    "qid": "q_0675",
-    "question": "Phòng xác minh thời điểm gì cho những đối tượng nào?",
-    "positive_passage_id": "mau_so_23__002"
+    "positive_passage_id": "hoc_phi__006"
   },
   {
     "qid": "q_0676",
@@ -23602,272 +22572,272 @@
   {
     "qid": "q_1923",
     "question": "Những đối tượng sinh viên nào phải học lại học phần bắt buộc khi bị F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1924",
     "question": "Sinh viên thuộc nhóm nào phải học lại học phần bắt buộc do bị F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1925",
     "question": "Ai nằm trong diện phải học lại học phần bắt buộc khi điểm F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1926",
     "question": "Những ai bị bắt buộc học lại học phần bắt buộc vì điểm F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1927",
     "question": "Sinh viên nào bị yêu cầu học lại học phần bắt buộc khi bị điểm F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1928",
     "question": "Các sinh viên nào phải học lại môn bắt buộc nếu bị F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1929",
     "question": "Trường hợp sinh viên nào phải học lại học phần bắt buộc vì bị F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1930",
     "question": "Nhóm sinh viên nào phải học lại môn bắt buộc khi bị F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1931",
     "question": "Ai buộc phải học lại môn bắt buộc khi nhận điểm F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1932",
     "question": "Sinh viên nào bị bắt buộc đăng ký học lại học phần bắt buộc khi điểm F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1933",
     "question": "Sau khi bị F môn bắt buộc nhưng không buộc thôi học, sinh viên phải thực hiện gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1934",
     "question": "Bị F môn bắt buộc mà không thôi học thì bắt buộc làm gì tiếp theo?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1935",
     "question": "Trường hợp F môn bắt buộc nhưng không bị buộc thôi học, sinh viên phải làm gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1936",
     "question": "Bị F môn bắt buộc nhưng vẫn được học tiếp thì phải làm gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1937",
     "question": "Sau khi điểm F môn bắt buộc và không bị buộc thôi học, cần làm gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1938",
     "question": "Bị F môn bắt buộc mà không bị thôi học, yêu cầu bắt buộc là gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1939",
     "question": "Khi bị F môn bắt buộc nhưng không buộc thôi học, sinh viên phải làm gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1940",
     "question": "Bị F môn bắt buộc nhưng không bị thôi học, sinh viên cần làm gì bắt buộc?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1941",
     "question": "Trường hợp bị F môn bắt buộc mà không bị buộc thôi học, phải làm gì tiếp?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1942",
     "question": "Điều bắt buộc nếu bị F môn bắt buộc nhưng không buộc thôi học là gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1943",
     "question": "Trong năm học, sinh viên cần đăng ký học lại môn bắt buộc bị F vào thời điểm nào?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1944",
     "question": "Thời điểm nào trong năm học phải đăng ký học lại môn bắt buộc bị F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1945",
     "question": "Trong năm học, khi nào phải đăng ký học lại môn bắt buộc bị F?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1946",
     "question": "Sinh viên phải đăng ký học lại môn bắt buộc bị F vào lúc nào trong năm học?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1953",
     "question": "Học lại môn bắt buộc bị F đến khi nào thì thôi?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1954",
     "question": "Sinh viên học lại môn bắt buộc bị F tới lúc nào?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1955",
     "question": "Môn bắt buộc bị F phải học lại đến bao giờ?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1956",
     "question": "Việc học lại môn bắt buộc bị F kéo dài tới khi nào?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1957",
     "question": "Học lại môn bắt buộc bị F cho đến khi nào thì đạt?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1958",
     "question": "Sinh viên phải học lại môn bắt buộc bị F tới khi nào thì xong?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1963",
     "question": "Quy trình xử lý trường hợp sinh viên bị F học phần bắt buộc là gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1964",
     "question": "Xử lý thế nào khi sinh viên bị F ở học phần bắt buộc?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1965",
     "question": "Trình tự xử lý khi sinh viên nhận điểm F học phần bắt buộc ra sao?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1966",
     "question": "Các bước xử lý khi học phần bắt buộc bị điểm F là gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1973",
     "question": "Làm sao nhận biết mình thuộc diện phải học lại môn bắt buộc?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1974",
     "question": "Cách nào để biết mình phải học lại môn bắt buộc hay không?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1975",
     "question": "Làm thế nào xác định mình có phải học lại môn bắt buộc không?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1983",
     "question": "Làm thế nào để khắc phục điểm F ở môn học bắt buộc?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1984",
     "question": "Cách nào để sửa điểm F môn bắt buộc?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1985",
     "question": "Làm sao để xử lý điểm F môn bắt buộc?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1993",
     "question": "Không thuộc diện buộc thôi học mà bị F môn bắt buộc thì phải làm gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1994",
     "question": "Bị F môn bắt buộc nhưng không buộc thôi học thì có hậu quả gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_1995",
     "question": "Nếu không bị buộc thôi học mà bị F môn bắt buộc thì xử lý thế nào?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2003",
     "question": "Sinh viên được phép học lại môn bắt buộc trong mấy học kỳ?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2004",
     "question": "Học lại môn bắt buộc tối đa được phép trong bao nhiêu học kỳ?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2005",
     "question": "Môn bắt buộc được phép học lại trong mấy học kỳ?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2013",
     "question": "Môn bắt buộc bị điểm F có bị giới hạn số lần học lại không?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2014",
     "question": "Số lần học lại môn bắt buộc khi bị F có giới hạn không?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2016",
     "question": "Bị F môn bắt buộc thì sinh viên phải làm gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2019",
     "question": "Quy định học lại này áp dụng cho học phần nào?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2020",
     "question": "Những học phần nào chịu quy định học lại này?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2022",
     "question": "Sinh viên được đăng ký học lại môn bắt buộc bị F vào học kỳ nào?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2025",
     "question": "Vừa nhận điểm F môn bắt buộc, sinh viên phải làm gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
   {
     "qid": "q_2028",
     "question": "Mục tiêu cuối cùng của việc học lại môn bắt buộc là gì?",
-    "positive_passage_id": "q_0048"
+    "positive_passage_id": "p_0048"
   },
     {
     "qid": "q_3505",

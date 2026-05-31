@@ -280,6 +280,11 @@
     "text": "Điểm từ 8.5 đến dưới 9.0 tương ứng điểm chữ A, hệ 4 là 3.7, xếp loại Đạt."
   },
   {
+    "passage_id": "drl__002",
+    "text": "Đối với đợt sinh hoạt lớp thường kỳ (đầu mỗi học kỳ): Điểm rèn luyện được chấm công khai với sự tham gia của ít nhất 50% thành viên lớp. Sau khi đa số thành viên thống nhất kết quả, bảng điểm riêng lẻ và tổng hợp được ký đủ chữ ký, nộp bản cứng về khoa chủ quản; lớp trưởng gửi bản mềm email cho chuyên viên/lãnh đạo khoa. Văn phòng khoa đối soát bản cứng, bảng tổng hợp, file mềm; nếu chính xác, chuyên viên/lãnh đạo khoa đẩy dữ liệu lên hệ thống quản lý đào tạo.",
+    "source_file": "drl.txt"
+  },
+  {
     "passage_id": "p_0097",
     "clause_ref": "Điều 23 Khoản 5",
     "text": "Điểm từ 8.0 đến dưới 8.5 tương ứng điểm chữ B+, hệ 4 là 3.5, xếp loại Đạt."
@@ -368,5 +373,85 @@
     "passage_id": "p_0142",
     "clause_ref": "Điều 30 Khoản 2",
     "text": "Sinh viên thi hộ hoặc nhờ người khác thi hộ đều bị kỷ luật ở mức đình chỉ học tập một năm đối với trường hợp vi phạm lần thứ nhất và buộc thôi học đối với trường hợp vi phạm lần thứ hai."
+  },
+  {
+    "passage_id": "mgiam_hphi__001",
+    "clause_ref": "quy định về miễn giảm học phí",
+    "text": "Thông báo hỗ trợ sinh viên chính quy học kỳ I năm 2025-2026: dân tộc thiểu số vùng cao/đặc biệt khó khăn trợ cấp 140.000đ/tháng (6 tháng); sinh viên mồ côi, tàn tật, hoàn cảnh khó khăn trợ cấp 100.000đ/tháng (6 tháng); dân tộc thiểu số thuộc hộ nghèo/cận nghèo hỗ trợ 1.404.000đ/tháng (5 tháng)."
+  },
+  {
+    "passage_id": "mgiam_hphi__002",
+    "clause_ref": "quy định về miễn giảm học phí",
+    "text": "Sinh viên thuộc 16 dân tộc rất ít người (Cống, Mảng, Pu Péo…) được trợ cấp 2.340.000đ/tháng trong 6 tháng cuối năm 2025."
+  },
+  {
+    "passage_id": "mgiam_hphi__003",
+    "clause_ref": "quy định về miễn giảm học phí",
+    "text": "Có hướng dẫn thủ tục miễn giảm học phí (100%, 70%, 50%) cho người có công, trẻ bị bỏ rơi/mồ côi, người khuyết tật, dân tộc thiểu số hộ nghèo/cận nghèo và dân tộc rất ít người ở vùng khó khăn, kèm hồ sơ cần thiết."
+  },
+  {
+    "passage_id": "nvqs__001",
+    "clause_ref": "quy định về nghĩa vụ quân sự",
+    "text": "Trường ĐH Mỏ-Địa chất hướng dẫn tạm hoãn NVQS cho sinh viên chính quy (từ K64, thời gian đào tạo 4,5 năm). Sinh viên đang học các học phần (không phải đồ án/thực tập), có thời khóa biểu và đóng học phí đầy đủ sẽ được xác nhận bình thường."
+  },
+  {
+    "passage_id": "nvqs__002",
+    "clause_ref": "quy định về nghĩa vụ quân sự",
+    "text": "Với sinh viên học kỳ cuối đang thực tập hoặc làm đồ án muốn xin tạm hoãn nghĩa vụ quân sự, cần có quyết định; nếu hoàn thành trước 31/12 thì chỉ được xác nhận dự kiến."
+  },
+  {
+    "passage_id": "nvqs__003",
+    "clause_ref": "quy định về nghĩa vụ quân sự",
+    "text": "Sinh viên có quyết định thực tập từ 14/7 trở về trước hoặc quyết định đồ án từ 30/9 trở về trước sẽ không đủ căn cứ xin tạm hoãn nghĩa vụ quân sự, có thể bị gọi nhập ngũ tháng 2 năm sau. Sinh viên tự ý không đăng ký học phần sẽ bị từ chối xác nhận."
+  },
+  {
+    "passage_id": "quydinh_hb__001",
+    "clause_ref": "quy định về học bổng khuyến khích học tập",
+    "text": "Nghị định 84/2020/NĐ-CP quy định học bổng khuyến khích học tập cho ba nhóm: học sinh THPT chuyên, học sinh năng khiếu nghệ thuật/thể thao, và sinh viên đại học/cơ sở giáo dục nghề nghiệp, với điều kiện về hạnh kiểm, học lực và giải thưởng."
+  },
+  {
+    "passage_id": "quydinh_hb__002",
+    "clause_ref": "quy định về học bổng khuyến khích học tập",
+    "text": "Mức học bổng tối thiểu bằng 3 lần học phí (sinh viên chia ba mức khá, giỏi, xuất sắc). Hiệu trưởng xét cấp theo học kỳ, ưu tiên theo giải thưởng hoặc điểm số, thời gian cấp từ 9 đến 10 tháng/năm."
+  },
+  {
+    "passage_id": "skill_nedded__001",
+    "clause_ref": "các kỹ năng văn phòng cần phải có của một sinh viên",
+    "text": "các kỹ năng văn phòng cần phải có của một sinh viên: quản lý Gmail, Google Drive, lịch làm việc, đặt tên file, tìm kiếm Internet."
+  },
+  {
+    "passage_id": "skill_nedded__002",
+    "clause_ref": "các kỹ năng văn phòng cần phải có của một sinh viên",
+    "text": "Các kỹ năng soạn thảo văn bản cần có của sinh viên: Kỹ năng soạn thảo văn bản gồm gõ tiếng Việt, sửa lỗi font, và các tính năng Word như style, header/footer, trộn thư."
+  },
+  {
+    "passage_id": "skill_nedded__003",
+    "clause_ref": "các kỹ năng văn phòng cần phải có của một sinh viên",
+    "text": "Kỹ năng Excel gồm các hàm thống kê, logic, chuỗi, ngày tháng, VLOOKUP, PivotTable, macro; kỹ năng PowerPoint gồm thiết kế slide, slide master, hiệu ứng, chia sẻ và tùy chỉnh trình chiếu, xuất video."
+  },
+  {
+    "passage_id": "sv_khoa_cuoi__001",
+    "clause_ref": "các lưu ý cho sinh viên khóa cuối trước bảo vệ đồ án",
+    "text": "lưu ý cho sinh viên trước bảo vệ đồ án: hủy môn tự chọn thừa, nộp kê khai thông tin và lệ phí, kiểm tra đăng ký học phần TTTN/DATN, hoàn thiện giấy thanh toán ra trường; sinh viên tốt nghiệp sớm/muộn phải xin quyết định thực hiện đồ án tại phòng đào tạo."
+  },
+  {
+    "passage_id": "sv_khoa_cuoi__002",
+    "clause_ref": "các lưu ý cho sinh viên khóa cuối sau bảo vệ đồ án",
+    "text": "Lưu ý, sinh viên sau bảo vệ: kiểm tra điểm sau 7–10 ngày, lấy bảng điểm và giấy chứng nhận sau 2 tuần (kiểm tra thông tin cá nhân); nếu học cải thiện điểm/xếp loại bằng thì nộp đơn hoãn xét tốt nghiệp; nếu còn học tự chọn thì hủy môn thừa; hoàn thành chuẩn đầu ra đúng hạn (GDQP/GDTC 5 năm, ngoại ngữ và tin học 3 năm)."
+  },
+  {
+    "passage_id": "hoc_phi__006",
+    "text": "Sinh viên ra các chi nhánh BIDV bất kỳ trong toàn quốc, thực hiện chuyển khoản theo nội dung: Chủ tài khoản: Trường Đại học Mỏ-Địa chất, số tài khoản 2151006942 ngân hàng BIDV chi nhánh Cầu Giấy, nội dung chuyển tiền cần đề rõ \"MSSV Họ tên dongHP Hocky...\", VD 2021060123 Tran Van A Dong hoc phi hoc ky 2 2020-2021: 4.2 Thực hiện thao tác đóng học phí tại các cây ATM hoặc trên Website daotao.humg.edu.vn. Chú ý, nếu thực hiện đóng qua Website chỉ thao tác được khi cổng thông tin điện tử hiện chữ BIDV, ngoài thời gian thu chính thức kênh này sẽ không được hỗ trợ.",
+    "clause_ref": "cách đóng học phí của sinh viên"
+  },
+  {
+    "passage_id": "dki_dukien__001",
+    "text": "Dưới đây là hướng dẫn đăng ký dự kiến dành cho các bạn sinh viên khóa mới: Bước 1: Đăng nhập account cá nhân trên web daotao.humg.edu.vn. Bước 2: Trong phần đăng ký môn học phần dưới cùng phía trái có ô trống dành cho đăng ký môn học dự kiến, tiến hành nhập mã môn. Bước 3: Ấn lưu. Bước 4: Kiểm tra danh mục môn đã đăng ký dự kiến. Bước 5: Thoát, sau đó đăng nhập trở lại để kiểm tra danh mục đã đăng ký dự kiến. Bước 6: Chụp màn hình lưu lại làm minh chứng. Lưu ý: Chỉ các học phần thuộc DANH MỤC TỰ CHỌN đã được thầy cô Giáo viên chủ nhiệm phê duyệt mới được phép đăng ký dự kiến",
+    "clause_ref": "cách đăng ký dự kiến của sinh viên khóa mới"
+  },
+    {
+    "passage_id": "hoc_phi__001",
+    "text": "Cách kiểm tra dữ liệu học phí: Dữ liệu học phí của sinh viên được hiển thị công khai trong account cá nhân trên trang daotao.humg.edu.vn của sinh viên, số học phí cần đóng được tính theo công thức sau: Học phí cần đóng=(số tín chỉ đăng ký trong học kỳ)x(đơn giá 1 tín chỉ). VD SV đăng ký 18 tín chỉ, đơn giá 500k/tín chỉ, khi đó số tiền cần đóng là 18x500k=9.000.000",
+    "clause_ref": "cách kiểm tra dữ liệu học phí"
   }
 ]
