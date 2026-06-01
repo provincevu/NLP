@@ -4,13 +4,34 @@ import numpy as np
 import json
 import os
 
-EMB_PATH = "../data/passage_embeddings.npy"
-IDMAP_PATH = "../data/passage_id_map.json"
-FAISS_OUT = "../data/faiss_index_last.ivf"  # hoặc .index
+BASE_DIR = os.path.dirname(__file__)
+PROJECT_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))
+BUILD_ROOT = os.path.join(PROJECT_DIR, "build")
+
+EMB_NAME = "passage_embeddings.npy"
+IDMAP_NAME = "passage_id_map.json"
+FAISS_NAME = "faiss_index_last.ivf"  # hoặc .index
+
+def get_latest_build_dir(build_root: str) -> str:
+    if not os.path.isdir(build_root):
+        raise FileNotFoundError(f"Build folder not found: {build_root}")
+    candidates = [
+        os.path.join(build_root, d)
+        for d in os.listdir(build_root)
+        if os.path.isdir(os.path.join(build_root, d))
+    ]
+    if not candidates:
+        raise FileNotFoundError("No build subfolders found. Run encode_passages.py first.")
+    return sorted(candidates)[-1]
 
 def main():
-    embs = np.load(EMB_PATH)
-    with open(IDMAP_PATH, "r", encoding="utf-8") as f:
+    build_dir = get_latest_build_dir(BUILD_ROOT)
+    emb_path = os.path.join(build_dir, EMB_NAME)
+    idmap_path = os.path.join(build_dir, IDMAP_NAME)
+    faiss_out = os.path.join(build_dir, FAISS_NAME)
+
+    embs = np.load(emb_path)
+    with open(idmap_path, "r", encoding="utf-8") as f:
         id_map = json.load(f)
 
     # embs assumed normalized (L2). If not, normalize here:
@@ -23,10 +44,9 @@ def main():
     print("Added", index.ntotal, "vectors to FAISS index")
 
     # save index
-    os.makedirs(os.path.dirname(FAISS_OUT), exist_ok=True)
-    faiss.write_index(index, FAISS_OUT)
+    faiss.write_index(index, faiss_out)
     # also save id_map alongside - but we already have it
-    print("Saved index to", FAISS_OUT)
+    print("Saved index to", faiss_out)
 
 if __name__ == "__main__":
     main()

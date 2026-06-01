@@ -2,3 +2,7 @@
 /inferences/dpr_ckpt_1/
 /txt_data/
 /document/
+/inferences/dpr_ckpt_maxpool/
+/inferences/dpr_ckpt_meanpool/
+*.ivf
+*.npy

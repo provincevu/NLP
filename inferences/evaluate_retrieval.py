@@ -1,16 +1,23 @@
 # evaluate_retrieval.py
 import json, numpy as np
+import os
 from transformers import AutoTokenizer, AutoModel
 import torch, torch.nn.functional as F
 import faiss
 
-MODEL = "inferences/dpr_ckpt_1"
-PASSAGES = "data/passages.json"
-IDMAP = "data/passage_id_map.json"
-FAISS_IDX = "data/faiss_index_last.ivf"
-TEST_Q = "data/splits/test.json"
-BATCH_Q = 32
-TOPK = [1,5,10,20]
+BASE_DIR = os.path.dirname(__file__)
+PROJECT_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))
+BUILD_ROOT = os.path.join(PROJECT_DIR, "build")
+
+MODEL = os.path.join(BASE_DIR, "dpr_ckpt_1")
+BASE_MODEL_NAME = "vinai/phobert-base"
+MODEL_WEIGHTS = "model_last.pt"
+PASSAGES = os.path.join(PROJECT_DIR, "data", "passages.json")
+IDMAP_NAME = "passage_id_map.json"
+FAISS_NAME = "faiss_index_last.ivf"
+TEST_Q = os.path.join(PROJECT_DIR, "data", "splits", "test.json")
+BATCH_Q = 64
+TOPK = list(range(1, 11))
 
 def read_json_list(path):
     with open(path,"r",encoding="utf-8") as f:
@@ -18,6 +25,18 @@ def read_json_list(path):
     if isinstance(j, dict) and "data" in j:
         return j["data"]
     return j
+
+def get_latest_build_dir(build_root: str) -> str:
+    if not os.path.isdir(build_root):
+        raise FileNotFoundError(f"Build folder not found: {build_root}")
+    candidates = [
+        os.path.join(build_root, d)
+        for d in os.listdir(build_root)
+        if os.path.isdir(os.path.join(build_root, d))
+    ]
+    if not candidates:
+        raise FileNotFoundError("No build subfolders found. Run encode_passages.py first.")
+    return sorted(candidates)[-1]
 
 def load_passage_map(path):
     ps = read_json_list(path)
@@ -27,19 +46,38 @@ def encode_batch(queries, tokenizer, encoder, device):
     toks = tokenizer(queries, padding=True, truncation=True, max_length=64, return_tensors="pt")
     toks = {k: v.to(device) for k,v in toks.items()}
     with torch.no_grad():
-        out = encoder(**toks)
-        mask = toks["attention_mask"].unsqueeze(-1).float()
-        vec = (out.last_hidden_state * mask).sum(dim=1) / mask.sum(dim=1).clamp(min=1e-9)
-        vec = F.normalize(vec, p=2, dim=1)
+        vec = encoder.encode(toks["input_ids"], toks["attention_mask"])
     return vec.cpu().numpy()
 
+class DualEncoder(torch.nn.Module):
+    def __init__(self, model_name: str):
+        super().__init__()
+        self.encoder = AutoModel.from_pretrained(model_name)
+        self.proj = torch.nn.Linear(self.encoder.config.hidden_size, 768)
+
+    def encode(self, input_ids, attention_mask):
+        out = self.encoder(input_ids=input_ids, attention_mask=attention_mask)
+        mask = attention_mask.unsqueeze(-1).float()
+        vec = (out.last_hidden_state * mask).sum(dim=1) / mask.sum(dim=1).clamp(min=1e-9)
+        vec = self.proj(vec)
+        vec = F.normalize(vec, p=2, dim=1)
+        return vec
+
 def main():
-    index = faiss.read_index(FAISS_IDX)
-    id_map = json.load(open(IDMAP,"r",encoding="utf-8"))
+    build_dir = get_latest_build_dir(BUILD_ROOT)
+    faiss_idx = os.path.join(build_dir, FAISS_NAME)
+    idmap_path = os.path.join(build_dir, IDMAP_NAME)
+
+    index = faiss.read_index(faiss_idx)
+    id_map = json.load(open(idmap_path,"r",encoding="utf-8"))
     test = read_json_list(TEST_Q)
     tokenizer = AutoTokenizer.from_pretrained(MODEL, use_fast=False)
-    encoder = AutoModel.from_pretrained(MODEL).to("cuda" if torch.cuda.is_available() else "cpu")
     device = "cuda" if torch.cuda.is_available() else "cpu"
+    encoder = DualEncoder(BASE_MODEL_NAME).to(device)
+    state_path = f"{MODEL}/{MODEL_WEIGHTS}"
+    state = torch.load(state_path, map_location=device)
+    encoder.load_state_dict(state, strict=True)
+    encoder.eval()
 
     total = len(test)
     hits = {k:0 for k in TOPK}

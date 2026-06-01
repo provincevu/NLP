@@ -516,7 +516,7 @@
   },
   {
     "qid": "q_0980",
-    "question": "Sinh viên chưa đạt yêu cầu học phần A có được học tiên quyết B không?",
+    "question": "Sinh viên ch đạt yêu cầu học phần A có được học tiên quyết B không?",
     "positive_passage_id": "p_0018"
   },
   {
@@ -916,7 +916,7 @@
   },
   {
     "qid": "q_4630",
-    "question": "Sinh viên có điểm rớt môn bắt buộc nhưng chưa bị xử lý thôi học thì phải học lại môn đó chứ?",
+    "question": "Sinh viên có điểm rớt môn bắt buộc nhưng ch bị xử lý thôi học thì phải học lại môn đó chứ?",
     "positive_passage_id": "p_0048"
   },
   {
@@ -1511,7 +1511,7 @@
   },
   {
     "qid": "q_4562",
-    "question": "Nếu chưa được phòng ĐTĐH chấp thuận thì có được rút bớt học phần không?",
+    "question": "Nếu ch được phòng ĐTĐH chấp thuận thì có được rút bớt học phần không?",
     "positive_passage_id": "p_0044"
   },
   {
@@ -1546,7 +1546,7 @@
   },
   {
     "qid": "q_2888",
-    "question": "Trường hợp em đã hoàn tất mọi môn học ngoại trừ đồ án, vậy có đủ điều kiện thực tập chưa?",
+    "question": "Trường hợp em đã hoàn tất mọi môn học ngoại trừ đồ án, vậy có đủ điều kiện thực tập ch?",
     "positive_passage_id": "p_0116"
   },
   {

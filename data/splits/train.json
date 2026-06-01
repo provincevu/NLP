@@ -66,7 +66,7 @@
   },
   {
     "qid": "q_4517",
-    "question": "Nếu sinh viên chưa đạt chuẩn tiếng Anh thì có bị cắt giảm tín chỉ không?",
+    "question": "Nếu sinh viên ch đạt chuẩn tiếng Anh thì có bị cắt giảm tín chỉ không?",
     "positive_passage_id": "p_0042"
   },
   {
@@ -121,7 +121,7 @@
   },
   {
     "qid": "q_4865",
-    "question": "Sinh viên chưa đạt chuẩn ngoại ngữ có phải chịu hạn chế khối lượng không?",
+    "question": "Sinh viên ch đạt chuẩn ngoại ngữ có phải chịu hạn chế khối lượng không?",
     "positive_passage_id": "p_0063"
   },
   {
@@ -276,7 +276,7 @@
   },
   {
     "qid": "q_5447",
-    "question": "Nếu sinh viên đã đăng ký làm lại nhưng chưa bảo vệ trong một năm thì sao?",
+    "question": "Nếu sinh viên đã đăng ký làm lại nhưng ch bảo vệ trong một năm thì sao?",
     "positive_passage_id": "p_0128"
   },
   {
@@ -411,7 +411,7 @@
   },
   {
     "qid": "q_1226",
-    "question": "Điều khoản nào quy định việc giới hạn tín chỉ đối với sinh viên chưa đạt chuẩn ngoại ngữ?",
+    "question": "Điều khoản nào quy định việc giới hạn tín chỉ đối với sinh viên ch đạt chuẩn ngoại ngữ?",
     "positive_passage_id": "p_0042"
   },
   {
@@ -966,7 +966,7 @@
   },
   {
     "qid": "q_0976",
-    "question": "Nếu chưa hoàn thành học phần A, có thể học học phần học trước B không?",
+    "question": "Nếu ch hoàn thành học phần A, có thể học học phần học trước B không?",
     "positive_passage_id": "p_0018"
   },
   {
@@ -1771,7 +1771,7 @@
   },
   {
     "qid": "q_4775",
-    "question": "Sinh viên có điểm TBC tích lũy 1,6 và chưa bị buộc thôi học thì học lực xếp loại gì?",
+    "question": "Sinh viên có điểm TBC tích lũy 1,6 và ch bị buộc thôi học thì học lực xếp loại gì?",
     "positive_passage_id": "p_0058"
   },
   {
@@ -1786,7 +1786,7 @@
   },
   {
     "qid": "q_4545",
-    "question": "Sau 2 tuần học kỳ chính mà chưa rút thì có được rút nữa không?",
+    "question": "Sau 2 tuần học kỳ chính mà ch rút thì có được rút nữa không?",
     "positive_passage_id": "p_0043"
   },
   {
@@ -2216,7 +2216,7 @@
   },
   {
     "qid": "q_3331",
-    "question": "Có mất 2 học phần nếu chưa đóng học phí cuối?",
+    "question": "Có mất 2 học phần nếu ch đóng học phí cuối?",
     "positive_passage_id": "p_0041"
   },
   {
@@ -2586,7 +2586,7 @@
   },
   {
     "qid": "q_0962",
-    "question": "Chỉ cần 30 giờ thực hành đã được một tín chỉ chưa?",
+    "question": "Chỉ cần 30 giờ thực hành đã được một tín chỉ ch?",
     "positive_passage_id": "p_0017"
   },
   {
@@ -2656,7 +2656,7 @@
   },
   {
     "qid": "q_4503",
-    "question": "\"Sau đợt cuối mà tôi chưa đóng, liệu tôi có bị cấm học kỳ tới không?\"",
+    "question": "\"Sau đợt cuối mà tôi ch đóng, liệu tôi có bị cấm học kỳ tới không?\"",
     "positive_passage_id": "p_0041"
   },
   {
@@ -4306,7 +4306,7 @@
   },
   {
     "qid": "q_5489",
-    "question": "Sinh viên chưa đạt học phần thể chất, đã hết thời gian học cho phép, liệu có còn cơ hội tốt nghiệp không?",
+    "question": "Sinh viên ch đạt học phần thể chất, đã hết thời gian học cho phép, liệu có còn cơ hội tốt nghiệp không?",
     "positive_passage_id": "p_0139"
   },
   {
@@ -4556,7 +4556,7 @@
   },
   {
     "qid": "q_0173",
-    "question": "Nếu sinh viên đáp ứng đủ điều kiện nhưng chưa đóng học phí thì có được xác nhận không?",
+    "question": "Nếu sinh viên đáp ứng đủ điều kiện nhưng ch đóng học phí thì có được xác nhận không?",
     "positive_passage_id": "nvqs__001"
   },
   {
@@ -4766,7 +4766,7 @@
   },
   {
     "qid": "q_4511",
-    "question": "Hết hạn đóng đợt cuối mà chưa đóng, sinh viên có thể bị đình chỉ ở học kỳ kế tiếp.",
+    "question": "Hết hạn đóng đợt cuối mà ch đóng, sinh viên có thể bị đình chỉ ở học kỳ kế tiếp.",
     "positive_passage_id": "p_0041"
   },
   {
@@ -5246,7 +5246,7 @@
   },
   {
     "qid": "q_2391",
-    "question": "TBC 1,9 và chưa buộc thôi học thì thuộc hạng nào?",
+    "question": "TBC 1,9 và ch buộc thôi học thì thuộc hạng nào?",
     "positive_passage_id": "p_0058"
   },
   {
@@ -5471,7 +5471,7 @@
   },
   {
     "qid": "q_3831",
-    "question": "Xếp hạng tốt nghiệp phụ thuộc vào điểm TBC tích lũy chưa?",
+    "question": "Xếp hạng tốt nghiệp phụ thuộc vào điểm TBC tích lũy ch?",
     "positive_passage_id": "p_0110"
   },
   {
@@ -5751,7 +5751,7 @@
   },
   {
     "qid": "q_0427",
-    "question": "Làm sao để biết hệ thống đã ghi nhận các môn đã đăng ký dự kiến hay chưa?",
+    "question": "Làm sao để biết hệ thống đã ghi nhận các môn đã đăng ký dự kiến hay ch?",
     "positive_passage_id": "dki_dukien__001"
   },
   {
@@ -6096,7 +6096,7 @@
   },
   {
     "qid": "q_3861",
-    "question": "Có được thực tập nếu nợ 2 học phần chưa đạt yêu cầu?",
+    "question": "Có được thực tập nếu nợ 2 học phần ch đạt yêu cầu?",
     "positive_passage_id": "p_0116"
   },
   {
@@ -6266,12 +6266,12 @@
   },
   {
     "qid": "q_5019",
-    "question": "Đã hoàn thành thí nghiệm thì có được thi lý thuyết chưa?",
+    "question": "Đã hoàn thành thí nghiệm thì có được thi lý thuyết ch?",
     "positive_passage_id": "p_0076"
   },
   {
     "qid": "q_0158",
-    "question": "Sinh viên có thời khóa biểu nhưng chưa đóng học phí thì có được xác nhận không?",
+    "question": "Sinh viên có thời khóa biểu nhưng ch đóng học phí thì có được xác nhận không?",
     "positive_passage_id": "nvqs__001"
   },
   {
@@ -6456,7 +6456,7 @@
   },
   {
     "qid": "q_4501",
-    "question": "Hết hạn gia hạn đợt đóng đầu, sinh viên nào chưa đóng học phí sẽ bị hủy 2 học phần có tín chỉ cao nhất.",
+    "question": "Hết hạn gia hạn đợt đóng đầu, sinh viên nào ch đóng học phí sẽ bị hủy 2 học phần có tín chỉ cao nhất.",
     "positive_passage_id": "p_0041"
   },
   {
@@ -9876,7 +9876,7 @@
   },
   {
     "qid": "q_3324",
-    "question": "Có phải chỉ mất 2 học phần nếu chưa trả phí?",
+    "question": "Có phải chỉ mất 2 học phần nếu ch trả phí?",
     "positive_passage_id": "p_0041"
   },
   {
@@ -10231,7 +10231,7 @@
   },
   {
     "qid": "q_4768",
-    "question": "Điểm dưới 2,0 nhưng chưa tới mức bị buộc thôi học thì bị xếp loại học lực thế nào?",
+    "question": "Điểm dưới 2,0 nhưng ch tới mức bị buộc thôi học thì bị xếp loại học lực thế nào?",
     "positive_passage_id": "p_0058"
   },
   {
@@ -10651,7 +10651,7 @@
   },
   {
     "qid": "q_4641",
-    "question": "Học phần bắt buộc bị F, sinh viên phải học lại cho đến khi đạt điểm tích lũy – vậy nếu chưa đạt thì sao?",
+    "question": "Học phần bắt buộc bị F, sinh viên phải học lại cho đến khi đạt điểm tích lũy – vậy nếu ch đạt thì sao?",
     "positive_passage_id": "p_0048"
   },
   {
@@ -10691,7 +10691,7 @@
   },
   {
     "qid": "q_3340",
-    "question": "Bạn bị hủy 2 học phần nếu chưa trả phí?",
+    "question": "Bạn bị hủy 2 học phần nếu ch trả phí?",
     "positive_passage_id": "p_0041"
   },
   {
@@ -10796,7 +10796,7 @@
   },
   {
     "qid": "q_3237",
-    "question": "Khi chưa đủ 20 người muốn học, chuyên ngành có thể được mở bởi Hiệu trưởng không?",
+    "question": "Khi ch đủ 20 người muốn học, chuyên ngành có thể được mở bởi Hiệu trưởng không?",
     "positive_passage_id": "p_0027"
   },
   {
@@ -11191,7 +11191,7 @@
   },
   {
     "qid": "q_3372",
-    "question": "Có bị vi phạm khoản 4 Điều 10 nếu sinh viên bỏ lớp mà chưa nộp đơn?",
+    "question": "Có bị vi phạm khoản 4 Điều 10 nếu sinh viên bỏ lớp mà ch nộp đơn?",
     "positive_passage_id": "p_0044"
   },
   {
@@ -11456,7 +11456,7 @@
   },
   {
     "qid": "q_4785",
-    "question": "Trong trường hợp điểm TBC tích lũy nhỏ hơn 2,0 nhưng chưa bị buộc thôi học, học lực được xếp loại nào?",
+    "question": "Trong trường hợp điểm TBC tích lũy nhỏ hơn 2,0 nhưng ch bị buộc thôi học, học lực được xếp loại nào?",
     "positive_passage_id": "p_0058"
   },
   {
@@ -11551,7 +11551,7 @@
   },
   {
     "qid": "q_3314",
-    "question": "Bạn nên kiểm tra xem học phần đã mở chưa khi đăng ký?",
+    "question": "Bạn nên kiểm tra xem học phần đã mở ch khi đăng ký?",
     "positive_passage_id": "p_0039"
   },
   {
@@ -11691,7 +11691,7 @@
   },
   {
     "qid": "q_4745",
-    "question": "Nếu chưa từng bị buộc thôi học và đã học ít nhất một kỳ, cần thêm điều kiện gì để nghỉ vì việc riêng?",
+    "question": "Nếu ch từng bị buộc thôi học và đã học ít nhất một kỳ, cần thêm điều kiện gì để nghỉ vì việc riêng?",
     "positive_passage_id": "p_0055"
   },
   {
@@ -11911,7 +11911,7 @@
   },
   {
     "qid": "q_4777",
-    "question": "Không đạt điểm 2,0 mà cũng chưa bị thôi học thì kết quả học lực ra sao?",
+    "question": "Không đạt điểm 2,0 mà cũng ch bị thôi học thì kết quả học lực ra sao?",
     "positive_passage_id": "p_0058"
   },
   {
@@ -12606,7 +12606,7 @@
   },
   {
     "qid": "q_4781",
-    "question": "Điểm trung bình chung tích lũy dưới 2,0 nhưng chưa tới mức thôi học được gọi là hạng gì?",
+    "question": "Điểm trung bình chung tích lũy dưới 2,0 nhưng ch tới mức thôi học được gọi là hạng gì?",
     "positive_passage_id": "p_0058"
   },
   {
@@ -12706,7 +12706,7 @@
   },
   {
     "qid": "q_4105",
-    "question": "So với đại học, chuyên sâu bậc 7 yêu cầu tín chỉ tối thiểu là bao nhiêu nếu chưa có bằng cùng ngành?",
+    "question": "So với đại học, chuyên sâu bậc 7 yêu cầu tín chỉ tối thiểu là bao nhiêu nếu ch có bằng cùng ngành?",
     "positive_passage_id": "p_0007"
   },
   {
@@ -12716,7 +12716,7 @@
   },
   {
     "qid": "q_3183",
-    "question": "Học phần A cần hoàn thành trước khi đăng ký B, đúng chưa?",
+    "question": "Học phần A cần hoàn thành trước khi đăng ký B, đúng ch?",
     "positive_passage_id": "p_0018"
   },
   {
@@ -12901,7 +12901,7 @@
   },
   {
     "qid": "q_0780",
-    "question": "Nếu chưa có bằng cử nhân, thì chương trình chuyên sâu bậc 7 yêu cầu tối thiểu bao nhiêu tín chỉ?",
+    "question": "Nếu ch có bằng cử nhân, thì chương trình chuyên sâu bậc 7 yêu cầu tối thiểu bao nhiêu tín chỉ?",
     "positive_passage_id": "p_0007"
   },
   {
@@ -15291,7 +15291,7 @@
   },
   {
     "qid": "q_3824",
-    "question": "Đối tượng sử dụng điểm TBC để xếp hạng là sinh viên chưa?",
+    "question": "Đối tượng sử dụng điểm TBC để xếp hạng là sinh viên ch?",
     "positive_passage_id": "p_0110"
   },
   {
@@ -15416,7 +15416,7 @@
   },
   {
     "qid": "q_2969",
-    "question": "Nếu tôi chưa đạt chuẩn ngoại ngữ nhưng đã bổ sung kịp, liệu tôi có được xét tốt nghiệp sau khi học quá hạn không?",
+    "question": "Nếu tôi ch đạt chuẩn ngoại ngữ nhưng đã bổ sung kịp, liệu tôi có được xét tốt nghiệp sau khi học quá hạn không?",
     "positive_passage_id": "p_0139"
   },
   {
@@ -15566,7 +15566,7 @@
   },
   {
     "qid": "q_3955",
-    "question": "Bạn có thể xin phép học lại nếu chưa đạt chuẩn đầu ra về công nghệ thông tin không?",
+    "question": "Bạn có thể xin phép học lại nếu ch đạt chuẩn đầu ra về công nghệ thông tin không?",
     "positive_passage_id": "p_0139"
   },
   {
@@ -15731,7 +15731,7 @@
   },
   {
     "qid": "q_2661",
-    "question": "Sinh viên chưa hoàn tất phần thực hành thì kết cục điểm số ra sao?",
+    "question": "Sinh viên ch hoàn tất phần thực hành thì kết cục điểm số ra sao?",
     "positive_passage_id": "p_0076"
   },
   {
@@ -15856,7 +15856,7 @@
   },
   {
     "qid": "q_3174",
-    "question": "Điều kiện đăng ký học phần B nếu A chưa đạt yêu cầu điểm?",
+    "question": "Điều kiện đăng ký học phần B nếu A ch đạt yêu cầu điểm?",
     "positive_passage_id": "p_0018"
   },
   {
@@ -16131,7 +16131,7 @@
   },
   {
     "qid": "q_1512",
-    "question": "Sinh viên chưa đạt chuẩn ngoại ngữ có phải chịu hạn chế khối lượng học tập không?",
+    "question": "Sinh viên ch đạt chuẩn ngoại ngữ có phải chịu hạn chế khối lượng học tập không?",
     "positive_passage_id": "p_0063"
   },
   {
@@ -16216,7 +16216,7 @@
   },
   {
     "qid": "q_4726",
-    "question": "Sinh viên chưa học đủ một học kỳ có xin nghỉ tạm thời vì việc riêng được không?",
+    "question": "Sinh viên ch học đủ một học kỳ có xin nghỉ tạm thời vì việc riêng được không?",
     "positive_passage_id": "p_0055"
   },
   {
@@ -16301,7 +16301,7 @@
   },
   {
     "qid": "q_3615",
-    "question": "Điều kiện bảo đảm chất lượng yêu cầu chưa vượt quá năng lực đào tạo bao nhiêu?",
+    "question": "Điều kiện bảo đảm chất lượng yêu cầu ch vượt quá năng lực đào tạo bao nhiêu?",
     "positive_passage_id": "p_0070"
   },
   {
@@ -16946,7 +16946,7 @@
   },
   {
     "qid": "q_5400",
-    "question": "Đồ án chưa được phản biện chấm đạt thì có được bảo vệ không?",
+    "question": "Đồ án ch được phản biện chấm đạt thì có được bảo vệ không?",
     "positive_passage_id": "p_0122"
   },
   {

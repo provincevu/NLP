@@ -196,6 +196,9 @@ def train(cfg: TrainConfig):
         val_loss = eval_retrieval(model, val_dl)
         print(f"[Epoch {epoch}] val_loss = {val_loss:.4f}")
 
+        test_loss = eval_retrieval(model, train_dl)
+        print(f"[Epoch {epoch}] test_loss = {test_loss:.4f}")
+
         if val_loss < best_val:
             best_val = val_loss
             import os
