@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPR Codebase — Understanding Dashboard</title>
+    <meta name="description" content="Interactive dashboard for understanding the Dense Passage Retrieval codebase for HUMG training regulations.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ========== DESIGN TOKENS ========== */
+        :root {
+            --bg-primary: #0a0e1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a1f35;
+            --bg-card-hover: #1f2847;
+            --bg-elevated: #232b45;
+            --border-subtle: rgba(99, 115, 171, 0.15);
+            --border-glow: rgba(99, 179, 237, 0.25);
+            --text-primary: #e8ecf4;
+            --text-secondary: #8b97b8;
+            --text-muted: #5a6585;
+            --accent-blue: #63b3ed;
+            --accent-purple: #b794f6;
+            --accent-green: #68d391;
+            --accent-orange: #f6ad55;
+            --accent-pink: #f687b3;
+            --accent-cyan: #76e4f7;
+            --accent-red: #fc8181;
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-blue: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            --gradient-green: linear-gradient(135deg, #059669 0%, #0891b2 100%);
+            --gradient-orange: linear-gradient(135deg, #d97706 0%, #dc2626 100%);
+            --gradient-pink: linear-gradient(135deg, #db2777 0%, #7c3aed 100%);
+            --shadow-card: 0 4px 24px rgba(0,0,0,0.25);
+            --shadow-glow: 0 0 30px rgba(99, 179, 237, 0.08);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 20px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* ========== RESET & BASE ========== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+        ::selection { background: rgba(99, 179, 237, 0.3); }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(99, 115, 171, 0.3); border-radius: 3px; }
+
+        /* ========== ANIMATED BACKGROUND ========== */
+        .bg-glow {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 0; pointer-events: none; overflow: hidden;
+        }
+        .bg-glow .orb {
+            position: absolute; border-radius: 50%; filter: blur(100px); opacity: 0.07;
+            animation: float 20s ease-in-out infinite;
+        }
+        .bg-glow .orb:nth-child(1) {
+            width: 600px; height: 600px; background: var(--accent-blue);
+            top: -200px; left: -100px; animation-delay: 0s;
+        }
+        .bg-glow .orb:nth-child(2) {
+            width: 500px; height: 500px; background: var(--accent-purple);
+            top: 40%; right: -150px; animation-delay: -7s;
+        }
+        .bg-glow .orb:nth-child(3) {
+            width: 400px; height: 400px; background: var(--accent-green);
+            bottom: -100px; left: 30%; animation-delay: -14s;
+        }
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -30px) scale(1.05); }
+            66% { transform: translate(-20px, 20px) scale(0.95); }
+        }
+
+        /* ========== LAYOUT ========== */
+        .app { position: relative; z-index: 1; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
+
+        /* ========== HEADER ========== */
+        .header {
+            padding: 32px 0 24px;
+            border-bottom: 1px solid var(--border-subtle);
+            backdrop-filter: blur(20px);
+            position: sticky; top: 0; z-index: 100;
+            background: rgba(10, 14, 26, 0.8);
+        }
+        .header-inner {
+            display: flex; align-items: center; justify-content: space-between;
+            flex-wrap: wrap; gap: 16px;
+        }
+        .header-left { display: flex; align-items: center; gap: 16px; }
+        .logo {
+            width: 48px; height: 48px; border-radius: var(--radius-md);
+            background: var(--gradient-primary); display: flex;
+            align-items: center; justify-content: center; font-size: 24px;
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+        }
+        .header-title h1 {
+            font-size: 22px; font-weight: 700;
+            background: linear-gradient(135deg, #e8ecf4 0%, #63b3ed 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .header-title p { font-size: 13px; color: var(--text-secondary); margin-top: 2px; }
+        .header-stats { display: flex; gap: 16px; }
+        .header-stat {
+            display: flex; flex-direction: column; align-items: center;
+            padding: 8px 16px; border-radius: var(--radius-sm);
+            background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle);
+        }
+        .header-stat .value { font-size: 18px; font-weight: 700; color: var(--accent-blue); }
+        .header-stat .label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+        /* ========== NAVIGATION ========== */
+        .nav-bar {
+            display: flex; gap: 4px; padding: 20px 0 8px;
+            overflow-x: auto; scrollbar-width: none;
+        }
+        .nav-bar::-webkit-scrollbar { display: none; }
+        .nav-btn {
+            padding: 10px 20px; border-radius: var(--radius-sm);
+            border: 1px solid transparent; background: transparent;
+            color: var(--text-secondary); font-family: 'Inter', sans-serif;
+            font-size: 13px; font-weight: 500; cursor: pointer;
+            transition: var(--transition); white-space: nowrap;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .nav-btn:hover { color: var(--text-primary); background: rgba(255,255,255,0.04); }
+        .nav-btn.active {
+            color: var(--accent-blue); background: rgba(99, 179, 237, 0.08);
+            border-color: rgba(99, 179, 237, 0.2);
+        }
+        .nav-btn .icon { font-size: 16px; }
+
+        /* ========== SECTIONS ========== */
+        .section { display: none; padding: 24px 0 60px; animation: fadeIn 0.4s ease; }
+        .section.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .section-title {
+            font-size: 20px; font-weight: 700; margin-bottom: 20px;
+            display: flex; align-items: center; gap: 10px;
+        }
+        .section-title .badge {
+            font-size: 11px; padding: 3px 10px; border-radius: 20px;
+            background: rgba(99, 179, 237, 0.1); color: var(--accent-blue);
+            font-weight: 500;
+        }
+
+        /* ========== CARDS ========== */
+        .card {
+            background: var(--bg-card); border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg); padding: 24px;
+            transition: var(--transition); position: relative; overflow: hidden;
+        }
+        .card:hover {
+            border-color: var(--border-glow); box-shadow: var(--shadow-glow);
+            transform: translateY(-2px);
+        }
+        .card-header {
+            display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+        }
+        .card-icon {
+            width: 40px; height: 40px; border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 20px; flex-shrink: 0;
+        }
+        .card-title { font-size: 16px; font-weight: 600; }
+        .card-subtitle { font-size: 12px; color: var(--text-secondary); }
+
+        /* ========== OVERVIEW GRID ========== */
+        .overview-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px; margin-bottom: 24px;
+        }
+        .stat-card {
+            background: var(--bg-card); border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg); padding: 24px;
+            transition: var(--transition); position: relative; overflow: hidden;
+        }
+        .stat-card::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+        }
+        .stat-card:nth-child(1)::before { background: var(--gradient-primary); }
+        .stat-card:nth-child(2)::before { background: var(--gradient-green); }
+        .stat-card:nth-child(3)::before { background: var(--gradient-orange); }
+        .stat-card:nth-child(4)::before { background: var(--gradient-pink); }
+        .stat-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-card); }
+        .stat-card .stat-icon { font-size: 28px; margin-bottom: 12px; }
+        .stat-card .stat-value { font-size: 32px; font-weight: 800; margin-bottom: 4px; }
+        .stat-card .stat-label { font-size: 13px; color: var(--text-secondary); }
+        .stat-card .stat-detail { font-size: 11px; color: var(--text-muted); margin-top: 8px; }
+
+        /* ========== PIPELINE FLOW ========== */
+        .pipeline-container { position: relative; padding: 20px 0; }
+        .pipeline-steps {
+            display: flex; gap: 0; overflow-x: auto; padding: 20px 0;
+            scrollbar-width: none;
+        }
+        .pipeline-steps::-webkit-scrollbar { display: none; }
+        .pipeline-step {
+            flex: 0 0 240px; position: relative;
+            display: flex; flex-direction: column; align-items: center;
+        }
+        .pipeline-step:not(:last-child)::after {
+            content: ''; position: absolute; top: 44px; left: calc(50% + 40px);
+            width: calc(100% - 80px); height: 2px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+            opacity: 0.4;
+        }
+        .step-node {
+            width: 80px; height: 80px; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 32px; position: relative; z-index: 2;
+            border: 2px solid var(--border-subtle);
+            background: var(--bg-card); transition: var(--transition);
+            cursor: pointer;
+        }
+        .step-node:hover { transform: scale(1.1); border-color: var(--accent-blue); box-shadow: 0 0 25px rgba(99,179,237,0.2); }
+        .step-node.active { border-color: var(--accent-blue); box-shadow: 0 0 25px rgba(99,179,237,0.3); }
+        .step-label {
+            margin-top: 14px; text-align: center; font-size: 13px; font-weight: 600;
+            color: var(--text-primary);
+        }
+        .step-sublabel { font-size: 11px; color: var(--text-muted); text-align: center; margin-top: 4px; }
+        .step-number {
+            position: absolute; top: -6px; right: -6px;
+            width: 24px; height: 24px; border-radius: 50%;
+            font-size: 11px; font-weight: 700; display: flex;
+            align-items: center; justify-content: center;
+            color: white; z-index: 3;
+        }
+
+        .step-detail-panel {
+            margin-top: 24px; background: var(--bg-card);
+            border: 1px solid var(--border-subtle); border-radius: var(--radius-lg);
+            padding: 28px; display: none; animation: fadeIn 0.3s ease;
+        }
+        .step-detail-panel.active { display: block; }
+        .step-detail-panel h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+        .step-detail-panel .desc { color: var(--text-secondary); font-size: 14px; margin-bottom: 16px; line-height: 1.7; }
+        .detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+        .detail-item {
+            padding: 14px; border-radius: var(--radius-sm);
+            background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle);
+        }
+        .detail-item .d-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+        .detail-item .d-value { font-size: 14px; font-weight: 600; margin-top: 4px; }
+        .code-snippet {
+            font-family: 'JetBrains Mono', monospace; font-size: 12px;
+            background: rgba(0,0,0,0.3); border-radius: var(--radius-sm);
+            padding: 14px 18px; margin-top: 16px; overflow-x: auto;
+            border: 1px solid var(--border-subtle); line-height: 1.8;
+        }
+        .code-snippet .kw { color: var(--accent-purple); }
+        .code-snippet .fn { color: var(--accent-blue); }
+        .code-snippet .str { color: var(--accent-green); }
+        .code-snippet .cm { color: var(--text-muted); }
+        .code-snippet .num { color: var(--accent-orange); }
+
+        /* ========== FILE TREE ========== */
+        .file-tree-container {
+            display: grid; grid-template-columns: 340px 1fr; gap: 20px;
+            min-height: 500px;
+        }
+        .file-tree {
+            background: var(--bg-card); border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg); padding: 16px; overflow-y: auto; max-height: 650px;
+        }
+        .tree-item {
+            display: flex; align-items: center; gap: 8px;
+            padding: 7px 10px; border-radius: var(--radius-sm);
+            cursor: pointer; transition: var(--transition); font-size: 13px;
+            user-select: none;
+        }
+        .tree-item:hover { background: rgba(255,255,255,0.04); }
+        .tree-item.active { background: rgba(99, 179, 237, 0.1); color: var(--accent-blue); }
+        .tree-item .t-icon { font-size: 16px; flex-shrink: 0; width: 20px; text-align: center; }
+        .tree-item .t-name { font-weight: 500; }
+        .tree-item .t-size { margin-left: auto; font-size: 11px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; }
+        .tree-children { padding-left: 20px; }
+        .tree-dir-toggle { cursor: pointer; }
+
+        .file-detail {
+            background: var(--bg-card); border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg); padding: 28px; overflow-y: auto; max-height: 650px;
+        }
+        .file-detail h3 { font-size: 18px; font-weight: 700; margin-bottom: 4px; display: flex; align-items: center; gap: 10px; }
+        .file-detail .file-path { font-size: 12px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; margin-bottom: 16px; }
+        .file-detail .file-desc { color: var(--text-secondary); font-size: 14px; line-height: 1.7; margin-bottom: 20px; }
+        .tag { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 500; margin: 2px 4px 2px 0; }
+        .tag-blue { background: rgba(99,179,237,0.12); color: var(--accent-blue); }
+        .tag-green { background: rgba(104,211,145,0.12); color: var(--accent-green); }
+        .tag-purple { background: rgba(183,148,246,0.12); color: var(--accent-purple); }
+        .tag-orange { background: rgba(246,173,85,0.12); color: var(--accent-orange); }
+        .tag-pink { background: rgba(246,135,179,0.12); color: var(--accent-pink); }
+        .tag-cyan { background: rgba(118,228,247,0.12); color: var(--accent-cyan); }
+
+        .func-list { margin-top: 16px; }
+        .func-item {
+            padding: 10px 14px; border-radius: var(--radius-sm);
+            background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle);
+            margin-bottom: 8px; transition: var(--transition);
+        }
+        .func-item:hover { border-color: var(--border-glow); }
+        .func-item .f-sig { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--accent-blue); }
+        .func-item .f-desc { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+
+        /* ========== ARCHITECTURE ========== */
+        .arch-visual {
+            background: var(--bg-card); border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg); padding: 32px; position: relative;
+            overflow: hidden;
+        }
+        .arch-visual::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 50% 0%, rgba(99,179,237,0.04) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .arch-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+            position: relative;
+        }
+        .arch-block {
+            border-radius: var(--radius-md); padding: 20px; position: relative;
+            border: 1px solid var(--border-subtle); transition: var(--transition);
+            cursor: default;
+        }
+        .arch-block:hover { transform: translateY(-3px); box-shadow: var(--shadow-card); }
+        .arch-block .ab-header {
+            display: flex; align-items: center; gap: 10px;
+            margin-bottom: 12px; padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .arch-block .ab-icon { font-size: 24px; }
+        .arch-block .ab-title { font-size: 14px; font-weight: 700; }
+        .arch-block .ab-tag {
+            font-size: 10px; padding: 2px 8px; border-radius: 10px;
+            margin-left: auto; font-weight: 600;
+        }
+        .arch-block .ab-items { list-style: none; }
+        .arch-block .ab-items li {
+            font-size: 12px; color: var(--text-secondary); padding: 4px 0;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .arch-block .ab-items li::before {
+            content: ''; width: 4px; height: 4px; border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .ab-training { background: rgba(99,179,237,0.05); }
+        .ab-training .ab-tag { background: rgba(99,179,237,0.15); color: var(--accent-blue); }
+        .ab-training .ab-items li::before { background: var(--accent-blue); }
+        .ab-inference { background: rgba(104,211,145,0.05); }
+        .ab-inference .ab-tag { background: rgba(104,211,145,0.15); color: var(--accent-green); }
+        .ab-inference .ab-items li::before { background: var(--accent-green); }
+        .ab-eval { background: rgba(183,148,246,0.05); }
+        .ab-eval .ab-tag { background: rgba(183,148,246,0.15); color: var(--accent-purple); }
+        .ab-eval .ab-items li::before { background: var(--accent-purple); }
+
+        .arch-arrow-row {
+            display: flex; align-items: center; justify-content: center;
+            gap: 20px; margin: 20px 0; color: var(--text-muted); font-size: 24px;
+        }
+        .arch-arrow-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+
+        /* ========== COMPONENT GRID ========== */
+        .component-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 20px;
+        }
+        .component-card {
+            background: var(--bg-card); border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg); padding: 24px;
+            transition: var(--transition); position: relative; overflow: hidden;
+        }
+        .component-card::before {
+            content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%;
+        }
+        .component-card:hover { border-color: var(--border-glow); transform: translateY(-2px); }
+        .cc-header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+        .cc-icon { font-size: 28px; }
+        .cc-title { font-size: 16px; font-weight: 700; }
+        .cc-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 14px; }
+        .cc-files { display: flex; flex-wrap: wrap; gap: 6px; }
+        .cc-file {
+            font-family: 'JetBrains Mono', monospace; font-size: 11px;
+            padding: 4px 10px; border-radius: var(--radius-sm);
+            background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle);
+            color: var(--text-secondary); transition: var(--transition);
+        }
+        .cc-file:hover { border-color: var(--accent-blue); color: var(--accent-blue); }
+
+        /* ========== TECH STACK ========== */
+        .tech-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;
+        }
+        .tech-card {
+            background: var(--bg-card); border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md); padding: 20px; text-align: center;
+            transition: var(--transition);
+        }
+        .tech-card:hover { transform: translateY(-3px); border-color: var(--border-glow); }
+        .tech-card .tc-icon { font-size: 36px; margin-bottom: 10px; }
+        .tech-card .tc-name { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+        .tech-card .tc-role { font-size: 11px; color: var(--text-muted); }
+
+        /* ========== DATA FLOW ========== */
+        .data-flow-wrapper {
+            background: var(--bg-card); border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg); padding: 32px; overflow-x: auto;
+        }
+        .df-row {
+            display: flex; align-items: center; gap: 0; justify-content: center;
+            flex-wrap: nowrap; min-width: fit-content; padding: 10px 0;
+        }
+        .df-node {
+            padding: 14px 20px; border-radius: var(--radius-md);
+            border: 1px solid var(--border-subtle); text-align: center;
+            min-width: 140px; transition: var(--transition); flex-shrink: 0;
+        }
+        .df-node:hover { transform: scale(1.05); }
+        .df-node .df-icon { font-size: 22px; margin-bottom: 6px; }
+        .df-node .df-label { font-size: 12px; font-weight: 600; }
+        .df-node .df-sub { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+        .df-arrow {
+            color: var(--text-muted); font-size: 20px; padding: 0 8px; flex-shrink: 0;
+            opacity: 0.5;
+        }
+        .df-n-blue { background: rgba(99,179,237,0.06); border-color: rgba(99,179,237,0.2); }
+        .df-n-green { background: rgba(104,211,145,0.06); border-color: rgba(104,211,145,0.2); }
+        .df-n-purple { background: rgba(183,148,246,0.06); border-color: rgba(183,148,246,0.2); }
+        .df-n-orange { background: rgba(246,173,85,0.06); border-color: rgba(246,173,85,0.2); }
+        .df-n-pink { background: rgba(246,135,179,0.06); border-color: rgba(246,135,179,0.2); }
+
+        /* ========== CONFIG TABLE ========== */
+        .config-table {
+            width: 100%; border-collapse: collapse; margin-top: 16px;
+        }
+        .config-table th {
+            text-align: left; font-size: 11px; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 0.5px;
+            padding: 10px 14px; border-bottom: 1px solid var(--border-subtle);
+        }
+        .config-table td {
+            padding: 10px 14px; font-size: 13px;
+            border-bottom: 1px solid rgba(99,115,171,0.07);
+        }
+        .config-table td:first-child {
+            font-family: 'JetBrains Mono', monospace; font-size: 12px;
+            color: var(--accent-blue);
+        }
+        .config-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+        /* ========== DEPENDENCY MAP ========== */
+        .dep-map { margin-top: 20px; }
+        .dep-row {
+            display: flex; align-items: stretch; gap: 12px; margin-bottom: 12px;
+        }
+        .dep-source {
+            min-width: 180px; padding: 10px 14px; border-radius: var(--radius-sm);
+            background: rgba(99,179,237,0.06); border: 1px solid rgba(99,179,237,0.15);
+            font-family: 'JetBrains Mono', monospace; font-size: 12px;
+            display: flex; align-items: center; font-weight: 500;
+            color: var(--accent-blue);
+        }
+        .dep-arrow-line {
+            width: 40px; display: flex; align-items: center; justify-content: center;
+            color: var(--text-muted); font-size: 16px;
+        }
+        .dep-targets {
+            display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+        }
+        .dep-target {
+            padding: 6px 12px; border-radius: var(--radius-sm);
+            background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle);
+            font-size: 12px; font-family: 'JetBrains Mono', monospace;
+            color: var(--text-secondary);
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 900px) {
+            .file-tree-container { grid-template-columns: 1fr; }
+            .arch-grid { grid-template-columns: 1fr; }
+            .header-stats { display: none; }
+            .pipeline-step { flex: 0 0 180px; }
+            .component-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-glow">
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="orb"></div>
+    </div>
+
+    <div class="app">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header-left">
+                        <div class="logo">🔍</div>
+                        <div class="header-title">
+                            <h1>DPR Codebase Dashboard</h1>
+                            <p>Dense Passage Retrieval — HUMG Training Regulations</p>
+                        </div>
+                    </div>
+                    <div class="header-stats">
+                        <div class="header-stat"><span class="value">22</span><span class="label">Files</span></div>
+                        <div class="header-stat"><span class="value">5</span><span class="label">Modules</span></div>
+                        <div class="header-stat"><span class="value">~2.1K</span><span class="label">Lines</span></div>
+                        <div class="header-stat"><span class="value">540MB</span><span class="label">Model</span></div>
+                    </div>
+                </div>
+                <nav class="nav-bar" id="navBar">
+                    <button class="nav-btn active" data-section="overview"><span class="icon">📊</span> Overview</button>
+                    <button class="nav-btn" data-section="pipeline"><span class="icon">🔄</span> Pipeline</button>
+                    <button class="nav-btn" data-section="architecture"><span class="icon">🏗️</span> Architecture</button>
+                    <button class="nav-btn" data-section="files"><span class="icon">📁</span> File Explorer</button>
+                    <button class="nav-btn" data-section="components"><span class="icon">🧩</span> Components</button>
+                    <button class="nav-btn" data-section="data"><span class="icon">💾</span> Data Flow</button>
+                    <button class="nav-btn" data-section="tech"><span class="icon">⚡</span> Tech Stack</button>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <!-- ===== OVERVIEW ===== -->
+            <section class="section active" id="overview">
+                <div class="overview-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📄</div>
+                        <div class="stat-value" style="background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">28</div>
+                        <div class="stat-label">Regulation Passages</div>
+                        <div class="stat-detail">Extracted from HUMG's credit-based training regulations</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">❓</div>
+                        <div class="stat-value" style="background: var(--gradient-green); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">~3,500</div>
+                        <div class="stat-label">Synthetic Questions</div>
+                        <div class="stat-detail">LLM-generated · ≥20 per passage · Diverse styles</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🧠</div>
+                        <div class="stat-value" style="background: var(--gradient-orange); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">768-d</div>
+                        <div class="stat-label">Embedding Dimension</div>
+                        <div class="stat-detail">PhoBERT-base · 135M parameters · Mean Pooling</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🔬</div>
+                        <div class="stat-value" style="background: var(--gradient-pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">3</div>
+                        <div class="stat-label">Retrieval Methods</div>
+                        <div class="stat-detail">DPR (neural) · BM25 (sparse) · TF-IDF (sparse)</div>
+                    </div>
+                </div>
+
+                <div class="section-title">🎯 Project Goal</div>
+                <div class="card" style="margin-bottom: 24px;">
+                    <p style="color: var(--text-secondary); font-size: 14px; line-height: 1.8;">
+                        Students often struggle to find information in HUMG's training regulations because traditional keyword search fails when queries don't contain exact terms from the regulation text. This project builds a <strong style="color: var(--accent-blue);">Dense Passage Retrieval</strong> system that understands <strong style="color: var(--accent-green);">semantic meaning</strong> — so asking <em>"Nghỉ bao nhiêu buổi thì bị cấm thi?"</em> (How many absences before being banned from exams?) returns the relevant regulation about exceeding 20% absences, even without matching keywords.
+                    </p>
+                </div>
+
+                <div class="section-title">⚙️ Training Configuration</div>
+                <div class="card">
+                    <table class="config-table">
+                        <thead><tr><th>Parameter</th><th>Value</th><th>Description</th></tr></thead>
+                        <tbody>
+                            <tr><td>MODEL_NAME</td><td>vinai/phobert-base</td><td>Vietnamese pre-trained language model</td></tr>
+                            <tr><td>batch_size</td><td>64</td><td>In-batch negatives: 63 negatives per query</td></tr>
+                            <tr><td>epochs</td><td>10</td><td>Full training passes</td></tr>
+                            <tr><td>lr</td><td>1e-4</td><td>AdamW learning rate</td></tr>
+                            <tr><td>max_q_len</td><td>64 tokens</td><td>Query truncation limit</td></tr>
+                            <tr><td>max_p_len</td><td>256 tokens</td><td>Passage truncation limit</td></tr>
+                            <tr><td>warmup_ratio</td><td>0.1</td><td>10% linear warmup steps</td></tr>
+                            <tr><td>weight_decay</td><td>0.01</td><td>L2 regularization</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- ===== PIPELINE ===== -->
+            <section class="section" id="pipeline">
+                <div class="section-title">🔄 End-to-End Pipeline <span class="badge">Click a step for details</span></div>
+                <div class="pipeline-container">
+                    <div class="pipeline-steps">
+                        <div class="pipeline-step" data-step="0">
+                            <div class="step-node" onclick="showStepDetail(0)">
+                                <span class="step-number" style="background: var(--gradient-primary);">1</span>
+                                📄
+                            </div>
+                            <div class="step-label">Prepare Data</div>
+                            <div class="step-sublabel">passages.json</div>
+                        </div>
+                        <div class="pipeline-step" data-step="1">
+                            <div class="step-node" onclick="showStepDetail(1)">
+                                <span class="step-number" style="background: var(--gradient-green);">2</span>
+                                🤖
+                            </div>
+                            <div class="step-label">Generate Q&A</div>
+                            <div class="step-sublabel">LLM Synthesis</div>
+                        </div>
+                        <div class="pipeline-step" data-step="2">
+                            <div class="step-node" onclick="showStepDetail(2)">
+                                <span class="step-number" style="background: var(--gradient-orange);">3</span>
+                                ✂️
+                            </div>
+                            <div class="step-label">Split Data</div>
+                            <div class="step-sublabel">90/9.9/0.1</div>
+                        </div>
+                        <div class="pipeline-step" data-step="3">
+                            <div class="step-node" onclick="showStepDetail(3)">
+                                <span class="step-number" style="background: var(--gradient-pink);">4</span>
+                                🧠
+                            </div>
+                            <div class="step-label">Train DPR</div>
+                            <div class="step-sublabel">Dual Encoder</div>
+                        </div>
+                        <div class="pipeline-step" data-step="4">
+                            <div class="step-node" onclick="showStepDetail(4)">
+                                <span class="step-number" style="background: var(--gradient-blue);">5</span>
+                                📐
+                            </div>
+                            <div class="step-label">Build Index</div>
+                            <div class="step-sublabel">FAISS</div>
+                        </div>
+                        <div class="pipeline-step" data-step="5">
+                            <div class="step-node" onclick="showStepDetail(5)">
+                                <span class="step-number" style="background: linear-gradient(135deg, #059669, #065f46);">6</span>
+                                🔍
+                            </div>
+                            <div class="step-label">Retrieve</div>
+                            <div class="step-sublabel">Query → Top-K</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="stepDetails"></div>
+            </section>
+
+            <!-- ===== ARCHITECTURE ===== -->
+            <section class="section" id="architecture">
+                <div class="section-title">🏗️ System Architecture</div>
+                <div class="arch-visual">
+                    <div class="arch-grid">
+                        <div class="arch-block ab-training">
+                            <div class="ab-header">
+                                <span class="ab-icon">🏋️</span>
+                                <span class="ab-title">Training Phase</span>
+                                <span class="ab-tag">PhoBERT</span>
+                            </div>
+                            <ul class="ab-items">
+                                <li>Dual Encoder (shared weights)</li>
+                                <li>In-Batch Negatives (B=64)</li>
+                                <li>Mean Pooling → L2 Norm</li>
+                                <li>Cross-Entropy on B×B matrix</li>
+                                <li>Linear warmup + decay</li>
+                                <li>Best val_loss checkpoint</li>
+                            </ul>
+                        </div>
+                        <div class="arch-block ab-inference">
+                            <div class="ab-header">
+                                <span class="ab-icon">🚀</span>
+                                <span class="ab-title">Inference Phase</span>
+                                <span class="ab-tag">FAISS</span>
+                            </div>
+                            <ul class="ab-items">
+                                <li>Encode passages → .npy embeddings</li>
+                                <li>IndexFlatIP (exact search)</li>
+                                <li>Query → encode → FAISS search</li>
+                                <li>Top-K passages returned</li>
+                                <li>passage_id_map.json for lookup</li>
+                                <li>Interactive REPL interface</li>
+                            </ul>
+                        </div>
+                        <div class="arch-block ab-eval">
+                            <div class="ab-header">
+                                <span class="ab-icon">📊</span>
+                                <span class="ab-title">Evaluation</span>
+                                <span class="ab-tag">Metrics</span>
+                            </div>
+                            <ul class="ab-items">
+                                <li>Recall@{1, 5, 10, 20}</li>
+                                <li>MRR (Mean Reciprocal Rank)</li>
+                                <li>Precision@K</li>
+                                <li>Latency (ms/query)</li>
+                                <li>DPR vs BM25 vs TF-IDF</li>
+                                <li>Grid search for BM25 tuning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-title" style="margin-top: 32px;">🧠 Dual Encoder Detail</div>
+                <div class="card">
+                    <div class="code-snippet">
+<span class="cm">// Encoding Architecture</span>
+<br>Query  → <span class="fn">PhoBERT</span>(<span class="str">"vinai/phobert-base"</span>) → <span class="fn">MeanPool</span>(hidden, mask) → <span class="fn">L2Norm</span> → <span class="kw">q_vec</span> (768-d)
+<br>                                                                                          │
+<br>                                                                                    <span class="fn">dot product</span> → (B×B) <span class="kw">scores</span>
+<br>                                                                                          │
+<br>Passage → <span class="fn">PhoBERT</span>(<span class="str">"vinai/phobert-base"</span>) → <span class="fn">MeanPool</span>(hidden, mask) → <span class="fn">L2Norm</span> → <span class="kw">p_vec</span> (768-d)
+<br>
+<br><span class="cm">// Loss: CrossEntropy(scores, arange(B))</span>
+<br><span class="cm">// Each query has 1 positive + (B-1) in-batch negatives</span>
+<br><span class="cm">// Shared encoder → same weights for Q and P</span>
+                    </div>
+                </div>
+
+                <div class="section-title" style="margin-top: 32px;">🔗 Module Dependencies</div>
+                <div class="card">
+                    <div class="dep-map">
+                        <div class="dep-row">
+                            <div class="dep-source">train_dpr_inbatch.py</div>
+                            <div class="dep-arrow-line">→</div>
+                            <div class="dep-targets">
+                                <div class="dep-target">torch</div>
+                                <div class="dep-target">transformers</div>
+                                <div class="dep-target">data/passages.json</div>
+                                <div class="dep-target">data/splits/</div>
+                            </div>
+                        </div>
+                        <div class="dep-row">
+                            <div class="dep-source">encode_passages.py</div>
+                            <div class="dep-arrow-line">→</div>
+                            <div class="dep-targets">
+                                <div class="dep-target">dpr_ckpt_1/</div>
+                                <div class="dep-target">data/passages.json</div>
+                                <div class="dep-target">torch</div>
+                                <div class="dep-target">numpy</div>
+                            </div>
+                        </div>
+                        <div class="dep-row">
+                            <div class="dep-source">build_faiss.py</div>
+                            <div class="dep-arrow-line">→</div>
+                            <div class="dep-targets">
+                                <div class="dep-target">faiss</div>
+                                <div class="dep-target">passage_embeddings.npy</div>
+                                <div class="dep-target">passage_id_map.json</div>
+                            </div>
+                        </div>
+                        <div class="dep-row">
+                            <div class="dep-source">evaluate_baselines.py</div>
+                            <div class="dep-arrow-line">→</div>
+                            <div class="dep-targets">
+                                <div class="dep-target">bm25_retrieval.py</div>
+                                <div class="dep-target">tfidf_retrieval.py</div>
+                                <div class="dep-target">faiss</div>
+                                <div class="dep-target">dpr_ckpt_1/</div>
+                            </div>
+                        </div>
+                        <div class="dep-row">
+                            <div class="dep-source">bm25 / tfidf</div>
+                            <div class="dep-arrow-line">→</div>
+                            <div class="dep-targets">
+                                <div class="dep-target">vietnamese_preprocessor.py</div>
+                            </div>
+                        </div>
+                        <div class="dep-row">
+                            <div class="dep-source">build_prompts.py</div>
+                            <div class="dep-arrow-line">→</div>
+                            <div class="dep-targets">
+                                <div class="dep-target">openai</div>
+                                <div class="dep-target">data/passages.json</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== FILES ===== -->
+            <section class="section" id="files">
+                <div class="section-title">📁 File Explorer <span class="badge">Click to inspect</span></div>
+                <div class="file-tree-container">
+                    <div class="file-tree" id="fileTree"></div>
+                    <div class="file-detail" id="fileDetail">
+                        <h3>👈 Select a file</h3>
+                        <p class="file-desc" style="margin-top: 12px;">Click on any file in the tree to see its details, functions, and purpose.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== COMPONENTS ===== -->
+            <section class="section" id="components">
+                <div class="section-title">🧩 Components</div>
+                <div class="component-grid" id="componentGrid"></div>
+            </section>
+
+            <!-- ===== DATA FLOW ===== -->
+            <section class="section" id="data">
+                <div class="section-title">💾 Data Flow</div>
+
+                <div class="section-title" style="font-size: 16px; margin-top: 8px;">Training Data Pipeline</div>
+                <div class="data-flow-wrapper" style="margin-bottom: 24px;">
+                    <div class="df-row">
+                        <div class="df-node df-n-blue"><div class="df-icon">📜</div><div class="df-label">Regulation PDF</div><div class="df-sub">Manual extraction</div></div>
+                        <div class="df-arrow">→</div>
+                        <div class="df-node df-n-green"><div class="df-icon">📄</div><div class="df-label">passages.json</div><div class="df-sub">28 passages · 32KB</div></div>
+                        <div class="df-arrow">→</div>
+                        <div class="df-node df-n-purple"><div class="df-icon">🤖</div><div class="df-label">LLM (DeepSeek)</div><div class="df-sub">build_prompts.py</div></div>
+                        <div class="df-arrow">→</div>
+                        <div class="df-node df-n-orange"><div class="df-icon">❓</div><div class="df-label">questions.json</div><div class="df-sub">~3,500 QA pairs · 424KB</div></div>
+                        <div class="df-arrow">→</div>
+                        <div class="df-node df-n-pink"><div class="df-icon">✂️</div><div class="df-label">Train / Val / Test</div><div class="df-sub">90% / 9.9% / 0.1%</div></div>
+                    </div>
+                </div>
+
+                <div class="section-title" style="font-size: 16px;">Inference Data Pipeline</div>
+                <div class="data-flow-wrapper" style="margin-bottom: 24px;">
+                    <div class="df-row">
+                        <div class="df-node df-n-green"><div class="df-icon">📄</div><div class="df-label">passages.json</div><div class="df-sub">28 passages</div></div>
+                        <div class="df-arrow">→</div>
+                        <div class="df-node df-n-blue"><div class="df-icon">🧠</div><div class="df-label">PhoBERT Encoder</div><div class="df-sub">dpr_ckpt_1 · 540MB</div></div>
+                        <div class="df-arrow">→</div>
+                        <div class="df-node df-n-purple"><div class="df-icon">📐</div><div class="df-label">Embeddings</div><div class="df-sub">28×768 · .npy</div></div>
+                        <div class="df-arrow">→</div>
+                        <div class="df-node df-n-orange"><div class="df-icon">🗂️</div><div class="df-label">FAISS Index</div><div class="df-sub">IndexFlatIP · .ivf</div></div>
+                        <div class="df-arrow">→</div>
+                        <div class="df-node df-n-pink"><div class="df-icon">🎯</div><div class="df-label">Top-K Results</div><div class="df-sub">Ranked passages</div></div>
+                    </div>
+                </div>
+
+                <div class="section-title" style="font-size: 16px;">Data Files Summary</div>
+                <div class="card">
+                    <table class="config-table">
+                        <thead><tr><th>File</th><th>Location</th><th>Size</th><th>Content</th></tr></thead>
+                        <tbody>
+                            <tr><td>passages.json</td><td>data/</td><td>32 KB</td><td>28 regulation passages with clause_ref</td></tr>
+                            <tr><td>questions.json</td><td>data/</td><td>424 KB</td><td>~3,500 synthetic QA pairs</td></tr>
+                            <tr><td>train.json</td><td>data/splits/</td><td>694 KB</td><td>90% training split</td></tr>
+                            <tr><td>val.json</td><td>data/splits/</td><td>85 KB</td><td>9.9% validation split</td></tr>
+                            <tr><td>test.json</td><td>data/splits/</td><td>117 KB</td><td>0.1% test split</td></tr>
+                            <tr><td>passage_embeddings.npy</td><td>data/</td><td>227 KB</td><td>28×768 float32 matrix</td></tr>
+                            <tr><td>passage_id_map.json</td><td>data/</td><td>740 B</td><td>FAISS index → passage_id mapping</td></tr>
+                            <tr><td>faiss_index_last.ivf</td><td>data/</td><td>227 KB</td><td>FAISS IndexFlatIP index</td></tr>
+                            <tr><td>model.safetensors</td><td>inferences/dpr_ckpt_1/</td><td>540 MB</td><td>Fine-tuned PhoBERT weights</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- ===== TECH STACK ===== -->
+            <section class="section" id="tech">
+                <div class="section-title">⚡ Technology Stack</div>
+                <div class="tech-grid">
+                    <div class="tech-card"><div class="tc-icon">🐍</div><div class="tc-name">Python 3.9+</div><div class="tc-role">Core Language</div></div>
+                    <div class="tech-card"><div class="tc-icon">🔥</div><div class="tc-name">PyTorch</div><div class="tc-role">Deep Learning Framework</div></div>
+                    <div class="tech-card"><div class="tc-icon">🤗</div><div class="tc-name">Transformers</div><div class="tc-role">Model Loading & Tokenization</div></div>
+                    <div class="tech-card"><div class="tc-icon">🇻🇳</div><div class="tc-name">PhoBERT</div><div class="tc-role">Vietnamese LM (VinAI)</div></div>
+                    <div class="tech-card"><div class="tc-icon">🔎</div><div class="tc-name">FAISS</div><div class="tc-role">Vector Similarity Search</div></div>
+                    <div class="tech-card"><div class="tc-icon">🔢</div><div class="tc-name">NumPy</div><div class="tc-role">Numerical Computing</div></div>
+                    <div class="tech-card"><div class="tc-icon">🤖</div><div class="tc-name">OpenAI SDK</div><div class="tc-role">LLM API for Data Generation</div></div>
+                    <div class="tech-card"><div class="tc-icon">📊</div><div class="tc-name">tqdm</div><div class="tc-role">Progress Bars</div></div>
+                </div>
+
+                <div class="section-title" style="margin-top: 32px;">📋 Key Design Decisions</div>
+                <div class="component-grid">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: rgba(99,179,237,0.1);">🔗</div>
+                            <div><div class="card-title">Shared Encoder</div><div class="card-subtitle">Tied Q & P weights</div></div>
+                        </div>
+                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
+                            Both query and passage encoders share the same PhoBERT weights, reducing model size by 50%. Trade-off: separate encoders could specialize better but require more data and memory.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: rgba(104,211,145,0.1);">📊</div>
+                            <div><div class="card-title">Mean Pooling</div><div class="card-subtitle">vs CLS Token</div></div>
+                        </div>
+                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
+                            Uses attention-weighted mean pooling over all tokens instead of CLS token. More robust for passage retrieval as it captures information from the entire sequence.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: rgba(183,148,246,0.1);">🎯</div>
+                            <div><div class="card-title">In-Batch Negatives</div><div class="card-subtitle">Memory-efficient training</div></div>
+                        </div>
+                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
+                            With batch size 64, each query gets 63 negative passages "for free" from other pairs in the same batch. No need for separate hard negative mining.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: rgba(246,173,85,0.1);">🧮</div>
+                            <div><div class="card-title">L2 Normalization</div><div class="card-subtitle">Cosine = Dot Product</div></div>
+                        </div>
+                        <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
+                            All embeddings are L2-normalized, making inner product equivalent to cosine similarity. Enables using FAISS IndexFlatIP for exact cosine search.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // ===== NAV =====
+        const navBtns = document.querySelectorAll('.nav-btn');
+        const sections = document.querySelectorAll('.section');
+        navBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const target = btn.dataset.section;
+                navBtns.forEach(b => b.classList.remove('active'));
+                sections.forEach(s => s.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById(target).classList.add('active');
+            });
+        });
+
+        // ===== PIPELINE STEP DETAILS =====
+        const stepData = [
+            {
+                title: '📄 Step 1 — Prepare Data (passages.json)',
+                desc: 'The regulation document is manually parsed into 28 passages, each representing a distinct clause or rule. Each passage has a unique ID (e.g., p_0017), a clause reference (e.g., "Điều 5 Khoản 1"), and the full text content.',
+                details: [
+                    { label: 'Input', value: 'HUMG regulation PDF' },
+                    { label: 'Output', value: 'data/passages.json' },
+                    { label: 'Passages', value: '28' },
+                    { label: 'File Size', value: '32 KB' },
+                ],
+                code: `<span class="cm">// passages.json format</span>\n[{\n  <span class="str">"passage_id"</span>: <span class="str">"p_0017"</span>,\n  <span class="str">"clause_ref"</span>: <span class="str">"Điều 5 Khoản 1"</span>,\n  <span class="str">"text"</span>: <span class="str">"Tín chỉ (TC) là đơn vị tính..."</span>\n}]`
+            },
+            {
+                title: '🤖 Step 2 — Generate Synthetic Questions',
+                desc: 'Since no labeled QA dataset exists, an LLM (DeepSeek) generates diverse questions for each passage. The prompt instructs the model to create ≥20 questions per passage with varied styles: conditional, consequence, student slang, synonyms, time-based, etc.',
+                details: [
+                    { label: 'Script', value: 'generate_data/build_prompts.py' },
+                    { label: 'LLM', value: 'DeepSeek-v4-flash' },
+                    { label: 'Questions/passage', value: '≥20' },
+                    { label: 'Total generated', value: '~3,500' },
+                ],
+                code: `<span class="kw">python</span> generate_data/build_prompts.py \\\n  --passages data/passages.json \\\n  --output-questions generate_data/new_questions.json \\\n  --api-key <span class="str">YOUR_KEY</span> \\\n  --model <span class="str">deepseek-v4-flash</span> \\\n  --temperature <span class="num">0.7</span>`
+            },
+            {
+                title: '✂️ Step 3 — Split Data',
+                desc: 'The generated QA pairs are randomly shuffled (seed=42) and split into training, validation, and test sets. The split ratios heavily favor training data since the model needs maximum examples.',
+                details: [
+                    { label: 'Script', value: 'split_questions.py' },
+                    { label: 'Train', value: '90% (694 KB)' },
+                    { label: 'Validation', value: '9.9% (85 KB)' },
+                    { label: 'Test', value: '0.1% (117 KB)' },
+                ],
+                code: `<span class="kw">python</span> split_questions.py\n<span class="cm"># Output: data/splits/train.json, val.json, test.json</span>`
+            },
+            {
+                title: '🧠 Step 4 — Train DPR Model',
+                desc: 'The core training step: a Dual Encoder based on PhoBERT is fine-tuned using in-batch negatives. Both query and passage encoders share weights. The model learns to place matching query-passage pairs close together in embedding space.',
+                details: [
+                    { label: 'Script', value: 'train_dpr_inbatch.py' },
+                    { label: 'Base model', value: 'vinai/phobert-base' },
+                    { label: 'Batch size', value: '64 (63 negatives)' },
+                    { label: 'Checkpoint', value: 'dpr_ckpt_1/ (540MB)' },
+                ],
+                code: `<span class="kw">python</span> train_dpr_inbatch.py\n<span class="cm"># Trains for 10 epochs</span>\n<span class="cm"># Saves best checkpoint (lowest val_loss) to dpr_ckpt_1/</span>`
+            },
+            {
+                title: '📐 Step 5 — Build FAISS Index',
+                desc: 'After training, all 28 passages are encoded into 768-dimensional vectors using the fine-tuned model. These vectors are stored in a FAISS IndexFlatIP for exact inner product search.',
+                details: [
+                    { label: 'Scripts', value: 'encode_passages.py → build_faiss.py' },
+                    { label: 'Embeddings', value: '28 × 768 (float32)' },
+                    { label: 'Index type', value: 'FAISS IndexFlatIP' },
+                    { label: 'Search', value: 'Exact (brute-force)' },
+                ],
+                code: `<span class="kw">cd</span> inferences\n<span class="kw">python</span> encode_passages.py   <span class="cm"># → passage_embeddings.npy</span>\n<span class="kw">python</span> build_faiss.py       <span class="cm"># → faiss_index_last.ivf</span>`
+            },
+            {
+                title: '🔍 Step 6 — Retrieve & Evaluate',
+                desc: 'Users can query the system interactively or run batch evaluation. The query is encoded with the same model, then FAISS finds the top-K most similar passage vectors. Evaluation uses Recall@K and MRR metrics.',
+                details: [
+                    { label: 'Interactive', value: 'inferences/retrieve.py' },
+                    { label: 'Evaluation', value: 'evaluate_retrieval.py' },
+                    { label: 'Baselines', value: 'evaluate_baselines.py' },
+                    { label: 'Metrics', value: 'Recall@K, MRR, P@K' },
+                ],
+                code: `<span class="kw">python</span> retrieve.py\n<span class="cm"># Query: nghỉ bao nhiêu buổi thì bị cấm thi?</span>\n<span class="cm"># → Rank 1: p_0052 (Điều 14 Khoản 1) score=0.8234</span>`
+            },
+        ];
+
+        function showStepDetail(idx) {
+            document.querySelectorAll('.step-node').forEach(n => n.classList.remove('active'));
+            document.querySelectorAll('.pipeline-step')[idx].querySelector('.step-node').classList.add('active');
+
+            const s = stepData[idx];
+            const panel = document.getElementById('stepDetails');
+            panel.innerHTML = `
+                <div class="step-detail-panel active">
+                    <h3>${s.title}</h3>
+                    <p class="desc">${s.desc}</p>
+                    <div class="detail-grid">
+                        ${s.details.map(d => `<div class="detail-item"><div class="d-label">${d.label}</div><div class="d-value">${d.value}</div></div>`).join('')}
+                    </div>
+                    <div class="code-snippet">${s.code}</div>
+                </div>
+            `;
+        }
+
+        // ===== FILE TREE =====
+        const files = [
+            { name: 'NLP/', icon: '📂', type: 'dir', children: [
+                { name: 'train_dpr_inbatch.py', icon: '🧠', size: '6.2 KB', lines: 191, type: 'file', id: 'train_dpr' },
+                { name: 'split_questions.py', icon: '✂️', size: '1.3 KB', lines: 48, type: 'file', id: 'split_q' },
+                { name: 'DPR.ipynb', icon: '📓', size: '304 KB', type: 'file', id: 'dpr_nb' },
+                { name: 'requirements.txt', icon: '📋', size: '66 B', type: 'file', id: 'req' },
+                { name: 'README.md', icon: '📝', size: '14 KB', type: 'file', id: 'readme' },
+                { name: 'generate_data/', icon: '📂', type: 'dir', children: [
+                    { name: 'build_prompts.py', icon: '🤖', size: '7.9 KB', lines: 261, type: 'file', id: 'build_prompts' },
+                    { name: 'concat_json.py', icon: '🔗', size: '3.6 KB', lines: 103, type: 'file', id: 'concat_json' },
+                    { name: 'test.py', icon: '🧪', size: '2.5 KB', type: 'file', id: 'gen_test' },
+                    { name: 'new_questions.json', icon: '❓', size: '248 KB', type: 'file', id: 'new_q' },
+                ]},
+                { name: 'inferences/', icon: '📂', type: 'dir', children: [
+                    { name: 'encode_passages.py', icon: '📐', size: '2.2 KB', lines: 64, type: 'file', id: 'encode_p' },
+                    { name: 'build_faiss.py', icon: '🗂️', size: '952 B', lines: 32, type: 'file', id: 'build_faiss' },
+                    { name: 'retrieve.py', icon: '🔍', size: '2.2 KB', lines: 62, type: 'file', id: 'retrieve' },
+                    { name: 'evaluate_retrieval.py', icon: '📊', size: '2.5 KB', lines: 74, type: 'file', id: 'eval_ret' },
+                    { name: 'dpr_ckpt_1/', icon: '📂', type: 'dir', children: [
+                        { name: 'model.safetensors', icon: '🏋️', size: '540 MB', type: 'file', id: 'ckpt_model' },
+                        { name: 'config.json', icon: '⚙️', size: '745 B', type: 'file', id: 'ckpt_config' },
+                        { name: 'vocab.txt', icon: '📖', size: '895 KB', type: 'file', id: 'ckpt_vocab' },
+                    ]},
+                ]},
+                { name: 'baselines/', icon: '📂', type: 'dir', children: [
+                    { name: 'bm25_retrieval.py', icon: '📈', size: '7.0 KB', lines: 204, type: 'file', id: 'bm25' },
+                    { name: 'tfidf_retrieval.py', icon: '📉', size: '7.6 KB', lines: 218, type: 'file', id: 'tfidf' },
+                    { name: 'evaluate_baselines.py', icon: '📊', size: '13 KB', lines: 391, type: 'file', id: 'eval_base' },
+                    { name: 'tune_bm25.py', icon: '🎛️', size: '3.2 KB', lines: 99, type: 'file', id: 'tune_bm25' },
+                    { name: 'vietnamese_preprocessor.py', icon: '🇻🇳', size: '4.0 KB', lines: 107, type: 'file', id: 'vn_preproc' },
+                ]},
+                { name: 'data/', icon: '📂', type: 'dir', children: [
+                    { name: 'passages.json', icon: '📄', size: '32 KB', type: 'file', id: 'passages' },
+                    { name: 'questions.json', icon: '❓', size: '424 KB', type: 'file', id: 'questions' },
+                    { name: 'splits/', icon: '📂', type: 'dir', children: [
+                        { name: 'train.json', icon: '🏋️', size: '694 KB', type: 'file', id: 'train_json' },
+                        { name: 'val.json', icon: '✅', size: '85 KB', type: 'file', id: 'val_json' },
+                        { name: 'test.json', icon: '🧪', size: '117 KB', type: 'file', id: 'test_json' },
+                    ]},
+                ]},
+                { name: 'json_data/', icon: '📂', type: 'dir', children: [
+                    { name: 'check_data.py', icon: '🔧', size: '3.0 KB', type: 'file', id: 'check_data' },
+                    { name: 'edit_quest.py', icon: '✏️', size: '2.6 KB', type: 'file', id: 'edit_quest' },
+                ]},
+            ]}
+        ];
+
+        const fileDetails = {
+            train_dpr: {
+                title: '🧠 train_dpr_inbatch.py', path: 'NLP/train_dpr_inbatch.py',
+                desc: 'Core DPR training script implementing a Dual Encoder architecture with In-Batch Negatives. Uses shared PhoBERT weights for both query and passage encoding. Trains with cross-entropy loss on the B×B similarity matrix.',
+                tags: [['Training', 'blue'], ['Core', 'pink'], ['191 lines', 'purple']],
+                funcs: [
+                    { sig: 'class DualEncoder(nn.Module)', desc: 'Dual encoder wrapping PhoBERT with mean pooling and L2 normalization' },
+                    { sig: 'def mean_pool(last_hidden, attn_mask)', desc: 'Attention-weighted mean pooling over token embeddings' },
+                    { sig: 'def train(cfg: TrainConfig)', desc: 'Main training loop with warmup scheduler and best-checkpoint saving' },
+                    { sig: 'def eval_retrieval(model, tokenizer, dl)', desc: 'Validation loss computation (proxy metric)' },
+                    { sig: 'class DPRInBatchDataset(Dataset)', desc: 'PyTorch dataset returning (question, positive_passage_text) pairs' },
+                    { sig: 'def make_collate(tokenizer, max_q_len, max_p_len)', desc: 'Collate function factory for tokenizing batches' },
+                ]
+            },
+            split_q: {
+                title: '✂️ split_questions.py', path: 'NLP/split_questions.py',
+                desc: 'Splits the generated QA dataset into train/val/test sets with configurable ratios. Uses seed=42 for reproducibility.',
+                tags: [['Data Prep', 'green'], ['Utility', 'orange'], ['48 lines', 'purple']],
+                funcs: [
+                    { sig: 'def split_questions(in_path, out_dir, ratios, seed=42)', desc: 'Main split function: shuffle → slice → write JSON' },
+                ]
+            },
+            build_prompts: {
+                title: '🤖 build_prompts.py', path: 'NLP/generate_data/build_prompts.py',
+                desc: 'Generates synthetic training questions using an LLM API. Constructs Vietnamese prompts requesting diverse question styles (conditional, consequence, student slang, synonyms) and streams responses from an OpenAI-compatible endpoint.',
+                tags: [['Data Gen', 'green'], ['LLM', 'orange'], ['261 lines', 'purple']],
+                funcs: [
+                    { sig: 'def build_prompt(passage_text, existing_questions)', desc: 'Constructs the user prompt with passage + constraints' },
+                    { sig: 'def call_model(client, model, system, user, temp)', desc: 'Streaming API call to LLM endpoint' },
+                    { sig: 'def parse_questions(text)', desc: 'Parses LLM output into individual question strings' },
+                    { sig: 'def main()', desc: 'CLI entry point with argparse for all configuration' },
+                ]
+            },
+            concat_json: {
+                title: '🔗 concat_json.py', path: 'NLP/generate_data/concat_json.py',
+                desc: 'Utility to merge two JSON files. Supports array concatenation (with dedup) and object merging. Configurable preference for conflict resolution.',
+                tags: [['Utility', 'orange'], ['103 lines', 'purple']],
+                funcs: [
+                    { sig: 'def dedupe_list(items, key, prefer)', desc: 'Deduplicate list of dicts by key, keeping first or second occurrence' },
+                    { sig: 'def merge_objects(a, b, prefer)', desc: 'Merge two JSON objects with configurable override precedence' },
+                ]
+            },
+            encode_p: {
+                title: '📐 encode_passages.py', path: 'NLP/inferences/encode_passages.py',
+                desc: 'Encodes all passages into dense vectors using the fine-tuned DPR checkpoint. Outputs a NumPy array of embeddings and a JSON ID map for FAISS index → passage_id lookup.',
+                tags: [['Inference', 'green'], ['Encoding', 'blue'], ['64 lines', 'purple']],
+                funcs: [
+                    { sig: 'def mean_pool(last_hidden, attention_mask)', desc: 'Same mean pooling as training (must match exactly)' },
+                    { sig: 'def main()', desc: 'Loads checkpoint, encodes passages in batches of 4, saves .npy + id_map' },
+                ]
+            },
+            build_faiss: {
+                title: '🗂️ build_faiss.py', path: 'NLP/inferences/build_faiss.py',
+                desc: 'Builds a FAISS index from pre-computed passage embeddings. Uses IndexFlatIP (exact inner product search) — appropriate for the small corpus size.',
+                tags: [['Inference', 'green'], ['FAISS', 'cyan'], ['32 lines', 'purple']],
+                funcs: [
+                    { sig: 'def main()', desc: 'Load embeddings → create IndexFlatIP → add vectors → write index' },
+                ]
+            },
+            retrieve: {
+                title: '🔍 retrieve.py', path: 'NLP/inferences/retrieve.py',
+                desc: 'Interactive retrieval REPL. Encodes user queries with the fine-tuned model and searches the FAISS index for top-5 most similar passages. Displays scores, passage IDs, and text.',
+                tags: [['Inference', 'green'], ['Interactive', 'pink'], ['62 lines', 'purple']],
+                funcs: [
+                    { sig: 'def encode_query(text, tokenizer, encoder)', desc: 'Encode a single query → 768-d normalized vector' },
+                    { sig: 'def main()', desc: 'Interactive loop: input query → encode → FAISS search → display top-5' },
+                ]
+            },
+            eval_ret: {
+                title: '📊 evaluate_retrieval.py', path: 'NLP/inferences/evaluate_retrieval.py',
+                desc: 'Evaluates DPR retrieval quality on the test set. Computes Recall@{1,5,10,20} and MRR by batch-encoding test queries and searching the FAISS index.',
+                tags: [['Evaluation', 'purple'], ['Metrics', 'orange'], ['74 lines', 'purple']],
+                funcs: [
+                    { sig: 'def encode_batch(queries, tokenizer, encoder, device)', desc: 'Batch query encoding with mean pooling' },
+                    { sig: 'def main()', desc: 'Load index → encode test queries → compute Recall@K + MRR' },
+                ]
+            },
+            bm25: {
+                title: '📈 bm25_retrieval.py', path: 'NLP/baselines/bm25_retrieval.py',
+                desc: 'BM25 (Okapi BM25) baseline retriever implemented from scratch. Uses Robertson-Spärck Jones IDF formula with configurable k1 and b parameters. Supports Vietnamese text preprocessing.',
+                tags: [['Baseline', 'orange'], ['BM25', 'blue'], ['204 lines', 'purple']],
+                funcs: [
+                    { sig: 'class BM25Retriever', desc: 'Full BM25 retriever with fit(), retrieve(), batch_retrieve()' },
+                    { sig: 'def fit(self, passages)', desc: 'Tokenize corpus, compute DF + IDF' },
+                    { sig: 'def _score_document(self, query_tokens, doc_idx)', desc: 'BM25 scoring for a single query-document pair' },
+                    { sig: 'def retrieve(self, query, top_k=5)', desc: 'Score all documents → return top-K' },
+                ]
+            },
+            tfidf: {
+                title: '📉 tfidf_retrieval.py', path: 'NLP/baselines/tfidf_retrieval.py',
+                desc: 'TF-IDF baseline with cosine similarity. Builds a sparse TF-IDF matrix from the corpus, supports sublinear TF and smoothed IDF. L2-normalized for dot-product = cosine.',
+                tags: [['Baseline', 'orange'], ['TF-IDF', 'blue'], ['218 lines', 'purple']],
+                funcs: [
+                    { sig: 'class TFIDFRetriever', desc: 'Full TF-IDF retriever with fit(), retrieve(), batch_retrieve()' },
+                    { sig: 'def fit(self, passages)', desc: 'Build vocabulary → TF matrix → IDF → TF-IDF → L2 normalize' },
+                    { sig: 'def _query_to_vector(self, query)', desc: 'Convert query to TF-IDF vector' },
+                ]
+            },
+            eval_base: {
+                title: '📊 evaluate_baselines.py', path: 'NLP/baselines/evaluate_baselines.py',
+                desc: 'Unified evaluation comparing BM25, TF-IDF, and DPR side-by-side. Computes Recall@K, MRR, P@K, and latency. Prints a formatted comparison table and saves JSON results.',
+                tags: [['Evaluation', 'purple'], ['Comparison', 'pink'], ['391 lines', 'purple']],
+                funcs: [
+                    { sig: 'def compute_metrics(retrieved, gold, topk)', desc: 'Generic metric computation for any retriever' },
+                    { sig: 'def evaluate_bm25(passages, eval_data, **kwargs)', desc: 'Run BM25 evaluation with timing' },
+                    { sig: 'def evaluate_tfidf(passages, eval_data, **kwargs)', desc: 'Run TF-IDF evaluation with timing' },
+                    { sig: 'def evaluate_dpr(eval_data)', desc: 'Run DPR evaluation (if checkpoint exists)' },
+                    { sig: 'def print_comparison_table(all_metrics)', desc: 'Pretty-print comparison table with 🏆 markers' },
+                ]
+            },
+            tune_bm25: {
+                title: '🎛️ tune_bm25.py', path: 'NLP/baselines/tune_bm25.py',
+                desc: 'Grid search for optimal BM25 hyperparameters (k1, b) on the validation set. Tests 30 combinations and reports best MRR.',
+                tags: [['Tuning', 'orange'], ['Grid Search', 'cyan'], ['99 lines', 'purple']],
+                funcs: [
+                    { sig: 'def main()', desc: 'Grid search over k1×b → evaluate → report best params' },
+                ]
+            },
+            vn_preproc: {
+                title: '🇻🇳 vietnamese_preprocessor.py', path: 'NLP/baselines/vietnamese_preprocessor.py',
+                desc: 'Vietnamese text preprocessing pipeline for BM25/TF-IDF. Handles Unicode normalization, tokenization (simple or underthesea), and stopword removal with 70+ Vietnamese stopwords.',
+                tags: [['NLP', 'blue'], ['Vietnamese', 'green'], ['107 lines', 'purple']],
+                funcs: [
+                    { sig: 'def normalize_text(text)', desc: 'Unicode NFC → lowercase → remove special chars → normalize whitespace' },
+                    { sig: 'def simple_tokenize(text)', desc: 'Whitespace tokenization after normalization' },
+                    { sig: 'def tokenize_with_underthesea(text)', desc: 'Word segmentation for Vietnamese compound words' },
+                    { sig: 'def preprocess(text, use_underthesea, remove_sw)', desc: 'Full preprocessing pipeline' },
+                ]
+            },
+            dpr_nb: { title: '📓 DPR.ipynb', path: 'NLP/DPR.ipynb', desc: 'Reference Jupyter notebook (304 KB). Likely a Haystack DPR tutorial used for initial exploration.', tags: [['Reference', 'cyan']], funcs: [] },
+            req: { title: '📋 requirements.txt', path: 'NLP/requirements.txt', desc: 'Python dependencies: python-docx, numpy, torch, tqdm, transformers, faiss-cpu, openai.', tags: [['Config', 'orange']], funcs: [] },
+            readme: { title: '📝 README.md', path: 'NLP/README.md', desc: 'Comprehensive project documentation (14 KB, 355 lines) with architecture diagrams, setup instructions, pipeline guide, and evaluation methodology.', tags: [['Documentation', 'green']], funcs: [] },
+            passages: { title: '📄 passages.json', path: 'NLP/data/passages.json', desc: '28 regulation passages. Fields: passage_id, clause_ref, text.', tags: [['Data', 'blue'], ['32 KB', 'purple']], funcs: [] },
+            questions: { title: '❓ questions.json', path: 'NLP/data/questions.json', desc: '~3,500 synthetic QA pairs. Fields: qid, question, positive_passage_id.', tags: [['Data', 'blue'], ['424 KB', 'purple']], funcs: [] },
+            train_json: { title: '🏋️ train.json', path: 'NLP/data/splits/train.json', desc: '90% training split of questions.', tags: [['Data', 'blue'], ['694 KB', 'purple']], funcs: [] },
+            val_json: { title: '✅ val.json', path: 'NLP/data/splits/val.json', desc: '9.9% validation split used for checkpoint selection and baseline tuning.', tags: [['Data', 'blue'], ['85 KB', 'purple']], funcs: [] },
+            test_json: { title: '🧪 test.json', path: 'NLP/data/splits/test.json', desc: '0.1% test split for final evaluation. Very small — baselines use val set instead.', tags: [['Data', 'blue'], ['117 KB', 'purple']], funcs: [] },
+            ckpt_model: { title: '🏋️ model.safetensors', path: 'NLP/inferences/dpr_ckpt_1/model.safetensors', desc: 'Fine-tuned PhoBERT weights in safetensors format. 540 MB (~135M parameters).', tags: [['Model', 'pink'], ['540 MB', 'purple']], funcs: [] },
+            ckpt_config: { title: '⚙️ config.json', path: 'NLP/inferences/dpr_ckpt_1/config.json', desc: 'PhoBERT model configuration (architecture, hidden size, etc.).', tags: [['Config', 'orange']], funcs: [] },
+            ckpt_vocab: { title: '📖 vocab.txt', path: 'NLP/inferences/dpr_ckpt_1/vocab.txt', desc: 'PhoBERT vocabulary file (895 KB).', tags: [['Tokenizer', 'cyan']], funcs: [] },
+            check_data: { title: '🔧 check_data.py', path: 'NLP/json_data/check_data.py', desc: 'Validates consistency between passage IDs in questions and passages files.', tags: [['Utility', 'orange']], funcs: [] },
+            edit_quest: { title: '✏️ edit_quest.py', path: 'NLP/json_data/edit_quest.py', desc: 'Tool for manually editing/updating specific questions by qid.', tags: [['Utility', 'orange']], funcs: [] },
+            gen_test: { title: '🧪 test.py', path: 'NLP/generate_data/test.py', desc: 'Test script for verifying LLM API connectivity.', tags: [['Test', 'cyan']], funcs: [] },
+            new_q: { title: '❓ new_questions.json', path: 'NLP/generate_data/new_questions.json', desc: 'Raw LLM-generated questions before merging into main dataset (248 KB).', tags: [['Data', 'blue'], ['248 KB', 'purple']], funcs: [] },
+        };
+
+        function renderTree(items, container, depth = 0) {
+            items.forEach(item => {
+                const el = document.createElement('div');
+                if (item.type === 'dir') {
+                    el.innerHTML = `<div class="tree-item tree-dir-toggle" data-open="true"><span class="t-icon">${item.icon}</span><span class="t-name">${item.name}</span></div>`;
+                    const children = document.createElement('div');
+                    children.className = 'tree-children';
+                    renderTree(item.children, children, depth + 1);
+                    el.appendChild(children);
+                    el.querySelector('.tree-dir-toggle').addEventListener('click', function() {
+                        const open = this.dataset.open === 'true';
+                        this.dataset.open = !open;
+                        children.style.display = open ? 'none' : 'block';
+                    });
+                } else {
+                    el.innerHTML = `<div class="tree-item" data-file-id="${item.id}"><span class="t-icon">${item.icon}</span><span class="t-name">${item.name}</span><span class="t-size">${item.size || ''}</span></div>`;
+                    el.querySelector('.tree-item').addEventListener('click', function() {
+                        document.querySelectorAll('.tree-item').forEach(t => t.classList.remove('active'));
+                        this.classList.add('active');
+                        showFileDetail(item.id);
+                    });
+                }
+                container.appendChild(el);
+            });
+        }
+
+        function showFileDetail(id) {
+            const f = fileDetails[id];
+            if (!f) return;
+            const tagColors = { blue: 'tag-blue', green: 'tag-green', purple: 'tag-purple', orange: 'tag-orange', pink: 'tag-pink', cyan: 'tag-cyan' };
+            const detail = document.getElementById('fileDetail');
+            detail.innerHTML = `
+                <h3>${f.title}</h3>
+                <div class="file-path">${f.path}</div>
+                <div style="margin-bottom: 14px;">${(f.tags || []).map(([t, c]) => `<span class="tag ${tagColors[c] || 'tag-blue'}">${t}</span>`).join('')}</div>
+                <p class="file-desc">${f.desc}</p>
+                ${f.funcs && f.funcs.length ? `
+                    <div style="font-size: 13px; font-weight: 600; margin-bottom: 10px; color: var(--text-muted);">FUNCTIONS & CLASSES</div>
+                    <div class="func-list">
+                        ${f.funcs.map(fn => `<div class="func-item"><div class="f-sig">${fn.sig}</div><div class="f-desc">${fn.desc}</div></div>`).join('')}
+                    </div>
+                ` : ''}
+            `;
+        }
+
+        renderTree(files, document.getElementById('fileTree'));
+
+        // ===== COMPONENTS =====
+        const components = [
+            {
+                icon: '🤖', title: 'Data Generation', color: 'var(--accent-green)',
+                desc: 'Synthetic question generation via LLM (DeepSeek). Produces diverse Vietnamese questions from regulation passages with controlled prompt engineering.',
+                files: ['build_prompts.py', 'concat_json.py', 'test.py']
+            },
+            {
+                icon: '🧠', title: 'DPR Training', color: 'var(--accent-blue)',
+                desc: 'Dual Encoder architecture with shared PhoBERT weights. In-batch negatives provide efficient training with B-1 negatives per query from a single batch.',
+                files: ['train_dpr_inbatch.py', 'split_questions.py']
+            },
+            {
+                icon: '🚀', title: 'Inference Pipeline', color: 'var(--accent-purple)',
+                desc: 'End-to-end passage encoding → FAISS indexing → interactive retrieval. Handles model loading, vector encoding, and nearest-neighbor search.',
+                files: ['encode_passages.py', 'build_faiss.py', 'retrieve.py', 'evaluate_retrieval.py']
+            },
+            {
+                icon: '📈', title: 'Baseline Retrievers', color: 'var(--accent-orange)',
+                desc: 'BM25 and TF-IDF implementations from scratch with Vietnamese preprocessing. Provides traditional retrieval baselines for comparison with DPR.',
+                files: ['bm25_retrieval.py', 'tfidf_retrieval.py', 'vietnamese_preprocessor.py']
+            },
+            {
+                icon: '📊', title: 'Evaluation Framework', color: 'var(--accent-pink)',
+                desc: 'Unified evaluation comparing all retrieval methods on Recall@K, MRR, P@K, and latency. Includes BM25 hyperparameter tuning via grid search.',
+                files: ['evaluate_baselines.py', 'tune_bm25.py']
+            },
+            {
+                icon: '🔧', title: 'Data Utilities', color: 'var(--accent-cyan)',
+                desc: 'Tools for data validation, editing, and consistency checking. Ensures passage_id integrity across question and passage datasets.',
+                files: ['check_data.py', 'edit_quest.py', 'check_length.py']
+            },
+        ];
+
+        const compGrid = document.getElementById('componentGrid');
+        components.forEach(c => {
+            compGrid.innerHTML += `
+                <div class="component-card" style="--border-color: ${c.color};">
+                    <div style="position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: ${c.color}; border-radius: var(--radius-lg) 0 0 var(--radius-lg);"></div>
+                    <div class="cc-header"><span class="cc-icon">${c.icon}</span><span class="cc-title">${c.title}</span></div>
+                    <p class="cc-desc">${c.desc}</p>
+                    <div class="cc-files">${c.files.map(f => `<span class="cc-file">${f}</span>`).join('')}</div>
+                </div>
+            `;
+        });
+
+        // Show first pipeline step on load
+        showStepDetail(0);
+    </script>
+</body>
+</html>
