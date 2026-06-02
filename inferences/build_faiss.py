@@ -10,7 +10,7 @@ BUILD_ROOT = os.path.join(PROJECT_DIR, "build")
 
 EMB_NAME = "passage_embeddings.npy"
 IDMAP_NAME = "passage_id_map.json"
-FAISS_NAME = "faiss_index_last.ivf"  # hoặc .index
+FAISS_NAME = "faiss_index.ivf"  # hoặc .index
 
 def get_latest_build_dir(build_root: str) -> str:
     if not os.path.isdir(build_root):

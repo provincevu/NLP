@@ -65,7 +65,7 @@ def multi_positive_loss(scores, passage_ids):
         for j in range(B):
             if passage_ids[i] == passage_ids[j]:
                 positive_mask[i, j] = 1.0
-    
+
     # tính log-softmax để ổn định hơn
     log_probs = F.log_softmax(scores, dim=1)
 

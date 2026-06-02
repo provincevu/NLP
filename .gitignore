@@ -4,5 +4,7 @@
 /document/
 /inferences/dpr_ckpt_maxpool/
 /inferences/dpr_ckpt_meanpool/
+/inferences/dpr_ckpt_root/
 *.ivf
 *.npy
+/__pycache__/

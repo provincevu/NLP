@@ -14,10 +14,10 @@ BASE_MODEL_NAME = "vinai/phobert-base"
 MODEL_WEIGHTS = "model_last.pt"
 PASSAGES = os.path.join(PROJECT_DIR, "data", "passages.json")
 IDMAP_NAME = "passage_id_map.json"
-FAISS_NAME = "faiss_index_last.ivf"
-TEST_Q = os.path.join(PROJECT_DIR, "data", "splits", "test.json")
+FAISS_NAME = "faiss_index.ivf"
+TEST_Q = os.path.join(PROJECT_DIR, "data", "splits", "train.json")
 BATCH_Q = 64
-TOPK = list(range(1, 11))
+TOPK = list(range(1, 21))
 
 def read_json_list(path):
     with open(path,"r",encoding="utf-8") as f:

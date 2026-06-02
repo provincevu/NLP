@@ -10,7 +10,7 @@ BASE_DIR = os.path.dirname(__file__)
 PROJECT_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))
 BUILD_ROOT = os.path.join(PROJECT_DIR, "build")
 
-FAISS_NAME = "faiss_index_last.ivf"
+FAISS_NAME = "faiss_index.ivf"
 IDMAP_NAME = "passage_id_map.json"
 PASSAGES_PATH = os.path.join(PROJECT_DIR, "data", "passages.json")
 MODEL_NAME_OR_PATH = os.path.join(BASE_DIR, "dpr_ckpt_1")
