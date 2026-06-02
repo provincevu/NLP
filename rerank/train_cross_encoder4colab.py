@@ -43,9 +43,10 @@ class CrossEncoderModel(nn.Module):
 
     def forward(self, input_ids, attention_mask):
         out = self.backbone(input_ids=input_ids, attention_mask=attention_mask)
-        # use CLS token representation
-        cls = out.last_hidden_state[:, 0, :]
-        x = self.dropout(cls)
+        # mean pooling over attention mask (PhoBERT is RoBERTa-based)
+        mask = attention_mask.unsqueeze(-1).float()
+        pooled = (out.last_hidden_state * mask).sum(dim=1) / mask.sum(dim=1).clamp(min=1e-9)
+        x = self.dropout(pooled)
         logit = self.classifier(x).squeeze(-1)
         return logit
 
@@ -94,7 +95,8 @@ def train(cfg):
 
     optimizer = AdamW(model.parameters(), lr=cfg.lr, weight_decay=cfg.weight_decay)
     total_steps = len(train_dl) * cfg.epochs
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=int(0.05 * total_steps), num_training_steps=total_steps)
+    warmup_steps = int(cfg.warmup_ratio * total_steps)
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=warmup_steps, num_training_steps=total_steps)
     loss_f = nn.BCEWithLogitsLoss()
 
     best_val_loss = float("inf")
@@ -124,13 +126,22 @@ def train(cfg):
         # save best
         if val_loss < best_val_loss:
             best_val_loss = val_loss
-            model_path = os.path.join(cfg.out_dir, "best_model.pt")
+            best_dir = os.path.join(cfg.out_dir, "best")
+            os.makedirs(best_dir, exist_ok=True)
+            model_path = os.path.join(best_dir, "model.pt")
             torch.save(model.state_dict(), model_path)
-            tokenizer.save_pretrained(cfg.out_dir)
+            tokenizer.save_pretrained(best_dir)
+            with open(os.path.join(best_dir, "config.json"), "w", encoding="utf-8") as f:
+                json.dump(cfg.__dict__, f, ensure_ascii=False, indent=2)
             print(f"Saved best model to {model_path}")
 
         # save last
-        torch.save(model.state_dict(), os.path.join(cfg.out_dir, "last_model.pt"))
+        last_dir = os.path.join(cfg.out_dir, "last")
+        os.makedirs(last_dir, exist_ok=True)
+        torch.save(model.state_dict(), os.path.join(last_dir, "model.pt"))
+        tokenizer.save_pretrained(last_dir)
+        with open(os.path.join(last_dir, "config.json"), "w", encoding="utf-8") as f:
+            json.dump(cfg.__dict__, f, ensure_ascii=False, indent=2)
 
     print("Training finished.")
 
@@ -148,7 +159,7 @@ class TrainConfig:
     epochs: int = 50
     batch_size: int = 32
 
-    lr: float = 5e-5
+    lr: float = 3e-5
     weight_decay: float = 0.01
 
     max_len: int = 256

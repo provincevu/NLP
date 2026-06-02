@@ -8,3 +8,7 @@
 *.ivf
 *.npy
 /__pycache__/
+*.zip
+/ckpt/best/
+/ckpt/last/
+*.pt

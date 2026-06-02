@@ -1,0 +1,14 @@
+{
+  "data_dir": "/content/data/cross_encoder",
+  "backbone": "vinai/phobert-base",
+  "out_dir": "/content/drive/MyDrive/DPR_DATA/cross_encoder_ckpt",
+  "epochs": 20,
+  "batch_size": 64,
+  "lr": 3e-05,
+  "weight_decay": 0.01,
+  "max_len": 512,
+  "input_ext": "jsonl",
+  "warmup_ratio": 0.05,
+  "grad_accum_steps": 1,
+  "max_grad_norm": 1.0
+}
