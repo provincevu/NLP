@@ -2,12 +2,13 @@ import argparse
 import json
 import os
 from typing import List, Tuple
+from train_cross_encoder4colab import CrossEncoderModel
 
 import torch
 from transformers import AutoTokenizer, AutoModel
 import torch.nn as nn
 
-
+# đọc dữ liệu từ json hoặc jsonl
 def read_json_list(path: str) -> List[dict]:
     if path.endswith(".jsonl"):
         rows = []
@@ -25,6 +26,7 @@ def read_json_list(path: str) -> List[dict]:
     return data
 
 
+# ghi dữ liệu ra json hoặc jsonl
 def write_json_list(path: str, rows: List[dict]) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     if path.endswith(".jsonl"):
@@ -36,29 +38,13 @@ def write_json_list(path: str, rows: List[dict]) -> None:
         json.dump(rows, f, ensure_ascii=False, indent=2)
 
 
+# đọc config từ ckpt_dir/config.json nếu có
 def load_config(ckpt_dir: str) -> dict:
     cfg_path = os.path.join(ckpt_dir, "config.json")
     if not os.path.exists(cfg_path):
         return {}
     with open(cfg_path, "r", encoding="utf-8") as f:
         return json.load(f)
-
-
-class CrossEncoderModel(nn.Module):
-    def __init__(self, backbone_name: str, hidden_dropout: float = 0.1):
-        super().__init__()
-        self.backbone = AutoModel.from_pretrained(backbone_name)
-        hidden_size = self.backbone.config.hidden_size
-        self.dropout = nn.Dropout(hidden_dropout)
-        self.classifier = nn.Linear(hidden_size, 1)
-
-    def forward(self, input_ids, attention_mask):
-        out = self.backbone(input_ids=input_ids, attention_mask=attention_mask)
-        mask = attention_mask.unsqueeze(-1).float()
-        pooled = (out.last_hidden_state * mask).sum(dim=1) / mask.sum(dim=1).clamp(min=1e-9)
-        x = self.dropout(pooled)
-        logit = self.classifier(x).squeeze(-1)
-        return logit
 
 
 def encode_batch(rows: List[dict], tokenizer, model, device, max_len: int) -> Tuple[List[float], List[float]]:
@@ -77,8 +63,6 @@ def infer(args):
     cfg = load_config(args.ckpt_dir)
 
     backbone = args.backbone or cfg.get("backbone")
-    if not backbone:
-        raise ValueError("Missing backbone name. Provide --backbone or config.json in ckpt_dir.")
 
     device = "cuda" if torch.cuda.is_available() and args.device == "cuda" else "cpu"
 
@@ -112,7 +96,7 @@ def parse_args():
     p.add_argument("--ckpt_dir", required=True)
     p.add_argument("--backbone", default=None)
     p.add_argument("--batch_size", type=int, default=32)
-    p.add_argument("--max_len", type=int, default=256)
+    p.add_argument("--max_len", type=int, default=512)
     p.add_argument("--device", default="cuda")
     p.add_argument("--save_logit", action="store_true")
     p.add_argument("--save_prob", action="store_true")

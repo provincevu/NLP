@@ -6,13 +6,15 @@ from typing import List
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from transformers import AutoTokenizer, AutoModel, AdamW, get_linear_schedule_with_warmup
+from transformers import AutoTokenizer, AutoModel, get_linear_schedule_with_warmup
+from torch.optim import AdamW
 from tqdm import tqdm
 
 
+# dataloader cho cross-encoder, đọc từ json hoặc jsonl
 class CrossEncoderDataset(Dataset):
     def __init__(self, path: str):
-        # path: json or jsonl where each row has question, passage_text, label
+        # path: json or jsonl với mỗi row có question, passage_text, label
         self.rows = []
         if path.endswith(".jsonl"):
             with open(path, "r", encoding="utf-8") as f:
@@ -33,6 +35,7 @@ class CrossEncoderDataset(Dataset):
         return r["question"], r["passage_text"], int(r.get("label", 0))
 
 
+# model cross-encoder, trả về logit cho cặp question-passage
 class CrossEncoderModel(nn.Module):
     def __init__(self, backbone_name: str, hidden_dropout: float = 0.1):
         super().__init__()
@@ -43,7 +46,6 @@ class CrossEncoderModel(nn.Module):
 
     def forward(self, input_ids, attention_mask):
         out = self.backbone(input_ids=input_ids, attention_mask=attention_mask)
-        # mean pooling over attention mask (PhoBERT is RoBERTa-based)
         mask = attention_mask.unsqueeze(-1).float()
         pooled = (out.last_hidden_state * mask).sum(dim=1) / mask.sum(dim=1).clamp(min=1e-9)
         x = self.dropout(pooled)
@@ -156,13 +158,14 @@ class TrainConfig:
 
     out_dir: str = "/content/drive/MyDrive/DPR_DATA/cross_encoder_ckpt"
 
-    epochs: int = 50
-    batch_size: int = 32
+    epochs: int = 20
+    batch_size: int = 64
 
     lr: float = 3e-5
     weight_decay: float = 0.01
 
-    max_len: int = 256
+    max_len: int = 512
+    input_ext = "jsonl"
 
     warmup_ratio: float = 0.05
 

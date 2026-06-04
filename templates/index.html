@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cross-Encoder Reranker</title>
+    <style>
+      :root {
+        --bg: #f6f7f9;
+        --panel: #ffffff;
+        --text: #17202a;
+        --muted: #667085;
+        --border: #d7dde5;
+        --accent: #167a6b;
+        --accent-dark: #0f5f55;
+        --danger: #b42318;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+      }
+
+      main {
+        width: min(980px, calc(100vw - 32px));
+        margin: 36px auto;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .meta {
+        margin: 0 0 24px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      form {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 700;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 120px;
+        resize: vertical;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 12px;
+        color: var(--text);
+        font: inherit;
+      }
+
+      textarea:focus {
+        border-color: var(--accent);
+        outline: 3px solid rgba(22, 122, 107, 0.16);
+      }
+
+      button {
+        margin-top: 12px;
+        border: 0;
+        border-radius: 6px;
+        background: var(--accent);
+        color: #fff;
+        cursor: pointer;
+        font: inherit;
+        font-weight: 700;
+        padding: 10px 16px;
+      }
+
+      button:hover {
+        background: var(--accent-dark);
+      }
+
+      .error {
+        margin-top: 12px;
+        color: var(--danger);
+        font-weight: 700;
+      }
+
+      .results {
+        margin-top: 24px;
+      }
+
+      .result {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        margin-bottom: 12px;
+        padding: 16px;
+      }
+
+      .result-head {
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+
+      .rank {
+        color: var(--accent-dark);
+        font-weight: 700;
+      }
+
+      .score {
+        color: var(--muted);
+        font-size: 14px;
+        white-space: nowrap;
+      }
+
+      .clause {
+        color: var(--muted);
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+
+      .passage {
+        margin: 0;
+      }
+
+      @media (max-width: 640px) {
+        main {
+          margin: 22px auto;
+          width: min(100vw - 20px, 980px);
+        }
+
+        h1 {
+          font-size: 23px;
+        }
+
+        .result-head {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 4px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Cross-Encoder Reranker</h1>
+      <p class="meta">Dang su dung {{ passage_count }} passage tren thiet bi {{ device }}.</p>
+
+      <form method="post">
+        <label for="question">Nhap cau hoi</label>
+        <textarea id="question" name="question" placeholder="Vi du: Dieu kien tot nghiep la gi?">{{ question }}</textarea>
+        <button type="submit">Tim top-3 passage</button>
+        {% if error %}
+          <div class="error">{{ error }}</div>
+        {% endif %}
+      </form>
+
+      {% if results %}
+        <section class="results" aria-label="Ket qua top-3">
+          {% for item in results %}
+            <article class="result">
+              <div class="result-head">
+                <div class="rank">#{{ loop.index }} - {{ item.passage_id }}</div>
+                <div class="score">prob={{ "%.4f"|format(item.prob) }} | logit={{ "%.4f"|format(item.logit) }}</div>
+              </div>
+              {% if item.clause_ref %}
+                <div class="clause">{{ item.clause_ref }}</div>
+              {% endif %}
+              <p class="passage">{{ item.text }}</p>
+            </article>
+          {% endfor %}
+        </section>
+      {% endif %}
+    </main>
+  </body>
+</html>
