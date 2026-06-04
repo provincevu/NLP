@@ -158,7 +158,7 @@
   <body>
     <main>
       <h1>Cross-Encoder Reranker</h1>
-      <p class="meta">Dang su dung {{ passage_count }} passage tren thiet bi {{ device }}.</p>
+      <p class="meta">Dang su dung {{ passage_count }} passage, DPR top-{{ dpr_top_k }} tu build {{ dpr_build_dir }}, cross-encoder tren {{ device }}.</p>
 
       <form method="post">
         <label for="question">Nhap cau hoi</label>
@@ -175,7 +175,7 @@
             <article class="result">
               <div class="result-head">
                 <div class="rank">#{{ loop.index }} - {{ item.passage_id }}</div>
-                <div class="score">prob={{ "%.4f"|format(item.prob) }} | logit={{ "%.4f"|format(item.logit) }}</div>
+                <div class="score">prob={{ "%.4f"|format(item.prob) }} | DPR #{{ item.dpr_rank }}</div>
               </div>
               {% if item.clause_ref %}
                 <div class="clause">{{ item.clause_ref }}</div>

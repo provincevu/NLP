@@ -39,14 +39,14 @@ def main():
     # embs = embs / np.maximum(norms, 1e-12)
 
     d = embs.shape[1]
-    index = faiss.IndexFlatIP(d)  # exact inner product
-    index.add(embs)               # add all vectors
-    print("Added", index.ntotal, "vectors to FAISS index")
+    index = faiss.IndexFlatIP(d)  # trích xuất inner product (cosine similarity nếu embs đã chuẩn hóa)
+    index.add(embs)               # thêm tất cả vector vào index
+    print("Đã thêm", index.ntotal, "vectors vào FAISS index")
 
     # save index
     faiss.write_index(index, faiss_out)
     # also save id_map alongside - but we already have it
-    print("Saved index to", faiss_out)
+    print("Đã lưu index vào", faiss_out)
 
 if __name__ == "__main__":
     main()

@@ -46,7 +46,7 @@ def read_json(path: str) -> List[dict]:
     if isinstance(data, list):
         return data
 
-    raise ValueError(f"Unsupported JSON structure in {path}")
+    raise ValueError(f"không hỗ trợ cấu trúc JSON trong {path}")
 
 def load_passages_map(passages_path: str) -> Dict[str, dict]:
     mp = {}
