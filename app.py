@@ -1,5 +1,7 @@
-import json
 import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"  # Fix OpenMP conflict between PyTorch and FAISS on macOS
+
+import json
 import sys
 from pathlib import Path
 from typing import List
@@ -19,7 +21,7 @@ if str(RERANK_DIR) not in sys.path:
 from train_cross_encoder4colab import CrossEncoderModel  # noqa: E402
 
 
-CKPT_DIR = BASE_DIR / "rerank" / "ckpt" / "last"
+CKPT_DIR = BASE_DIR / "rerank" / "ckpt" / "cross_encoder_ckpt" / "best"
 PASSAGES_PATH = BASE_DIR / "data" / "passages.json"
 BUILD_ROOT = BASE_DIR / "build"
 DPR_CKPT_DIR = BASE_DIR / "inferences" / "dpr_ckpt_1"
@@ -27,10 +29,10 @@ DPR_BASE_MODEL = "vinai/phobert-base"
 DPR_WEIGHTS = "model_last.pt"
 FAISS_NAME = "faiss_index.ivf"
 IDMAP_NAME = "passage_id_map.json"
-DEFAULT_TOP_K = 3
-DEFAULT_DPR_TOP_K = 20
+DEFAULT_TOP_K = 10
+DEFAULT_DPR_TOP_K = 10
 DEFAULT_BATCH_SIZE = 8
-MAX_Q_LEN = 64
+MAX_Q_LEN = 128
 MAX_CE_LEN = 512
 
 
@@ -134,10 +136,16 @@ def load_dpr():
     return tokenizer, encoder, index, id_map, build_dir, device
 
 
+print("Loading passages...")
 PASSAGES = load_passages(PASSAGES_PATH)
+print("Passages loaded.")
 PASSAGE_BY_ID = {p["passage_id"]: p for p in PASSAGES}
+print("Loading cross encoder...")
 TOKENIZER, MODEL, DEVICE = load_cross_encoder()
+print("Cross encoder loaded.")
+print("Loading dpr...")
 DPR_TOKENIZER, DPR_ENCODER, FAISS_INDEX, DPR_ID_MAP, DPR_BUILD_DIR, DPR_DEVICE = load_dpr()
+print("DPR loaded.")
 
 
 def retrieve_candidates(question: str, dpr_top_k: int = DEFAULT_DPR_TOP_K) -> List[dict]:
